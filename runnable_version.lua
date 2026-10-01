@@ -30401,7 +30401,6 @@ __modules.m356b75b2d82b = function()
         return false
       end
       local fn406 = function()
-        do return "" end
         return ('getgenv().SENTINEL_RESUMED_FROM_HOP = true\nif not game:IsLoaded() then game.Loaded:Wait() end\ntask.wait(1)\nlocal code\nif isfile and readfile and isfile(%q) then\n\tlocal ok, body = pcall(readfile, %q)\n\tif ok and type(body) == "string" and body ~= "" then\n\t\tcode = body\n\tend\nend\nif type(code) ~= "string" then\n\tlocal ok, body = pcall(function()\n\t\treturn game:HttpGet(%q .. "?nonce=" .. tostring(math.random()))\n\tend)\n\tif not ok or type(body) ~= "string" then\n\t\treturn warn("[sentinel] resume: loader fetch failed: " .. tostring(body))\n\tend\n\tcode = body\nend\nlocal fn, err = loadstring(code)\nif not fn then\n\treturn warn("[sentinel] resume: loader compile failed: " .. tostring(err))\nend\nlocal ran, rerr = pcall(fn)\nif not ran then\n\twarn("[sentinel] resume: loader runtime failed: " .. tostring(rerr))\nend\n'):format(
           str34,
           str34,
