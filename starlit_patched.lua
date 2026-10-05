@@ -12094,7 +12094,6 @@ function fn_Update_1600(a1, a2, ...)
   up1.Visible = false
   up1.Visible = false
   do return end
-  continue
   do return end
   do return end
   up1.Visible = false
@@ -25996,7 +25995,6 @@ function fn_on_MouseButton1Click_4005(...)
   end
   local v600 = up4(false)
   do return end
-  continue
 end
 
 function fn_CreateWindow_4011(a1, list, ...)
@@ -35480,7 +35478,6 @@ function proto_2731(inst, ...)
   else
     return false
   end
-  continue
   return false
 end
 
@@ -59415,7 +59412,6 @@ function proto_2866(a1, list, a3, ...)
   do return false end
   local destroy = createPath2:Destroy()
   do return false end
-  continue
   do return false end
   do return false end
   return false
@@ -62555,7 +62551,6 @@ function proto_2940(list, list2, ...)
   end
   local v321 = task.wait(0.5)
   do return end
-  continue
   do return end
   do return end
   local v61 = {}
@@ -62867,7 +62862,6 @@ function proto_3569(a1, ...)
   local v165 = up9(hrp.Position + vec, v196)
   local hrp2 = value:FindFirstChild("HumanoidRootPart")
   hrp = hrp2
-  continue
   local v209 = task.wait(0.3)
   do return end
   v86 = false
@@ -72651,7 +72645,6 @@ function proto_1024(a1, a2, a3, a4, a5, ...)
   v10[1] = false
   v10.n = 1
   do return unpack(v10) end
-  continue
   do return false end
   return true
 end
@@ -74676,9 +74669,7 @@ function proto_326(list, a2, ...)
   now22 = 0
   do return end
   do return end
-  continue
   local v680 = v387()
-  continue
   now22 = 0
   false2 = false
   do return end
@@ -76791,7 +76782,6 @@ function proto_2706(a1, a2, a3, a4, a5, a6, a7, ...)
     return false
   end
   do return false end
-  continue
   local v56 = up5()
   return false
   do return false end
@@ -77960,7 +77950,6 @@ function proto_3983(...)
   else
     return
   end
-  continue
   v29 = true
   v29 = true
 end
@@ -79987,8 +79976,6 @@ function proto_5093(a1, a2, a3, ...)
   do return end
   do return end
   v463 = true
-  continue
-  continue
 end
 
 function proto_5103(list, ...)
@@ -80524,7 +80511,6 @@ function proto_2729(a1, ...)
   do return end
   return false
   up6 = up6 + 1
-  continue
   false2 = false
 end
 
@@ -89755,7 +89741,6 @@ function fn_FindDarkBlade_3973(...)
   v93 = isA6
   v78 = v93
   v14 = value
-  continue
   v2 = v78
   v6 = {}
   v6[1] = true
@@ -93200,7 +93185,6 @@ function proto_2469(list, ...)
     local v451 = up15()
   end
   do return end
-  continue
 end
 
 function fn_OnExternalResume_2478(a1, ...)
@@ -96472,7 +96456,6 @@ function proto_276(a1, ...)
   else
     return true
   end
-  continue
   return false
 end
 
@@ -98368,7 +98351,6 @@ function proto_493(a1, ...)
   end
   do return end
   local ok = pcall(v81.InvokeServer, v81, "equip", value)
-  continue
   local v84 = up2()
   v81 = v84
   if not v81 then continue end
@@ -98794,7 +98776,6 @@ function proto_518(...)
   do return end
   local v101 = {}
   do return end
-  continue
 end
 
 function fn_DesertSpawn_1214(import, a2, a3, a4, ...)
@@ -101430,7 +101411,6 @@ function proto_3178(...)
   else
     return false
   end
-  continue
 end
 
 function proto_3240(a1, ...)
