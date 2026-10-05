@@ -8,7 +8,6 @@ end
 
 local function iter(f, s, i)
   return f, s, i
-end
 function proto_34(...)
   local v9, text, v37, v60, v71, find, playerGui, v114, lower4, value, v136, v203
   local find4, v219, v230, isA2, v241, lower5, lower6, lower7, v274, v343
@@ -181,9 +180,8 @@ function proto_133(a1, a2, ...)
   local v5 = {}
   v5[1] = nil
   v5.n = 1
-  do return unpack(v5) end
+  return unpack(v5)
   return v76
-end
 
 function proto_178(a1, a2, ...)
   if not up1[a1] then
@@ -240,7 +238,6 @@ function proto_187(a1, ...)
         v201[1] = v204
         v201.n = 1
         return unpack(v201)
-      end
     end
   else
     if not (v204 == up2) then
@@ -250,7 +247,6 @@ function proto_187(a1, ...)
       return unpack(v201)
     else
       return nil
-    end
   end
 end
 
@@ -273,15 +269,12 @@ function proto_190(a1, ...)
       local str = tostring(v13)
       appendn(v45, str)
       return unpack(v45)
-    end
   else
     return nil, "[SL-101] Your executor does not support HTTP requests."
-  end
 end
 
 function proto_231(...)
   return players.LocalPlayer.Character
-end
 
 function proto_325(a1, ...)
   local v5, parent, parent2, parent3, v44, v47, parent4
@@ -315,7 +308,6 @@ function proto_325(a1, ...)
   v44[1] = parent2
   v44.n = 1
   return unpack(v44)
-end
 
 function proto_353(inst, ...)
   local match, v46, match2, v71, v72, v81, v103, findFirstAncestorOfClass2, findFirstAncestorOfClass3, v123, v124, v137
@@ -387,19 +379,14 @@ function proto_353(inst, ...)
             return unpack(v81)
           else
             return true
-          end
         else
           return true
-        end
       else
         return false
-      end
     else
       return true
-    end
   else
     return false
-  end
 end
 
 function proto_734(a1, a2, ...)
@@ -460,7 +447,6 @@ function proto_734(a1, a2, ...)
       v33[1] = v141
       v33.n = 1
       return unpack(v33)
-    end
     local v33 = {}
     v33[1] = v141
     v33.n = 1
@@ -471,7 +457,6 @@ function proto_734(a1, a2, ...)
     v134[1] = v99
     v134.n = 1
     return unpack(v134)
-  end
 end
 
 function proto_825(a1, ...)
@@ -509,12 +494,11 @@ function proto_825(a1, ...)
       end
     end
   end
-  do return v44 end
+  return v44
   local v21 = {}
   v21[1] = nil
   v21.n = 1
   return unpack(v21)
-end
 
 function proto_1085(a1, ...)
   local v14 = {}
@@ -523,15 +507,12 @@ function proto_1085(a1, ...)
   v14[1] = gsub
   v14.n = 1
   return unpack(v14)
-end
 
 function proto_1106(a1, ...)
   return a1
-end
 
 function proto_1175()
   return unpack(1182)
-end
 
 function proto_1313(a1, a2, ...)
   local v14, v17, value, proximityPrompt, v40, v56, v75, proximityPrompt3, v98, v100, v123, v126
@@ -580,14 +561,12 @@ function proto_1313(a1, a2, ...)
       v94[1] = proximityPrompt
       v94.n = 1
       return unpack(v94)
-    end
     local v94 = {}
     v94[1] = proximityPrompt
     v94.n = 1
     return unpack(v94)
   else
     return nil
-  end
 end
 
 function proto_1328(...)
@@ -607,7 +586,6 @@ function proto_1328(...)
   local text = string.format(unpack(v14))
   appendn(v3, text)
   return unpack(v3)
-end
 
 function proto_1523(list, ...)
   local v161, v183, v206, v359
@@ -653,11 +631,9 @@ function proto_1523(list, ...)
     end
   end
   return v183
-end
 
 function proto_1681(...)
   return players.LocalPlayer.Character
-end
 
 function proto_1849(a1, ...)
   local v10, v34, v50, v66, v125
@@ -684,7 +660,6 @@ function proto_1849(a1, ...)
   v89[6] = v50
   v10[1] = proto_187
   return v10[1], v66[1], v50[1], v34[1]
-end
 
 function proto_1933(a1, ...)
   local v4, v7, v10, v12
@@ -722,11 +697,9 @@ end
 
 function proto_2165(a1, ...)
   return a1
-end
 
 function proto_2256(...)
   return game.PlaceId == up1
-end
 
 function proto_2332(a1, ...)
   local v63, v75, v76, v119, v162, v187, v218, char, v227, primary, primary2
@@ -775,7 +748,6 @@ function proto_2332(a1, ...)
         local ok2 = pcall(v218.Destroy, v218)
       end
       return false, "Model has no parts"
-    end
   else
     if v218 then
       local ok = pcall(v218.Destroy, v218)
@@ -790,7 +762,6 @@ function proto_2332(a1, ...)
     v75[2] = v119
     v75.n = 2
     return unpack(v75)
-  end
 end
 
 function proto_2348(...)
@@ -844,7 +815,6 @@ function proto_2586(list, ...)
     end
   end
   return v174
-end
 
 function proto_2645(a1, ...)
   local v14
@@ -869,7 +839,6 @@ function proto_2905(a1, ...)
     return unpack(v8)
   else
     return false, v38
-  end
 end
 
 function proto_3000(list, ...)
@@ -914,11 +883,9 @@ function proto_3000(list, ...)
     end
   end
   return v103
-end
 
 function proto_3101(a1, ...)
   return a1.Position
-end
 
 function proto_3414(...)
   up3[up2] = up1[up2]
@@ -1055,7 +1022,6 @@ function proto_3438(a1, ...)
           v268[1] = true
           v268.n = 1
           return unpack(v268)
-        end
       end
       local v268 = {}
       v268[1] = true
@@ -1067,10 +1033,8 @@ function proto_3438(a1, ...)
       local str = tostring(v157[1])
       appendn(v310, str)
       return unpack(v310)
-    end
   else
     return false, "No character"
-  end
 end
 
 function proto_3714(a1, ...)
@@ -1078,7 +1042,6 @@ function proto_3714(a1, ...)
   local v36 = require(a1)
   appendn(v31, v36)
   return unpack(v31)
-end
 
 function proto_3960()
   local v1
@@ -1088,7 +1051,6 @@ function proto_3960()
   v1 = 757
   v1 = v1 + v1
   return unpack(v1)
-end
 
 function proto_4098(list, ...)
   local v33, v57, v254, v267
@@ -1137,7 +1099,6 @@ function proto_4098(list, ...)
     end
   end
   return v33
-end
 
 function proto_4360(...)
   local v2 = up1(up2)
@@ -1170,10 +1131,8 @@ function proto_4497(a1, ...)
       return unpack(v71)
     else
       return 0
-    end
   else
     return a1
-  end
 end
 
 function proto_4584(a1, ...)
@@ -1200,7 +1159,6 @@ function proto_4584(a1, ...)
         local ok2 = pcall(v67.Destroy, v67)
       end
       return false, v138
-    end
   else
     if v67 then
       local ok = pcall(v67.Destroy, v67)
@@ -1215,7 +1173,6 @@ function proto_4584(a1, ...)
     v17[2] = v5
     v17.n = 2
     return unpack(v17)
-  end
 end
 
 function proto_4596(...)
@@ -1238,11 +1195,9 @@ function proto_4596(...)
   local jsonDecode = httpService:JSONDecode(v7)
   appendn(v5, jsonDecode)
   return unpack(v5)
-end
 
 function proto_4616(a1, ...)
   return a1
-end
 
 function proto_4693(...)
   up1.Enabled = true
@@ -1250,7 +1205,6 @@ end
 
 function proto_4707(...)
   return game.PlaceId == up1
-end
 
 function proto_4802(a1, ...)
   local v8, v21, v34, v84, v96, value, v133, v136
@@ -1290,19 +1244,16 @@ function proto_4802(a1, ...)
       v60[1] = true
       v60.n = 1
       return unpack(v60)
-    end
     local v60 = {}
     v60[1] = true
     v60.n = 1
     return unpack(v60)
   else
     return false
-  end
 end
 
 function proto_4831(a1, ...)
   return a1
-end
 
 function proto_4964(inst, ...)
   local clone2, v34, v62
@@ -1321,10 +1272,8 @@ function proto_4964(inst, ...)
     else
       local ok = pcall(clone2.Destroy, clone2)
       return false, v62
-    end
   else
     return false, "Not a Model"
-  end
 end
 
 function proto_5095(...)
@@ -1374,7 +1323,6 @@ function proto_5144(list, ...)
     end
   end
   return v304
-end
 
 function proto_5149(a1, ...)
   local v3
@@ -1393,7 +1341,6 @@ function fn____3789(a1, ...)
   local v5 = string.char(unpack(v3))
   appendn(v15, v5)
   return unpack(v15)
-end
 function fn___1350(a1, ...)
   local v12 = {}
   local v4 = {}
@@ -1403,7 +1350,6 @@ function fn___1350(a1, ...)
   local text = string.format(unpack(v4))
   appendn(v12, text)
   return unpack(v12)
-end
 function fn_AnimationLogger_1077(...)
   false2 = false
   if nil2 then
@@ -1693,7 +1639,6 @@ function proto_828(...)
   local v3 = up1(value)
   appendn(v6, v3)
   return unpack(v6)
-end
 
 function fn_Create_config_3258(...)
   local value
@@ -1784,10 +1729,8 @@ function proto_4148(...)
   v11[1] = not (customTheme == nil)
   v11.n = 1
   return unpack(v11)
-end
 function proto_3515(...)
   return true
-end
 
 function proto_3955(...)
   local v36
@@ -2007,7 +1950,6 @@ function fn_gpo_executor_637(list, a2, a3, a4, ...)
     end
     if v863 then
       local ok = pcall(run_on_actor, waitForChild2, "   local env = getgenv and getgenv() or _G\n   if env.StarLitPromptPurchaseGuard then return end\n   if type(hookfunction) ~= \"function\" or type(newcclosure) ~= \"function\" then return end\n   local MarketplaceService = game:GetService(\"MarketplaceService\")\n   local Old\n   Old = hookfunction(MarketplaceService.PromptPurchase, newcclosure(function(Self, Player, ...)\n    if Player == nil then error(\"Argument 2 missing or nil\", 0) end\n    return Old(Self, Player, ...)\n   end))\n   env.StarLitPromptPurchaseGuard = true\n  ")
-    end
   end
   local v125 = getgenv()
   library = v125.Library
@@ -2850,7 +2792,6 @@ function fn_AddViewport_12(a1, list, a3, ...)
     return v150[1]
   else
     return nil
-  end
 end
 
 function proto_14(a1, a2, ...)
@@ -2914,9 +2855,8 @@ function proto_14(a1, a2, ...)
   local v32 = {}
   v32[1] = nil
   v32.n = 1
-  do return unpack(v32) end
-  do return value end
-end
+  return unpack(v32)
+  return value
 
 function fn_SetTitle_16(a1, a2, ...)
   up1.Text = a2
@@ -2962,7 +2902,6 @@ function fn_MakeOutline_17(a1, a2, a3, a4, ...)
     local v184 = up1("UICorner", v188)
   end
   return v151, v145
-end
 
 function fn_MakeLine_22(a1, a2, part, ...)
   local v5, v6, v11, v12, v14, v16, v17, v40, zIndex
@@ -2993,7 +2932,6 @@ function fn_MakeLine_22(a1, a2, part, ...)
   v40["Parent"] = a2
   v5 = v5(v6, v40)
   return v5
-end
 
 function fn_on_MouseLeave_23(...)
   if not (up1.Mode == up2) then
@@ -3148,7 +3086,6 @@ end
 
 function proto_52(a1, a2, ...)
   return a1.SortKey < a2.SortKey
-end
 
 function fn_SetValue_55(a1, list, ...)
   local modifiers, v119, v140, v141, v153, v169, value, v195, ok2, v272
@@ -3288,7 +3225,6 @@ function fn_AddBlank_65(a1, a2, a3, ...)
   v6 = v6(v7, v24)
   appendn(v34, v6)
   return unpack(v34)
-end
 
 function fn_SetVolume_80(a1, a2, ...)
   local kind = typeof(a2)
@@ -3428,7 +3364,6 @@ function proto_113(a1, ...)
   v9[2] = v24[1]
   v9.n = 2
   return unpack(v9)
-end
 
 function proto_115(...)
   local v17, v18
@@ -3605,7 +3540,6 @@ function proto_143(a1, a2, ...)
     return unpack(v12)
   else
     return math.huge
-  end
 end
 
 function fn_SetHeight_144(a1, a2, ...)
@@ -3638,7 +3572,6 @@ function fn_GetCustomIcon_153(a1, a2, ...)
           return nil
         else
           return icon
-        end
       else
         local v42 = {}
         local v88 = {}
@@ -3649,7 +3582,6 @@ function fn_GetCustomIcon_153(a1, a2, ...)
         v42[1] = v88
         v42.n = 1
         return unpack(v42)
-      end
     else
       local v59 = {}
       local v72 = {}
@@ -3659,10 +3591,8 @@ function fn_GetCustomIcon_153(a1, a2, ...)
       v59[1] = v72
       v59.n = 1
       return unpack(v59)
-    end
   else
     return nil
-  end
 end
 
 function fn_on_DescendantRemoving_154(descendant, ...)
@@ -3712,7 +3642,6 @@ function proto_176(a1, ...)
       v7[1] = v50
       v7.n = 1
       return unpack(v7)
-    end
     local v7 = {}
     v7[1] = v50
     v7.n = 1
@@ -3723,7 +3652,6 @@ function proto_176(a1, ...)
     v86[1] = v34
     v86.n = 1
     return unpack(v86)
-  end
 end
 
 function fn_BackgroundColor3_191(...)
@@ -3731,7 +3659,6 @@ function fn_BackgroundColor3_191(...)
   local betterColor = up1:GetBetterColor(up1.Scheme.BackgroundColor, 4)
   appendn(v2, betterColor)
   return unpack(v2)
-end
 
 function proto_197(a1, inst, ...)
   local v77, v87, v102, v106, v107, v139, v151, v164, v197, v244, v248, v320
@@ -3902,7 +3829,6 @@ function proto_197(a1, inst, ...)
     up10.Tabboxes[inst.Name] = v372[1]
   end
   return v372[1]
-end
 
 function fn_SetLoadCompleted_198(a1, a2, ...)
   local v10
@@ -3921,7 +3847,6 @@ function proto_199(...)
   teams2 = teams
   local v47 = table.sort(teams2, proto_2884)
   return teams2
-end
 
 function fn_StageLoad_203(a1, list, ...)
   local v3, v19, v25, v56, count, count2, v87
@@ -3958,9 +3883,8 @@ function fn_StageLoad_203(a1, list, ...)
   local v4 = {}
   v4[1] = not up1.Unloaded
   v4.n = 1
-  do return unpack(v4) end
-  do return false end
-end
+  return unpack(v4)
+  return false
 
 function proto_206(...)
   local closeFeatureSettings = up1:CloseFeatureSettings()
@@ -4073,7 +3997,6 @@ function proto_214(a1, ...)
   appendn(v74, v98)
   local v122 = table.insert(unpack(v74))
   return v35, v70
-end
 
 function proto_218(...)
   local platform = up1:GetPlatform()
@@ -4122,11 +4045,10 @@ function fn_Destroy_244(a1, ...)
     local destroy2 = up2:Destroy()
   end
   up3.Tabs[up4] = nil
-  do return end
+  return
   local removed = table.remove(up3.TabButtons, key)
-  do return end
+  return
   return true
-end
 
 function fn_on_MouseLeave_251(...)
   local v11 = {}
@@ -4140,7 +4062,6 @@ function fn_BackgroundColor3_258(...)
   local betterColor = up1:GetBetterColor(up1.Scheme.BackgroundColor, 1)
   appendn(v13, betterColor)
   return unpack(v13)
-end
 
 function fn_SetCamera_289(a1, inst, ...)
   local v4, v28, v35
@@ -4362,7 +4283,7 @@ function fn_SetCornerRadius_313(a1, a2, ...)
     return
   end
   local v348 = {}
-  do return end
+  return
   v283 = true
 end
 
@@ -4389,7 +4310,6 @@ function fn_GetBetterColor_318(a1, a2, a3, ...)
   local colour = Color3.fromRGB(unpack(v60))
   appendn(v108, colour)
   return unpack(v108)
-end
 
 function fn_on_InputEnded_319(input, ...)
   local v27
@@ -4496,10 +4416,8 @@ function fn_Animated_346(...)
       return unpack(v15)
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_352(list, ...)
@@ -4564,7 +4482,6 @@ function proto_352(list, ...)
       end
       if not v176 then
         return v15
-      end
     end
   end
 end
@@ -4692,7 +4609,6 @@ function fn_TextColor3_396(...)
   v1[1] = colour2
   v1.n = 1
   return unpack(v1)
-end
 
 function fn_UpdateColors_398(a1, ...)
   local display = up1:Display()
@@ -4881,7 +4797,6 @@ function fn_AddDraggableLabel_405(a1, ...)
   v318[3] = v77
   v117[1].Destroy = fn_Destroy_39
   return v117[1]
-end
 
 function fn_UpdateColors_425(a1, ...)
   local v5, v6, v12, mainColor, v19, v26, v31, v42, v80, v101
@@ -4950,7 +4865,6 @@ function fn_BackgroundColor3_428(...)
   v28[1] = colour
   v28.n = 1
   return unpack(v28)
-end
 
 function fn_on_InputEnded_432(input, ...)
   local v13, v35
@@ -5260,7 +5174,6 @@ function fn_AddSlider_445(a1, list, list2, ...)
     return v256[1]
   else
     return nil
-  end
 end
 
 function fn_on_InputBegan_450(input, ...)
@@ -5414,7 +5327,6 @@ function fn_AddDependencyBox_455(a1, ...)
     return v211[1]
   else
     return nil
-  end
 end
 
 function fn_on_Changed_462(...)
@@ -5773,7 +5685,7 @@ function proto_549(a1, vec, ...)
           y = new9.Y
           x2 = v282
           x = absoluteSize.X
-          do return end
+          return
         else
         end
       end
@@ -5784,12 +5696,10 @@ function proto_549(a1, vec, ...)
     local fromOffset = UDim2.fromOffset(x2, y)
     appendn(v68, fromOffset)
     return unpack(v68)
-  end
   local v68 = {}
   local fromOffset = UDim2.fromOffset(x2, y)
   appendn(v68, fromOffset)
-  do return unpack(v68) end
-end
+  return unpack(v68)
 
 function fn_on_MouseEnter_552(...)
   local hover = up1:Hover(true)
@@ -5803,7 +5713,6 @@ function proto_581(...)
   local v4 = UDim2.fromOffset(up1.AbsoluteSize.X / up2.DPIScale, 0)
   appendn(v14, v4)
   return unpack(v14)
-end
 
 function fn_Display_582(a1, ...)
   local v34, v62, v89, v114, create, v121, v122, tweenInfo, v132, v159, create2, v161
@@ -5896,10 +5805,8 @@ function fn_GetAsset_588(a1, ...)
       return text2
     else
       return v79.Id
-    end
   else
     return nil
-  end
 end
 
 function fn_on_MouseButton2Click_597(...)
@@ -6041,7 +5948,6 @@ function fn_GetPointerPosition_626(a1, input, ...)
   v35[1] = v26
   v35.n = 1
   return unpack(v35)
-end
 
 function proto_636(...)
   local v20 = onLiteChanged()
@@ -6195,7 +6101,6 @@ function fn_AddOutline_684(a1, a2, ...)
   up2[v64] = true
   v64.Enabled = not up3
   return v55, v64
-end
 
 function fn_on_FocusLost_706(...)
   up1.Registry[up2].Color = "OutlineColor"
@@ -6324,7 +6229,6 @@ function fn_GetDarkerColor_739(a1, a2, ...)
   local v36 = Color3.fromHSV(toHSV2, v30, v35 / 2)
   appendn(v8, v36)
   return unpack(v8)
-end
 
 function fn_AddLabel_740(a1, ...)
   local v31, v41, v80, v86, v141, v182, v201, left, v217, v228, v247, v248
@@ -6516,7 +6420,6 @@ function fn_AddLabel_740(a1, ...)
     return v432[1]
   else
     return nil
-  end
 end
 
 function proto_746(...)
@@ -6538,7 +6441,6 @@ function proto_746(...)
     return up1
   else
     return up1
-  end
 end
 
 function fn_Validate_767(a1, a2, a3, ...)
@@ -6577,14 +6479,12 @@ function fn_Validate_767(a1, a2, a3, ...)
       v54[1] = a2
       v54.n = 1
       return unpack(v54)
-    end
     local v54 = {}
     v54[1] = a2
     v54.n = 1
     return unpack(v54)
   else
     return a3
-  end
 end
 
 function fn_ChangeStep_769(a1, a2, ...)
@@ -6832,7 +6732,6 @@ function proto_830(a1, a2, ...)
     return a1.Order < a2.Order
   else
     return a2.MatchScore < a1.MatchScore
-  end
 end
 
 function fn_on_MouseButton1Click_847(...)
@@ -7066,7 +6965,6 @@ function fn_AddVideo_878(a1, list, a3, ...)
     return v375[1]
   else
     return nil
-  end
 end
 
 function proto_881(...)
@@ -7198,12 +7096,10 @@ function fn_MouseIsOverFrame_901(a1, inst, vec, ...)
             v64[1] = v18
             v64.n = 1
             return unpack(v64)
-          end
         end
       end
     else
       return false
-    end
   end
 end
 
@@ -7250,7 +7146,6 @@ function fn_Color_906(...)
   v3[1] = colour
   v3.n = 1
   return unpack(v3)
-end
 
 function fn_on_MouseButton1Click_908(...)
   local v1, v4, play
@@ -7455,7 +7350,6 @@ function proto_972(part, ...)
     return unpack(v14)
   else
     return part.Size
-  end
 end
 
 function fn_TogglePoppedOut_999(a1, ...)
@@ -7514,7 +7408,6 @@ function fn_AddRightGroupbox_1023(a1, a2, a3, a4, a5, a6, ...)
   local addGroupbox = up1:AddGroupbox(v29)
   appendn(v28, addGroupbox)
   return unpack(v28)
-end
 
 function fn_Callback_1031(value, ...)
   local dismiss = value:Dismiss()
@@ -7562,7 +7455,6 @@ function fn___namecall_1041(a1, a2, ...)
   local v22 = up1[a2](unpack(v15))
   appendn(v25, v22)
   return unpack(v25)
-end
 
 function fn_on_MouseLeave_1045(...)
   local v1 = {}
@@ -7594,7 +7486,6 @@ function proto_1056(a1, ...)
     return unpack(v26)
   else
     return true
-  end
 end
 
 function fn_SetIconModule_1063(a1, a2, ...)
@@ -7690,7 +7581,6 @@ function proto_1132(...)
   v5[1] = v6
   v5.n = 1
   return unpack(v5)
-end
 
 function fn_on_propertyChangedSignal6_1136(...)
   local updateSearch = up1:UpdateSearch(up2.Text)
@@ -7878,10 +7768,8 @@ function proto_1164(a1, a2, a3, ...)
       return a2
     else
       return a2 + (a3 / 2)
-    end
   else
     return a2 + a3
-  end
 end
 
 function proto_1166(...)
@@ -8167,7 +8055,6 @@ function fn_AddDivider_1180(a1, ...)
     return v599[1]
   else
     return nil
-  end
 end
 
 function fn_UpdateColors_1183(a1, ...)
@@ -8273,21 +8160,16 @@ function fn_GetState_1207(a1, ...)
                 return unpack(v16)
               else
                 return false
-              end
             end
           else
             return false
-          end
         else
           return false
-        end
       else
         return false
-      end
     end
   else
     return true
-  end
 end
 
 function fn_Hide_1212(a1, ...)
@@ -8388,7 +8270,6 @@ function fn_IsInsideFrame_1247(a1, a2, a3, ...)
   v48[1] = v5
   v48.n = 1
   return unpack(v48)
-end
 
 function fn_on_InputBegan_1255(input, ...)
   local v5, v14, vib, v59, v135, x, y, v160, v172
@@ -8601,11 +8482,9 @@ function proto_1295(signal, a2, a3, ...)
   v38 = v35
   local destroy = bindableEventCell[1]:Destroy()
   return v38
-end
 
 function fn_GetSidebarWidth_1296(a1, ...)
   return up1.Size.X.Offset
-end
 
 function fn_on_MouseLeave_1297(...)
   if up1 then
@@ -8750,15 +8629,12 @@ function proto_1312(a1, ...)
         return up2.Scheme[a1]
       else
         return up2.Scheme[v16]
-      end
     else
       up2.Scheme[a1] = up2.Scheme[v130]
       up2.Scheme[v130] = nil
       return up2.Scheme[a1]
-    end
   else
     return nil
-  end
 end
 
 function fn_AddDialog_1349(a1, list, list2, ...)
@@ -9109,7 +8985,6 @@ function fn_AddDialog_1349(a1, list, list2, ...)
   local resize = v371[1]:Resize()
   up1.ActiveDialog = v371[1]
   return v371[1]
-end
 
 function fn_WorldPointerPosition_1358(a1, vec, ...)
   local v41, adornee, viewportPointToRay2, camera, liveSurfaceGui, dot2, v164, lookVector, adornee2
@@ -9142,13 +9017,10 @@ function fn_WorldPointerPosition_1358(a1, vec, ...)
         return unpack(v109)
       else
         return nil
-      end
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function fn_SetInstance_1362(a1, inst, ...)
@@ -9179,7 +9051,6 @@ function fn_BackgroundColor3_1375(...)
   local betterColor = up1:GetBetterColor(up1.Scheme.BackgroundColor, -1)
   appendn(v20, betterColor)
   return unpack(v20)
-end
 
 function fn_SetDisabled_1380(a1, a2, ...)
   up1.Disabled = a2
@@ -9676,7 +9547,6 @@ function fn_OpenFeatureSettings_1400(a1, list, ...)
     local connect7 = v626.MouseButton1Click:Connect(fn_on_MouseButton1Click_3896)
     local v2027 = up12(v626, true)
     return v626
-  end
 end
 
 function fn_on_MouseEnter_1403(...)
@@ -10328,7 +10198,6 @@ function fn_AddTab_1411(a1, ...)
   local connect3 = v216[1].MouseButton1Click:Connect(fn_on_MouseButton1Click_4256)
   up2.Tabs[v2223[1]] = v2061[1]
   return v2061[1]
-end
 
 function fn_SetTweenInfo_1415(a1, a2, a3, ...)
   local v4, v15
@@ -10595,7 +10464,6 @@ function proto_1434(a1, a2, a3, ...)
     end
   end
   return groupboxTweenInfo2.Time
-end
 
 function fn_on_InputBegan_1437(input, ...)
   local connCell, position
@@ -11441,7 +11309,6 @@ function fn_AddColorPicker_1444(a1, list, list2, ...)
     return a1
   else
     return nil
-  end
 end
 
 function fn_on_MouseButton1Click_1452(...)
@@ -11806,7 +11673,6 @@ function proto_1524(...)
   appendn(v419, connect4)
   local v555 = table.insert(unpack(v419))
   return v79[1]
-end
 
 function fn_Display_1530(a1, ...)
   if not up1.Unloaded then
@@ -11872,7 +11738,6 @@ function proto_1532(a1, a2, ...)
   v40[1] = v36
   v40.n = 1
   return unpack(v40)
-end
 
 function fn_Resize_1546(a1, ...)
   local v4 = UDim2.new(1, 0, 0, (up1.AbsoluteContentSize.Y / up2.DPIScale) + 18)
@@ -12029,7 +11894,6 @@ function fn_AddDraggableButton_1598(a1, ...)
   v218[3] = v98
   v5[1].Destroy = fn_Destroy_3910
   return v5[1]
-end
 
 function fn_Update_1600(a1, a2, ...)
   local v9, v30, value, v108, v232, v294, v347, v357
@@ -12068,7 +11932,6 @@ function fn_Update_1600(a1, a2, ...)
               if v30.Value[v108] then
               else
                 return true, key
-              end
             end
           end
         else
@@ -12086,19 +11949,19 @@ function fn_Update_1600(a1, a2, ...)
     up2.Visible = true
     local resize = up1:Resize()
   end
-  do return end
+  return
   up1.Visible = false
   up2.Visible = false
-  do return end
+  return
   up2.Visible = false
   up1.Visible = false
   up1.Visible = false
-  do return end
-  do return end
-  do return end
+  return
+  return
+  return
   up1.Visible = false
-  do return end
-  do return end
+  return
+  return
   up2.Visible = false
   up2.Visible = false
 end
@@ -12129,7 +11992,6 @@ function proto_1619(...)
     local setVisible = addDraggableLabel2:SetVisible(false)
   end
   return addDraggableLabel2
-end
 
 function proto_1629(a1, ...)
   if a1 == Enum.PlaybackState.Completed then
@@ -12206,12 +12068,10 @@ function proto_1634(a1, ...)
     v110[1] = v115
     v110.n = 1
     return unpack(v110)
-  end
   local v110 = {}
   v110[1] = v115
   v110.n = 1
   return unpack(v110)
-end
 
 function fn_GetKeyString_1638(a1, inst, ...)
   local v9, v18
@@ -12230,7 +12090,6 @@ function fn_GetKeyString_1638(a1, inst, ...)
     local v27 = string.char(inst.Value)
     appendn(v29, v27)
     return unpack(v29)
-  end
 end
 
 function proto_1647(a1, ...)
@@ -12242,7 +12101,6 @@ function proto_1647(a1, ...)
     v8 = v8 + (v9 + up2)
   end
   return v8 + 12
-end
 
 function proto_1658(...)
   local unbindFromRenderStep = up1:UnbindFromRenderStep(showCursorBinding)
@@ -12265,7 +12123,6 @@ function proto_1660(input, ...)
         v11[1] = v13
         v11.n = 1
         return unpack(v11)
-      end
     else
       v59 = {}
       local isMouseButtonPressed = up2:IsMouseButtonPressed(input.UserInputType)
@@ -12277,10 +12134,8 @@ function proto_1660(input, ...)
       v59[1] = v52
       v59.n = 1
       return unpack(v59)
-    end
   else
     return false
-  end
 end
 
 function fn_Changed_1662(...)
@@ -12940,7 +12795,6 @@ function fn_AddDropdown_1700(a1, list, list2, ...)
     return v1368[1]
   else
     return nil
-  end
   v1368[1].Value = value
 end
 
@@ -13216,7 +13070,6 @@ function proto_1877(a1, a2, a3, ...)
     local applyLucideIcon = up3:ApplyLucideIcon(v160, customIcon2)
   end
   return v160
-end
 
 function proto_1885(a1, ...)
   local v2, v5, v6, v9, v24
@@ -13240,12 +13093,10 @@ function proto_1885(a1, ...)
     v26[1] = v2
     v26.n = 1
     return unpack(v26)
-  end
   local v26 = {}
   v26[1] = v2
   v26.n = 1
   return unpack(v26)
-end
 
 function proto_1900(...)
   local v16 = {}
@@ -13255,7 +13106,6 @@ function proto_1900(...)
   v16[1] = v19
   v16.n = 1
   return unpack(v16)
-end
 
 function fn_SetText_1907(a1, a2, ...)
   local new, v8, v9, v10, v13, v31, v34, v80
@@ -13379,10 +13229,8 @@ function proto_1927(input, ...)
             return unpack(v29)
           else
             return false
-          end
         else
           return false
-        end
       else
         whitelistedModifiers = up4.WhitelistedModifiers
         if whitelistedModifiers then
@@ -13406,15 +13254,12 @@ function proto_1927(input, ...)
             return unpack(v29)
           else
             return false
-          end
         else
           return false
-        end
       end
     end
   else
     return true
-  end
 end
 
 function fn_Resize_1930(a1, ...)
@@ -13964,7 +13809,6 @@ function fn_AddGroupbox_1964(a1, list, ...)
     local setCollapsed = v1444[1]:SetCollapsed(true)
   end
   return v1444[1]
-end
 
 function fn_on_InputBegan_1967(input, ...)
   local v20, v39, y
@@ -14000,7 +13844,6 @@ function proto_1974(a1, ...)
   local tweenInfo = TweenInfo.new(0, a1.EasingStyle, a1.EasingDirection)
   appendn(v17, tweenInfo)
   return unpack(v17)
-end
 
 function fn_SetValue_1981(a1, list, a3, ...)
   local transparency, v120, fromHSV2
@@ -14133,7 +13976,6 @@ function proto_2060(a1, list, ...)
     local ok = pcall(proto_2292)
   end
   return newCell[1]
-end
 
 function fn_on_InputChanged_2064(input, ...)
   local v45, connected, parent, v181, v197
@@ -14205,7 +14047,6 @@ function proto_2072(a1, a2, ...)
     local v23 = math.floor(a1)
     appendn(v26, v23)
     return unpack(v26)
-  end
 end
 
 function proto_2075(a1, ...)
@@ -14249,7 +14090,6 @@ function proto_2116(...)
   v12[1] = v11
   v12.n = 1
   return unpack(v12)
-end
 
 function fn_SetValueImages_2120(a1, a2, ...)
   local kind = typeof(a2)
@@ -14589,7 +14429,6 @@ function fn_AddKeyTab_2123(a1, ...)
   local v1116 = setmetatable(v892[1], up10)
   up3.Tabs[v131[1]] = v892[1]
   return v892[1]
-end
 
 function fn_SetOrder_2125(a1, a2, ...)
   order = a2
@@ -16236,7 +16075,6 @@ function fn_Library_2188(import, a2, a3, a4, ...)
   local v4430 = v3517[1]()
   v4430.Library = v981[1]
   return v981[1]
-end
 
 function proto_2189(...)
   local v14
@@ -16276,7 +16114,6 @@ function proto_2196(a1, ...)
   end
   local v74 = table.sort(players, proto_5081)
   return players
-end
 
 function fn_Children_2205(...)
   local v3 = {}
@@ -16285,7 +16122,6 @@ function fn_Children_2205(...)
   v3[1] = v2
   v3.n = 1
   return unpack(v3)
-end
 
 function fn_SetText_2210(a1, a2, ...)
   up1.Text = a2
@@ -16297,7 +16133,6 @@ function fn_Toggle_2211(a1, a2, ...)
   local toggle = up1:Toggle(a2)
   appendn(v10, toggle)
   return unpack(v10)
-end
 
 function fn_on_FocusLost_2220(enterPressed, ...)
   if enterPressed then
@@ -16649,7 +16484,6 @@ function proto_2257(...)
     local connect = v192.MouseButton1Click:Connect(fn_on_MouseButton1Click_3698)
   end
   return v163
-end
 
 function proto_2259(input, a2, ...)
   local v5, v12, v14, v25
@@ -16669,7 +16503,6 @@ function proto_2259(input, a2, ...)
   v25[1] = v5
   v25.n = 1
   return unpack(v25)
-end
 
 function fn_on_InputBegan_2266(input, ...)
   local entry, value, v92, v138, v176, v198, v218, multi, v357
@@ -17006,7 +16839,6 @@ function fn_AddContextMenu_2312(a1, list, a3, a4, a5, list2, a7, a8, a9, ...)
   v382[1].Destroy = fn_Destroy_1070
   local v979 = table.insert(up4.ContextMenus, v382[1])
   return v382[1]
-end
 
 function proto_2319(...)
   local v14, waitForChild2, waitForChild3
@@ -17061,12 +16893,10 @@ function proto_2345(...)
     v4[1] = v54
     v4.n = 1
     return unpack(v4)
-  end
   local v4 = {}
   v4[1] = v54
   v4.n = 1
   return unpack(v4)
-end
 
 function fn_SetVisible_2351(a1, a2, ...)
   up1.Visible = a2
@@ -17165,7 +16995,6 @@ function fn_AddButton_2367(a1, ...)
   v265[3] = up8
   v271[1].Destroy = fn_Destroy_4406
   return v271[1]
-end
 
 function proto_2369(a1, ...)
   local v69
@@ -17187,7 +17016,6 @@ function proto_2369(a1, ...)
   v12["Parent"] = v69
   local v58 = up1("TextLabel", v12)
   return v69
-end
 
 function proto_2381(...)
   local poppedOut, v133
@@ -17261,7 +17089,6 @@ function proto_2391(a1, a2, ...)
     return customIcon
   else
     return nil
-  end
 end
 
 function fn_AddUIPassthrough_2411(a1, list, a3, ...)
@@ -17334,7 +17161,6 @@ function fn_AddUIPassthrough_2411(a1, list, a3, ...)
     return v198[1]
   else
     return nil
-  end
 end
 
 function fn_AddImage_2421(a1, list, a3, ...)
@@ -17459,7 +17285,6 @@ function fn_AddImage_2421(a1, list, a3, ...)
     return v207[1]
   else
     return nil
-  end
 end
 
 function fn_AddButton_2444(a1, ...)
@@ -17571,7 +17396,6 @@ function fn_AddButton_2444(a1, ...)
     return v392[1]
   else
     return nil
-  end
 end
 
 function fn_GetLighterColor_2449(a1, a2, ...)
@@ -17590,7 +17414,6 @@ function fn_GetLighterColor_2449(a1, a2, ...)
   local fromHSV = Color3.fromHSV(unpack(v15))
   appendn(v14, fromHSV)
   return unpack(v14)
-end
 
 function fn_AddFooterButton_2460(a1, a2, list, ...)
   local v6, v44, v45, v48, v52, v78, v80, v140, v188, v205, betterColor, v218
@@ -17832,7 +17655,6 @@ function proto_2462(...)
     return unpack(v18)
   else
     return 1
-  end
 end
 
 function proto_2464(a1, ...)
@@ -17939,7 +17761,6 @@ function fn_GetActiveValues_2505(a1, a2, ...)
   v16[1] = v3
   v16.n = 1
   return unpack(v16)
-end
 
 function fn_ShowTabInfo_2514(a1, a2, a3, ...)
   up1.Text = a2
@@ -17979,7 +17800,6 @@ function fn___namecall_2546(a1, a2, ...)
   local v4 = up1[a2](unpack(v28))
   appendn(v36, v4)
   return unpack(v36)
-end
 
 function fn_on_MouseButton1Click_2550(...)
   if not up1 then
@@ -18052,7 +17872,6 @@ function proto_2594(...)
   v5[1] = v7
   v5.n = 1
   return unpack(v5)
-end
 
 function fn_MakeDraggable_2600(a1, list, a3, a4, a5, a6, ...)
   local positionCell2, connCell, v65, connCell2, v74, positionCell, v167, v175, v186, connect2Cell, v270, v276
@@ -18245,7 +18064,6 @@ function proto_2636(input, ...)
   v7[1] = isRobloxFocused
   v7.n = 1
   return unpack(v7)
-end
 
 function proto_2652(...)
   if up1.SearchText == up2 then
@@ -18280,7 +18098,6 @@ function fn_Color_2658(...)
   v6[1] = colour2
   v6.n = 1
   return unpack(v6)
-end
 
 function proto_2660(a1, a2, a3, ...)
   local v10, v13, v15, v21, v23
@@ -18968,7 +18785,6 @@ function proto_2728(...)
     return v102
   else
     return v102
-  end
 end
 
 function proto_2743(...)
@@ -19667,7 +19483,6 @@ function fn_Notify_2796(a1, ...)
     v1006[4] = v1022
     local thread2 = task.delay(up1.NotifyTweenInfo.Time, proto_4924)
     return v1468[1]
-  end
 end
 
 function fn_GiveSignal_2798(a1, a2, ...)
@@ -19686,7 +19501,6 @@ function fn_GiveSignal_2798(a1, a2, ...)
     local v38 = table.insert(up1.Signals, a2)
   end
   return a2
-end
 
 function proto_2804(a1, ...)
 end
@@ -20080,7 +19894,6 @@ function fn_AddInput_2851(a1, list, list2, ...)
     return v631[1]
   else
     return nil
-  end
 end
 
 function proto_2852(...)
@@ -20316,7 +20129,6 @@ function proto_2859(...)
   local v18 = UDim2.fromOffset(up1.AbsoluteSize.X / up2.DPIScale, up3)
   appendn(v9, v18)
   return unpack(v9)
-end
 
 function fn_RefreshSides_2864(a1, ...)
 end
@@ -20533,7 +20345,6 @@ function proto_2884(inst, inst2, ...)
   v10[1] = lower < lower2
   v10.n = 1
   return unpack(v10)
-end
 
 function fn_SetIcon_2889(a1, a2, ...)
   local v3, customIcon, v80, v150
@@ -20633,10 +20444,8 @@ function proto_2912(...)
       return up2[up1.Value]
     else
       return Enum.KeyCode[up1.Value]
-    end
   else
     return nil
-  end
 end
 
 function fn_on_FocusLost_2917(enterPressed, ...)
@@ -20812,7 +20621,6 @@ function proto_2954(input, a2, ...)
   v9[1] = isRobloxFocused
   v9.n = 1
   return unpack(v9)
-end
 
 function proto_2962(a1, a2, a3, ...)
   local v30, v38, v42, key, v48, v55, v62, v83, v85, value
@@ -20883,20 +20691,15 @@ function proto_2962(a1, a2, a3, ...)
           v59[1] = false
           v59.n = 1
           return unpack(v59)
-        end
       else
         return true
-      end
     else
       return true
-    end
   else
     return false
-  end
-  do return true end
-  do return true end
   return true
-end
+  return true
+  return true
 
 function fn_Color_2969(...)
   local v5, colour2, v28
@@ -20913,7 +20716,6 @@ function fn_Color_2969(...)
   v5[1] = colour2
   v5.n = 1
   return unpack(v5)
-end
 
 function fn_Resize_2976(a1, ...)
   local v19, v46, value, v92, v105, v115, v140, v217, v225, v239, v243, v246
@@ -21005,7 +20807,6 @@ end
 
 function proto_2988(a1, ...)
   return a1
-end
 
 function proto_3009(a1, ...)
   local key, v7, v27, v33, v39, v41, v42
@@ -21043,12 +20844,11 @@ function proto_3009(a1, ...)
       end
     end
   end
-  do return false end
+  return false
   local v23 = {}
   v23[1] = true
   v23.n = 1
   return unpack(v23)
-end
 
 function fn_SetupDependencies_3011(a1, list, ...)
   local v8, v12, v29, v32, v200, value, dependencyBoxes, v247
@@ -21348,10 +21148,8 @@ function proto_3040(a1, a2, ...)
             return true, v161
           else
             return false, 0
-          end
         else
           return false, 0
-        end
       else
         v168 = 1 < find2
         if v168 then
@@ -21383,13 +21181,10 @@ function proto_3040(a1, a2, ...)
         v231[2] = (v234 + v298) + (len * 5)
         v231.n = 2
         return unpack(v231)
-      end
     else
       return false, 0
-    end
   else
     return true, 0
-  end
 end
 
 function fn_SetBackgroundImage_3048(a1, a2, ...)
@@ -21682,10 +21477,8 @@ function fn_AddToggle_3073(a1, list, a3, ...)
       local addCheckbox = up2.AddCheckbox(a1, list[1], a3)
       appendn(v473, addCheckbox)
       return unpack(v473)
-    end
   else
     return nil
-  end
 end
 
 function fn_on_TouchPinch_3075(list, a2, a3, a4, ...)
@@ -21862,7 +21655,6 @@ function fn_AddRightTabbox_3150(a1, a2, ...)
   local addTabbox = up1:AddTabbox(v24)
   appendn(v13, addTabbox)
   return unpack(v13)
-end
 
 function proto_3153(...)
   local v15, parent, toggled
@@ -21901,7 +21693,6 @@ end
 
 function proto_3182(...)
   return shared
-end
 
 function fn_SetDisabled_3186(a1, a2, ...)
   up1.Disabled = a2
@@ -21925,7 +21716,6 @@ function proto_3194(input, a2, ...)
   v38[1] = v30
   v38.n = 1
   return unpack(v38)
-end
 
 function fn_on_Activated_3196(...)
   local value, v40, v148, v161, v208, v217, v218, v224, v262, v285, v288, v312
@@ -22046,7 +21836,6 @@ function proto_3206(a1, ...)
   local v5 = math.clamp(v11, 12, 24)
   appendn(v25, v5)
   return unpack(v25)
-end
 
 function fn_Callback_3209(...)
 end
@@ -22126,7 +21915,7 @@ function fn_on_propertyChangedSignal_3213(...)
   if v228 then
     local close = up5:Close()
   end
-  do return end
+  return
   v14 = true
 end
 
@@ -22193,7 +21982,6 @@ function fn_SafeCallback_3236(a1, a2, ...)
       return unpack(v49)
     else
       return nil
-    end
   end
 end
 
@@ -22259,7 +22047,6 @@ function fn_MakeCover_3265(a1, a2, a3, ...)
   v140["Parent"] = a2
   local v76 = up3("Frame", v140)
   return v76
-end
 
 function fn_Destroy_3266(a1, ...)
   local v14, v23, v27, index, value, v95
@@ -22481,7 +22268,6 @@ function proto_3401(...)
     return Vector2.zero, Vector2.zero
   else
     return v40, v32
-  end
 end
 
 function fn_Update_3410(a1, a2, ...)
@@ -22538,14 +22324,14 @@ function fn_Update_3410(a1, a2, ...)
     local thread = task.defer(proto_4852)
     return
   end
-  do return end
+  return
   local v115 = up2(false)
-  do return end
-  if not (not (not up3.Searching)) then return value.id end
+  return
+  if not (not (not up3.Searching)) then return value.id
   local v224 = up2(false)
-  do return end
+  return
   local v142 = up2(false)
-  do return end
+  return
   local v106 = {}
   v106[1] = up1
   local thread2 = task.defer(proto_3706)
@@ -22655,7 +22441,6 @@ function proto_3419(...)
     v158.Idx = v254
   end
   return v158
-end
 
 function proto_3422(...)
   local unbindFromRenderStep = up1:UnbindFromRenderStep(up2.ShowCursorBinding)
@@ -22781,14 +22566,12 @@ function proto_3431(a1, a2, a3, ...)
     v185[2] = v31
     v185.n = 2
     return unpack(v185)
-  end
   a1.Holder.Visible = 0 < v128
   local v185 = {}
   v185[1] = v128
   v185[2] = v31
   v185.n = 2
   return unpack(v185)
-end
 
 function fn_Deselect_3436(a1, ...)
   up1.Mode = nil
@@ -23531,7 +23314,6 @@ function fn_AddKeyPicker_3491(a1, list, list2, ...)
     return a1
   else
     return nil
-  end
 end
 
 function fn_on_FocusLost_3493(...)
@@ -23591,12 +23373,10 @@ function proto_3517(a1, a2, ...)
       v135[1] = v136
       v135.n = 1
       return unpack(v135)
-    end
     local v135 = {}
     v135[1] = v136
     v135.n = 1
     return unpack(v135)
-  end
 end
 
 function proto_3522(...)
@@ -23628,7 +23408,6 @@ function proto_3526(a1, ...)
     local notify = up1:Notify(a1)
   end
   return a1
-end
 
 function fn_TogglePoppedOut_3533(a1, ...)
 end
@@ -23639,11 +23418,9 @@ function proto_3537(...)
       return up2[up1]
     else
       return Enum.KeyCode[up1]
-    end
   else
     up1 = nil
     return nil
-  end
 end
 
 function fn_AddKeyBox_3538(a1, list, ...)
@@ -23747,7 +23524,6 @@ end
 
 function fn_IsSidebarCompacted_3570(a1, ...)
   return sidebarCompacted
-end
 
 function fn_OnChanged_3584(value, a2, ...)
   up1.Changed = a2
@@ -23953,15 +23729,12 @@ function proto_3639(...)
       return up2, 1
     else
       return nil2, 1002
-    end
   else
     return up1, 1
-  end
 end
 
 function proto_3641(...)
   return up1
-end
 
 function fn_SetColor_3654(a1, a2, ...)
   local kind = typeof(a2)
@@ -24536,7 +24309,6 @@ function proto_3724(a1, a2, ...)
     return unpack(v19)
   else
     return false, 0
-  end
 end
 
 function proto_3726(...)
@@ -24643,7 +24415,6 @@ function fn_AddDependencyGroupbox_3730(a1, ...)
     return v396[1]
   else
     return nil
-  end
 end
 
 function fn_SetVisible_3735(a1, a2, ...)
@@ -24679,12 +24450,10 @@ function proto_3758(a1, ...)
     v10[1] = v56
     v10.n = 1
     return unpack(v10)
-  end
   local v10 = {}
   v10[1] = v56
   v10.n = 1
   return unpack(v10)
-end
 
 function fn_on_DescendantAdded_3761(descendant, ...)
   local v35
@@ -24756,7 +24525,6 @@ function proto_3779(...)
   v55 = v55(v56, userId, accountAge, placeId, jobId, count, maxPlayers, v63, v64, v26, v114, v125 % 60, v22)
   appendn(v27, v55)
   return unpack(v27)
-end
 
 function fn_on_FocusLost_3797(...)
   up1.Registry[up2].Color = "OutlineColor"
@@ -25043,7 +24811,6 @@ function proto_3848(a1, ...)
   local match = a1:match("^%s*(.-)%s*$")
   appendn(v3, match)
   return unpack(v3)
-end
 
 function fn_SetText_3850(a1, a2, ...)
   up1.Text = a2
@@ -25504,7 +25271,6 @@ function fn_AddDraggableImageButton_3979(a1, ...)
   end
   local v579 = PositionDraggable(v445[1], v445[1].Position)
   return v145[1]
-end
 
 function fn_SetValueRGB_3981(...)
 end
@@ -25914,7 +25680,7 @@ function fn_on_MouseButton1Click_4005(...)
                     end
                     v721[1] = v792[1]
                     if not (v721[1].KeyCode == Enum.KeyCode.Escape) then
-                      do return end
+                      return
                     else
                     end
                   end
@@ -25994,8 +25760,7 @@ function fn_on_MouseButton1Click_4005(...)
     return
   end
   local v600 = up4(false)
-  do return end
-end
+  return end
 
 function fn_CreateWindow_4011(a1, list, ...)
   local v102, v139, v186, v187, v229, viewportSize, v581, v608, new3, v653, v654, v675
@@ -27393,7 +27158,6 @@ function fn_CreateWindow_4011(a1, list, ...)
   v4230[1].MainFrame = v5715[1]
   up1.Window = v4230[1]
   return v4230[1]
-end
 
 function fn_SetDisabledValues_4015(a1, a2, ...)
   up1.DisabledValues = a2
@@ -27862,7 +27626,6 @@ function proto_4023(inst, a2, ...)
       v1701[2] = v365
       v1701.n = 2
       return unpack(v1701)
-    end
     local v1701 = {}
     v1701[1] = v114
     v1701[2] = v365
@@ -27870,7 +27633,6 @@ function proto_4023(inst, a2, ...)
     return unpack(v1701)
   else
     return false, 0
-  end
 end
 
 function fn_on_propertyChangedSignal_4034(...)
@@ -27925,7 +27687,6 @@ function proto_4052(a1, a2, ...)
     return a1, a2
   else
     return a1, a2
-  end
 end
 
 function fn_on_MouseEnter_4057(...)
@@ -27968,7 +27729,6 @@ function fn_AddLeftGroupbox_4060(a1, a2, a3, a4, a5, a6, ...)
   local addGroupbox = up1:AddGroupbox(v24)
   appendn(v18, addGroupbox)
   return unpack(v18)
-end
 
 function fn_SetText_4061(a1, a2, ...)
   up1.Text = a2
@@ -28029,7 +27789,6 @@ function fn_BackgroundColor3_4072(...)
   local betterColor = up1:GetBetterColor(up1.Scheme.BackgroundColor, 4)
   appendn(v10, betterColor)
   return unpack(v10)
-end
 
 function proto_4074(a1, ...)
   up1.Visible = not a1
@@ -28063,7 +27822,6 @@ function proto_4102(input, ...)
   v2[1] = v14
   v2.n = 1
   return unpack(v2)
-end
 
 function fn_GetIcon_4111(a1, a2, ...)
   local v17, v42
@@ -28076,7 +27834,6 @@ function fn_GetIcon_4111(a1, a2, ...)
     v42 = ok[2]
     if ok then
       return v42
-    end
   end
 end
 
@@ -28112,12 +27869,10 @@ function proto_4130(a1, ...)
       end
     end
     return true
-  end
   local v48 = {}
   v48[1] = false
   v48.n = 1
   return unpack(v48)
-end
 
 function fn_Destroy_4132(a1, ...)
   local v53, v63, v65, index, v174
@@ -28599,9 +28354,7 @@ function proto_4235(a1, ...)
     v7[1] = v16
     v7.n = 1
     return unpack(v7)
-  end
   return value
-end
 
 function proto_4242(a1, ...)
   if not keyPickerAddon then
@@ -28755,7 +28508,6 @@ function proto_4309(input, ...)
   v23[1] = v2
   v23.n = 1
   return unpack(v23)
-end
 
 function proto_4342(...)
   local index2
@@ -28872,10 +28624,8 @@ function fn_DownloadAsset_4355(a1, a2, ...)
       return ok, ok[2]
     else
       return true, nil
-    end
   else
     return false, "missing functions"
-  end
 end
 
 function proto_4357(a1, ...)
@@ -28962,7 +28712,6 @@ function proto_4372(...)
     up4 = v79
   end
   return up1, up4
-end
 
 function fn_Resize_4378(a1, ...)
 end
@@ -29103,7 +28852,6 @@ function proto_4416(a1, ...)
   v4[1] = v11
   v4.n = 1
   return unpack(v4)
-end
 
 function proto_4420(...)
   local v21 = {}
@@ -29139,7 +28887,6 @@ function proto_4434(...)
   local guiInset = up1:GetGuiInset()
   appendn(v2, guiInset)
   return unpack(v2)
-end
 
 function proto_4436(...)
   local v2, v11, v39, v55
@@ -29421,7 +29168,6 @@ function proto_4487(...)
   local siblingIndex = up1:GetSiblingIndex()
   appendn(v2, siblingIndex)
   return unpack(v2)
-end
 
 function proto_4493(a1, ...)
   local v3 = up1(up2)
@@ -29518,7 +29264,6 @@ function fn_AddDraggableMenu_4494(a1, a2, ...)
   end
   local v715 = PositionDraggable(v521, v521.Position)
   return v521, v204
-end
 
 function fn_RemoveFromRegistry_4505(a1, a2, ...)
   up1.Registry[a2] = nil
@@ -29795,7 +29540,6 @@ function proto_4539(input, ...)
   v13[1] = v23
   v13.n = 1
   return unpack(v13)
-end
 
 function fn_on_MouseEnter_4545(...)
   local v12 = {}
@@ -29848,7 +29592,6 @@ function proto_4565(...)
     v10[1] = displayValue
     v10.n = 1
     return unpack(v10)
-  end
 end
 
 function fn_SetTransparency_4568(a1, a2, ...)
@@ -29978,7 +29721,6 @@ function fn_GetTextBounds_4627(a1, a2, a3, a4, a5, ...)
     local v230 = error(v197, 2)
   end
   return v197.X, v197.Y
-end
 
 function fn_on_MouseEnter_4705(...)
   if not up1.Disabled then
@@ -29993,7 +29735,6 @@ function fn_PlaceholderColor3_4713(...)
   local v70 = Color3.fromHSV(toHSV, toHSV[2], toHSV[3] / 2)
   appendn(v46, v70)
   return unpack(v46)
-end
 
 function proto_4721(...)
   up1.Notifications[up2] = nil
@@ -30186,7 +29927,6 @@ function fn_AddLeftTabbox_4788(a1, a2, ...)
   local addTabbox = up1:AddTabbox(v14)
   appendn(v16, addTabbox)
   return unpack(v16)
-end
 
 function proto_4793(a1, a2, ...)
   local v18, v113, v136
@@ -30517,7 +30257,6 @@ function proto_4859(vec, a2, a3, a4, ...)
   v28["BottomEdge"] = (v40.Y - vec.Y) - a3
   v74 = v28
   return v154, v74
-end
 
 function fn_SetText_4865(a1, a2, ...)
   local textBounds = up1:GetTextBounds(a2, up1.Scheme.Font, 16)
@@ -30711,7 +30450,6 @@ function proto_4890(a1, ...)
       v2[1] = v57
       v2.n = 1
       return unpack(v2)
-    end
     v57 = false
     local v2 = {}
     v2[1] = v57
@@ -30719,7 +30457,6 @@ function proto_4890(a1, ...)
     return unpack(v2)
   else
     return true
-  end
 end
 
 function fn_SetVisible_4911(a1, a2, ...)
@@ -30787,7 +30524,6 @@ function fn_BackgroundColor3_4930(...)
   local darkerColor = up1:GetDarkerColor(up1.Scheme.FontColor)
   appendn(v3, darkerColor)
   return unpack(v3)
-end
 
 function fn_AddCheckbox_4956(a1, list, a3, ...)
   local v38, v117, v184, v329, v392, container, v475, v602
@@ -30948,7 +30684,6 @@ function fn_AddCheckbox_4956(a1, list, a3, ...)
     return v329[1]
   else
     return nil
-  end
 end
 
 function fn_on_MouseLeave_4972(...)
@@ -31069,12 +30804,10 @@ function fn_Children_5004(...)
     v4[1] = v41
     v4.n = 1
     return unpack(v4)
-  end
   local v4 = {}
   v4[1] = v41
   v4.n = 1
   return unpack(v4)
-end
 
 function fn_Resize_5010(a1, a2, ...)
   local v82, v142, v212, v270
@@ -31110,7 +30843,6 @@ function proto_5015(a1, ...)
   v3[1] = gsub
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_5018(a1, a2, ...)
   local v11, v84, v90, v106
@@ -31135,10 +30867,8 @@ function proto_5018(a1, a2, ...)
       return v11
     else
       return 0
-    end
   else
     return 0
-  end
 end
 
 function proto_5020(...)
@@ -31147,7 +30877,6 @@ function proto_5020(...)
   local clone = up1:Clone()
   appendn(v4, clone)
   return unpack(v4)
-end
 
 function fn_SetVisible_5022(a1, a2, ...)
   up1.Visible = a2
@@ -31233,7 +30962,6 @@ function proto_5032(...)
   local v12 = v3()
   appendn(v1, v12)
   return unpack(v1)
-end
 
 function fn_AddAsset_5033(a1, a2, a3, a4, ...)
   if not (up1[a1] == nil) then
@@ -31302,13 +31030,11 @@ function proto_5067(a1, a2, a3, ...)
     v82[2] = key
     v82.n = 2
     return unpack(v82)
-  end
   local v82 = {}
   v82[1] = value2
   v82[2] = key
   v82.n = 2
   return unpack(v82)
-end
 
 function fn_Changed_5070(...)
 end
@@ -31320,7 +31046,6 @@ function proto_5081(inst, inst2, ...)
   v17[1] = lower < lower2
   v17.n = 1
   return unpack(v17)
-end
 
 function fn_on_MouseLeave_5088(...)
   local v14 = {}
@@ -31577,7 +31302,6 @@ function fn_AddTab_5105(a1, a2, a3, ...)
   up11.Tabs[str3] = v1112[1]
   local updateCorners = up11:UpdateCorners()
   return v1112[1], str3
-end
 
 function fn_SetPoppedOut_5109(a1, a2, a3, ...)
 end
@@ -31667,7 +31391,6 @@ function proto_5147(a1, ...)
     return unpack(v6)
   else
     return false
-  end
 end
 
 function fn_Resize_5153(a1, ...)
@@ -31731,7 +31454,6 @@ end
 
 function proto_485(...)
   return up1.CurrentConfig
-end
 
 function proto_576(...)
   local build = up1.Build(library, tabs.Morph)
@@ -31820,7 +31542,6 @@ function proto_1759(a1, ...)
   local load = up1:Load(a1)
   appendn(v2, load)
   return unpack(v2)
-end
 
 function proto_1879(...)
   local v4 = {}
@@ -32008,7 +31729,6 @@ function fn_Create_2201(a1, ...)
       return unpack(v438)
     else
       return nil
-    end
   end
 end
 
@@ -32375,7 +32095,6 @@ function proto_2701(...)
   local refreshConfigList = up1:RefreshConfigList()
   appendn(v20, refreshConfigList)
   return unpack(v20)
-end
 
 function fn_Callback_2931(value, ...)
   local gsub = value:gsub("%%", "")
@@ -32399,7 +32118,6 @@ end
 
 function proto_3081(a1, a2, ...)
   return a2.totalMs < a1.totalMs
-end
 
 function fn_Callback_3283(...)
   local unload = library:Unload()
@@ -32407,7 +32125,6 @@ end
 
 function fn_AddGroupbox_3363(a1, a2, ...)
   return addTab
-end
 
 function fn_Callback_3722(value, ...)
   up1.AgreedToTOS = true
@@ -32456,7 +32173,6 @@ function fn_MenuShell_3846(list, a2, a3, a4, ...)
   v81[3] = list
   v40[1].Finish = fn_Finish_2491
   return v40[1]
-end
 
 function fn_Callback_4079(value, ...)
   library.KeybindFrame.Visible = value
@@ -32545,7 +32261,6 @@ function proto_646(a1, a2, ...)
   local joined = table.concat(v81)
   appendn(v88, joined)
   return unpack(v88)
-end
 
 function proto_763(...)
   local v16, v27
@@ -32582,7 +32297,6 @@ function proto_763(...)
   local v58 = getcustomasset(("StarLit/Assets/StarLitClickV2.wav"))
   appendn(v25, v58)
   return unpack(v25)
-end
 
 function proto_864(...)
   local v1, v4, v19, v20, v43, v52, v75, v173, v181, v290, v335, v410
@@ -32631,7 +32345,6 @@ function proto_864(...)
   v3[1] = "RIFF" .. (v307 .. ("WAVEfmt " .. (v324 .. (v336 .. (v350 .. (v362 .. (v372 .. (v386 .. (v402 .. ("data" .. (v426 .. joined)))))))))))
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_943(...)
   local v30, ok, v49, ok3, v56
@@ -32661,7 +32374,6 @@ function proto_943(...)
     return unpack(v49)
   else
     return ("rbxasset://sounds/button.wav")
-  end
 end
 
 function fn_Destroy_1502(...)
@@ -32897,12 +32609,10 @@ function fn_UISounds_3463(a1, a2, a3, a4, ...)
   v246[4] = v177
   v203[1].Destroy = fn_Destroy_1502
   return v203[1]
-end
 
 function proto_3995(...)
   up1 = (up1 % up2) + 1
   return up3[up1]
-end
 
 function proto_5100(...)
   local v48, v52, v65, v73, starLitUISounds2, v90, v98, v102, parent, sound2
@@ -32945,7 +32655,6 @@ function proto_5100(...)
     return true
   else
     return true
-  end
 end
 function fn_on_MouseButton1Click_727(...)
   local click = uiSounds.Play("Click")
@@ -33410,13 +33119,10 @@ function proto_4449(a1, a2, ...)
         return viewportPointToRay2.Origin + (viewportPointToRay2.Direction * v89)
       else
         return nil
-      end
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function fn_LiveUI_4465(import, a2, a3, a4, ...)
@@ -33528,7 +33234,6 @@ function fn_LiveUI_4465(import, a2, a3, a4, ...)
   v228[3] = v114
   local register = unload2.register("StarLit_LiveUI", fn_StarLit_LiveUI_4559)
   return v114[1]
-end
 
 function fn_StarLit_LiveUI_4559(...)
   local v2
@@ -33592,7 +33297,6 @@ function proto_140(a1, ...)
         local ok2 = pcall(v73.Destroy, v73)
       end
       return false, v37
-    end
   else
     if v73 then
       local ok = pcall(v73.Destroy, v73)
@@ -33607,7 +33311,6 @@ function proto_140(a1, ...)
     v87[2] = v94
     v87.n = 2
     return unpack(v87)
-  end
 end
 
 function fn_on_Jumping_286(a1, ...)
@@ -33637,7 +33340,6 @@ function proto_402(a1, a2, ...)
     return v78
   else
     return nil
-  end
 end
 
 function fn_on_Chatted_470(message, ...)
@@ -33835,7 +33537,6 @@ function proto_917(a1, a2, ...)
   v12 = v12(v5, a2)
   appendn(v10, v12)
   return unpack(v10)
-end
 
 function proto_931(...)
   local v8, v15, v18, v47, v54, pants, v64, v67, shirt2, head, v93, findFirstChild2
@@ -34246,7 +33947,6 @@ function proto_1491(a1, ...)
         local ok3 = pcall(v787[1].Destroy, v787[1])
         local ok4 = pcall(v529.Destroy, v529)
         return false, "Model has no Humanoid/HumanoidRootPart -- needs to be a real rigged character export, not a body-part-only morph asset."
-      end
     else
       local ok2 = pcall(v529.Destroy, v529)
       v668 = {}
@@ -34258,7 +33958,6 @@ function proto_1491(a1, ...)
       v668[2] = v521
       v668.n = 2
       return unpack(v668)
-    end
   else
     v437 = {}
     v437[1] = false
@@ -34269,7 +33968,6 @@ function proto_1491(a1, ...)
     v437[2] = v432
     v437.n = 2
     return unpack(v437)
-  end
 end
 
 function proto_1516(...)
@@ -34402,9 +34100,7 @@ function proto_1744(inst, ...)
     return unpack(v30)
   else
     return nil
-  end
-  do return value.AnimationId end
-end
+  return value.AnimationId
 
 function proto_1760(...)
   local v9, request2, v22, v42
@@ -34431,7 +34127,6 @@ function proto_1760(...)
   local jsonDecode = httpService:JSONDecode(v22)
   appendn(v39, jsonDecode)
   return unpack(v39)
-end
 
 function fn_Func_1767(...)
   local v8 = {}
@@ -35239,7 +34934,6 @@ function proto_1868(...)
   v590[2] = v392
   v1116[1].Reset = fn_Reset_2214
   return v1116[1]
-end
 
 function proto_1886(...)
   local clone = up2:Clone()
@@ -35317,7 +35011,6 @@ function proto_2104(...)
     v63 = v66
   end
   return v63
-end
 
 function fn_Reset_2214(...)
   local v7 = {}
@@ -35406,7 +35099,6 @@ function fn_MorphTab_2450(a1, a2, a3, a4, ...)
   local v31 = v25()
   appendn(v14, v31)
   return unpack(v14)
-end
 
 function proto_2501(...)
   up1.Item.Parent = up1.Parent
@@ -35474,12 +35166,9 @@ function proto_2731(inst, ...)
       return unpack(v82)
     else
       return false
-    end
   else
     return false
-  end
   return false
-end
 
 function proto_2732(...)
   local v12, v17, v22, v25
@@ -35562,7 +35251,6 @@ function proto_2949(...)
   local gsub = match:gsub("^\"(.*)\"$", "%1")
   appendn(v34, gsub)
   return unpack(v34)
-end
 
 function proto_2963(inst, ...)
   local v30, v48, v52, v67, v103, v120, v151, v161, v176, v192, v193, v207
@@ -36139,7 +35827,6 @@ function proto_2963(inst, ...)
         return true
       else
         return false, "Model has no usable parts (no matching rig part names, no PrimaryPart/BasePart either)."
-      end
     else
       if not (inst.Parent == char) then
         local ok8 = pcall(inst.Destroy, inst)
@@ -36148,10 +35835,8 @@ function proto_2963(inst, ...)
       local v1458 = up13()
       nil2 = nil
       return true
-    end
   else
     return false, "No character"
-  end
 end
 
 function proto_2981(...)
@@ -36166,7 +35851,6 @@ function proto_2981(...)
   v3[1] = v12
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_2983(...)
   local v3 = CFrame.new(up1, up1 + up2.CFrame.LookVector)
@@ -36209,10 +35893,8 @@ function proto_3138(inst, ...)
       return unpack(v3)
     else
       return inst
-    end
   else
     return nil
-  end
 end
 
 function proto_3187(a1, ...)
@@ -36292,12 +35974,11 @@ function proto_3210(...)
       end
     end
   end
-  do return value end
+  return value
   local v14 = {}
   v14[1] = nil
   v14.n = 1
   return unpack(v14)
-end
 
 function proto_3285(a1, ...)
   local v27, ok, v43, v46, ok2, v63, str2, ok3, str3, v109, v115, v124
@@ -36366,16 +36047,12 @@ function proto_3285(a1, ...)
           return unpack(v37)
         else
           return v63, nil
-        end
       else
         return v109, nil
-      end
     else
       return v63, nil
-    end
   else
     return v109, nil
-  end
 end
 
 function proto_3328(...)
@@ -36604,11 +36281,9 @@ function proto_3497(a1, ...)
       return true
     else
       return false, "None of this bundle's body parts matched a real limb on your rig."
-    end
   else
     return false, "No character"
-  end
-  do return end
+  return
   local v440 = {}
   v440[1] = v57
   v440.n = 1
@@ -36616,7 +36291,7 @@ function proto_3497(a1, ...)
   v337 = v440[2]
   v660 = v440[3]
   v372, v337, v660 = iter(v372)
-  do return end
+  return
   local v669 = {}
   v669[1] = false
   local v509 = {}
@@ -36628,20 +36303,19 @@ function proto_3497(a1, ...)
   appendn(v738, v509)
   local v503 = ("Failed to load %s body part (asset %s) -- aborted, nothing changed.").format(unpack(v738))
   appendn(v669, v503)
-  do return unpack(v669) end
+  return unpack(v669)
   local ok2 = pcall(value4.Root.Destroy, value4.Root)
   v338 = v372
   v338 = v338(v337, v660)
   v660 = v338
-  if not (not v338) then return v466 end
-  do return end
-  if not (not v392) then do return end end
-  do return end
+  if not (not v338) then return v466
+  return
+  if not (not v392) then return end
+  return
   local ok = pcall(v392.Destroy, v392)
   value4 = v338[2]
-  do return end
-  do return end
-end
+  return
+  return end
 
 function proto_3500(list, ...)
   local v16, lower, v24, v37, v45, v76
@@ -36673,7 +36347,6 @@ function proto_3500(list, ...)
     return unpack(v45)
   else
     return true
-  end
 end
 
 function fn_on_CharacterAppearanceLoaded_3528(character, ...)
@@ -36712,11 +36385,9 @@ function proto_3597(a1, ...)
         v27 = v11
         if not (v27) then
           v27 = "GetObjects returned nothing -- is this a valid .rbxm?"
-        end
         v77 = v77(v27)
         appendn(v39, v77)
         return unpack(v39)
-      end
     else
       v34 = {}
       v34[1] = nil
@@ -36728,10 +36399,8 @@ function proto_3597(a1, ...)
       v44 = v44(v28)
       appendn(v34, v44)
       return unpack(v34)
-    end
   else
     return nil, "Your executor doesn't expose getcustomasset (local file loading)."
-  end
 end
 
 function proto_3738(...)
@@ -36788,7 +36457,7 @@ function proto_3803(inst, a2, ...)
       end
     end
   end
-  do return findFirstChild end
+  return findFirstChild
   local v20 = {}
 end
 
@@ -36912,7 +36581,6 @@ function proto_4161(a1, ...)
           return v148
         else
           return nil, "No usable body parts found in this bundle."
-        end
       else
         local v39 = {}
         v39[1] = nil
@@ -36925,17 +36593,14 @@ function proto_4161(a1, ...)
         local v53 = ("Bundle type \"%s\" isn't supported -- only BodyParts bundles can be applied.").format(unpack(v95))
         appendn(v39, v53)
         return unpack(v39)
-      end
     else
       local v40 = {}
       v40[1] = nil
       local str = tostring(v120)
       appendn(v40, str)
       return unpack(v40)
-    end
   else
     return nil, "Your executor does not support HTTP requests."
-  end
 end
 
 function proto_4250(...)
@@ -37195,7 +36860,6 @@ end
 
 function proto_4574(...)
   return up1[up2]
-end
 
 function proto_4738(...)
   local v9 = {}
@@ -37205,7 +36869,6 @@ function proto_4738(...)
   local createPath = pathfindingService:CreatePath(v9)
   local computeAsync = createPath:ComputeAsync(nil2.Position, up3)
   return createPath
-end
 
 function proto_4800(...)
   local v159, addDropdownCell, addLeftGroupbox2, addRightGroupbox2
@@ -37524,7 +37187,6 @@ function proto_4932(a1, a2, ...)
   v74[1] = v122
   v74.n = 1
   return unpack(v74)
-end
 
 function proto_4969(...)
   local v28
@@ -37567,10 +37229,8 @@ function proto_5083(inst, ...)
       return unpack(v14)
     else
       return inst
-    end
   else
     return nil
-  end
 end
 function fn_Callback_25(value, ...)
   local v3 = {}
@@ -39164,7 +38824,6 @@ function fn_OptimizationsTab_2236(a1, a2, a3, a4, ...)
   local v13 = v7()
   appendn(v39, v13)
   return unpack(v39)
-end
 
 function proto_2268(a1, ...)
   local v21 = up1("SweepSounds", a1)
@@ -39288,12 +38947,10 @@ function proto_2623(a1, ...)
     return false
   else
     return false
-  end
   local v35 = {}
   v35[1] = true
   v35.n = 1
   return unpack(v35)
-end
 
 function proto_2633(...)
   if up1.streamingRadius then
@@ -39532,7 +39189,6 @@ function proto_2965(a1, a2, ...)
     return v15
   else
     return nil
-  end
 end
 
 function proto_2967(...)
@@ -40367,7 +40023,6 @@ function proto_3256(...)
   v173[2] = v612
   v89.Reset = fn_Reset_3425
   return v89
-end
 
 function proto_3262(...)
   local v7, v8, v10, v30, value
@@ -41043,7 +40698,6 @@ function proto_4151(inst, ...)
           return false
         else
           return inst.Volume <= 0
-        end
       else
         v113 = {}
         v136 = inst.Brightness <= 0
@@ -41053,7 +40707,6 @@ function proto_4151(inst, ...)
         v113[1] = v136
         v113.n = 1
         return unpack(v113)
-      end
     else
       v84 = {}
       v169 = inst.Rate <= 0
@@ -41064,13 +40717,11 @@ function proto_4151(inst, ...)
       v84[1] = v169
       v84.n = 1
       return unpack(v84)
-    end
   else
     local v68 = {}
     local v19 = up1(inst.Transparency)
     appendn(v68, v19)
     return unpack(v68)
-  end
 end
 
 function proto_4170(a1, ...)
@@ -41526,14 +41177,12 @@ function proto_13(...)
   local v3 = up1("test" .. str)
   appendn(v6, v3)
   return unpack(v6)
-end
 
 function proto_135(a1, ...)
   local v8 = {}
   local match = a1:match("^%s*(.-)%s*$")
   appendn(v8, match)
   return unpack(v8)
-end
 
 function proto_273(a1, a2, ...)
   local v15, v47, v55, v94, v103, idx, v122, tabIdx
@@ -41585,7 +41234,6 @@ function proto_329(a1, a2, ...)
   v4[1] = v3
   v4.n = 1
   return unpack(v4)
-end
 
 function proto_397(a1, ...)
   local v28, v38, farmControlId, deferredFarmStart
@@ -41608,13 +41256,10 @@ function proto_397(a1, ...)
         return 2
       else
         return 3
-      end
     else
       return 4
-    end
   else
     return 1
-  end
 end
 
 function fn_Func_550(...)
@@ -41720,7 +41365,6 @@ function fn_CheckFolderTree_736(a1, ...)
   local buildFolderTree = up1:BuildFolderTree(true)
   appendn(v8, buildFolderTree)
   return unpack(v8)
-end
 
 function fn_Func_749(...)
   local value
@@ -41744,7 +41388,6 @@ function proto_828(...)
   local v3 = up1(value)
   appendn(v6, v3)
   return unpack(v6)
-end
 
 function fn_BuildFolderTree_834(a1, a2, ...)
   local v6, paths, value, v48, v55, v72
@@ -41775,7 +41418,6 @@ function fn_BuildFolderTree_834(a1, a2, ...)
         v66[1] = true
         v66.n = 1
         return unpack(v66)
-      end
       local v66 = {}
       v66[1] = true
       v66.n = 1
@@ -41785,11 +41427,9 @@ function fn_BuildFolderTree_834(a1, a2, ...)
       if not v40 then
       else
         return true
-      end
     end
   else
     return false
-  end
 end
 
 function fn_Func_848(...)
@@ -41833,7 +41473,6 @@ function fn_GetPaths_963(a1, ...)
       v4[1] = v17
       v4.n = 1
       return unpack(v4)
-    end
   end
 end
 
@@ -41854,16 +41493,12 @@ function fn_SaveAutoloadConfig_987(a1, a2, ...)
           return true
         else
           return false, v19
-        end
       else
         return false, "Config does not exist"
-      end
     else
       return false, "Invalid path provided"
-    end
   else
     return false, "No config is selected"
-  end
 end
 
 function proto_1004(a1, a2, a3, a4, a5, list, ...)
@@ -41900,7 +41535,6 @@ function proto_1004(a1, a2, a3, a4, a5, list, ...)
     local v14 = list[1]()
     appendn(v46, v14)
     return unpack(v46)
-  end
 end
 
 function fn_DeleteAutoLoadConfig_1055(a1, ...)
@@ -41918,13 +41552,10 @@ function fn_DeleteAutoLoadConfig_1055(a1, ...)
         return true
       else
         return false, v20
-      end
     else
       return false, "Autoload config is not set"
-    end
   else
     return false, "Invalid path provided"
-  end
 end
 
 function proto_1095(a1, a2, ...)
@@ -41945,7 +41576,6 @@ function proto_1095(a1, a2, ...)
   v27[1] = v20
   v27.n = 1
   return unpack(v27)
-end
 
 function proto_1211(a1, ...)
   local v16, v17, v21, v36
@@ -41969,7 +41599,6 @@ function proto_1211(a1, ...)
   v17[1] = v21
   v17.n = 1
   return unpack(v17)
-end
 
 function fn_Decode_1218(vec, ...)
   local kind2
@@ -41980,13 +41609,11 @@ function fn_Decode_1218(vec, ...)
       return nil
     else
       return vec
-    end
   else
     local v57 = {}
     local size = UDim2.new(vec.X.Scale, vec.X.Offset, vec.Y.Scale, vec.Y.Offset)
     appendn(v57, size)
     return unpack(v57)
-  end
 end
 
 function proto_1236(a1, a2, ...)
@@ -41997,7 +41624,6 @@ function proto_1236(a1, a2, ...)
   v6[1] = v11
   v6.n = 1
   return unpack(v6)
-end
 
 function fn_Save_1258(a1, a2, ...)
   local v30
@@ -42011,7 +41637,6 @@ function fn_Save_1258(a1, a2, ...)
   v30.type = up2
   v30.idx = a1
   return v30
-end
 
 function fn_BuildConfigSection_1336(a1, a2, a3, ...)
   local addGroupbox, v14, v17, addLabelCell, saveManager_ConfigNameCell, v202, v260, saveManager_ConfigListCell, addGroupbox2, v334, v349
@@ -42130,7 +41755,6 @@ function fn_BuildConfigSection_1336(a1, a2, a3, ...)
   v193[2] = "SaveManager_ConfigName"
   local setIgnoreIndexes = up1:SetIgnoreIndexes(v193)
   return addGroupbox2
-end
 
 function proto_1347(list, a2, a3, a4, a5, ...)
   list = { list }
@@ -42176,7 +41800,6 @@ function proto_1421(a1, ...)
     return unpack(v17)
   else
     return v6
-  end
 end
 
 function fn_RefreshConfigList_1441(a1, ...)
@@ -42227,7 +41850,6 @@ function fn_RefreshConfigList_1441(a1, ...)
         v41[1] = v40
         v41.n = 1
         return unpack(v41)
-      end
       local v41 = {}
       v41[1] = v40
       v41.n = 1
@@ -42249,14 +41871,12 @@ function fn_RefreshConfigList_1441(a1, ...)
       v74[1] = v165
       v74.n = 1
       return unpack(v74)
-    end
   else
     local v119 = {}
     local v158 = {}
     v119[1] = v158
     v119.n = 1
     return unpack(v119)
-  end
 end
 
 function proto_1484(...)
@@ -42265,7 +41885,6 @@ end
 
 function proto_1559(...)
   return true
-end
 
 function proto_1689(...)
   local load2, v82
@@ -42353,7 +41972,6 @@ function proto_1771(...)
     return unpack(v5)
   else
     return false
-  end
 end
 
 function fn_SaveManager_1909(import, a2, a3, a4, ...)
@@ -42628,7 +42246,6 @@ function fn_SaveManager_1909(import, a2, a3, a4, ...)
   v806[1].BuildConfigSection = fn_BuildConfigSection_1336
   local buildFolderTree = v806[1]:BuildFolderTree()
   return v806[1]
-end
 
 function proto_2001(a1, a2, ...)
   local v3 = {}
@@ -42639,7 +42256,6 @@ function proto_2001(a1, a2, ...)
   v3[1] = v23
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_2031(a1, ...)
   local v6, ok2
@@ -42650,12 +42266,10 @@ function proto_2031(a1, ...)
     return false
   else
     return v6
-  end
 end
 
 function proto_2096(...)
   return true
-end
 
 function proto_2179(a1, a2, ...)
   if a1 then
@@ -42701,7 +42315,6 @@ end
 
 function proto_2303(a1, ...)
   return a1
-end
 
 function fn_SetLibrary_2333(a1, a2, ...)
   up1.Library = a2
@@ -42775,13 +42388,10 @@ function fn_Load_2632(a1, a2, ...)
         return loadJSON, v42
       else
         return false, "Failed to read config file"
-      end
     else
       return false, "Config file does not exist"
-    end
   else
     return false, "No config is selected"
-  end
 end
 
 function proto_2703(...)
@@ -42895,7 +42505,6 @@ end
 
 function proto_2763(...)
   return true
-end
 
 function proto_2825(a1, a2, ...)
   local v10 = {}
@@ -42905,7 +42514,6 @@ function proto_2825(a1, a2, ...)
   v10[1] = v11
   v10.n = 1
   return unpack(v10)
-end
 
 function fn_Save_2835(a1, a2, ...)
   local saveJSON, v24, v66, v116, v173
@@ -42933,19 +42541,14 @@ function fn_Save_2835(a1, a2, ...)
             v76[2] = "Failed to write config file: " .. str
             v76.n = 2
             return unpack(v76)
-          end
         else
           return false, v173
-        end
       else
         return false, "Invalid config name provided"
-      end
     else
       return false, "Invalid config name provided"
-    end
   else
     return false, "Invalid config name provided"
-  end
 end
 
 function fn_SaveJSON_2930(a1, a2, ...)
@@ -43129,7 +42732,6 @@ function fn_SaveJSON_2930(a1, a2, ...)
     return v228, true
   else
     return "", false, "Failed to encode data"
-  end
 end
 
 function proto_2933(a1, ...)
@@ -43143,7 +42745,6 @@ function proto_2933(a1, ...)
     return unpack(v29)
   else
     return false
-  end
 end
 
 function fn_LoadAutoloadConfig_3091(a1, ...)
@@ -43202,7 +42803,6 @@ function proto_3102(a1, ...)
     v16[1] = v12 == ""
     v16.n = 1
     return unpack(v16)
-  end
 end
 
 function fn_SetFolder_3105(a1, a2, ...)
@@ -43225,10 +42825,8 @@ function fn_CheckSubFolder_3141(a1, a2, ...)
       return true
     else
       return v12
-    end
   else
     return false
-  end
 end
 
 function proto_3192(a1, a2, ...)
@@ -43238,7 +42836,6 @@ function proto_3192(a1, a2, ...)
   v23[1] = v4
   v23.n = 1
   return unpack(v23)
-end
 
 function proto_3207(...)
   local v34
@@ -43255,7 +42852,6 @@ function proto_3207(...)
     return unpack(v46)
   else
     return false
-  end
 end
 
 function fn_Create_config_3258(...)
@@ -43418,26 +43014,20 @@ function fn_LoadJSON_3277(a1, a2, ...)
               return true
             else
               return false, "Some config options could not be restored"
-            end
           else
             local v121 = {}
             v121[1] = false
             local str = tostring(v434)
             appendn(v121, str)
             return unpack(v121)
-          end
         else
           return false, "A config is already loading"
-        end
       else
         return false, "UI is unavailable"
-      end
     else
       return false, "Failed to decode config data"
-    end
   else
     return false, "No JSON provided"
-  end
 end
 
 function fn_Func_3333(...)
@@ -43461,7 +43051,6 @@ function proto_3413(a1, a2, ...)
     v14 = math.huge
   end
   return v23 < v14
-end
 
 function proto_3547(a1, a2, ...)
   if a1 then
@@ -43486,7 +43075,6 @@ function proto_3557(a1, ...)
     return unpack(v11)
   else
     return false
-  end
 end
 
 function fn_IgnoreThemeSettings_3574(a1, ...)
@@ -43515,7 +43103,6 @@ function proto_3588(a1, a2, ...)
   v10[1] = v5
   v10.n = 1
   return unpack(v10)
-end
 
 function proto_3606(a1, a2, a3, ...)
   local encode, v17, v18, encode2, v31, v33
@@ -43542,7 +43129,6 @@ function proto_3606(a1, a2, a3, ...)
   v18[1] = v33
   v18.n = 1
   return unpack(v18)
-end
 
 function proto_3693(a1, a2, ...)
   if a1 then
@@ -43581,7 +43167,6 @@ function proto_3885(a1, a2, a3, ...)
   v21[1] = v4
   v21.n = 1
   return unpack(v21)
-end
 
 function fn_SetLoadingOrder_3940(a1, a2, a3, ...)
   local loadingOrder, v33
@@ -43618,7 +43203,6 @@ function proto_3990(a1, ...)
     return unpack(v12)
   else
     return a1
-  end
 end
 
 function proto_4175(a1, a2, ...)
@@ -43647,7 +43231,6 @@ function fn_Encode_4232(vec, ...)
   v17[1] = v8
   v17.n = 1
   return unpack(v17)
-end
 
 function proto_4255(a1, ...)
 end
@@ -43663,7 +43246,6 @@ function proto_4352(...)
     return unpack(v11)
   else
     return false
-  end
 end
 
 function proto_4440(a1, ...)
@@ -43699,12 +43281,10 @@ function proto_4440(a1, ...)
     v58[1] = v15
     v58.n = 1
     return unpack(v58)
-  end
   local v58 = {}
   v58[1] = v15
   v58.n = 1
   return unpack(v58)
-end
 
 function proto_4537(a1, ...)
   local v23
@@ -43714,7 +43294,6 @@ function proto_4537(a1, ...)
     return false
   else
     return v23
-  end
 end
 
 function fn_Callback_4566(value, ...)
@@ -43747,13 +43326,10 @@ function fn_Delete_4621(a1, a2, ...)
         v23[2] = "Failed to delete config file: " .. str
         v23.n = 2
         return unpack(v23)
-      end
     else
       return false, "Config file does not exist"
-    end
   else
     return false, "No config is selected"
-  end
 end
 
 function fn_SetSubFolder_4663(a1, a2, ...)
@@ -43779,7 +43355,6 @@ function proto_4675(...)
     return up2
   else
     return up2
-  end
 end
 
 function fn_Load_4758(a1, a2, ...)
@@ -43804,7 +43379,6 @@ function fn_Load_4758(a1, a2, ...)
     local v8 = up2(nil, a2)
     appendn(v36, v8)
     return unpack(v36)
-  end
 end
 
 function fn_Func_4790(...)
@@ -43826,11 +43400,9 @@ end
 
 function proto_4830(...)
   return true
-end
 
 function proto_4883(a1, ...)
   return a1
-end
 
 function fn_GetAutoloadConfig_4931(a1, ...)
   local v13, v81, v95
@@ -43854,16 +43426,12 @@ function fn_GetAutoloadConfig_4931(a1, ...)
           return v13, true
         else
           return "none", false, "Config file not found"
-        end
       else
         return "none", false, v13
-      end
     else
       return "none", false, "Autoload config is not set"
-    end
   else
     return "none", false, "Invalid path provided"
-  end
 end
 
 function proto_4961(...)
@@ -43900,7 +43468,6 @@ function fn_FormatListValue_5090(a1, ...)
     local text = string.format("%s (autoload)", a1)
     appendn(v16, text)
     return unpack(v16)
-  end
 end
 
 function fn_FormatDisplayValue_5125(a1, ...)
@@ -43911,7 +43478,6 @@ function fn_FormatDisplayValue_5125(a1, ...)
     local text = string.format("%s (autoload)", a1)
     appendn(v24, text)
     return unpack(v24)
-  end
 end
 function proto_73(...)
   up1 = false
@@ -43928,7 +43494,6 @@ function proto_192(...)
     return unpack(v6)
   else
     return false
-  end
 end
 
 function fn_Create_theme_194(...)
@@ -43991,12 +43556,10 @@ function proto_195(a1, ...)
     v147[1] = v78
     v147.n = 1
     return unpack(v147)
-  end
   local v147 = {}
   v147[1] = v78
   v147.n = 1
   return unpack(v147)
-end
 
 function fn_GetContrastReport_196(a1, ...)
   local v3, backgroundColor, v15, v30, fontColor, v73, value, v115, v116, fontColor2, v129, library
@@ -44055,7 +43618,6 @@ function fn_GetContrastReport_196(a1, ...)
       v139[1] = v24
       v139.n = 1
       return unpack(v139)
-    end
     local v139 = {}
     local v24 = {}
     v24["Ratio"] = v129
@@ -44073,7 +43635,6 @@ function fn_GetContrastReport_196(a1, ...)
     v95[1] = v130
     v95.n = 1
     return unpack(v95)
-  end
 end
 
 function proto_211(a1, a2, a3, a4, a5, list, ...)
@@ -44109,7 +43670,6 @@ function proto_211(a1, a2, a3, a4, a5, list, ...)
     local v14 = list[1]()
     appendn(v62, v14)
     return unpack(v62)
-  end
 end
 
 function proto_315(a1, ...)
@@ -44127,7 +43687,6 @@ function proto_315(a1, ...)
     return v15
   else
     return v7
-  end
 end
 
 function fn_LoadJSON_390(a1, a2, ...)
@@ -44148,10 +43707,8 @@ function fn_LoadJSON_390(a1, a2, ...)
       return unpack(v77)
     else
       return false, "Failed to decode theme data"
-    end
   else
     return false, "No JSON provided"
-  end
 end
 
 function proto_487(a1, a2, ...)
@@ -44160,11 +43717,9 @@ function proto_487(a1, a2, ...)
   v24["Default"] = up2.Library.Scheme[a2]
   local addColorPicker = addLabel:AddColorPicker(a2, v24)
   return up2.Library.Options[a2]
-end
 
 function proto_490(...)
   return true
-end
 
 function fn_ReloadCustomThemes_495(a1, ...)
   local match, match2, v46, v95, v98, v110, v115, v117, v125, match5, v186
@@ -44213,7 +43768,6 @@ function fn_ReloadCustomThemes_495(a1, ...)
         v127[1] = v98
         v127.n = 1
         return unpack(v127)
-      end
       local v127 = {}
       v127[1] = v98
       v127.n = 1
@@ -44235,14 +43789,12 @@ function fn_ReloadCustomThemes_495(a1, ...)
       v112[1] = v170
       v112.n = 1
       return unpack(v112)
-    end
   else
     local v62 = {}
     local v168 = {}
     v62[1] = v168
     v62.n = 1
     return unpack(v62)
-  end
 end
 
 function proto_502(...)
@@ -44265,14 +43817,12 @@ end
 
 function proto_586(...)
   return true
-end
 
 function proto_596(a1, ...)
   if not (a1 <= up1) then
     return ((a1 + up3) / up4) ^ up5
   else
     return a1 / up2
-  end
 end
 
 function proto_608(a1, a2, ...)
@@ -44287,10 +43837,8 @@ function proto_608(a1, a2, ...)
       return unpack(v3)
     else
       return false
-    end
   else
     return true
-  end
 end
 
 function proto_628(a1, ...)
@@ -44298,7 +43846,6 @@ function proto_628(a1, ...)
   local match = a1:match("^%s*(.-)%s*$")
   appendn(v9, match)
   return unpack(v9)
-end
 
 function fn_ApplyTheme_793(a1, a2, ...)
   local v14, v35, customTheme2, v62
@@ -44322,10 +43869,8 @@ function fn_ApplyTheme_793(a1, a2, ...)
       return unpack(v77)
     else
       return false, "Theme not found"
-    end
   else
     return false, "No theme is selected"
-  end
 end
 
 function proto_836(a1, ...)
@@ -44348,7 +43893,6 @@ function proto_836(a1, ...)
     return unpack(v3)
   else
     return a1
-  end
 end
 
 function proto_870(...)
@@ -44476,16 +44020,12 @@ function fn_SaveDefault_947(a1, a2, ...)
           return true
         else
           return false, v18
-        end
       else
         return false, "Theme does not exist"
-      end
     else
       return false, "Invalid path provided"
-    end
   else
     return false, "No theme is selected"
-  end
 end
 
 function proto_967(...)
@@ -44513,7 +44053,6 @@ function proto_1028(a1, ...)
     return false
   else
     return v45
-  end
 end
 
 function fn_GetDefaultTheme_1083(a1, ...)
@@ -44539,16 +44078,12 @@ function fn_GetDefaultTheme_1083(a1, ...)
           return v35, true
         else
           return "none", false, "Theme file not found"
-        end
       else
         return "none", false, v35
-      end
     else
       return "none", false, "Default theme is not set"
-    end
   else
     return "none", false, "Invalid path provided"
-  end
 end
 
 function proto_1160(a1, ...)
@@ -44561,7 +44096,6 @@ function fn_ApplyToTab_1177(a1, a2, a3, ...)
   local createThemeManager = up1:CreateThemeManager(createGroupBox)
   appendn(v20, createThemeManager)
   return unpack(v20)
-end
 
 function fn_Callback_1277(value, ...)
   local dismiss = value:Dismiss()
@@ -44575,7 +44109,6 @@ function proto_1280(a1, ...)
     return false
   else
     return v15
-  end
 end
 
 function proto_1299(...)
@@ -44587,7 +44120,6 @@ function proto_1299(...)
   local v3 = up1("test" .. str)
   appendn(v17, v3)
   return unpack(v17)
-end
 
 function fn_FormatDisplayValue_1307(a1, ...)
   local v12
@@ -44602,12 +44134,10 @@ function fn_FormatDisplayValue_1307(a1, ...)
     local text = string.format("%s (default)", a1)
     appendn(v75, text)
     return unpack(v75)
-  end
 end
 
 function proto_1445(a1, a2, ...)
   return up1.BuiltInThemes[a1][1] < up1.BuiltInThemes[a2][1]
-end
 
 function fn_UpdateContrastWarning_1554(a1, ...)
   local library, v164, contrastReport2, contrastLabel, textLabel
@@ -44685,7 +44215,6 @@ function proto_1622(a1, ...)
   v35[1] = v29
   v35.n = 1
   return unpack(v35)
-end
 
 function fn_FormatDisplayValue_1664(a1, ...)
   if not (a1 == up1.DefaultThemeName) then
@@ -44695,7 +44224,6 @@ function fn_FormatDisplayValue_1664(a1, ...)
     local text = string.format("%s (default)", a1)
     appendn(v2, text)
     return unpack(v2)
-  end
 end
 
 function fn_FormatListValue_1682(a1, ...)
@@ -44711,7 +44239,6 @@ function fn_FormatListValue_1682(a1, ...)
     local text = string.format("%s (default)", a1)
     appendn(v29, text)
     return unpack(v29)
-  end
 end
 
 function fn_GetCustomTheme_1804(a1, a2, ...)
@@ -44741,16 +44268,12 @@ function fn_GetCustomTheme_1804(a1, a2, ...)
           return v126
         else
           return nil
-        end
       else
         return nil
-      end
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function fn_Load_theme_1825(...)
@@ -44820,7 +44343,6 @@ function proto_1968(a1, ...)
     return unpack(v17)
   else
     return v12
-  end
 end
 
 function proto_1979(...)
@@ -44842,7 +44364,6 @@ function fn_GetPaths_2132(a1, ...)
     v6[1] = v11
     v6.n = 1
     return unpack(v6)
-  end
 end
 
 function fn_SaveJSON_2192(a1, ...)
@@ -44854,7 +44375,6 @@ function fn_SaveJSON_2192(a1, ...)
     return v2, true
   else
     return "", false, "Failed to encode data"
-  end
 end
 
 function proto_2243(...)
@@ -44883,12 +44403,10 @@ function proto_2243(...)
     v50[1] = v61
     v50.n = 1
     return unpack(v50)
-  end
   local v50 = {}
   v50[1] = v61
   v50.n = 1
   return unpack(v50)
-end
 
 function fn_SetFolder_2269(a1, a2, ...)
   local v8 = up1(a2)
@@ -44926,7 +44444,6 @@ function proto_2458(...)
     return up2
   else
     return up2
-  end
 end
 
 function proto_2480(a1, a2, ...)
@@ -44935,7 +44452,6 @@ function proto_2480(a1, a2, ...)
   local v17 = math.max(v4, v10)
   local v26 = math.min(v4, v10)
   return (v17 + up2) / (v26 + up2)
-end
 
 function proto_2483(...)
   local v2 = up1(up2.Folder)
@@ -44946,7 +44462,6 @@ function proto_2483(...)
     return unpack(v10)
   else
     return false
-  end
 end
 
 function fn_DeleteDefaultTheme_2624(a1, ...)
@@ -44964,13 +44479,10 @@ function fn_DeleteDefaultTheme_2624(a1, ...)
         return true
       else
         return false, v138
-      end
     else
       return false, "Default theme is not set"
-    end
   else
     return false, "Invalid path provided"
-  end
 end
 
 function fn_SetLibrary_2634(a1, a2, ...)
@@ -44982,7 +44494,6 @@ function fn_ApplyToGroupbox_2690(a1, a2, ...)
   local createThemeManager = up1:CreateThemeManager(a2)
   appendn(v5, createThemeManager)
   return unpack(v5)
-end
 
 function fn_ThemeManager_2747(import, a2, a3, a4, ...)
   local v9, v68, v74, delFile, writeFile, v139, isFileCell, v183, v209, v224, v236, v252
@@ -45504,7 +45015,6 @@ function fn_ThemeManager_2747(import, a2, a3, a4, ...)
   local v1076 = getgenv()
   v1076.ObsidianThemeManager = v982[1]
   return v982[1]
-end
 
 function proto_2809(a1, ...)
   local v16, v42, v48, v56
@@ -45532,7 +45042,6 @@ function proto_2809(a1, ...)
           continue
         else
           return v15
-        end
       end
     end
     local v13 = {}
@@ -45541,14 +45050,11 @@ function proto_2809(a1, ...)
     return unpack(v13)
   else
     return false
-  end
   return false
-  do return false end
-end
+  return false
 
 function proto_2980(...)
   return true
-end
 
 function fn_CreateThemeManager_3170(a1, list, ...)
   local v42, v83, v172, addLabel2Cell, v197, v203, v281, v408, v424, themeManager_ThemeListCell, v478, v541
@@ -45738,7 +45244,6 @@ function fn_CreateThemeManager_3170(a1, list, ...)
   up1.AppliedToTab = true
   local v1040 = v83[1]()
   return list[1]
-end
 
 function proto_3259(a1, ...)
   local v11
@@ -45751,16 +45256,13 @@ function proto_3259(a1, ...)
     return unpack(v5)
   else
     return false
-  end
 end
 
 function proto_3465(a1, ...)
   return a1
-end
 
 function proto_3515(...)
   return true
-end
 
 function fn_Set_as_default_3583(...)
   local value
@@ -45808,19 +45310,14 @@ function fn_SaveCustomTheme_3614(a1, a2, ...)
             v13[2] = "Failed to write theme file: " .. str
             v13.n = 2
             return unpack(v13)
-          end
         else
           return false, v109
-        end
       else
         return false, "Invalid theme name provided"
-      end
     else
       return false, "Invalid theme name provided"
-    end
   else
     return false, "Invalid theme name provided"
-  end
 end
 
 function proto_3656(...)
@@ -45878,7 +45375,6 @@ function fn_CheckFolderTree_3837(a1, ...)
   local buildFolderTree = up1:BuildFolderTree(true)
   appendn(v13, buildFolderTree)
   return unpack(v13)
-end
 
 function proto_3955(...)
   local v36
@@ -45932,13 +45428,10 @@ function fn_Delete_4078(a1, a2, ...)
         v75[2] = "Failed to delete theme file: " .. str
         v75.n = 2
         return unpack(v75)
-      end
     else
       return false, "Theme file does not exist"
-    end
   else
     return false, "No theme is selected"
-  end
 end
 
 function proto_4148(...)
@@ -45947,7 +45440,6 @@ function proto_4148(...)
   v11[1] = not (customTheme == nil)
   v11.n = 1
   return unpack(v11)
-end
 
 function proto_4183(a1, ...)
   local kind = typeof(a1)
@@ -45959,7 +45451,6 @@ function proto_4183(a1, ...)
     v19[1] = v12 == ""
     v19.n = 1
     return unpack(v19)
-  end
 end
 
 function fn_CreateGroupBox_4335(a1, a2, a3, ...)
@@ -45979,7 +45470,6 @@ function fn_CreateGroupBox_4335(a1, a2, a3, ...)
   addGroupbox = addGroupbox(v8, v19)
   appendn(v12, addGroupbox)
   return unpack(v12)
-end
 
 function fn_ThemeUpdate_4353(a1, ...)
   local v10, v16, v20, v72, value, v108, library
@@ -46064,7 +45554,6 @@ end
 
 function proto_4751(a1, ...)
   return a1
-end
 
 function fn_Reset_default_4799(...)
   local v38 = {}
@@ -46099,7 +45588,6 @@ function fn_FormatListValue_4914(a1, ...)
     local text = string.format("%s (default)", a1)
     appendn(v4, text)
     return unpack(v4)
-  end
 end
 
 function fn_BuildFolderTree_5019(a1, a2, ...)
@@ -46131,7 +45619,6 @@ function fn_BuildFolderTree_5019(a1, a2, ...)
         v131[1] = true
         v131.n = 1
         return unpack(v131)
-      end
       local v131 = {}
       v131[1] = true
       v131.n = 1
@@ -46141,11 +45628,9 @@ function fn_BuildFolderTree_5019(a1, a2, ...)
       if not v36 then
       else
         return true
-      end
     end
   else
     return false
-  end
 end
 
 function fn_ApplyThemeData_5174(a1, a2, ...)
@@ -46209,7 +45694,6 @@ function fn_ApplyThemeData_5174(a1, a2, ...)
     return true
   else
     return false, "Invalid theme data"
-  end
 end
 function fn_Build_351(list, a2, ...)
   local v50, v52, v57, v116, newCell, v176, v180, v182, v196, v221, v248, v249
@@ -46273,7 +45757,6 @@ function fn_Build_351(list, a2, ...)
   end
   local stageLoad = list[1]:StageLoad(v50)
   return v248[1]
-end
 
 function proto_1118(...)
   local ok, addTab2
@@ -46687,7 +46170,6 @@ function fn_Executor_1548(import, a2, a3, a4, ...)
   v473[6] = customTabsBuilderCell
   v98.Build = fn_Build_351
   return v98
-end
 
 function proto_2025(a1, ...)
   local v9, v28, v39, v42, v48, v61, position, v78, size2, v94, value, findFirstChild2
@@ -46818,7 +46300,6 @@ function proto_3306(a1, a2, ...)
   local v75 = UDim2.new(v12, 0, 0.5 - (up1 * v67), 0)
   appendn(v35, v75)
   return unpack(v35)
-end
 
 function fn_on_MouseLeave_3513(...)
   clone.Image = ("http://www.roblox.com/asset/?id=15913312197")
@@ -46963,7 +46444,6 @@ function proto_4995(a1, a2, a3, a4, ...)
   local create = tweenService:Create(a1, tweenInfo, v30)
   local play = create:Play()
   return create
-end
 
 function proto_5112(a1, ...)
   local str = tostring(a1)
@@ -46997,7 +46477,6 @@ function proto_162(...)
   v7[1] = v8
   v7.n = 1
   return unpack(v7)
-end
 
 function proto_630(a1, ...)
   local now, v58, v68, v80, v91, v155
@@ -47047,13 +46526,11 @@ function proto_630(a1, ...)
     return true, true
   else
     return true, false
-  end
   local v163 = {}
   v163[1] = false
   v163[2] = true
   v163.n = 2
   return unpack(v163)
-end
 
 function proto_642(...)
   local waitForChild3, waitForChild4, v38, v54, waitForChild5
@@ -47091,7 +46568,6 @@ function proto_677(...)
   v3[1] = v6
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_1446(a1, ...)
   local v6, v18, v30, v49, v50, v94, v104, v134, v135, v190, v219, v230
@@ -47222,7 +46698,7 @@ function proto_1446(a1, ...)
       end
     end
   end
-  do return end
+  return
   local v273 = {}
 end
 
@@ -47385,7 +46861,6 @@ function fn_AutoBlacksmith_1492(list, a2, a3, a4, ...)
   v72[8] = nilCell
   local register = unload.register("GPO_AutoBlacksmith", fn_GPO_AutoBlacksmith_2315)
   return v330[1]
-end
 
 function proto_2240(a1, ...)
   local v7, value, v25, v29, v35, v36, value2, inventory2, v56, v62, v82, v83
@@ -47458,15 +46933,12 @@ function proto_2240(a1, ...)
         end
       end
       return v119 <= v62
-    end
   else
     return false
-  end
   local v121 = {}
   v121[1] = false
   v121.n = 1
   return unpack(v121)
-end
 
 function fn_GPO_AutoBlacksmith_2315(...)
   false2 = false
@@ -47509,7 +46981,6 @@ function fn_GetStats_3599(...)
   v2[1] = v4
   v2.n = 1
   return unpack(v2)
-end
 
 function proto_3834(...)
   local v3, v11, localPlayer, localPlayer2
@@ -47528,7 +46999,6 @@ function proto_3834(...)
   v11[1] = v3
   v11.n = 1
   return unpack(v11)
-end
 
 function proto_4054(a1, ...)
   local requirements, v27, v29, blueprints, v44, craft, v67, v79, v112, requirements2, v150, findFirstChild2
@@ -47697,20 +47167,15 @@ function proto_4054(a1, ...)
           return unpack(v448)
         else
           return false
-        end
       else
         return false
-      end
     else
       return false
-    end
   else
     return false
-  end
-  do return false end
+  return false
   up7 = up7 + 1
-  do return true end
-end
+  return true
 
 function proto_4094(...)
   local v11, v23, upperTorso, npCs2, upperTorso2, v40, v47
@@ -47737,7 +47202,6 @@ function proto_4094(...)
   v40[1] = v23
   v40.n = 1
   return unpack(v40)
-end
 
 function fn_SetEnabled_4122(a1, ...)
   a1 = a1 == true
@@ -47794,7 +47258,6 @@ function proto_4484(a1, ...)
                 continue
               else
                 return nil
-              end
             else
             end
           end
@@ -47805,19 +47268,14 @@ function proto_4484(a1, ...)
         else
           local dismiss = npcChat.Dismiss()
           return true
-        end
       else
         return false
-      end
     else
       return false
-    end
   else
     return true
-  end
   return true
-  do return false end
-end
+  return false
 
 function proto_4558(a1, ...)
   local v2, v4, parseFraction, v12, v13
@@ -47839,7 +47297,6 @@ function proto_4558(a1, ...)
     return unpack(v2)
   else
     return false
-  end
 end
 
 function proto_5120(a1, ...)
@@ -47877,10 +47334,8 @@ function proto_5120(a1, ...)
       return unpack(v4)
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function fn_SetCraftRarities_5123(a1, ...)
@@ -47933,7 +47388,6 @@ function proto_151(...)
   v53[1] = v52
   v53.n = 1
   return unpack(v53)
-end
 
 function proto_248(a1, ...)
   local char, char2, v16, v24, v25, v30, v31, backpack2, v62, v71, v82, v91
@@ -47990,12 +47444,10 @@ function proto_248(a1, ...)
     return true
   else
     return false
-  end
   local v75 = {}
   v75[1] = false
   v75.n = 1
   return unpack(v75)
-end
 
 function proto_344(...)
   local waitForChild, waitForChild3, v21, waitForChild4, waitForChild6, v53, waitForChild8
@@ -48033,7 +47485,6 @@ end
 
 function proto_613(...)
   return workspace.Env.WaterStuff.Falls.Position.Y
-end
 
 function proto_655(list, ...)
   local v4, value, v36, timed2, v66, v68, v82, v136, v183
@@ -48071,7 +47522,6 @@ function proto_655(list, ...)
           v155[1] = true
           v155.n = 1
           return unpack(v155)
-        end
       end
     else
       local timed = compat.Timed("getconnections", getconnections, list[1].Activated)
@@ -48110,7 +47560,6 @@ function proto_655(list, ...)
             v155[1] = true
             v155.n = 1
             return unpack(v155)
-          end
         end
       else
         local v58 = {}
@@ -48132,16 +47581,13 @@ function proto_655(list, ...)
           v72[1] = true
           v72.n = 1
           return unpack(v72)
-        end
         local v72 = {}
         v72[1] = true
         v72.n = 1
         return unpack(v72)
-      end
     end
   else
     return false
-  end
 end
 
 function proto_701(...)
@@ -48150,7 +47596,6 @@ function proto_701(...)
     up1 = tools
   end
   return up1
-end
 
 function proto_723(a1, a2, ...)
   local v59
@@ -48192,7 +47637,6 @@ function proto_778(a1, a2, ...)
     return nil
   else
     return namecallReturn, up3
-  end
 end
 
 function proto_806(...)
@@ -48257,18 +47701,15 @@ function proto_831(a1, ...)
       return nil
     else
       return "Common Fish Bait"
-    end
   end
-  do return value end
-  do return end
-end
+  return value
+  return end
 
 function proto_882(...)
   local v2 = {}
   local partBoundsInRadius = workspaceRef:GetPartBoundsInRadius(up2, 4, new)
   appendn(v2, partBoundsInRadius)
   return unpack(v2)
-end
 
 function fn_SetAutoFishTitle_1021(a1, ...)
   up1 = a1 == true
@@ -48358,7 +47799,6 @@ function proto_1073(a1, a2, ...)
     local v26 = up2(a1, a2)
     appendn(v34, v26)
     return unpack(v34)
-  end
 end
 
 function proto_1125(...)
@@ -48374,7 +47814,6 @@ function proto_1125(...)
     return nil
   else
     return v29
-  end
 end
 
 function proto_1154(a1, ...)
@@ -48495,9 +47934,7 @@ function proto_1257(a1, ...)
     return unpack(v93)
   else
     return false
-  end
-  do return true end
-end
+  return true
 
 function proto_1333(...)
   local v4, char, v13, v22, v26, v32, v40
@@ -48529,7 +47966,6 @@ end
 
 function proto_1542(...)
   return workspaceRef.Env.WaterStuff.Falls.Position.Y
-end
 
 function proto_1604(...)
   local v20 = up1()
@@ -48612,13 +48048,10 @@ function proto_1620(...)
       v66[1] = false
       v66.n = 1
       return unpack(v66)
-    end
   else
     return true
-  end
-  do return true end
-  do return true end
-end
+  return true
+  return true
 
 function proto_1642(...)
   if not up1 then
@@ -48670,10 +48103,9 @@ function proto_1835(...)
       end
     end
   end
-  do return v59[1] end
-  do return nil end
-  do return end
-end
+  return v59[1]
+  return nil
+  return end
 
 function proto_1925(a1, ...)
   local v12, v30, v42, v49, v89, v150, v165
@@ -48755,7 +48187,6 @@ end
 
 function proto_2042(...)
   return up1.Tool
-end
 
 function fn_ReserveRarities_2045(a1, ...)
   local v34, v58, v88, v92, value
@@ -48934,7 +48365,6 @@ function proto_2111(a1, ...)
     return unpack(v69)
   else
     return true
-  end
 end
 
 function proto_2178(a1, a2, a3, ...)
@@ -48980,7 +48410,6 @@ function proto_2178(a1, a2, a3, ...)
       v57[1] = v104
       v57.n = 1
       return unpack(v57)
-    end
     local stop = makeFlightController.Stop()
     local v57 = {}
     v57[1] = v104
@@ -48988,10 +48417,8 @@ function proto_2178(a1, a2, a3, ...)
     return unpack(v57)
   else
     return true
-  end
   v104 = true
   return true
-end
 
 function fn_SetSellEnabled_2216(a1, ...)
   false2 = a1 == true
@@ -49036,7 +48463,6 @@ function proto_2305(...)
   v5[1] = v4
   v5.n = 1
   return unpack(v5)
-end
 
 function proto_2350(a1, ...)
   local v95, playerGui, v114, char, v151, v168, v180, camera, v269, v275, v296, v297
@@ -49390,13 +48816,11 @@ function proto_2363(a1, ...)
     return false
   else
     return false
-  end
-  do return true end
+  return true
   local v25 = {}
   v25[1] = false
   v25.n = 1
   return unpack(v25)
-end
 
 function proto_2774(...)
   local activate = up1:Activate()
@@ -49500,14 +48924,12 @@ function proto_2966(vec6, a2, vec7, a4, ...)
     if not v144 then
     else
       return v251
-    end
   end
-  do return v20 end
+  return v20
   local v95 = {}
   v95[1] = nil
   v95.n = 1
   return unpack(v95)
-end
 
 function fn_GPO_AutoFish_2977(...)
   false2 = false
@@ -49622,25 +49044,19 @@ function proto_3370(...)
               return unpack(v19)
             else
               return true
-            end
           end
         else
           return true
-        end
       else
         return false
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_3389(...)
   return up1.Frame.Goal.Position.Y.Scale
-end
 
 function proto_3535(a1, a2, ...)
   local v16, v20, v35, v43, v73, v96, value, key, value2, v214, key2, v237
@@ -49725,7 +49141,6 @@ function proto_3573(a1, a2, ...)
   local v19 = math.max(a1 + ((v9 - 0.5) * a2), a1 * 0.1)
   appendn(v11, v19)
   return unpack(v11)
-end
 
 function proto_3672(...)
   local fishingShopRemote
@@ -49736,7 +49151,6 @@ function proto_3672(...)
   end
   up1 = fishingShopRemote
   return up1
-end
 
 function fn_OnExternalResume_4211(a1, ...)
   up1 = a1
@@ -49804,12 +49218,10 @@ function proto_4382(a1, ...)
     v82[1] = v12
     v82.n = 1
     return unpack(v82)
-  end
   local v82 = {}
   v82[1] = v12
   v82.n = 1
   return unpack(v82)
-end
 
 function fn_GetStats_4470(...)
   local v1 = {}
@@ -49819,7 +49231,6 @@ function fn_GetStats_4470(...)
   v1[1] = v2
   v1.n = 1
   return unpack(v1)
-end
 
 function proto_4491(a1, ...)
   a1 = { a1 }
@@ -49831,7 +49242,6 @@ function proto_4491(a1, ...)
   v3[1] = proto_151
   v3.n = 1
   return unpack(v3)
-end
 
 function fn_AutoFish_4521(list, a2, a3, a4, ...)
   local key, v63, v170, toolLockCell, v188, tweenFlightCell, v197, v226, v227, getgcCell, v263, v266
@@ -50437,7 +49847,6 @@ function fn_AutoFish_4521(list, a2, a3, a4, ...)
   v1307[2] = v686
   v1250[1].SetWebhook = fn_SetWebhook_3261
   return v1250[1]
-end
 
 function proto_4603(...)
   local v2, v24, v31, v32, all, all2, optionsFrame, list, value, list2, v92, v105
@@ -50474,9 +49883,7 @@ function proto_4603(...)
           if not all[value] then
             continue
           else
-            do return end
-          end
-        end
+            return end
         break
       end
       v143 = not value2
@@ -50635,7 +50042,6 @@ function proto_4921(...)
     return name
   else
     return up1
-  end
 end
 
 function proto_4982(a1, ...)
@@ -50649,13 +50055,11 @@ function proto_4982(a1, ...)
       return unpack(v2)
     else
       return false
-    end
   else
     local v34 = {}
     local v27 = up2()
     appendn(v34, v27)
     return unpack(v34)
-  end
 end
 
 function proto_5016(a1, ...)
@@ -50705,7 +50109,6 @@ function proto_5035(a1, ...)
       v77[1] = false
       v77.n = 1
       return unpack(v77)
-    end
   else
     local v23 = up3()
     local v31 = up2()
@@ -50739,13 +50142,11 @@ function proto_5035(a1, ...)
             v55[1] = 0 < v74
             v55.n = 1
             return unpack(v55)
-          end
         else
           local v77 = {}
           v77[1] = false
           v77.n = 1
           return unpack(v77)
-        end
       else
         v48 = 0
         v152 = v22 - v48
@@ -50768,17 +50169,14 @@ function proto_5035(a1, ...)
             v55[1] = 0 < v74
             v55.n = 1
             return unpack(v55)
-          end
         else
           local v77 = {}
           v77[1] = false
           v77.n = 1
           return unpack(v77)
-        end
       end
     else
       return false
-    end
   end
 end
 
@@ -50792,7 +50190,6 @@ function proto_5047(...)
   v5[1] = v4
   v5.n = 1
   return unpack(v5)
-end
 
 function fn_RodSafety_5048(a1, ...)
   local char, v22, v24, humanoid, v76, v110, v217, hrp2
@@ -50887,19 +50284,14 @@ function proto_5056(list, ...)
             return v158
           else
             return nil
-          end
         else
           return nil
-        end
       else
         return nil
-      end
     else
       return up3.client
-    end
   else
     return nil
-  end
 end
 
 function proto_5062(...)
@@ -51012,12 +50404,10 @@ function proto_48(inst, a2, ...)
     v35[1] = v14
     v35.n = 1
     return unpack(v35)
-  end
   local v35 = {}
   v35[1] = v14
   v35.n = 1
   return unpack(v35)
-end
 
 function fn_SetEnabled_81(a1, ...)
   false2 = a1 == true
@@ -51547,12 +50937,10 @@ function proto_283(inst, ...)
     return value
   else
     return findFirstChild2
-  end
   local v62 = {}
   v62[1] = nil
   v62.n = 1
   return unpack(v62)
-end
 
 function proto_712(...)
   if false2 then
@@ -51583,7 +50971,6 @@ function proto_873(...)
   v14[1] = 0 < v5
   v14.n = 1
   return unpack(v14)
-end
 
 function proto_992(...)
   local v3, attribute2
@@ -51596,7 +50983,6 @@ function proto_992(...)
   v3[1] = attribute2
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_998(...)
   local v39 = {}
@@ -51608,7 +50994,6 @@ end
 
 function fn_GetLog_1000(...)
   return up1
-end
 
 function proto_1064(a1, ...)
   local v38, v44
@@ -51635,12 +51020,11 @@ function proto_1064(a1, ...)
       end
     end
   end
-  do return false end
+  return false
   local v76 = {}
   v76[1] = true
   v76.n = 1
   return unpack(v76)
-end
 
 function proto_1069(a1, ...)
   local v14 = {}
@@ -51653,7 +51037,6 @@ function proto_1069(a1, ...)
   local advance = npcChat.Advance(v17)
   appendn(v14, advance)
   return unpack(v14)
-end
 
 function fn_TryUseSpareFruitBag_1101(a1, a2, ...)
   local v8
@@ -51669,7 +51052,6 @@ function fn_TryUseSpareFruitBag_1101(a1, a2, ...)
     return unpack(v16)
   else
     return false
-  end
 end
 
 function proto_1102(...)
@@ -51738,12 +51120,10 @@ function proto_1102(...)
     v50[1] = v37
     v50.n = 1
     return unpack(v50)
-  end
   local v50 = {}
   v50[1] = v37
   v50.n = 1
   return unpack(v50)
-end
 
 function proto_1215(...)
   local v2 = up1()
@@ -51776,7 +51156,6 @@ function proto_1505(a1, ...)
     return unpack(v3)
   else
     return false
-  end
 end
 
 function proto_1602(inst, ...)
@@ -51854,7 +51233,6 @@ function proto_1616(a1, ...)
     return unpack(v36)
   else
     return false
-  end
 end
 
 function proto_1617(...)
@@ -52476,7 +51854,6 @@ function fn_AutoMerchant_2092(import, a2, a3, a4, ...)
   v1208[9] = nilCell2
   local register = unload.register("Games/GPO/Farms/AllSeas/AutoMerchant.lua", fn_AutoMerchant_lua_2902)
   return v244[1]
-end
 
 function proto_2163(a1, ...)
   local str = tostring(a1)
@@ -52542,8 +51919,7 @@ function proto_2176(...)
               v492[1] = v200
               if v492[1] then
               else
-                do return end
-              end
+                return end
             else
             end
           end
@@ -52556,11 +51932,10 @@ function proto_2176(...)
     v324[1] = v327
     v324.n = 1
     return unpack(v324)
-  end
   local v324 = {}
   v324[1] = v327
   v324.n = 1
-  do return unpack(v324) end
+  return unpack(v324)
   local v389 = task.wait(0.3)
   local v364 = acceptConfirmation(v379)
   v327 = v364 == true
@@ -52607,7 +51982,6 @@ end
 
 function proto_2433(a1, a2, ...)
   return a2.price < a1.price
-end
 
 function proto_2527(...)
   local v1, v5
@@ -52619,7 +51993,6 @@ function proto_2527(...)
   v5[1] = v1
   v5.n = 1
   return unpack(v5)
-end
 
 function fn_OnExternalResume_2610(a1, ...)
   nil2 = a1
@@ -52782,7 +52155,6 @@ function proto_3510(...)
     up1 = npCs
   end
   return up1
-end
 
 function fn_SetFarmSupport_3543(a1, a2, ...)
   local v73, v83
@@ -52877,7 +52249,7 @@ function proto_3893(...)
   else
     return
   end
-  do return end
+  return
   local v265 = acceptConfirmation(confirmationPrompt)
 end
 
@@ -52951,7 +52323,6 @@ function proto_3932(list, a2, ...)
     return unpack(v113)
   else
     return false
-  end
 end
 
 function proto_4096(...)
@@ -53017,12 +52388,10 @@ function proto_4121(...)
     return true
   else
     return true
-  end
   local v34 = {}
   v34[1] = false
   v34.n = 1
   return unpack(v34)
-end
 
 function proto_4163(a1, ...)
   local v5, v18, v38, v39, v50, v56, v62, v82, v96, char, v103
@@ -53077,7 +52446,6 @@ function proto_4163(a1, ...)
           continue
         else
           return value, v48, value.controls[v48]
-        end
       end
     end
     local v76 = {}
@@ -53086,10 +52454,8 @@ function proto_4163(a1, ...)
     return unpack(v76)
   else
     return nil
-  end
-  do return v50 end
-  do return nil end
-end
+  return v50
+  return nil
 
 function proto_4195(...)
   local v4, v10, v11
@@ -53106,7 +52472,6 @@ function proto_4195(...)
   v11[1] = v10
   v11.n = 1
   return unpack(v11)
-end
 
 function proto_4197(...)
   local activate = up1:Activate()
@@ -53114,7 +52479,6 @@ end
 
 function fn_IsBusy_4303(...)
   return false2 == true
-end
 
 function proto_4317(...)
   local findFirstChild, v5, v13, backpack, char, v28
@@ -53154,7 +52518,6 @@ function proto_4317(...)
           v13[1] = v28
           v13.n = 1
           return unpack(v13)
-        end
       else
         local findFirstChild3 = backpack:FindFirstChild("Spare Fruit Bag")
         v5 = findFirstChild3
@@ -53168,11 +52531,9 @@ function proto_4317(...)
           v13[1] = v28
           v13.n = 1
           return unpack(v13)
-        end
       end
     else
       return findFirstChild
-    end
   end
 end
 
@@ -53181,7 +52542,6 @@ function proto_4323(a1, ...)
   local readAmount = npcShopUtil.ReadAmount(a1)
   readAmount2 = readAmount
   return readAmount2
-end
 
 function proto_4403(a1, a2, a3, ...)
   local v19 = {}
@@ -53222,12 +52582,11 @@ function proto_4488(a1, ...)
       end
     end
   end
-  do return true end
+  return true
   local v13 = {}
   v13[1] = false
   v13.n = 1
   return unpack(v13)
-end
 
 function fn_GetStats_4633(...)
   local v1, v2, v7, v8, v9, v12, v14
@@ -53255,7 +52614,6 @@ function fn_GetStats_4633(...)
   v12[1] = v8
   v12.n = 1
   return unpack(v12)
-end
 
 function fn_SetAutoUseBag_4735(a1, ...)
   local v5
@@ -53287,7 +52645,6 @@ function fn_active_4881(...)
   v1[1] = v6
   v1.n = 1
   return unpack(v1)
-end
 
 function proto_4887(...)
   if false2 then
@@ -53414,7 +52771,6 @@ function proto_5073(list, ...)
     return v112[1]
   else
     return nil
-  end
 end
 
 function proto_5130(...)
@@ -53427,7 +52783,6 @@ function proto_5171(...)
   local tools = gpoEvents.GetRemote("Tools")
   appendn(v1, tools)
   return unpack(v1)
-end
 function fn_AutoMerchant_lua_2902(...)
   false2 = false
   false3 = false
@@ -53642,8 +52997,8 @@ function proto_386(a1, a2, ...)
     end
   end
   up3[a1] = true
-  do return end
-  do return end
+  return
+  return
   local v176 = {}
 end
 
@@ -53688,7 +53043,6 @@ function proto_503(a1, ...)
     return value
   else
     return nil
-  end
 end
 
 function fn_GPO_ChestFarm_703(...)
@@ -53723,7 +53077,6 @@ function proto_1405(a1, ...)
   v13[1] = v20
   v13.n = 1
   return unpack(v13)
-end
 
 function proto_1440(...)
   local isOwner = flightCore.IsOwner(("ChestFarm"))
@@ -53747,7 +53100,6 @@ function proto_1547(a1, ...)
   v3[1] = v8
   v3.n = 1
   return unpack(v3)
-end
 
 function fn_SetEnabled_1806(a1, ...)
   a1 = a1 == true
@@ -53975,7 +53327,6 @@ function fn_ChestFarm_4157(import, a2, a3, a4, ...)
   v177[4] = v93
   local register = unload2.register("GPO_ChestFarm", fn_GPO_ChestFarm_703)
   return v174[1]
-end
 
 function fn_OnExternalResume_4288(a1, ...)
   up1 = a1
@@ -53987,7 +53338,6 @@ function proto_4347(a1, ...)
   v17[1] = a1.Position + vec
   v17.n = 1
   return unpack(v17)
-end
 
 function proto_4659(...)
   if false2 then
@@ -54007,7 +53357,6 @@ function fn_GetStats_5092(...)
   v1[1] = v23
   v1.n = 1
   return unpack(v1)
-end
 function fn_FarmBuilder_233(import, a2, a3, a4, ...)
   local v21, autoPikaCell, v47, v57, v90, workspaceRefCell, farmUtilCell, equipBestCell, v149, flightCoreCell, unload2, v203
   local npcChatCell, v250, v283, httpServiceCell, v309, playerDataCell, v323, v345, v357, storageCell, autoMaguCell, v389
@@ -54205,7 +53554,6 @@ function fn_FarmBuilder_233(import, a2, a3, a4, ...)
   v475[1] = v345
   local register = unload2.register("FarmBuilder", fn_FarmBuilder_1688)
   return v345[1]
-end
 
 function proto_287(a1, a2, a3, ...)
   local v11, v47, v54, now3, v81, v84, ok2
@@ -54243,9 +53591,8 @@ function proto_287(a1, a2, a3, ...)
       end
     end
   end
-  do return true end
-  do return false end
-end
+  return true
+  return false
 
 function proto_378(a1, ...)
   local setAutoM1, combat, v65, setAutoM12, setAutoM13, v195, v237
@@ -54324,7 +53671,6 @@ function fn_Save_461(...)
     return unpack(v27)
   else
     return false, v8
-  end
 end
 
 function proto_527(list, list2, ...)
@@ -54459,31 +53805,25 @@ function proto_527(list, list2, ...)
                                 else
                                   up12 = "Shop request failed"
                                   return false
-                                end
                               else
                                 up12 = "Shop unavailable"
                                 return false
-                              end
                             else
                               up12 = "Could not reach " .. list2[1].target
                               return false
-                            end
                           else
                             up12 = "Not enough Peli for " .. list2[1].target
                             return false
-                          end
                         else
                           local str = tostring(list2[1].target)
                           up12 = "Item unavailable: " .. str
                           return false
-                        end
                       end
                     else
                       local v752 = {}
                       local ok3 = pcall(equipBest.ForWeapon)
                       appendn(v752, ok3)
                       return unpack(v752)
-                    end
                   else
                     local v189 = {}
                     local v353 = {}
@@ -54492,7 +53832,6 @@ function proto_527(list, list2, ...)
                     local v723 = up2(list[1], list2[1].timeout, proto_4186)
                     appendn(v189, v723)
                     return unpack(v189)
-                  end
                 else
                   local v759 = {}
                   local v397 = {}
@@ -54501,7 +53840,6 @@ function proto_527(list, list2, ...)
                   local v706 = up2(list[1], list2[1].timeout, proto_5052)
                   appendn(v759, v706)
                   return unpack(v759)
-                end
               else
                 local now2 = os.clock()
                 now = now2
@@ -54527,7 +53865,6 @@ function proto_527(list, list2, ...)
                 local v698 = up15(list[1])
                 appendn(v266, v698)
                 return unpack(v266)
-              end
             else
               local npCs2 = workspaceRef:FindFirstChild("NPCs")
               npCs = npCs2
@@ -54619,11 +53956,9 @@ function proto_527(list, list2, ...)
                   return quest4
                 else
                   return false
-                end
               else
                 up12 = "Quest NPC unavailable: " .. list2[1].target
                 return false
-              end
             end
           else
             local clickBountyPoster2 = farmUtil.ClickBountyPoster(list2[1].target)
@@ -54638,7 +53973,6 @@ function proto_527(list, list2, ...)
             end
             up12 = v520
             return clickBountyPoster
-          end
         else
           local v169 = up11(list2[1].target)
           v1047 = { v169 }
@@ -54664,7 +53998,6 @@ function proto_527(list, list2, ...)
                 local ok = pcall(fireproximityprompt, v1047[1])
                 appendn(v545, ok)
                 return unpack(v545)
-              end
             else
               local v193 = up1(list[1], parent2.Position, list2[1].timeout)
               if v193 then
@@ -54682,14 +54015,11 @@ function proto_527(list, list2, ...)
                   local ok = pcall(fireproximityprompt, v1047[1])
                   appendn(v545, ok)
                   return unpack(v545)
-                end
               else
                 return false
-              end
             end
           else
             return false
-          end
         end
       else
         local v102 = up3(list2[1].target)
@@ -54710,7 +54040,6 @@ function proto_527(list, list2, ...)
           return v134
         else
           return false
-        end
       end
     else
       local v344 = {}
@@ -54720,7 +54049,6 @@ function proto_527(list, list2, ...)
       local v86 = up2(list[1], list2[1].timeout, proto_3474)
       appendn(v344, v86)
       return unpack(v344)
-    end
   else
     v991 = {}
     v43 = up1
@@ -54744,12 +54072,10 @@ function proto_527(list, list2, ...)
     v43 = v43(v44, new, list2[1].timeout)
     appendn(v991, v43)
     return unpack(v991)
-  end
 end
 
 function fn_GetConfig_654(...)
   return up1
-end
 
 function proto_658(...)
   local isOwner = flightCore.IsOwner(("FarmBuilder"))
@@ -54769,7 +54095,6 @@ function proto_993(...)
   v2[1] = up3 < v33
   v2.n = 1
   return unpack(v2)
-end
 
 function proto_1027(a1, ...)
   local v21, v22
@@ -54781,11 +54106,9 @@ function proto_1027(a1, ...)
   v21[1] = v22
   v21.n = 1
   return unpack(v21)
-end
 
 function fn_GetStatus_1119(...)
   return up1
-end
 
 function proto_1127(a1, list, a3, ...)
   local owner, v37, v42
@@ -54816,13 +54139,10 @@ function proto_1127(a1, list, a3, ...)
         return v37
       else
         return false
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function fn_PurchaseOnce_1332(list, ...)
@@ -54854,10 +54174,8 @@ function fn_PurchaseOnce_1332(list, ...)
       return true
     else
       return false, "Select an item first."
-    end
   else
     return false, "Stop the farm first."
-  end
 end
 
 function fn_Validate_1468(...)
@@ -54980,17 +54298,14 @@ function fn_Validate_1468(...)
       return false, "Unknown action at step " .. key
     else
       return false, "Add 1 to 50 route steps."
-    end
   else
     return false, "Use a simple farm name."
-  end
-  do return false, "Step " .. (key .. " needs a target name.") end
-  do return false, "Invalid step " .. key end
+  return false, "Step " .. (key .. " needs a target name.")
+  return false, "Invalid step " .. key
   local v153 = {}
   v153[1] = true
   v153.n = 1
-  do return unpack(v153) end
-end
+  return unpack(v153)
 
 function proto_1581(...)
   local npcRoot, position, hrp2, v37, owner2, setTarget, new, v81, start, new2, v108, v111
@@ -55052,7 +54367,6 @@ function proto_1581(...)
     return false
   else
     return true
-  end
 end
 
 function fn_FarmBuilder_1688(...)
@@ -55104,14 +54418,11 @@ function proto_1802(a1, ...)
     return
   else
     return nil
-  end
   return value.id
   return value
-end
 
 function fn_IsRunning_2093(...)
   return true2
-end
 
 function proto_2258(list, ...)
   local v4, v10, v11
@@ -55129,7 +54440,6 @@ function proto_2258(list, ...)
   v4[1] = v11
   v4.n = 1
   return unpack(v4)
-end
 
 function proto_2368(...)
   local v5, v16, hrp2
@@ -55143,7 +54453,6 @@ function proto_2368(...)
   v16[1] = v5
   v16.n = 1
   return unpack(v16)
-end
 
 function fn_List_2404(...)
   local match, v10, match2, value, v23, v30, v32, v43, v60, match4, v72, v78
@@ -55245,13 +54554,11 @@ function fn_List_2404(...)
     v233[1] = v81
     v233.n = 1
     return unpack(v233)
-  end
   local v307 = table.sort(v81)
   local v233 = {}
   v233[1] = v81
   v233.n = 1
   return unpack(v233)
-end
 
 function proto_2700(a1, ...)
   local v14, npCs, v22, v37, v58, value
@@ -55284,12 +54591,10 @@ function proto_2700(a1, ...)
     return
   else
     return nil
-  end
   local v12 = {}
   local findFirstChildWhichIsA = value:FindFirstChildWhichIsA("ProximityPrompt", true)
   appendn(v12, findFirstChildWhichIsA)
-  do return unpack(v12) end
-end
+  return unpack(v12)
 
 function proto_2958(...)
   local v27, ok2, v64, ok3, v81
@@ -55332,7 +54637,6 @@ function fn_GetStats_3046(...)
   v7[1] = v1
   v7.n = 1
   return unpack(v7)
-end
 
 function proto_3474(...)
   local v6 = {}
@@ -55340,7 +54644,6 @@ function proto_3474(...)
   v6[1] = not (v4 == nil)
   v6.n = 1
   return unpack(v6)
-end
 
 function fn_Load_3487(a1, ...)
   local v27, v73, v107, jsonDecode, v109, v114, v144, v160
@@ -55385,10 +54688,8 @@ function fn_Load_3487(a1, ...)
       return unpack(v113)
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_3541(...)
@@ -55495,15 +54796,13 @@ function proto_3541(...)
       up4 = "Complete"
     end
   end
-  do return end
+  return
   up4 = "Failed at step " .. key
   true2 = false
   return true
-end
 
 function fn_GetDetail_3756(...)
   return up1
-end
 
 function proto_4186(...)
   local v2, stamina, v26, stamina2, v51, v57
@@ -55527,14 +54826,12 @@ function proto_4186(...)
   v57[1] = stamina2
   v57.n = 1
   return unpack(v57)
-end
 
 function fn_active_4853(...)
   local v2 = {}
   local v3 = up1(up2)
   appendn(v2, v3)
   return unpack(v2)
-end
 
 function fn_SetEnabled_4937(a1, ...)
   local v50, v237
@@ -55561,10 +54858,8 @@ function fn_SetEnabled_4937(a1, ...)
         return true
       else
         return false, v237
-      end
     else
       return true
-    end
   else
     true2 = false
     up2 = up2 + 1
@@ -55572,7 +54867,6 @@ function fn_SetEnabled_4937(a1, ...)
     local v67 = up4()
     local v87 = up5(false)
     return true
-  end
 end
 
 function fn_SetConfig_4986(a1, ...)
@@ -55672,7 +54966,6 @@ function fn_SetConfig_4986(a1, ...)
     return true
   else
     return false
-  end
 end
 
 function proto_5052(...)
@@ -55705,7 +54998,6 @@ function proto_5052(...)
   v26[1] = v11
   v26.n = 1
   return unpack(v26)
-end
 function proto_339(...)
   local v7, v14, v24, inventory, v28, inventory2, level, v45, level2, localPlayer, backpack, v77
   local v84, root2, char, v100, char2, parent, isLoaded2, hrp2, v128, isCharAlive2, v137, v139
@@ -55800,7 +55092,6 @@ function proto_339(...)
   v139[1] = isLoaded2
   v139.n = 1
   return unpack(v139)
-end
 
 function fn_invoke_394(...)
   local v4, v19
@@ -55832,7 +55123,6 @@ function proto_813(a1, ...)
     local v61 = up3(unpack(v50))
     appendn(v73, v61)
     return unpack(v73)
-  end
 end
 
 function fn_Callback_953(value, ...)
@@ -55886,7 +55176,6 @@ function fn_Callback_953(value, ...)
           local v116 = up4(unpack(v8))
           appendn(v76, v116)
           return unpack(v76)
-        end
       end
     end
   else
@@ -55901,7 +55190,6 @@ function fn_Callback_953(value, ...)
       local v66 = up4(unpack(v124))
       appendn(v32, v66)
       return unpack(v32)
-    end
   end
 end
 
@@ -56041,8 +55329,7 @@ function proto_1054(...)
     end
     local v302 = task.wait(0.25)
   end
-  do return end
-end
+  return end
 
 function fn_List_1100(...)
   local v9, v25, v29, v31, v46
@@ -56067,7 +55354,6 @@ function fn_List_1100(...)
     v25[#v25 + 1] = v3
   end
   return v25
-end
 
 function fn_Set_1122(a1, a2, ...)
   local v74, v168
@@ -56085,14 +55371,11 @@ function fn_Set_1122(a1, a2, ...)
         return true
       else
         return false, "Farm control is disabled."
-      end
     else
       return false, "Farm is unavailable in this build."
-    end
   else
     local v11 = up1(nil)
     return true
-  end
 end
 
 function fn_Bind_1565(list, a2, a3, ...)
@@ -56189,7 +55472,6 @@ function proto_2187(a1, a2, ...)
   v20[1] = v22
   v20.n = 1
   return unpack(v20)
-end
 
 function fn_DeferToggle_3771(a1, ...)
   local v3
@@ -56297,7 +55579,6 @@ function fn_FarmControl_4286(import, a2, a3, a4, ...)
     _G.starlit_FarmControl = v173[1]
   end
   return v173[1]
-end
 
 function fn_Callback_4711(value, ...)
   if value == true then
@@ -56311,7 +55592,6 @@ function fn_Callback_4711(value, ...)
   local v4 = up3(unpack(v11))
   appendn(v15, v4)
   return unpack(v15)
-end
 function fn_SetEnabled_240(a1, ...)
   local v11
   local v10 = {}
@@ -56324,7 +55604,6 @@ function fn_SetEnabled_240(a1, ...)
   local now = os.clock()
   up2.requestedAt = now
   return v11
-end
 
 function fn_FarmProgress_312(import, a2, a3, a4, ...)
   local nilCell2, webhookCell, trueCell, webhookMonitorCell, v34, httpServiceCell, uiLoopCell, v92, v93, v107, storageCell, v122
@@ -56424,7 +55703,6 @@ function fn_FarmProgress_312(import, a2, a3, a4, ...)
   v127[6] = v139
   local register = unload2.register("GPO_FarmProgress", fn_GPO_FarmProgress_2050)
   return v122
-end
 
 function proto_411(a1, ...)
   local v19, data, ok3
@@ -56442,10 +55720,8 @@ function proto_411(a1, ...)
       return ok3
     else
       return true
-    end
   else
     return false
-  end
 end
 
 function fn_Callback_1884(value, ...)
@@ -56714,7 +55990,6 @@ function proto_2702(a1, ...)
   local v274 = ("%s  |  %s\n%s  |  %d sessions"):format(a1.label, v156, v114, data.runs)
   appendn(v249, v274)
   return unpack(v249)
-end
 
 function proto_3299(...)
   local now2, v11, v45, v47, v54, v72, v74
@@ -56948,18 +56223,14 @@ function proto_3971(a1, a2, ...)
         v80[1] = v61
         v80.n = 1
         return unpack(v80)
-      end
     else
       return a1.running == true
-    end
   else
     return a2
-  end
 end
 
 function proto_4510(a1, ...)
   return up1 .. ("/" .. (a1 .. ".json"))
-end
 
 function proto_4597(a1, ...)
   local v73, v74, wave, v108, v205
@@ -56982,49 +56253,38 @@ function proto_4597(a1, ...)
                               return ""
                             else
                               return "Lure"
-                            end
                           else
                             return "Killer"
-                          end
                         else
                           return "Ghost Princess"
-                        end
                       else
                         return "Ryuma"
-                      end
                     else
                       return "Borj"
-                    end
                   else
                     return "Soul King"
-                  end
                 else
                   return "Mihawk"
-                end
               else
                 return "Roger"
-              end
             else
               local v49 = {}
               local str3 = tostring(a1.crafted)
               v49[1] = str3 .. " crafted"
               v49.n = 1
               return unpack(v49)
-            end
           else
             local v28 = {}
             local str2 = tostring(a1.fishCaught)
             v28[1] = str2 .. " fish"
             v28.n = 1
             return unpack(v28)
-          end
         else
           local v42 = {}
           local str = tostring(a1.stage)
           v42[1] = "Stage " .. str
           v42.n = 1
           return unpack(v42)
-        end
       else
         v205 = {}
         v73 = ("Wave %s/%s").format
@@ -57037,13 +56297,10 @@ function proto_4597(a1, ...)
         v73 = v73(v74, wave, v108)
         appendn(v205, v73)
         return unpack(v205)
-      end
     else
       return a1.status
-    end
   else
     return ""
-  end
 end
 function fn_GetNPCRoot_799(inst, ...)
   local primary, v30
@@ -57059,7 +56316,6 @@ function fn_GetNPCRoot_799(inst, ...)
     return unpack(v30)
   else
     return nil
-  end
 end
 
 function fn_ExtractAnimId_968(a1, ...)
@@ -57085,7 +56341,6 @@ function fn_ExtractAnimId_968(a1, ...)
     return unpack(v17)
   else
     return nil
-  end
 end
 
 function fn_IsNPCAlive_1002(character, ...)
@@ -57107,7 +56362,6 @@ function fn_IsNPCAlive_1002(character, ...)
     return unpack(v22)
   else
     return false
-  end
 end
 
 function fn_Stop_1309(...)
@@ -57144,7 +56398,6 @@ function fn_IsCharAlive_1545(...)
     return unpack(v19)
   else
     return false
-  end
 end
 
 function fn_ClickBountyPoster_1963(a1, ...)
@@ -57191,14 +56444,12 @@ function fn_ClickBountyPoster_1963(a1, ...)
       local clickButton = npcChat2.ClickButton(safeFind2)
       appendn(v30, clickButton)
       return unpack(v30)
-    end
     local v30 = {}
     local clickButton = npcChat2.ClickButton(safeFind2)
     appendn(v30, clickButton)
     return unpack(v30)
   else
     return false
-  end
 end
 
 function fn_GetHRP_2062(player, ...)
@@ -57244,7 +56495,6 @@ function fn_GetHRP_2062(player, ...)
     return unpack(v4)
   else
     return nil
-  end
 end
 
 function fn_SafeFind_2451(a1, list, ...)
@@ -57273,7 +56523,7 @@ function fn_SafeFind_2451(a1, list, ...)
       end
     end
   end
-  do return nil end
+  return nil
   v42 = {}
   local isValid2 = up1.IsValid(findFirstChild)
   v41 = isValid2
@@ -57281,7 +56531,7 @@ function fn_SafeFind_2451(a1, list, ...)
   v12 = v41
   v42[1] = v12
   v42.n = 1
-  do return unpack(v42) end
+  return unpack(v42)
   v41 = findFirstChild
   v12 = nil
 end
@@ -57306,12 +56556,10 @@ function fn_IsValid_3609(list, ...)
     return unpack(v2)
   else
     return false
-  end
 end
 
 function proto_4045(...)
   return not (up1.Parent == nil)
-end
 
 function fn_FarmUtil_4189(a1, a2, a3, a4, ...)
   a1 = { a1 }
@@ -57345,7 +56593,6 @@ function fn_FarmUtil_4189(a1, a2, a3, a4, ...)
   v77[1] = a1
   v38[1].MakeFlightController = fn_MakeFlightController_4901
   return v38[1]
-end
 
 function fn_WaitForCharacter_4801(a1, a2, ...)
   local v30, now3, parent, v46, v52, v60, char, v70, v81, v85, v93
@@ -57401,12 +56648,11 @@ function fn_WaitForCharacter_4801(a1, a2, ...)
       end
     end
   end
-  do return char end
+  return char
   local v42 = {}
   v42[1] = nil
   v42.n = 1
   return unpack(v42)
-end
 
 function fn_MakeFlightController_4901(a1, ...)
   local tweenFlightCell, flightCoreCell
@@ -57425,7 +56671,6 @@ function fn_MakeFlightController_4901(a1, ...)
   v7[1] = v12
   v7.n = 1
   return unpack(v7)
-end
 function proto_121(...)
   local v10, v13, v15, v21, char, count, v41, v43, v44, v52, v55, inventory2
   local backpack2, count2
@@ -57481,12 +56726,11 @@ function proto_121(...)
       end
     end
   end
-  do return count2 end
+  return count2
   local v34 = {}
   v34[1] = 0
   v34.n = 1
   return unpack(v34)
-end
 
 function proto_163(a1, ...)
   local v25, v27, anchored, animationController2, v49, hrp, v56, v62, v65, v72, v73, value
@@ -57550,10 +56794,8 @@ function proto_163(a1, ...)
         end
       end
       return true
-    end
   else
     return true
-  end
 end
 
 function fn_SetBuyList_184(a1, ...)
@@ -57623,7 +56865,6 @@ function proto_429(a1, a2, ...)
   v43[1] = v34
   v43.n = 1
   return unpack(v43)
-end
 
 function fn_SetWalkSpeed_514(a1, ...)
   local v4, v21
@@ -57705,7 +56946,6 @@ function proto_752(a1, a2, ...)
             v53[2] = v145
             v53.n = 2
             return unpack(v53)
-          end
         else
           local lower = currency2:lower()
           local find = lower:find("candy")
@@ -57738,7 +56978,6 @@ function proto_752(a1, a2, ...)
                       v53[2] = v145
                       v53.n = 2
                       return unpack(v53)
-                    end
                   else
                     v123 = "Candy"
                     v145 = v123
@@ -57751,7 +56990,6 @@ function proto_752(a1, a2, ...)
                       v53[2] = v145
                       v53.n = 2
                       return unpack(v53)
-                    end
                   end
                 else
                   v209 = v199.Peli
@@ -57768,7 +57006,6 @@ function proto_752(a1, a2, ...)
                       v53[2] = v145
                       v53.n = 2
                       return unpack(v53)
-                    end
                   else
                     v123 = "Candy"
                     v145 = v123
@@ -57781,26 +57018,20 @@ function proto_752(a1, a2, ...)
                       v53[2] = v145
                       v53.n = 2
                       return unpack(v53)
-                    end
                   end
                 end
               end
             else
               return v105, "Peli"
-            end
           else
             return v105, "Candy"
-          end
         end
       else
         return num3, "Peli"
-      end
     else
       return num4, "Candy"
-    end
   else
     return nil
-  end
 end
 
 function proto_771(...)
@@ -58070,9 +57301,7 @@ function proto_889(list, ...)
             local v401 = up1(list[1])
             if v401 then
             else
-              do return end
-            end
-          end
+              return end
         else
           up8 = "Waiting for character"
           local v247 = task.wait(1)
@@ -58092,11 +57321,11 @@ function proto_889(list, ...)
     end
   end
   local v211 = {}
-  do return end
-  do return end
-  do return end
-  do return end
-  do return end
+  return
+  return
+  return
+  return
+  return
   v690 = value
 end
 
@@ -58144,8 +57373,7 @@ function proto_973(a1, ...)
               if not v250 then
                 continue
               else
-                do return end
-              end
+                return end
             else
               break
             end
@@ -58156,11 +57384,10 @@ function proto_973(a1, ...)
       end
     end
   end
-  do return false end
-  do return false end
-  do return false end
+  return false
+  return false
+  return false
   return true
-end
 
 function proto_1032(...)
   local v2 = up1(up2)
@@ -58182,7 +57409,6 @@ function proto_1099(...)
   v2[1] = isCharAlive
   v2.n = 1
   return unpack(v2)
-end
 
 function proto_1126(...)
   local parent, v102
@@ -58289,10 +57515,8 @@ function proto_1224(a1, a2, ...)
       return unpack(v52)
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_1238(...)
@@ -58394,10 +57618,8 @@ function proto_1285(a1, a2, a3, ...)
         return false
       else
         return true
-      end
     else
       return false
-    end
   else
     char = localPlayer.Character
     local v11 = up3(a1, a2, a3)
@@ -58430,16 +57652,13 @@ function proto_1285(a1, a2, a3, ...)
         up8 = "Flying to Halloween shop after blocked walking route"
       else
         return false
-      end
     else
       return true
-    end
   end
   local v294 = up10()
-  do return true end
+  return true
   local v317 = up10()
   return false
-end
 
 function fn_SetEnabled_1426(a1, ...)
   a1 = a1 == true
@@ -58924,7 +58143,6 @@ function fn_AutoHalloween_1508(list, a2, a3, a4, ...)
   v433[3] = v551
   local register = unloadCell[1].register("AutoHalloween", fn_AutoHalloween_2615)
   return v134[1]
-end
 
 function proto_1569(...)
   local v7, v9
@@ -58937,7 +58155,6 @@ function proto_1569(...)
   v9[1] = v7
   v9.n = 1
   return unpack(v9)
-end
 
 function proto_1627(a1, ...)
   local lower, v25, v65, v76, v87, v98, v100, v110, v112, playerGui2, v125, find
@@ -59069,19 +58286,14 @@ function proto_1627(a1, ...)
             return unpack(v331)
           else
             return false
-          end
         else
           return false
-        end
       else
         return false
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function fn_GetStats_1845(...)
@@ -59095,7 +58307,6 @@ function fn_GetStats_1845(...)
   v6[1] = v9
   v6.n = 1
   return unpack(v6)
-end
 
 function fn_SetAutoUseSpareBag_1915(a1, ...)
   up1 = a1 == true
@@ -59379,7 +58590,6 @@ function proto_2866(a1, list, a3, ...)
                   continue
                 else
                   return false
-                end
               else
                 v955 = v955 + 1
                 v977 = a3
@@ -59405,19 +58615,17 @@ function proto_2866(a1, list, a3, ...)
     return false
   else
     return false
-  end
   local v938 = v818(value.Position, 2.5)
-  if not (not v938) then return value, v48, value.controls[v48] end
-  do return false end
-  do return false end
+  if not (not v938) then return value, v48, value.controls[v48]
+  return false
+  return false
   local destroy = createPath2:Destroy()
-  do return false end
-  do return false end
-  do return false end
   return false
-  do return true end
   return false
-end
+  return false
+  return false
+  return true
+  return false
 
 function proto_3155(list, list2, ...)
   local v14, v28
@@ -59441,7 +58649,6 @@ function proto_3155(list, list2, ...)
     return ok
   else
     return false
-  end
 end
 
 function proto_3230(...)
@@ -59483,7 +58690,6 @@ function proto_3230(...)
     return unpack(v46)
   else
     return up2
-  end
 end
 
 function fn_SetMerchantSupport_3281(a1, ...)
@@ -59508,7 +58714,6 @@ function proto_3562(a1, ...)
   v8[1] = v14
   v8.n = 1
   return unpack(v8)
-end
 
 function fn_SetAutoBuy_3581(a1, ...)
   up1 = a1 == true
@@ -59704,17 +58909,16 @@ function proto_3975(a1, a2, a3, ...)
   else
     return
   end
-  do return end
-  do return end
+  return
+  return
   local now6 = os.clock()
   up10[a1.prompt] = now6
   local halloweenCandy4 = playerData.GetHalloweenCandy()
   up12 = up12 + 1
-  do return end
+  return
   local v542 = up7(a3)
-  do return end
-  do return end
-end
+  return
+  return end
 
 function proto_4022(a1, ...)
   local v39, v40, inventory, v47, v63, v72, v103, v112, v122, v133, v164, v191
@@ -59843,7 +59047,6 @@ function proto_4022(a1, ...)
   v40 = not v176
   v292 = true
   return true
-end
 
 function fn_SetTravelMode_4333(a1, ...)
   local v15, parent
@@ -59919,7 +59122,6 @@ function proto_4346(a1, a2, ...)
         v206[1] = v123
         v206.n = 1
         return unpack(v206)
-      end
     else
       local tools2 = gpoEvents.GetRemote("Tools")
       tools = tools2
@@ -59959,7 +59161,6 @@ function proto_4346(a1, a2, ...)
                 v206[1] = v123
                 v206.n = 1
                 return unpack(v206)
-              end
             else
               local equipTool = humanoid:EquipTool(findFirstChild)
               local v253 = task.wait(0.2)
@@ -59975,7 +59176,6 @@ function proto_4346(a1, a2, ...)
                 v206[1] = v123
                 v206.n = 1
                 return unpack(v206)
-              end
             end
           end
         else
@@ -60002,7 +59202,6 @@ function proto_4346(a1, a2, ...)
                   v206[1] = v123
                   v206.n = 1
                   return unpack(v206)
-                end
               else
                 local equipTool = humanoid:EquipTool(findFirstChild)
                 local v253 = task.wait(0.2)
@@ -60018,7 +59217,6 @@ function proto_4346(a1, a2, ...)
                   v206[1] = v123
                   v206.n = 1
                   return unpack(v206)
-                end
               end
             end
           else
@@ -60043,7 +59241,6 @@ function proto_4346(a1, a2, ...)
                   v206[1] = v123
                   v206.n = 1
                   return unpack(v206)
-                end
               else
                 local equipTool = humanoid:EquipTool(findFirstChild)
                 local v253 = task.wait(0.2)
@@ -60059,18 +59256,15 @@ function proto_4346(a1, a2, ...)
                   v206[1] = v123
                   v206.n = 1
                   return unpack(v206)
-                end
               end
             end
           end
         end
       else
         return false
-      end
     end
   else
     return false
-  end
 end
 
 function proto_4691(...)
@@ -60213,7 +59407,6 @@ function proto_4955(...)
     return
   else
     return v3
-  end
 end
 
 function fn_SetAutoSahur_5028(a1, ...)
@@ -60266,13 +59459,10 @@ function proto_5170(a1, a2, ...)
         return unpack(v222)
       else
         return false
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 function proto_157(...)
   if true2 then
@@ -60325,13 +59515,12 @@ function proto_369(a1, a2, a3, a4, a5, ...)
           continue
         else
           return value
-        end
       else
         break
       end
     end
   end
-  do return end
+  return
   return false
   local v152 = {}
 end
@@ -60353,7 +59542,6 @@ function fn_GetStats_440(...)
   v7[1] = v5
   v7.n = 1
   return unpack(v7)
-end
 
 function proto_696(a1, a2, a3, ...)
   local v31, v34, now2, v82, v83, v103
@@ -60393,14 +59581,13 @@ function proto_696(a1, a2, a3, ...)
       end
     end
   end
-  do return nil end
-  do return v103 end
+  return nil
+  return v103
   return v15
   local v65 = {}
   v65[1] = nil
   v65.n = 1
   return unpack(v65)
-end
 
 function proto_1140(a1, ...)
   local setEnabled = autoBuso.SetEnabled(a1)
@@ -60776,7 +59963,6 @@ function fn_AutoLevelBoss_2392(import, a2, a3, a4, ...)
   v534[1] = v798
   local register = unload2.register("Games/GPO/Farms/FirstSea/AutoLevelBoss.lua", fn_AutoLevelBoss_lua_2282)
   return v798[1]
-end
 
 function fn_OnExternalDisable_2481(a1, ...)
   up1 = a1
@@ -60798,10 +59984,8 @@ function proto_2654(a1, ...)
       return nil
     else
       return findFirstChild
-    end
   else
     return nil
-  end
 end
 
 function proto_2945(a1, a2, a3, ...)
@@ -60883,7 +60067,6 @@ function proto_2945(a1, a2, a3, ...)
   end
   return value, v48, value.controls[v48]
   return value, v48, value.controls[v48]
-end
 
 function proto_3078(a1, ...)
   local v5, v12, v14, value, v64, v75, v100, v125, v143, v155, v165
@@ -60938,8 +60121,7 @@ function proto_3078(a1, ...)
   end
   local v138 = up6()
   local v172 = up7(false)
-  do return end
-end
+  return end
 
 function proto_3458(...)
   local v3, v6
@@ -60951,7 +60133,6 @@ function proto_3458(...)
   v3[1] = v6
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_3754(a1, a2, a3, ...)
   local start, v7, v16, v17, v30
@@ -61008,7 +60189,6 @@ function proto_4340(a1, a2, ...)
   local waitForCharacter = farmUtil.WaitForCharacter(proto_3458, a2)
   appendn(v16, waitForCharacter)
   return unpack(v16)
-end
 
 function proto_4375(a1, a2, ...)
   local v11, v20, v22, v29, v38, vec, v101, v161, v185, pushForward, v207, v230
@@ -61249,8 +60429,7 @@ function proto_4375(a1, a2, ...)
   else
     return
   end
-  do return end
-end
+  return end
 
 function fn_SetCombatMode_4731(a1, ...)
   if true2 then
@@ -61284,7 +60463,6 @@ function proto_124(...)
   v1[1] = v9
   v1.n = 1
   return unpack(v1)
-end
 
 function proto_148(inst, ...)
   local isA2, v22, v30, v35
@@ -61305,7 +60483,6 @@ function proto_148(inst, ...)
     v35 = v25
   end
   return v30, v35
-end
 
 function fn_SetQuestLevelRequirement_175(a1, ...)
   local num2
@@ -61328,7 +60505,6 @@ function proto_610(...)
   local learnStyle = gpoEvents.GetRemote("learnStyle")
   appendn(v1, learnStyle)
   return unpack(v1)
-end
 
 function fn_SetHakiFleeHPPercent_644(a1, ...)
   local v10
@@ -61355,7 +60531,6 @@ function fn_GetStats_764(...)
   v11[1] = v21
   v11.n = 1
   return unpack(v11)
-end
 
 function fn_SetLeaveAtLevel_787(a1, ...)
   local num2
@@ -61410,10 +60585,9 @@ function proto_994(...)
   local v10 = {}
   v10[1] = true
   v10.n = 1
-  do return unpack(v10) end
-  do return false end
+  return unpack(v10)
+  return false
   return value, v48, value.controls[v48]
-end
 
 function fn_SetEnabled_1001(a1, ...)
   a1 = a1 == true
@@ -61534,12 +60708,9 @@ function proto_1158(inst, a2, ...)
       return unpack(v102)
     else
       return findFirstChildWhichIsA2
-    end
   else
     return inst
-  end
-  do return parent end
-end
+  return parent
 
 function fn_SetSkyWalkLevelRequirement_1261(a1, ...)
   local num
@@ -61578,7 +60749,6 @@ function proto_1534(inst, ...)
   v49[1] = value
   v49.n = 1
   return unpack(v49)
-end
 
 function proto_1551(a1, ...)
   local v31, v65, v72, v169, v178, v199, v204, v206
@@ -61642,10 +60812,9 @@ function proto_1551(a1, ...)
   else
     return
   end
-  do return end
+  return
   local v124 = {}
-  do return end
-end
+  return end
 
 function fn_GetProgress_1583(...)
   local v2, v13, v16, v18, v27, v30, v31, v32
@@ -61673,14 +60842,12 @@ function fn_GetProgress_1583(...)
   v18[1] = v13
   v18.n = 1
   return unpack(v18)
-end
 
 function proto_1644(...)
   local v2 = {}
   local hasItem = playerData.HasItem(nil, "World Scroll")
   appendn(v2, hasItem)
   return unpack(v2)
-end
 
 function fn_SetAutoHaki_1810(a1, ...)
   up1 = a1 == true
@@ -61766,12 +60933,11 @@ function proto_1956(a1, ...)
   else
     return
   end
-  do return end
-  do return end
+  return
+  return
   local v309 = {}
-  do return end
+  return
   return false
-end
 
 function proto_2138(list, list2, ...)
   local v84, v85
@@ -61824,11 +60990,9 @@ function proto_2138(list, list2, ...)
         return unpack(v3)
       else
         return true
-      end
     end
   else
     return false
-  end
 end
 
 function proto_2153(...)
@@ -61855,7 +61019,6 @@ function proto_2153(...)
         v98[3] = players
         local thread2 = task.spawn(proto_3249)
         return true
-      end
     else
       true2 = true
       local v30 = {}
@@ -61864,10 +61027,8 @@ function proto_2153(...)
       v30[3] = players
       local thread = task.spawn(proto_3083)
       return true
-    end
   else
     return false
-  end
 end
 
 function proto_2296(a1, ...)
@@ -62160,13 +61321,10 @@ function proto_2581(...)
         return true
       else
         return true
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_2744(...)
@@ -62220,7 +61378,6 @@ function proto_2744(...)
       return nil
     else
       return nil
-    end
   else
     local findFirstChild = effects2:FindFirstChild("World Scroll")
     findFirstChild2 = findFirstChild
@@ -62236,11 +61393,9 @@ function proto_2744(...)
       if not v95 then
       else
         return v50, v131
-      end
     end
   end
   return v110, v40
-end
 
 function proto_2745(...)
   local v55, v70
@@ -62346,12 +61501,9 @@ function proto_2758(a1, ...)
                       local v627 = a1()
                       if v627 then
                       else
-                        do return end
-                      end
+                        return end
                     else
-                      do return end
-                    end
-                  end
+                      return end
                 end
               end
               local v194 = {}
@@ -62445,14 +61597,13 @@ function proto_2758(a1, ...)
   else
     return
   end
-  do return end
-  do return end
-  do return end
-  do return end
-  do return end
-  do return end
-  do return end
-end
+  return
+  return
+  return
+  return
+  return
+  return
+  return end
 
 function proto_2801(a1, ...)
   a1 = { a1 }
@@ -62550,12 +61701,11 @@ function proto_2940(list, list2, ...)
     return
   end
   local v321 = task.wait(0.5)
-  do return end
-  do return end
-  do return end
+  return
+  return
+  return
   local v61 = {}
-  do return end
-end
+  return end
 
 function proto_3025(...)
   up1.Sit = false
@@ -62579,7 +61729,6 @@ function proto_3107(a1, ...)
   v4[1] = proto_4397
   v4.n = 1
   return unpack(v4)
-end
 
 function fn_OnExternalResume_3232(a1, ...)
   nil2 = a1
@@ -62667,10 +61816,9 @@ function proto_3274(a1, ...)
   else
     return
   end
-  do return end
-  do return end
-  do return end
-end
+  return
+  return
+  return end
 
 function proto_3298(...)
   local v3, value, v21, humanoid, npCs2, v40, v48, v52, v67
@@ -62708,14 +61856,12 @@ function proto_3298(...)
       v59[1] = v21
       v59.n = 1
       return unpack(v59)
-    end
     local v59 = {}
     v59[1] = v21
     v59.n = 1
     return unpack(v59)
   else
     return v21
-  end
 end
 
 function proto_3353(...)
@@ -62723,7 +61869,6 @@ function proto_3353(...)
   local buyNearby = npcShopUtil.BuyNearby(up2.Name, up3, 1, true)
   appendn(v15, buyNearby)
   return unpack(v15)
-end
 
 function proto_3373(...)
   local forWeapon = equipBest.ForWeapon()
@@ -62785,7 +61930,6 @@ function proto_3569(a1, ...)
                 continue
               else
                 return true
-              end
             end
             break
           end
@@ -62863,10 +62007,9 @@ function proto_3569(a1, ...)
   local hrp2 = value:FindFirstChild("HumanoidRootPart")
   hrp = hrp2
   local v209 = task.wait(0.3)
-  do return end
+  return
   v86 = false
-  do return end
-end
+  return end
 
 function proto_3576(...)
   local v50
@@ -62950,14 +62093,12 @@ function proto_4035(...)
       v1[1] = v58
       v1.n = 1
       return unpack(v1)
-    end
     local v1 = {}
     v1[1] = v58
     v1.n = 1
     return unpack(v1)
   else
     return v58
-  end
 end
 
 function proto_4131(...)
@@ -62977,7 +62118,6 @@ function proto_4131(...)
   v14[1] = v6
   v14.n = 1
   return unpack(v14)
-end
 
 function fn_AutoLevelUp_4365(import, a2, a3, a4, ...)
   local v6, v51, playersCell, v78, vecCell, vecCell2, v86, gpoEventsCell, v97, num2Cell2, v117, v121
@@ -63452,7 +62592,6 @@ function fn_AutoLevelUp_4365(import, a2, a3, a4, ...)
   v470[6] = nilCell2
   local register = unload2.register("Games/GPO/Farms/FirstSea/AutoLevelUp.lua", fn_AutoLevelUp_lua_4519)
   return v458[1]
-end
 
 function proto_4397(...)
   local v2, v7
@@ -63464,7 +62603,6 @@ function proto_4397(...)
   v2[1] = v7
   v2.n = 1
   return unpack(v2)
-end
 
 function proto_4485(...)
   if false2 then
@@ -63534,7 +62672,6 @@ function proto_4638(...)
   local quest = gpoEvents.GetRemote("Quest")
   appendn(v3, quest)
   return unpack(v3)
-end
 
 function proto_4644(a1, a2, ...)
   a2.BODY_COLLISION_GUARD = true
@@ -63543,7 +62680,6 @@ function proto_4644(a1, a2, ...)
   local start = tweenFlight.Start(a1, a2)
   appendn(v19, start)
   return unpack(v19)
-end
 
 function proto_4697(...)
   local v4, v5, v19, blackLeg
@@ -63562,7 +62698,6 @@ function proto_4697(...)
   v19[1] = v4
   v19.n = 1
   return unpack(v19)
-end
 
 function proto_4824(...)
   local v6, v21, v24, v33, v38, v39, v58
@@ -63591,13 +62726,10 @@ function proto_4824(...)
         return false
       else
         return true
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_4935(...)
@@ -63617,7 +62749,6 @@ function proto_4935(...)
     return v38.Health / v38.MaxHealth
   else
     return 1
-  end
 end
 
 function proto_4963(...)
@@ -63626,7 +62757,6 @@ function proto_4963(...)
   v4[1] = 1 <= mastery
   v4.n = 1
   return unpack(v4)
-end
 function fn_AutoLevelUp_lua_4519(...)
   local setEnabled = up1.SetEnabled(false)
   local isOwner = flightCore.IsOwner(up3)
@@ -63744,8 +62874,7 @@ function proto_126(a1, a2, ...)
     end
   end
   local v688 = up4(false)
-  do return end
-end
+  return end
 
 function proto_128(...)
   local v16, effects2, now, value, v52, v75, v78, v93, v116, parent
@@ -63799,12 +62928,9 @@ function proto_128(...)
       return nil
     else
       return nil
-    end
   else
     return nil
-  end
-  do return value end
-end
+  return value
 
 function proto_494(a1, ...)
   local v78, v87
@@ -63832,7 +62958,7 @@ function proto_494(a1, ...)
           if up2 == a1 then
             local v117 = up5()
             v87 = v117
-            do return end
+            return
           else
             break
           end
@@ -63844,7 +62970,6 @@ function proto_494(a1, ...)
           if up2 == a1 then
           else
             return v15
-          end
         else
         end
       end
@@ -63857,9 +62982,8 @@ function proto_494(a1, ...)
   local v130 = up8()
   local v132 = up9(false)
   local v20 = {}
-  do return end
+  return
   return true
-end
 
 function fn_OnExternalDisable_631(a1, ...)
   up1 = a1
@@ -63882,7 +63006,6 @@ function fn_GetRotationTarget_990(...)
   local v3 = up1()
   appendn(v2, v3)
   return unpack(v2)
-end
 
 function proto_1035(...)
   if true2 then
@@ -63957,7 +63080,6 @@ function proto_1674(a1, a2, ...)
   v23[1] = v19
   v23.n = 1
   return unpack(v23)
-end
 
 function fn_OnExternalResume_1710(a1, ...)
   up1 = a1
@@ -63988,9 +63110,8 @@ function proto_1826(a1, ...)
       end
     end
   end
-  do return true end
-  do return false end
-end
+  return true
+  return false
 
 function fn_GetStats_1910(...)
   local v1 = {}
@@ -64000,7 +63121,6 @@ function fn_GetStats_1910(...)
   v1[1] = v2
   v1.n = 1
   return unpack(v1)
-end
 
 function proto_1978(a1, ...)
   local v65, v70, v135, v141, v161, v195, v226, v298, v312, v316, v331, v385
@@ -64144,7 +63264,6 @@ function proto_1978(a1, ...)
                           continue
                         else
                           return nil
-                        end
                       else
                       end
                     else
@@ -64168,23 +63287,22 @@ function proto_1978(a1, ...)
       end
     end
   end
-  do return end
-  do return end
-  do return end
-  do return end
+  return
+  return
+  return
+  return
   local v288 = {}
-  do return end
-  do return end
-  do return end
+  return
+  return
+  return
   return true, key
-  do return end
-  do return end
-  do return end
-  do return end
-  do return end
-  do return end
-  do return end
-end
+  return
+  return
+  return
+  return
+  return
+  return
+  return end
 
 function proto_2597(character, ...)
   local humanoid2, v20, v21
@@ -64198,7 +63316,6 @@ function proto_2597(character, ...)
   v20[1] = v21
   v20.n = 1
   return unpack(v20)
-end
 
 function proto_2705(...)
   local shipEvents, events2
@@ -64214,10 +63331,8 @@ function proto_2705(...)
       return unpack(v35)
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function proto_2904(...)
@@ -64298,9 +63413,7 @@ function proto_2904(...)
       end
     end
     return value2
-  end
-  do return value end
-end
+  return value
 
 function proto_2906(...)
   local isA = up1:IsA("RemoteEvent")
@@ -64334,7 +63447,6 @@ function proto_3585(...)
   v7[1] = v5
   v7.n = 1
   return unpack(v7)
-end
 
 function proto_3623(a1, a2, a3, a4, a5, ...)
   local v8, v21, v22, v23, v24, v35, v36, v77, now2, v90, v111, v135
@@ -64636,7 +63748,6 @@ function fn_AutoSerpent_4526(import, a2, a3, a4, ...)
   v298[1] = v288
   v282[1].GetRotationTarget = fn_GetRotationTarget_990
   return v282[1]
-end
 
 function proto_4960(...)
   if true2 then
@@ -64658,7 +63769,6 @@ function proto_5002(a1, a2, ...)
   local waitForCharacter = farmUtil.WaitForCharacter(proto_3585, a2)
   appendn(v21, waitForCharacter)
   return unpack(v21)
-end
 
 function proto_5139(...)
   if true2 then
@@ -64806,14 +63916,12 @@ function proto_91(inst, a2, a3, a4, ...)
       v132[1] = v111
       v132.n = 1
       return unpack(v132)
-    end
     local v132 = {}
     v132[1] = v111
     v132.n = 1
     return unpack(v132)
   else
     return nil
-  end
 end
 
 function proto_117(a1, a2, a3, ...)
@@ -64854,7 +63962,6 @@ function proto_117(a1, a2, a3, ...)
   v28[1] = v20
   v28.n = 1
   return unpack(v28)
-end
 
 function proto_200(...)
   local blockCell
@@ -64921,7 +64028,6 @@ function proto_298(...)
   local v25 = up1()
   appendn(v14, v25)
   return unpack(v14)
-end
 
 function proto_335(a1, ...)
   if conn then
@@ -65033,11 +64139,10 @@ function proto_364(...)
   local v177 = {}
   v177[1] = false
   v177.n = 1
-  do return unpack(v177) end
-  do return true end
+  return unpack(v177)
+  return true
   v111 = true
   return true, key
-end
 
 function fn_GetStats_380(...)
   local v11 = {}
@@ -65049,7 +64154,6 @@ function fn_GetStats_380(...)
   v11[1] = v2
   v11.n = 1
   return unpack(v11)
-end
 
 function proto_473(...)
   local v23, v36, v37, v79, now3, v103, v129, v131, now5, v175, v186, v201
@@ -65175,7 +64279,6 @@ function proto_473(...)
                     continue
                   else
                     return true, key
-                  end
                 end
                 break
               end
@@ -65244,9 +64347,8 @@ function proto_473(...)
     return
   end
   local v512 = {}
-  do return end
+  return
   return true, key
-end
 
 function proto_507(a1, ...)
   local v49, v51, findFirstChild2, v131
@@ -65419,13 +64521,10 @@ function proto_623(...)
               return nil
             else
               return 4
-            end
           else
             return 3
-          end
         else
           return 1
-        end
       else
         v97 = 1
         v34 = math.huge
@@ -65453,19 +64552,15 @@ function proto_623(...)
           v45[2] = v97
           v45.n = 2
           return unpack(v45)
-        end
         local v45 = {}
         v45[1] = 2
         v45[2] = v97
         v45.n = 2
         return unpack(v45)
-      end
     else
       return 5
-    end
   else
     return nil
-  end
 end
 
 function proto_634(...)
@@ -65591,7 +64686,7 @@ function proto_634(...)
   else
     return
   end
-  if not (not (#v786 == 0)) then return nil end
+  if not (not (#v786 == 0)) then return nil
   v904 = v220 <= v716
   v453 = v716 <= v220
   local v518 = v474[1]()
@@ -65600,12 +64695,12 @@ function proto_634(...)
   v729 = true2
   up1 = "Stage 3, Waiting"
   local v788 = v209(60, 2)
-  do return end
+  return
   v344 = not true2
   up1 = "Stage 3, Waiting for next round"
   local v815 = v209(60, 2)
   v330 = true
-  do return end
+  return
   up1 = "Stage 3, Exiting"
   return false
   v865 = true2
@@ -65616,7 +64711,7 @@ function proto_634(...)
   v344 = v629
   v453 = v904
   v797 = true2
-  if not (v797) then return true, key end
+  if not (v797) then return true, key
   v465 = true
   value = v647[2]
   v729 = not false2
@@ -65636,16 +64731,16 @@ function proto_634(...)
   v81 = v344
   v865 = not false2
   v629 = not v330
-  if not (not v865) then do return end end
-  do return end
+  if not (not v865) then return end
+  return
   local v436 = v209(30, 1)
   local v887 = up13(3, vec)
-  if not v887 then do return end end
+  if not v887 then return end
   local v660 = v242(value)
   local v665 = task.wait(0.5)
   local v673 = up12()
   v758 = v673
-  do return end
+  return
   if not (not v405) then continue end
   local v400 = task.wait(5)
   v524 = not false2
@@ -65657,7 +64752,7 @@ function proto_634(...)
   find2 = find3
   up1 = "Stage 3, Processing"
   v868 = true2
-  do return end
+  return
   local v413 = v242(v174)
   up1 = "Stage 3, Waiting for post-entry White"
   v81 = false2
@@ -65673,7 +64768,7 @@ function proto_634(...)
   v716 = 3
   v161 = 1
   v220 = 1
-  do return end
+  return
   v291 = not false2
   local v558 = v25(v50, 180)
   v786 = v558
@@ -65686,16 +64781,16 @@ function proto_634(...)
   local find4 = lower2:find("not the right", 1, true)
   find = find4
   v220 = v220 + v161
-  do return end
+  return
   v737 = v797
   local v898 = up7(vec, 140, 5, 30)
-  do return end
-  if not (not v524) then do return end end
-  do return end
+  return
+  if not (not v524) then return end
+  return
   up1 = "Stage 3, Last flower done, waiting 3s"
   local v858 = task.wait(3)
   v162 = not false2
-  do return end
+  return
   v50 = v632
   up1 = "Stage 3, Working"
   v330 = false
@@ -65761,7 +64856,6 @@ function proto_651(a1, a2, a3, a4, ...)
     return
   end
   return nil
-end
 
 function proto_737(a1, ...)
   local v5 = {}
@@ -65816,10 +64910,9 @@ function proto_756(inst, a2, a3, ...)
   local v65 = {}
   v65[1] = nil
   v65.n = 1
-  do return unpack(v65) end
-  do return findFirstChild end
-  do return end
-end
+  return unpack(v65)
+  return findFirstChild
+  return end
 
 function proto_777(inst, list, ...)
   local value, v28, v33, v52, v75
@@ -65897,7 +64990,7 @@ function proto_779(a1, a2, ...)
         if a1 then
           local findFirstChild = wholeCake2:FindFirstChild(a1)
           if not findFirstChild then
-            do return end
+            return
           else
           end
         else
@@ -65906,13 +64999,12 @@ function proto_779(a1, a2, ...)
       end
     end
   end
-  do return wholeCake2 end
-  do return wholeCake2 end
+  return wholeCake2
+  return wholeCake2
   local v116 = {}
   v116[1] = nil
   v116.n = 1
   return unpack(v116)
-end
 
 function proto_797(...)
   local v2, v5, v33
@@ -65929,7 +65021,6 @@ function proto_797(...)
   v2[1] = v33
   v2.n = 1
   return unpack(v2)
-end
 
 function proto_800(a1, a2, a3, a4, part, ...)
   local v21, now, v94, v105, parent, v117, v123, v135, v137, v163, v165, v216
@@ -66027,8 +65118,7 @@ function proto_800(a1, a2, a3, a4, part, ...)
       local v15 = task.wait(up2)
     end
     return false
-  end
-  do return false end
+  return false
   local v300 = task.wait(up2)
   v290 = not a3
   return true, key
@@ -66052,7 +65142,6 @@ function proto_871(a1, a2, ...)
   v5 = v5(v6, v7, v20)
   appendn(v9, v5)
   return unpack(v9)
-end
 
 function proto_932(...)
   local v7 = {}
@@ -66060,7 +65149,6 @@ function proto_932(...)
   v7[1] = not (v4 == nil)
   v7.n = 1
   return unpack(v7)
-end
 
 function proto_952(list, ...)
   local v38, v40, positionCell, value, v87, v117
@@ -66095,7 +65183,6 @@ function proto_952(list, ...)
         v61[1] = positionCell[1]
         v61.n = 1
         return unpack(v61)
-      end
     end
     local v61 = {}
     v61[1] = positionCell[1]
@@ -66103,7 +65190,6 @@ function proto_952(list, ...)
     return unpack(v61)
   else
     return nil
-  end
   positionCell[1] = value.Position
 end
 
@@ -66179,12 +65265,11 @@ function proto_1065(...)
       end
     end
   end
-  do return v84 end
+  return v84
   local v17 = {}
   v17[1] = nil
   v17.n = 1
   return unpack(v17)
-end
 
 function proto_1094(a1, ...)
   local v12, v20, v22, v23, canTouch, v72, safeFind2, v99, lookVector, y, v158, v179
@@ -66287,12 +65372,12 @@ function proto_1094(a1, ...)
   local v126 = {}
   v126[1] = false
   v126.n = 1
-  do return unpack(v126) end
-  do return true end
+  return unpack(v126)
+  return true
   local v248 = up10()
   false3 = true
   local v223 = up10()
-  do return false end
+  return false
   up7 = "Mochi, Mirror entered"
 end
 
@@ -66369,12 +65454,10 @@ function proto_1204(a1, ...)
     v112[1] = v103
     v112.n = 1
     return unpack(v112)
-  end
   local v112 = {}
   v112[1] = v103
   v112.n = 1
   return unpack(v112)
-end
 
 function fn_isS4CombatDone_1221(...)
   local v2 = {}
@@ -66382,7 +65465,6 @@ function fn_isS4CombatDone_1221(...)
   v2[1] = s4combat == true
   v2.n = 1
   return unpack(v2)
-end
 
 function proto_1231(...)
   local v7, now2, v33, value, v47, v81
@@ -66413,13 +65495,11 @@ function proto_1231(...)
       v115[1] = up2
       v115.n = 1
       return unpack(v115)
-    end
   end
   local v115 = {}
   v115[1] = up2
   v115.n = 1
   return unpack(v115)
-end
 
 function proto_1260(...)
   local v28 = {}
@@ -66455,12 +65535,12 @@ function proto_1268(...)
     return
   end
   local v117 = {}
-  do return end
+  return
   up7 = "Rejoining"
   local ok = pcall(teleportService.Teleport, teleportService, up9, players.LocalPlayer)
   return true
   local isDone = up6.isDone(4)
-  if not (not isDone) then return true end
+  if not (not isDone) then return true
 end
 
 function proto_1291(a1, a2, ...)
@@ -66648,12 +65728,10 @@ function proto_1291(a1, a2, ...)
             end
           end
           return nil
-        end
       else
         if not v193.CanTouch then
         else
           return v193
-        end
       end
     else
       v399 = v112
@@ -66723,27 +65801,25 @@ function proto_1291(a1, a2, ...)
         v496[1] = canTouch
         v496.n = 1
         return unpack(v496)
-      end
     end
   else
     local v519 = {}
     local v10 = up1()
     appendn(v519, v10)
     return unpack(v519)
-  end
   local v634 = math.max(v340.Color.R, v340.Color.G, v340.Color.B)
   v340 = v72
   isA6 = v340
   v72 = parent3
   if not v72 then continue end
-  do return nil end
+  return nil
   local touchTransmitter = part6:FindFirstChildWhichIsA("TouchTransmitter")
-  do return nil end
-  do return part6 end
-  do return nil end
+  return nil
+  return part6
+  return nil
   local doorNeon2 = parent3:FindFirstChild("DoorNeon")
   v72 = doorNeon2
-  do return nil end
+  return nil
   local isA10 = v340:IsA("BasePart")
   isA6 = isA10
 end
@@ -66873,13 +65949,10 @@ function proto_1359(list, list2, list3, a4, ...)
         return unpack(v96)
       else
         return false
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function fn_isDone_1449(a1, ...)
@@ -66888,7 +65961,6 @@ function fn_isDone_1449(a1, ...)
   v10[1] = v5 == true
   v10.n = 1
   return unpack(v10)
-end
 
 function proto_1476(list, ...)
   local v7, v18, v27, v32, v47, v50, v54, v57, v78, v84, v85, v93
@@ -66978,7 +66050,6 @@ function proto_1476(list, ...)
     v63[1] = v65
     v63.n = 1
     return unpack(v63)
-  end
 end
 
 function proto_1533(a1, ...)
@@ -67071,17 +66142,16 @@ function proto_1533(a1, ...)
     end
   end
   local v42 = up4()
-  do return true end
-  do return false end
-  do return false end
+  return true
+  return false
+  return false
   local v293 = {}
   v293[1] = false
   v293.n = 1
-  do return unpack(v293) end
+  return unpack(v293)
   local v92 = up4()
   return true, key
-  do return true end
-end
+  return true
 
 function proto_1694(a1, ...)
   local v20, v21, v23, v27, v29
@@ -67102,7 +66172,6 @@ function proto_1694(a1, ...)
   v21[1] = v29
   v21.n = 1
   return unpack(v21)
-end
 
 function proto_1737(...)
   local v12, v13, char, v25, v26
@@ -67121,7 +66190,6 @@ function proto_1737(...)
   v12[1] = v26
   v12.n = 1
   return unpack(v12)
-end
 
 function fn_FaceGetter_1742(...)
   local v5, v6, v9
@@ -67137,7 +66205,6 @@ function fn_FaceGetter_1742(...)
   v6[1] = v9
   v6.n = 1
   return unpack(v6)
-end
 
 function proto_1765(list, ...)
   local v4, ok, v33, v58
@@ -67163,7 +66230,6 @@ function proto_1765(list, ...)
     return unpack(v58)
   else
     return false
-  end
 end
 
 function proto_1775(inst, a2, ...)
@@ -67200,14 +66266,12 @@ function proto_1775(inst, a2, ...)
       v122[1] = v4
       v122.n = 1
       return unpack(v122)
-    end
     local v122 = {}
     v122[1] = v4
     v122.n = 1
     return unpack(v122)
   else
     return 0
-  end
 end
 
 function proto_1815(a1, a2, ...)
@@ -67250,10 +66314,8 @@ function proto_1815(a1, a2, ...)
       return unpack(v82)
     else
       return true
-    end
   else
     return true
-  end
 end
 
 function proto_1830(a1, ...)
@@ -67292,9 +66354,8 @@ function proto_1830(a1, ...)
   local v43 = {}
   v43[1] = nil
   v43.n = 1
-  do return unpack(v43) end
-  do return char end
-end
+  return unpack(v43)
+  return char
 
 function proto_1837(...)
   local char, v5, v6, v12, v15, v19
@@ -67318,7 +66379,6 @@ function proto_1837(...)
   v15[1] = v12
   v15.n = 1
   return unpack(v15)
-end
 
 function fn_SetCombatMode_1846(a1, ...)
   if false2 then
@@ -67362,9 +66422,8 @@ function proto_1861(a1, a2, ...)
   local v5 = {}
   v5[1] = false
   v5.n = 1
-  do return unpack(v5) end
-  do return true end
-end
+  return unpack(v5)
+  return true
 
 function proto_1888(a1, a2, a3, ...)
   local y, v31, v40, v57, v122, v125, v138, v167, v206, v224, v252, v278
@@ -67468,15 +66527,14 @@ function proto_1888(a1, a2, a3, ...)
       end
     end
   end
-  do return false end
-  do return true end
+  return false
+  return true
   local v439 = {}
   v439[1] = false
   v439.n = 1
-  do return unpack(v439) end
+  return unpack(v439)
   local v60 = up4()
   return true
-end
 
 function fn_OnExternalDisable_1998(a1, ...)
   up1 = a1
@@ -67517,7 +66575,6 @@ function fn_FaceGetter_2032(...)
   v1[1] = v15
   v1.n = 1
   return unpack(v1)
-end
 
 function proto_2036(...)
   local v88, v102, v106, v107
@@ -67594,7 +66651,6 @@ function proto_2052(...)
   v111[1] = v168
   v111.n = 1
   return unpack(v111)
-end
 
 function proto_2088(inst, ...)
   local v3, v13, lower, v31, value, v85, v89, v90, enabled, find3, v159, v161
@@ -67720,12 +66776,10 @@ function proto_2118(...)
     local joined = table.concat(v78)
     appendn(v125, joined)
     return unpack(v125)
-  end
   local v125 = {}
   local joined = table.concat(v78)
   appendn(v125, joined)
   return unpack(v125)
-end
 
 function proto_2151(a1, ...)
   local parent, find, v21, lower, v36, v37, find2, v74, v78, v86, parent2, v101
@@ -67807,12 +66861,10 @@ function proto_2151(a1, ...)
     v115[1] = value2
     v115.n = 1
     return unpack(v115)
-  end
   local v115 = {}
   v115[1] = value2
   v115.n = 1
   return unpack(v115)
-end
 
 function fn_isJobDone_2233(...)
   local v1 = {}
@@ -67820,7 +66872,6 @@ function fn_isJobDone_2233(...)
   v1[1] = done == true
   v1.n = 1
   return unpack(v1)
-end
 
 function proto_2234(...)
   if false2 then
@@ -67879,7 +66930,6 @@ function fn_isMainStarted_2336(...)
   v9[1] = mainStarted == true
   v9.n = 1
   return unpack(v9)
-end
 
 function proto_2389(...)
   local v24, v26
@@ -67903,31 +66953,25 @@ function proto_2389(...)
               local v138 = up6()
               appendn(v74, v138)
               return unpack(v74)
-            end
           else
             up5 = up5 + 4
             return nil
-          end
         else
           up5 = up5 + 5
           return false
-        end
       else
         up5 = up5 + 4
         return true
-      end
     else
       local v111 = {}
       local v46 = up4()
       appendn(v111, v46)
       return unpack(v111)
-    end
   else
     local v112 = {}
     local v40 = up3()
     appendn(v112, v40)
     return unpack(v112)
-  end
 end
 
 function proto_2643(list, ...)
@@ -68013,7 +67057,6 @@ function proto_2643(list, ...)
     return unpack(v198)
   else
     return false
-  end
 end
 
 function proto_2669(a1, ...)
@@ -68128,10 +67171,8 @@ function proto_2711(...)
       return unpack(v247)
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function proto_2726(...)
@@ -68146,7 +67187,6 @@ function proto_2726(...)
   local v29 = up2(position, 90, false, vec)
   appendn(v37, v29)
   return unpack(v37)
-end
 
 function proto_2754(a1, ...)
   local parent, v28, parent2
@@ -68177,21 +67217,19 @@ function proto_2754(a1, ...)
         end
       else
         return value.id
-      end
     end
   end
   local v42 = {}
   local pivot = parent2:GetPivot()
   v42[1] = pivot.Position
   v42.n = 1
-  do return unpack(v42) end
-  do return parent2.Position end
+  return unpack(v42)
+  return parent2.Position
   return nil
   local v20 = {}
   v20[1] = nil
   v20.n = 1
   return unpack(v20)
-end
 
 function proto_2759(a1, inst, ...)
   local v20, value, v39, v42, v68, v82
@@ -68224,9 +67262,7 @@ function proto_2759(a1, inst, ...)
     return value
   else
     return v39
-  end
-  do return nil end
-end
+  return nil
 
 function proto_2786(...)
   local v46 = {}
@@ -68294,7 +67330,6 @@ function proto_3020(a1, ...)
           continue
         else
           return v15
-        end
       end
     end
     local v2 = {}
@@ -68303,10 +67338,8 @@ function proto_3020(a1, ...)
     return unpack(v2)
   else
     return nil
-  end
   v39 = false
-  do return value.name end
-end
+  return value.name
 
 function proto_3071(a1, a2, ...)
   local v13, v52, v136
@@ -68333,7 +67366,6 @@ function proto_3071(a1, a2, ...)
     return v52[1]
   else
     return nil
-  end
 end
 
 function proto_3132(a1, a2, ...)
@@ -68453,7 +67485,6 @@ function proto_3132(a1, a2, ...)
     else
       local v72 = up3("White", 1, 20)
       return v232[1]
-    end
   end
   local v192 = v444[1](value)
 end
@@ -68483,8 +67514,7 @@ function proto_3133(...)
     return
   end
   local v33 = {}
-  do return end
-end
+  return end
 
 function fn_on_Triggered_3175(...)
   up1 = true
@@ -68494,7 +67524,6 @@ function proto_3203(...)
   local sub = up1:sub(up2, up2)
   up2 = up2 + 1
   return sub
-end
 
 function fn_markJobDone_3228(...)
   local v2 = up1("done", true)
@@ -68546,10 +67575,9 @@ function proto_3330(a1, a2, ...)
   local v33 = {}
   v33[1] = nil
   v33.n = 1
-  do return unpack(v33) end
-  do return end
+  return unpack(v33)
+  return
   return v23
-end
 
 function proto_3342(...)
   local v32, readFile3, v154, v161, v162
@@ -68595,7 +67623,6 @@ function proto_3342(...)
       v22[1] = v64
       v22.n = 1
       return unpack(v22)
-    end
   else
     local v144 = {}
     local v156 = {}
@@ -68604,7 +67631,6 @@ function proto_3342(...)
     v144[1] = v156
     v144.n = 1
     return unpack(v144)
-  end
 end
 
 function proto_3343(...)
@@ -68680,7 +67706,6 @@ function proto_3343(...)
         v57[1] = part
         v57.n = 1
         return unpack(v57)
-      end
     else
       color = doorNeon.Color
       v122 = 0.7 < color.R
@@ -68710,7 +67735,6 @@ function proto_3343(...)
             v57[1] = part
             v57.n = 1
             return unpack(v57)
-          end
         else
           local lower = v170:lower()
           local find2 = lower:find("remembered them all", 1, true)
@@ -68729,15 +67753,12 @@ function proto_3343(...)
             v57[1] = part
             v57.n = 1
             return unpack(v57)
-          end
         end
       else
         return part
-      end
     end
   else
     return nil
-  end
 end
 
 function proto_3416(...)
@@ -68745,7 +67766,6 @@ function proto_3416(...)
   local v3 = up1(up2, up3, up4)
   appendn(v1, v3)
   return unpack(v1)
-end
 
 function proto_3421(a1, a2, a3, a4, a5, a6, ...)
   local v21, v26, v27, v28, start, v41, v46, v56, v60, now2, v102, v104
@@ -68861,14 +67881,13 @@ function proto_3553(a1, a2, a3, ...)
       end
     end
   end
-  do return false end
-  do return true end
+  return false
+  return true
   return true
   local v21 = {}
   v21[1] = false
   v21.n = 1
   return unpack(v21)
-end
 
 function proto_3669(vec3, ...)
   local v6, v22, v33, v37, v70, v94, value, v177
@@ -68916,7 +67935,6 @@ function proto_3669(vec3, ...)
               continue
             else
               return value, v48, value.controls[v48]
-            end
           else
             break
           end
@@ -68925,16 +67943,13 @@ function proto_3669(vec3, ...)
       return false
     else
       return false
-    end
   else
     return false
-  end
-  do return false end
+  return false
   local v218 = {}
   v218[1] = true
   v218.n = 1
-  do return unpack(v218) end
-end
+  return unpack(v218)
 
 function proto_3694(...)
   local v49, v67
@@ -68953,7 +67968,6 @@ function proto_3697(...)
   local v3 = up1(up2, up3)
   appendn(v7, v3)
   return unpack(v7)
-end
 
 function proto_3791(...)
   local v38, v50, v82, v84, v93, v97, value, v122, v125, v128, v152, v176
@@ -69130,20 +68144,16 @@ function proto_3791(...)
           v158[1] = v210
           v158.n = 1
           return unpack(v158)
-        end
         local v158 = {}
         v158[1] = v210
         v158.n = 1
         return unpack(v158)
       else
         return "Unknown"
-      end
     else
       return "Unknown"
-    end
   else
     return "Unknown"
-  end
 end
 
 function proto_3901(list, a2, ...)
@@ -69184,7 +68194,7 @@ function proto_3916(...)
           local v259 = up2()
           local v270 = up3()
           if not (v270 == ",") then
-            do return end
+            return
           else
             local v274 = up1()
           end
@@ -69196,7 +68206,6 @@ function proto_3916(...)
       v109[1] = v144
       v109.n = 1
       return unpack(v109)
-    end
     local v109 = {}
     v109[1] = v144
     v109.n = 1
@@ -69204,7 +68213,6 @@ function proto_3916(...)
   else
     local v69 = up1()
     return v144
-  end
   local v277 = up3()
   if not (v277 == "}") then continue end
   local v281 = up1()
@@ -69222,7 +68230,6 @@ function proto_4030(...)
   v14[1] = v3
   v14.n = 1
   return unpack(v14)
-end
 
 function fn_logAltStarted_4047(...)
   local v2 = up1("altStarted", true)
@@ -69262,9 +68269,7 @@ function proto_4081(inst, ...)
     return unpack(v3)
   else
     return nil
-  end
-  do return value end
-end
+  return value
 
 function proto_4085(...)
   local v32, v47, position, v71, v206, v259, v341, v360, v398, v432, v454, v471
@@ -69602,9 +68607,8 @@ function proto_4230(a1, ...)
   local v11 = {}
   v11[1] = nil
   v11.n = 1
-  do return unpack(v11) end
+  return unpack(v11)
   return v22
-end
 
 function proto_4233(a1, part, ...)
   local v18, v19, v22, v36, v62, v76, pointToObjectSpace2
@@ -69638,10 +68642,8 @@ function proto_4233(a1, part, ...)
       return unpack(v18)
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function fn_SetAccountRole_4237(a1, ...)
@@ -70517,7 +69519,6 @@ function fn_AutoBigMom_4315(list, a2, a3, a4, ...)
   v851[3] = nilCell
   local register = unload.register("AutoBigMom", fn_AutoBigMom_4105)
   return v146[1]
-end
 
 function fn_logMainStarted_4364(...)
   local v2 = up1("mainStarted", true)
@@ -70752,13 +69753,11 @@ function proto_4643(a1, ...)
             v147[1] = "{" .. (joined .. "}")
             v147.n = 1
             return unpack(v147)
-          end
           local v147 = {}
           local joined = table.concat(v126, ",")
           v147[1] = "{" .. (joined .. "}")
           v147.n = 1
           return unpack(v147)
-        end
       else
         local gsub = a1:gsub("\\", "\\\\")
         local gsub2 = gsub:gsub("\"", "\\\"")
@@ -70766,7 +69765,6 @@ function proto_4643(a1, ...)
         local gsub4 = gsub3:gsub("\r", "\\r")
         local gsub5 = gsub4:gsub("\t", "\\t")
         return "\"" .. (gsub5 .. "\"")
-      end
     else
       v127 = {}
       v98 = not (a1 == a1)
@@ -70781,13 +69779,11 @@ function proto_4643(a1, ...)
       v127[1] = str3
       v127.n = 1
       return unpack(v127)
-    end
   else
     local v41 = {}
     local str = tostring(a1)
     appendn(v41, str)
     return unpack(v41)
-  end
 end
 
 function proto_4685(a1, ...)
@@ -71020,8 +70016,7 @@ function proto_4685(a1, ...)
                               end
                               break
                             else
-                              do return end
-                            end
+                              return end
                           else
                           end
                         end
@@ -71030,12 +70025,9 @@ function proto_4685(a1, ...)
                     else
                     end
                   else
-                    do return end
-                  end
+                    return end
                 else
-                  do return end
-                end
-              end
+                  return end
             end
             return
           end
@@ -71071,18 +70063,18 @@ function proto_4685(a1, ...)
     end
   end
   v996 = v666
-  do return end
+  return
   up1 = "Stage 1, Waiting before exit"
   local v1273 = task.wait(5)
-  if not (not v975) then return true end
+  if not (not v975) then return true
   v314 = true2
   local v1378 = up18()
   v1079 = v1378
-  do return end
+  return
   v747 = (v1079.Position - vec3).Magnitude <= 8
-  do return end
-  do return end
-  do return end
+  return
+  return
+  return
   local v1188 = up27(v887[1], v163, v557[1], v119)
   v975 = v1188
   v975 = false
@@ -71090,37 +70082,37 @@ function proto_4685(a1, ...)
   v215 = v1123
   v671 = v215
   v1333 = v1333 + v118
-  do return end
-  do return end
-  do return end
-  do return end
+  return
+  return
+  return
+  return
   up1 = "Stage 1, Delivering"
   local v1112 = up23()
   v119 = v1112
   local v1117 = up17(vec2)
-  do return end
+  return
   local v1220 = table.insert(v193, v887[1])
   v615 = v615 + v297
-  do return end
+  return
   local v1327 = up2(vec3, 140, 5, 30)
-  do return end
-  do return end
+  return
+  return
   v250 = 3
   v401 = 1
   v1217 = 1
-  if not (not v908) then do return end end
-  do return end
+  if not (not v908) then return end
+  return
   local v1151 = up26(v192)
-  do return end
-  do return end
+  return
+  return
   v314 = not false2
   v1334 = {}
   v747 = v1079
-  do return end
+  return
   local v1259 = up14(v432, v436, v193, v163)
   v247 = v1259
   v247 = v436
-  do return end
+  return
   up1 = "Stage 1, Exiting"
   local v516 = {}
   local v1235 = up7()
@@ -71130,21 +70122,21 @@ function proto_4685(a1, ...)
   local v1138 = up19()
   local v1140 = up25(v991, v887[1])
   v192 = v1140
-  if not (not (not v192)) then do return end end
-  do return end
+  if not (not (not v192)) then return end
+  return
   v1334[1] = v747
   v1334.n = 1
-  do return unpack(v1334) end
+  return unpack(v1334)
   local v1209 = task.wait(1.5)
   v1217 = v1217 + v401
-  do return end
+  return
   v757 = not false2
   v757 = true2
   v908 = not false2
   v908 = true2
   v666 = v1217 <= v250
   v996 = v250 <= v1217
-  do return end
+  return
   v671 = (v215.Position - vec2).Magnitude <= 5
 end
 
@@ -71391,9 +70383,8 @@ function proto_4726(a1, a2, ...)
       end
     end
   end
-  do return findFirstChild end
-  do return nil end
-end
+  return findFirstChild
+  return nil
 
 function proto_4737(...)
   local v1, parent, value, v103, v157, v200, v218, v242, v258, v296, v328, value2
@@ -71629,7 +70620,6 @@ function proto_4737(...)
     local v1221 = up23(up15)
     appendn(v354, v1221)
     return unpack(v354)
-  end
 end
 
 function proto_4747(a1, ...)
@@ -71696,7 +70686,7 @@ function proto_4747(a1, ...)
                 local interactables2 = v433:FindFirstChild("Interactables")
                 interactables = interactables2
                 if not interactables then
-                  do return end
+                  return
                 else
                   local v177 = v201(v433, value.path, interactables, 15)
                   v282 = v177
@@ -71707,7 +70697,7 @@ function proto_4747(a1, ...)
                   end
                   findFirstChild2 = findFirstChild3
                   if not findFirstChild2 then
-                    do return end
+                    return
                   else
                     up1 = "Stage 2, Moving"
                     local v210 = up11(findFirstChild2)
@@ -71739,7 +70729,7 @@ function proto_4747(a1, ...)
                         v186 = v212
                       end
                       if not v186 then
-                        do return end
+                        return
                       else
                         break
                       end
@@ -71751,9 +70741,7 @@ function proto_4747(a1, ...)
             else
             end
           else
-            do return end
-          end
-        end
+            return end
       end
       return
     end
@@ -71764,19 +70752,18 @@ function proto_4747(a1, ...)
   v412 = false2
   v188 = true2
   return nil
-  do return end
+  return
   up1 = "Stage 2, Room5: flying to Stage 3 entry"
   local v397 = up10(vec, 140, 8, 30)
-  do return end
+  return
   v188 = not false2
-  if v188 then return nil end
-  do return end
+  if v188 then return nil
+  return
   v412 = not true2
-  do return end
+  return
   v372[1] = v412
   v372.n = 1
   return unpack(v372)
-end
 
 function proto_4760(a1, inst, ...)
   local v61, v62, v63, v80, name, v102, v105, v127, v133, v143, v195, v207
@@ -71812,11 +70799,9 @@ function proto_4760(a1, inst, ...)
       return v207
     else
       return nil
-    end
   else
     return nil
-  end
-  do return name end
+  return name
   value = v247[2]
   local v259 = math.abs(v239 - value.r)
   local v268 = math.abs(v305 - value.g)
@@ -71894,11 +70879,9 @@ function proto_5071(...)
   local lower = up1.Name:lower()
   appendn(v4, lower)
   return unpack(v4)
-end
 
 function proto_5094(...)
   return up1.Color
-end
 
 function proto_5104(...)
   local ok = pcall(block.InvokeServer, block, false, "Melee")
@@ -71956,17 +70939,15 @@ function proto_5128(inst, a2, a3, a4, ...)
   local v24 = {}
   v24[1] = nil
   v24.n = 1
-  do return unpack(v24) end
-  do return v53 end
-  do return v39 end
-end
+  return unpack(v24)
+  return v53
+  return v39
 
 function proto_5164(...)
   local v6 = {}
   local isOwner = flightCore.IsOwner(up2)
   appendn(v6, isOwner)
   return unpack(v6)
-end
 function proto_160(a1, ...)
   local ok, v4, v5, ok2
   if a1 then
@@ -71991,7 +70972,6 @@ function proto_160(a1, ...)
     v18[1] = v14
     v18.n = 1
     return unpack(v18)
-  end
 end
 
 function proto_285(...)
@@ -72049,7 +71029,6 @@ function proto_472(...)
   v3[1] = roger
   v3.n = 1
   return unpack(v3)
-end
 
 function fn_AutoBosses_575(import, a2, a3, a4, ...)
   local flightSpeedCell, v21, v34, v62, v88, v141, v164, workspaceRefCell, v207, v249, v289, v295
@@ -72530,7 +71509,6 @@ function fn_AutoBosses_575(import, a2, a3, a4, ...)
   v663[3] = v362
   local register = unload.register("GPO_AutoBosses", fn_GPO_AutoBosses_464)
   return v362[1]
-end
 
 function fn_SetCombatMode_705(a1, ...)
   local v34, v40, v49, v134
@@ -72644,10 +71622,9 @@ function proto_1024(a1, a2, a3, a4, a5, ...)
   local v10 = {}
   v10[1] = false
   v10.n = 1
-  do return unpack(v10) end
-  do return false end
+  return unpack(v10)
+  return false
   return true
-end
 
 function proto_1067(a1, ...)
   if not (up1 == "Cyborg") then
@@ -72682,12 +71659,11 @@ function proto_1147(...)
     break
   end
   local ok2 = pcall(connect.Disconnect, connect)
-  do return end
+  return
   up1[up2] = "stopped"
   up5[up6] = false
   local ok = pcall(connect.Disconnect, connect)
   return true
-end
 
 function proto_1244(a1, ...)
   local v20, v22, v24, v59, keyCell, v74, v77, valueCell, value, key, v102
@@ -72718,7 +71694,6 @@ function proto_1244(a1, ...)
           continue
         else
           return nil
-        end
       end
       break
     end
@@ -72779,7 +71754,6 @@ function proto_1360(a1, a2, a3, ...)
   v37[1] = v28 - (now - v39)
   v37.n = 1
   return unpack(v37)
-end
 
 function proto_1503(...)
   local v46, v86, v112
@@ -72980,8 +71954,7 @@ function proto_1657(...)
     local v749 = up23()
     up9[up3] = nil
   end
-  do return end
-end
+  return end
 
 function proto_1816(list, list2, list3, list4, ...)
   local v12, value, humanoid, key, animationId, v88, ok, v144, v167, v195, v214, ok2
@@ -73159,9 +72132,8 @@ function proto_1872(a1, ...)
       end
     end
   end
-  do return value == a1 end
-  do return false end
-end
+  return value == a1
+  return false
 
 function proto_2047(...)
   up1 = nil
@@ -73339,7 +72311,6 @@ function proto_2892(...)
   local isOwner = flightCore.IsOwner(up2)
   appendn(v1, isOwner)
   return unpack(v1)
-end
 
 function fn_SetMihawk_3117(a1, ...)
   local v3 = up1("Mihawk", a1)
@@ -73374,7 +72345,6 @@ function proto_3351(a1, ...)
   local num2 = tonumber(v17[2])
   appendn(v26, num2)
   return unpack(v26)
-end
 
 function proto_3550(...)
   local v6, v17, v21, v28, value, v40, v70, v75, v80, localPlayer, v92, value2
@@ -73479,8 +72449,7 @@ function proto_3550(...)
     return
   end
   v70 = true
-  do return end
-end
+  return end
 
 function proto_3563(list, ...)
   local v10, v44, key, v53, v65
@@ -73535,9 +72504,8 @@ function proto_3572(a1, ...)
   local v42 = {}
   v42[1] = true
   v42.n = 1
-  do return unpack(v42) end
+  return unpack(v42)
   return false
-end
 
 function proto_3582(...)
   local v3, v21, v25, findFirstChildOfClass, findFirstChildOfClass2, v167, v238, hrp2, v319, v358, v366, v386
@@ -73695,13 +72663,12 @@ function proto_3582(...)
         end
       else
         return v466
-      end
     end
     break
   end
   local v728 = up18()
   up9[up3] = nil
-  do return end
+  return
   v607 = false
 end
 
@@ -73799,9 +72766,7 @@ function proto_3796(a1, ...)
     return unpack(v18)
   else
     return true
-  end
-  do return true end
-end
+  return true
 
 function fn_SetPatrolSpeed_3889(a1, ...)
   local v10, v24
@@ -73828,7 +72793,6 @@ function fn_GetConfirmedDeaths_3928(a1, ...)
   v8[1] = v12
   v8.n = 1
   return unpack(v8)
-end
 
 function proto_4101(a1, ...)
   local now2, v21, v37, v54, v61, v94, v95, v97, v103, v121, v125, v127
@@ -73892,9 +72856,7 @@ function proto_4101(a1, ...)
     return unpack(v26)
   else
     return false, nil
-  end
   return false, nil
-end
 
 function proto_4104(...)
   local findFirstChildOfClass, v3, v4, v8, v11, v14, value, v23, v31, v35, findFirstChildOfClass2, v57
@@ -74027,12 +72989,10 @@ function proto_4104(...)
     v116[1] = v3
     v116.n = 1
     return unpack(v116)
-  end
   local v116 = {}
   v116[1] = v3
   v116.n = 1
   return unpack(v116)
-end
 
 function fn_OnExternalResume_4141(a1, ...)
   up1 = a1
@@ -74061,7 +73021,6 @@ function proto_4601(a1, ...)
     return unpack(v17)
   else
     return nil
-  end
 end
 
 function proto_4661(...)
@@ -74190,7 +73149,6 @@ function fn_GetStats_5098(...)
   v11[1] = v33
   v11.n = 1
   return unpack(v11)
-end
 function proto_114(a1, ...)
   local trueCell
   a1 = { a1 }
@@ -74253,7 +73211,6 @@ function proto_171(...)
     v4[1] = v62
     v4.n = 1
     return unpack(v4)
-  end
 end
 
 function fn_on_DescendantAdded_181(descendant, ...)
@@ -74298,7 +73255,6 @@ function fn_GetProgress_215(...)
   v11[1] = v8
   v11.n = 1
   return unpack(v11)
-end
 
 function proto_266(a1, ...)
   local str = tostring(a1)
@@ -74661,30 +73617,30 @@ function proto_326(list, a2, ...)
   else
     return
   end
-  do return end
-  do return end
+  return
+  return
   local v1114 = v387()
   now22 = 0
-  do return end
+  return
   now22 = 0
-  do return end
-  do return end
+  return
+  return
   local v680 = v387()
   now22 = 0
   false2 = false
-  do return end
+  return
   local v335 = v387()
-  do return end
+  return
   false2 = false
-  do return end
+  return
   local v1659 = v387()
-  do return end
+  return
   local v1470 = v387()
   local v1406 = v387()
-  do return end
+  return
   local v616 = v387()
-  do return end
-  do return end
+  return
+  return
   now22 = 0
 end
 
@@ -74703,10 +73659,8 @@ function proto_439(...)
       return up1
     else
       return nil
-    end
   else
     return up1
-  end
 end
 
 function fn_AutoCupid_500(import, a2, a3, a4, ...)
@@ -75440,7 +74394,6 @@ function fn_AutoCupid_500(import, a2, a3, a4, ...)
   v198[9] = v833
   local register = unload2.register("Games/GPO/Farms/SecondSea/AutoCupid.lua", fn_AutoCupid_lua_4080)
   return v1620[1]
-end
 
 function proto_528(...)
   local v2, v31
@@ -75582,7 +74535,6 @@ function proto_632(...)
     return unpack(v18)
   else
     return nil
-  end
 end
 
 function proto_685(...)
@@ -75657,8 +74609,7 @@ function proto_685(...)
     end
     false2 = false
   end
-  do return end
-end
+  return end
 
 function proto_704(list, ...)
   local v54, v55, v106, now2
@@ -75685,15 +74636,12 @@ function proto_704(list, ...)
       return v106[1]
     else
       return v54.v
-    end
   else
     return false
-  end
 end
 
 function proto_713(a1, a2, ...)
   return a1.dist < a2.dist
-end
 
 function proto_754(...)
   local char, v49, isA, v58, value, v75, value2, v108, v131
@@ -75813,7 +74761,6 @@ function proto_773(a1, a2, ...)
     return true
   else
     return false
-  end
 end
 
 function proto_788(a1, a2, a3, ...)
@@ -75849,17 +74796,15 @@ function proto_788(a1, a2, a3, ...)
           if not v24 then
           else
             return value.id
-          end
         end
       else
       end
     end
   end
   local v19 = {}
-  do return end
-  do return end
-  do return end
-end
+  return
+  return
+  return end
 
 function proto_879(...)
   local value, value2, v17, v18, char, v25, v32, v46, v50, v51, v54, humanoid2
@@ -75919,7 +74864,6 @@ function proto_879(...)
       end
     end
     return value2
-  end
 end
 
 function proto_884(...)
@@ -76070,10 +75014,8 @@ function proto_1093(list, a2, ...)
       return unpack(v97)
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function proto_1097(...)
@@ -76092,7 +75034,6 @@ function proto_1097(...)
     return v12[1]
   else
     return up2
-  end
 end
 
 function fn_on_ChildRemoved_1165(...)
@@ -76136,13 +75077,11 @@ function proto_1276(list, a2, ...)
       return v67[1]
     else
       return nil
-    end
   else
     local v49 = {}
     local v28 = up2(list[1], a2)
     appendn(v49, v28)
     return unpack(v49)
-  end
 end
 
 function proto_1290(a1, ...)
@@ -76168,7 +75107,6 @@ function proto_1290(a1, ...)
     return true
   else
     return false
-  end
 end
 
 function fn_SetLavaCurseEnabled_1320(a1, ...)
@@ -76185,7 +75123,6 @@ end
 
 function proto_1457(...)
   return up1.Text
-end
 
 function proto_1509(a1, ...)
   false2 = false
@@ -76275,7 +75212,6 @@ end
 
 function proto_1803(...)
   return up1.Position
-end
 
 function proto_1808(...)
   local v5, now2, v36, v37, v62, v82
@@ -76445,7 +75381,6 @@ function proto_1887(...)
     return
   end
   return value.id
-end
 
 function proto_1973(...)
   cFrame = up1.CFrame
@@ -76523,18 +75458,14 @@ function proto_2019(list, ...)
         return value
       else
         return nil
-      end
     else
       return list[1]
-    end
   else
     return nil
-  end
   local v101 = {}
   v101[1] = nil
   v101.n = 1
   return unpack(v101)
-end
 
 function proto_2117(...)
   local v3 = {}
@@ -76607,10 +75538,8 @@ function proto_2364(a1, ...)
         end
       end
       return true
-    end
   else
     return false
-  end
 end
 
 function proto_2405(...)
@@ -76647,7 +75576,6 @@ end
 
 function proto_2556(...)
   return up1.Value
-end
 
 function proto_2588(...)
   local v2 = up1(up2, up3)
@@ -76750,7 +75678,6 @@ function proto_2706(a1, a2, a3, a4, a5, a6, a7, ...)
                     return value, v48, value.controls[v48]
                   else
                     return true, key
-                  end
                 end
               else
                 break
@@ -76780,20 +75707,19 @@ function proto_2706(a1, a2, a3, a4, a5, a6, a7, ...)
     return true
   else
     return false
-  end
-  do return false end
+  return false
   local v56 = up5()
   return false
-  do return false end
-  do return true end
+  return false
+  return true
   local v84 = {}
   v84[1] = false
   v84.n = 1
-  do return unpack(v84) end
+  return unpack(v84)
   return true
-  do return false end
+  return false
   local v138 = up5()
-  if not (not a7) then return false end
+  if not (not a7) then return false
 end
 
 function proto_2737(...)
@@ -76885,7 +75811,6 @@ function proto_2782(list, list2, ...)
     return trueCell[1]
   else
     return false
-  end
 end
 
 function proto_2795(inst, ...)
@@ -76934,15 +75859,12 @@ function proto_2795(inst, ...)
       return value
     else
       return primary
-    end
   else
     return nil
-  end
   local v38 = {}
   v38[1] = nil
   v38.n = 1
   return unpack(v38)
-end
 
 function fn_OnExternalDisable_2814(a1, ...)
   up1 = a1
@@ -77343,7 +76265,6 @@ function proto_3390(a1, ...)
     return true
   else
     return false
-  end
 end
 
 function proto_3400(...)
@@ -77351,7 +76272,6 @@ function proto_3400(...)
   local descendants = up1:GetDescendants()
   appendn(v2, descendants)
   return unpack(v2)
-end
 
 function proto_3411(...)
   local disconnect = up1:Disconnect()
@@ -77425,7 +76345,6 @@ function proto_3486(list, list2, ...)
       v22[1] = v62
       v22.n = 1
       return unpack(v22)
-    end
     local v22 = {}
     v22[1] = v62
     v22.n = 1
@@ -77436,7 +76355,6 @@ function proto_3486(list, list2, ...)
     v230[1] = v217
     v230.n = 1
     return unpack(v230)
-  end
 end
 
 function proto_3520(a1, ...)
@@ -77648,7 +76566,7 @@ function proto_3622(a1, ...)
     return
   end
   local v511 = {}
-  do return end
+  return
   local v175 = task.wait(0.1)
   v497 = true
 end
@@ -77686,31 +76604,22 @@ function proto_3786(...)
                     return 8
                   else
                     return 7
-                  end
                 else
                   return 6
-                end
               else
                 return 5
-              end
             else
               return 4
-            end
           else
             return 3
-          end
         else
           return 2
-        end
       else
         return 1
-      end
     else
       return 0
-    end
   else
     return 0
-  end
 end
 
 function proto_3806(...)
@@ -77815,11 +76724,10 @@ function proto_3840(...)
     return
   end
   up2 = true
-  do return end
-  do return end
+  return
+  return
   local v196 = {}
-  do return end
-end
+  return end
 
 function proto_3878(...)
   local playgameCell, queueCell
@@ -78092,7 +77000,6 @@ function fn_GetStats_4107(...)
   v9[1] = v3
   v9.n = 1
   return unpack(v9)
-end
 
 function fn_on_ChildAdded_4138(child, ...)
   local v2, v20
@@ -78132,7 +77039,6 @@ function proto_4205(...)
     return v14[1]
   else
     return nil
-  end
 end
 
 function proto_4223(...)
@@ -78169,7 +77075,6 @@ end
 
 function proto_4290(...)
   return up1.Position
-end
 
 function proto_4291(a1, ...)
   a1 = { a1 }
@@ -78282,8 +77187,7 @@ function proto_4438(a1, a2, a3, a4, ...)
                 break
               end
             else
-              do return end
-            end
+              return end
           else
             local now3 = tick()
             now4 = now3
@@ -78296,15 +77200,13 @@ function proto_4438(a1, a2, a3, a4, ...)
     return true
   else
     return false
-  end
   local v56 = up2()
-  do return false end
+  return false
   local v212 = {}
   v212[1] = false
   v212.n = 1
-  do return unpack(v212) end
+  return unpack(v212)
   return false
-end
 
 function proto_4446(...)
   local v9, v12, primary, v28, v34, v36, v38, v48, v70, value
@@ -78381,14 +77283,11 @@ function proto_4538(...)
           return unpack(v3)
         else
           return true
-        end
       else
         return true
-      end
     end
   else
     return true
-  end
 end
 
 function proto_4550(...)
@@ -78618,7 +77517,6 @@ function proto_4571(a1, ...)
                 continue
               else
                 return true, key
-              end
             else
               v286[value2] = true
             end
@@ -78658,7 +77556,6 @@ function proto_4571(a1, ...)
               local v315 = task.wait(0.3)
             else
               return true, key
-            end
           end
         else
         end
@@ -78671,7 +77568,7 @@ function proto_4571(a1, ...)
   end
   local v970 = up7()
   local v891 = {}
-  do return end
+  return
   v438 = true
   return true, key
   return true, key
@@ -78701,10 +77598,8 @@ function proto_4628(a1, ...)
       return true
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_4640(list, a2, ...)
@@ -78899,9 +77794,7 @@ function proto_4640(list, a2, ...)
                 else
                 end
               else
-                do return end
-              end
-            end
+                return end
           else
           end
         else
@@ -78914,32 +77807,30 @@ function proto_4640(list, a2, ...)
     return
   end
   local v194 = v219()
-  do return end
-  do return end
+  return
+  return
   local v218 = v219()
-  do return end
-  do return end
-  do return end
+  return
+  return
+  return
   local v620 = {}
   v620[1] = v770
   local ok2 = pcall(proto_2737)
-  do return end
+  return
   local v297 = {}
   v297[1] = v770
   local ok3 = pcall(proto_3411)
   if not v770[1] then
-    do return end
+    return
   else
     return true, key
-  end
   return true, key
   local v664 = v219()
-  do return end
-  do return end
-  do return end
-  do return end
-  do return end
-end
+  return
+  return
+  return
+  return
+  return end
 
 function proto_4719(...)
   local v70, v84, primaryCell
@@ -78961,10 +77852,8 @@ function proto_4719(...)
       return nil
     else
       return primaryCell[1]
-    end
   else
     return nil
-  end
 end
 
 function proto_4728(list, ...)
@@ -79016,7 +77905,6 @@ end
 
 function proto_4821(a1, a2, ...)
   return a1.dist < a2.dist
-end
 
 function proto_4826(...)
   local v81
@@ -79171,7 +78059,6 @@ function proto_4886(...)
     return v37
   else
     return up3
-  end
 end
 
 function proto_4925(...)
@@ -79793,7 +78680,6 @@ function proto_5086(...)
     return
   end
   return false
-end
 
 function proto_5093(a1, a2, a3, ...)
   local v6, v31, humanoid, v53, v67, v68, v85, v104, v114, v167, v186, value
@@ -79868,7 +78754,6 @@ function proto_5093(a1, a2, a3, ...)
                       continue
                     else
                       return nil
-                    end
                   else
                     break
                   end
@@ -79962,19 +78847,17 @@ function proto_5093(a1, a2, a3, ...)
           continue
         end
       else
-        do return end
-      end
-    end
+        return end
     return
   else
     return
   end
   return false
-  do return end
-  do return end
+  return
+  return
   return nil
-  do return end
-  do return end
+  return
+  return
   v463 = true
 end
 
@@ -79990,7 +78873,6 @@ function proto_5103(list, ...)
     return v10[1]
   else
     return nil
-  end
 end
 
 function proto_5166(...)
@@ -80050,15 +78932,12 @@ function proto_66(...)
       return v33 / v48
     else
       return 1
-    end
   else
     return 1
-  end
 end
 
 function proto_87(...)
   return game.PlaceId == up1
-end
 
 function fn_SetEnabled_256(a1, ...)
   if not a1 then
@@ -80125,7 +79004,6 @@ function proto_595(list, ...)
     return value
   else
     return nil
-  end
 end
 
 function proto_710(...)
@@ -80194,7 +79072,6 @@ function proto_710(...)
         v161[1] = v111
         v161.n = 1
         return unpack(v161)
-      end
       up2 = v111
       local v161 = {}
       v161[1] = v111
@@ -80202,7 +79079,6 @@ function proto_710(...)
       return unpack(v161)
     else
       return v111
-    end
   else
     local v130 = {}
     v247 = v130
@@ -80236,12 +79112,10 @@ function proto_710(...)
       v92[1] = v247
       v92.n = 1
       return unpack(v92)
-    end
     local v92 = {}
     v92[1] = v247
     v92.n = 1
     return unpack(v92)
-  end
 end
 
 function proto_1494(a1, ...)
@@ -80312,7 +79186,6 @@ end
 
 function proto_1873(a1, ...)
   return a1.Health
-end
 
 function proto_1950(a1, a2, a3, a4, ...)
   local now, arrival_radius, v126, arrival_radius2, v250, now5, position, v348, v420, v451, arrival_radius3
@@ -80401,17 +79274,14 @@ function proto_1950(a1, a2, a3, a4, ...)
         return false
       else
         return true
-      end
     else
       return false
-    end
   else
     return false
-  end
-  do return true end
+  return true
   local v222 = up7()
   return nil
-  do return false end
+  return false
   local v277 = up7()
 end
 
@@ -80431,7 +79301,6 @@ end
 
 function proto_2156(...)
   return humanoid.Health
-end
 
 function fn_SetTargetWave_2239(a1, ...)
   local num2
@@ -80445,7 +79314,6 @@ end
 
 function proto_2275(...)
   return up1.MaxHealth
-end
 
 function proto_2416(...)
   if false2 then
@@ -80499,16 +79367,16 @@ function proto_2729(a1, ...)
     return
   end
   local v267 = {}
-  do return end
+  return
   local ok = pcall(up10)
   local v221 = up9()
-  do return end
+  return
   local v177 = up7(false)
   local v181 = up8()
   return false
   return value, v48, value.controls[v48]
-  do return end
-  do return end
+  return
+  return
   return false
   up6 = up6 + 1
   false2 = false
@@ -80562,9 +79430,8 @@ function proto_2916(a1, ...)
   else
     return
   end
-  do return end
+  return
   return value, v48, value.controls[v48]
-end
 
 function proto_2935(...)
   local stop = makeFlightController.Stop()
@@ -80572,7 +79439,6 @@ end
 
 function proto_3023(...)
   return up1.Health
-end
 
 function proto_3341(...)
   local char
@@ -80585,7 +79451,6 @@ function proto_3341(...)
     return unpack(v1)
   else
     return nil
-  end
 end
 
 function proto_4003(a1, a2, ...)
@@ -80648,12 +79513,10 @@ function proto_4014(...)
     v39[1] = v38
     v39.n = 1
     return unpack(v39)
-  end
   local v39 = {}
   v39[1] = v38
   v39.n = 1
   return unpack(v39)
-end
 
 function proto_4036(...)
   if true2 then
@@ -80707,7 +79570,6 @@ function proto_4126(...)
             v99[1] = wave8.Value
             v99.n = 1
             return unpack(v99)
-          end
         end
       else
         local wave6 = gameData:FindFirstChild("Wave")
@@ -80734,14 +79596,12 @@ function proto_4126(...)
               v99[1] = wave8.Value
               v99.n = 1
               return unpack(v99)
-            end
           end
         else
           local v128 = {}
           v128[1] = wave3.Value
           v128.n = 1
           return unpack(v128)
-        end
       end
     else
       local wave4 = roundInfo:FindFirstChild("Wave")
@@ -80771,7 +79631,6 @@ function proto_4126(...)
               v99[1] = wave8.Value
               v99.n = 1
               return unpack(v99)
-            end
           end
         else
           local wave6 = gameData:FindFirstChild("Wave")
@@ -80798,22 +79657,18 @@ function proto_4126(...)
                 v99[1] = wave8.Value
                 v99.n = 1
                 return unpack(v99)
-              end
             end
           else
             local v128 = {}
             v128[1] = wave3.Value
             v128.n = 1
             return unpack(v128)
-          end
         end
       else
         return wave9.Value
-      end
     end
   else
     return wave2.Value
-  end
 end
 
 function proto_4337(...)
@@ -81094,7 +79949,6 @@ function fn_AutoDungeon_4766(import, a2, a3, a4, ...)
   v304[1] = v658
   local register = unload3.register("Games/GPO/Farms/SecondSea/AutoDungeon.lua", fn_AutoDungeon_lua_2008)
   return v658[1]
-end
 
 function proto_4884(a1, ...)
   local v3, v5
@@ -81106,7 +79960,6 @@ function proto_4884(a1, ...)
   v3[1] = v5
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_5025(a1, ...)
   local setEnabled = autoBuso.SetEnabled(a1)
@@ -81134,7 +79987,6 @@ function fn_GetStats_5097(...)
   v3[1] = v9
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_5117(character, a2, ...)
   local v15, v45, hrp2, v114, humanoidCell, v121, v137, v214
@@ -81205,13 +80057,12 @@ function proto_5117(character, a2, ...)
   else
     return
   end
-  if not (not (up6 == a2)) then return value, v48, value.controls[v48] end
+  if not (not (up6 == a2)) then return value, v48, value.controls[v48]
   return value, v48, value.controls[v48]
   local v126 = up7()
-  do return end
+  return
   return value, v48, value.controls[v48]
   return value, v48, value.controls[v48]
-end
 function fn_AutoDungeon_lua_2008(...)
   local setEnabled = up1.SetEnabled(false)
 end
@@ -81321,7 +80172,6 @@ function proto_759(a1, ...)
   v10[1] = proto_4557
   v10.n = 1
   return unpack(v10)
-end
 
 function proto_842(a1, ...)
   local setEnabled = antiDetection.SetEnabled(a1)
@@ -81365,7 +80215,6 @@ function proto_919(inst, inst2, ...)
     v30 = math.huge
   end
   return v23 < v30
-end
 
 function fn_OnExternalDisable_1205(a1, ...)
   up1 = a1
@@ -81385,7 +80234,6 @@ function proto_1243(...)
   v3[1] = v2
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_1512(vec2, ...)
   local v11 = up1()
@@ -81394,7 +80242,6 @@ function proto_1512(vec2, ...)
   local vec = Vector3.new(vec2.X, v4, vec2.Z)
   appendn(v27, vec)
   return unpack(v27)
-end
 
 function fn_GetStats_1656(...)
   local v12 = {}
@@ -81410,7 +80257,6 @@ function fn_GetStats_1656(...)
   v12[1] = v18
   v12.n = 1
   return unpack(v12)
-end
 
 function proto_1679(...)
   local v4, v9
@@ -81423,7 +80269,6 @@ function proto_1679(...)
   v4[1] = v9
   v4.n = 1
   return unpack(v4)
-end
 
 function proto_1712(...)
   if false2 then
@@ -81476,9 +80321,7 @@ function proto_1750(a1, a2, a3, ...)
           local v131 = task.wait(0.25)
           continue
         else
-          do return end
-        end
-      end
+          return end
       local v130 = {}
       return
     end
@@ -81502,7 +80345,6 @@ function proto_1870(...)
   v19[1] = v1
   v19.n = 1
   return unpack(v19)
-end
 
 function fn_SetCombatMode_2003(a1, ...)
   local v5, v6, v76, v115
@@ -81555,7 +80397,6 @@ function proto_2272(...)
   v28[1] = findPrompt
   v28.n = 1
   return unpack(v28)
-end
 
 function proto_2300(...)
   local v9, value, v93, v104, v107, v142, v151, humanoid2, npCs2
@@ -81593,7 +80434,6 @@ function proto_2300(...)
     return v104
   else
     return v104
-  end
 end
 
 function fn_OnExternalResume_2338(a1, ...)
@@ -81640,12 +80480,11 @@ function proto_2659(a1, ...)
       end
     end
   end
-  do return end
-  do return end
+  return
+  return
   local v79 = {}
-  do return end
-  do return end
-end
+  return
+  return end
 
 function proto_2831(...)
   local v5, v12, v34, v48, v52
@@ -81667,7 +80506,6 @@ function proto_2831(...)
           continue
         else
           return value.id
-        end
       end
       break
     end
@@ -81719,20 +80557,16 @@ function proto_3043(...)
             continue
           else
             return v15
-          end
         end
       end
       local v29 = {}
       v29[1] = false
       v29.n = 1
       return unpack(v29)
-    end
   else
     return true
-  end
   up1 = true
   return true
-end
 
 function proto_3110(...)
   local v26 = up1(true)
@@ -81780,7 +80614,7 @@ function proto_3131(a1, ...)
     end
   end
   local v67 = up4()
-  do return end
+  return
   local v24 = {}
 end
 
@@ -82056,7 +80890,6 @@ function fn_AutoFactory_3442(import, a2, a3, a4, ...)
   v201[1] = v357
   local register = unload.register("GPO_AutoFactory", fn_GPO_AutoFactory_688)
   return v357[1]
-end
 
 function proto_3715(a1, ...)
   local v9, v62, v65, v129, v140, v377
@@ -82215,7 +81048,6 @@ function proto_4422(a1, ...)
     end
   end
   return value
-end
 
 function proto_4557(...)
   local v3, v7
@@ -82227,7 +81059,6 @@ function proto_4557(...)
   v7[1] = v3
   v7.n = 1
   return unpack(v7)
-end
 
 function fn_SetAutoQuest_4612(a1, ...)
   up1 = a1 == true
@@ -82263,10 +81094,8 @@ function fn_IsCoreDestroyable_5126(...)
       return unpack(v16)
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function fn_GetProgress_5160(...)
@@ -82276,7 +81105,6 @@ function fn_GetProgress_5160(...)
   v3[1] = v4
   v3.n = 1
   return unpack(v3)
-end
 function proto_38(character, a2, ...)
   local v22, v35, v41, v47, v56, humanoid2, v95, v97, char, humanoid3, v101, v108
   local v113, v139, v197, humanoid4, v221
@@ -82399,7 +81227,6 @@ function proto_101(...)
     return ensureBackpackTool4.Parent == char
   else
     return false
-  end
 end
 
 function proto_179(...)
@@ -82418,7 +81245,6 @@ function proto_179(...)
   v6[1] = position
   v6.n = 1
   return unpack(v6)
-end
 
 function proto_204(a1, list, a3, ...)
   local v20, v21, v26, x, y, v53, v62, v71, v154
@@ -82467,9 +81293,7 @@ function proto_204(a1, list, a3, ...)
     return unpack(v90)
   else
     return nil
-  end
-  do return nil end
-end
+  return nil
 
 function proto_279(...)
   local envCell, v33, v41, v64, v75, v97, value, v103, v105, v121, effectsCell, v151
@@ -82544,7 +81368,6 @@ function proto_279(...)
         v149[5] = v103[1]
         v149.n = 5
         return unpack(v149)
-      end
     end
     local v149 = {}
     v149[1] = v216[1]
@@ -82556,7 +81379,6 @@ function proto_279(...)
     return unpack(v149)
   else
     return nil, nil
-  end
 end
 
 function proto_305(a1, ...)
@@ -82636,32 +81458,27 @@ function proto_305(a1, ...)
                       v514[1] = false
                       v514.n = 1
                       return unpack(v514)
-                    end
                   else
                     local v41 = {}
                     v41[1] = false
                     v41.n = 1
                     return unpack(v41)
-                  end
                 else
                   local v244 = {}
                   v244[1] = false
                   v244.n = 1
                   return unpack(v244)
-                end
               else
                 local v511 = math.random(328685, 519228)
                 local v343 = {}
                 v343[1] = false
                 v343.n = 1
                 return unpack(v343)
-              end
             else
               local v4 = {}
               v4[1] = false
               v4.n = 1
               return unpack(v4)
-            end
           else
             local v449 = up10(a1)
             if v449 then
@@ -82695,32 +81512,27 @@ function proto_305(a1, ...)
                           v514[1] = false
                           v514.n = 1
                           return unpack(v514)
-                        end
                       else
                         local v41 = {}
                         v41[1] = false
                         v41.n = 1
                         return unpack(v41)
-                      end
                     else
                       local v244 = {}
                       v244[1] = false
                       v244.n = 1
                       return unpack(v244)
-                    end
                   else
                     local v511 = math.random(328685, 519228)
                     local v343 = {}
                     v343[1] = false
                     v343.n = 1
                     return unpack(v343)
-                  end
                 else
                   local v4 = {}
                   v4[1] = false
                   v4.n = 1
                   return unpack(v4)
-                end
               else
                 local v485 = up13(a1)
                 v177 = not v485
@@ -82745,40 +81557,33 @@ function proto_305(a1, ...)
                           v514[1] = false
                           v514.n = 1
                           return unpack(v514)
-                        end
                       else
                         local v41 = {}
                         v41[1] = false
                         v41.n = 1
                         return unpack(v41)
-                      end
                     else
                       local v244 = {}
                       v244[1] = false
                       v244.n = 1
                       return unpack(v244)
-                    end
                   else
                     local v511 = math.random(328685, 519228)
                     local v343 = {}
                     v343[1] = false
                     v343.n = 1
                     return unpack(v343)
-                  end
                 else
                   local v4 = {}
                   v4[1] = false
                   v4.n = 1
                   return unpack(v4)
-                end
               end
             else
               return false
-            end
           end
         else
           return false
-        end
       else
         while true do
           local v188 = up5(a1)
@@ -82801,12 +81606,10 @@ function proto_305(a1, ...)
           v114[1] = false
           v114.n = 1
           return unpack(v114)
-        end
         local v114 = {}
         v114[1] = false
         v114.n = 1
         return unpack(v114)
-      end
     else
       local setAutoM1 = autoM1.SetAutoM1(false)
       local setNPCTargetLimit = autoM1.SetNPCTargetLimit(nil)
@@ -82835,10 +81638,8 @@ function proto_305(a1, ...)
         break
       end
       return false
-    end
   else
     return true
-  end
 end
 
 function proto_367(...)
@@ -82848,7 +81649,6 @@ end
 function proto_379(a1, ...)
   local disconnect = connect:Disconnect()
   return a1
-end
 
 function fn_Respawn_384(...)
   local v22, v28
@@ -82920,7 +81720,6 @@ function fn_GetBossOffset_438(a1, ...)
     return unpack(v8)
   else
     return 0, 0
-  end
 end
 
 function proto_531(a1, ...)
@@ -82955,14 +81754,12 @@ function proto_531(a1, ...)
       v11[1] = v29
       v11.n = 1
       return unpack(v11)
-    end
     local v11 = {}
     v11[1] = v29
     v11.n = 1
     return unpack(v11)
   else
     return false
-  end
 end
 
 function proto_580(a1, ...)
@@ -83024,7 +81821,6 @@ function proto_580(a1, ...)
     return unpack(v20)
   else
     return false
-  end
   v171 = true
 end
 
@@ -83063,7 +81859,6 @@ function proto_679(list, ...)
           v58[1] = v62
           v58.n = 1
           return unpack(v58)
-        end
       else
         local v54 = {}
         local v106 = {}
@@ -83071,7 +81866,6 @@ function proto_679(list, ...)
         v54[1] = v106
         v54.n = 1
         return unpack(v54)
-      end
     else
       local v26 = {}
       local v91 = {}
@@ -83080,10 +81874,8 @@ function proto_679(list, ...)
       v26[1] = v91
       v26.n = 1
       return unpack(v26)
-    end
   else
     return list[2]
-  end
 end
 
 function proto_687(a1, ...)
@@ -83096,7 +81888,6 @@ function proto_687(a1, ...)
   v3[1] = v8
   v3.n = 1
   return unpack(v3)
-end
 
 function fn_Main_724(...)
   local v2 = up1(up2)
@@ -83264,7 +82055,6 @@ function proto_942(a1, ...)
                 v191[1] = katana4.Parent == char
                 v191.n = 1
                 return unpack(v191)
-              end
             end
             local v191 = {}
             v191[1] = katana4.Parent == char
@@ -83272,13 +82062,10 @@ function proto_942(a1, ...)
             return unpack(v191)
           else
             return false
-          end
         else
           return false
-        end
       else
         return true
-      end
     else
       local v251 = {}
       local children = char2:GetChildren()
@@ -83311,9 +82098,7 @@ function proto_942(a1, ...)
     end
   else
     return false
-  end
-  do return true end
-end
+  return true
 
 function proto_956(list, ...)
   local ok, v34, v39, v132, v175, v194, v240, v248, v285, v330, v363, v379
@@ -83473,7 +82258,6 @@ function proto_956(list, ...)
     return
   end
   return v15
-end
 
 function proto_984(...)
   local lower = up1.Text:lower()
@@ -83525,12 +82309,10 @@ function proto_1039(...)
     v24[1] = v7
     v24.n = 1
     return unpack(v24)
-  end
   local v24 = {}
   v24[1] = v7
   v24.n = 1
   return unpack(v24)
-end
 
 function proto_1066(...)
   local v2, v3, v10, v16, v28, isA, v79, value, v95, v102, v116, v127
@@ -83647,7 +82429,6 @@ function proto_1066(...)
       v15[2] = v2
       v15.n = 2
       return unpack(v15)
-    end
     local v15 = {}
     v15[1] = value
     v15[2] = v2
@@ -83655,7 +82436,6 @@ function proto_1066(...)
     return unpack(v15)
   else
     return nil, nil
-  end
 end
 
 function proto_1072(...)
@@ -83670,7 +82450,6 @@ function proto_1072(...)
   v14[1] = v34
   v14.n = 1
   return unpack(v14)
-end
 
 function proto_1075(a1, ...)
   local v89, v101, v191, v205, v265, v285, v365, v374, v454, v481, v489, enabled
@@ -83752,8 +82531,7 @@ function proto_1075(a1, ...)
   local v373 = {}
   local v505 = up2(a1)
   appendn(v373, v505)
-  do return unpack(v373) end
-end
+  return unpack(v373)
 
 function proto_1079(a1, a2, ...)
   local key, v21, parent, v28, enabled, v74, v85, v97, v109, key2, v119, v123
@@ -83814,12 +82592,10 @@ function proto_1079(a1, a2, ...)
     v91[1] = key
     v91.n = 1
     return unpack(v91)
-  end
   local v91 = {}
   v91[1] = key
   v91.n = 1
   return unpack(v91)
-end
 
 function fn_SetPatrolSpeed_1251(a1, ...)
   local v22, v47
@@ -83905,10 +82681,8 @@ function proto_1351(a1, a2, a3, ...)
     return unpack(v220)
   else
     return false
-  end
-  do return false end
+  return false
   return value, v48, value.controls[v48]
-end
 
 function fn_GetDebugReport_1356(...)
   local debugStats = autoM1.GetDebugStats()
@@ -83916,7 +82690,6 @@ function fn_GetDebugReport_1356(...)
   local text = string.format("Impel freeze report | floor=%d step=%d event=%s target=%s | NPC last/max=%d/%d | hover gap last/max=%.3f/%.3fs | target switches=%d | flight starts/retargets=%d/%d | M1 targets last/max=%d/%d | M1 scan last/max=%.2f/%.2fms | M1 heartbeat gap last/max=%.3f/%.3fs | M1 attacks=%d", up3, up4, up1.lastEvent, up1.lastTarget, up1.lastNPCCount, up1.maxNPCCount, up1.lastHoverGap, up1.maxHoverGap, up1.targetSwitches, up1.flightStarts, up1.flightRetargets, debugStats.lastTargets, debugStats.maxTargets, debugStats.lastScanMs, debugStats.maxScanMs, debugStats.lastHeartbeatGap, debugStats.maxHeartbeatGap, debugStats.attacks)
   appendn(v58, text)
   return unpack(v58)
-end
 
 function proto_1478(...)
   local v13, visible, v31, v48, v63, v65, v67, v82, v91, v108, v111, v134
@@ -84086,12 +82859,11 @@ function proto_1478(...)
     return unpack(v103)
   else
     return false
-  end
   local ok2 = pcall(v265[2].Function)
   v331 = true
-  do return end
-  do return true end
-  do return end
+  return
+  return true
+  return
   v265 = v191
   v265 = v265(v262, v207)
   v207 = v265
@@ -84423,23 +83195,22 @@ function proto_1535(a1, a2, a3, ...)
       end
     end
   end
-  do return end
-  do return end
+  return
+  return
   local now8 = tick()
   up12[v1450] = now8 + 5
   local v884 = {}
   v884["HARD_LOCK_Y"] = true
   local v651 = up13(a1, a2, v884, 10)
-  do return end
-  do return end
+  return
+  return
   local v644 = {}
-  do return end
+  return
   v521 = true
 end
 
 function fn_GetBossNames_1553(...)
   return up1
-end
 
 function proto_1571(a1, ...)
   local v12, v18
@@ -84453,7 +83224,6 @@ function proto_1571(a1, ...)
   v18[1] = v12
   v18.n = 1
   return unpack(v18)
-end
 
 function proto_1584(a1, a2, ...)
   local speed, v29, v58, speed2, v88, setSpeed, setArrivalRadius, arrival_radius, v154, v162, v183, arrival_radius2
@@ -84568,15 +83338,12 @@ function proto_1587(a1, ...)
         v109[1] = true
         v109.n = 1
         return unpack(v109)
-      end
       local v109 = {}
       v109[1] = true
       v109.n = 1
       return unpack(v109)
-    end
   else
     return false
-  end
 end
 
 function proto_1643(a1, a2, a3, ...)
@@ -84656,13 +83423,11 @@ function proto_1643(a1, a2, a3, ...)
                 else
                 end
               else
-                do return end
-              end
+                return end
             else
             end
           else
             return value, v48, value.controls[v48]
-          end
         else
         end
       end
@@ -84681,17 +83446,15 @@ function proto_1643(a1, a2, a3, ...)
     return unpack(v61)
   else
     return false
-  end
-  do return true end
+  return true
   return v15
-  do return true end
+  return true
   true2 = true
-  do return false end
-  do return false end
+  return false
+  return false
   return value, v48, value.controls[v48]
   true2 = true
   return false
-end
 
 function proto_1654(a1, ...)
   if a1 == Enum.TeleportState.Started then
@@ -84722,7 +83485,6 @@ function proto_1892(a1, ...)
   v13[1] = parent3
   v13.n = 1
   return unpack(v13)
-end
 
 function proto_1905(character, ...)
   local v2, humanoid2
@@ -84736,7 +83498,6 @@ function proto_1905(character, ...)
     return (humanoid2.Health / humanoid2.MaxHealth) * 100
   else
     return 100
-  end
 end
 
 function fn_SetFloorY_1919(a1, a2, ...)
@@ -84814,12 +83575,11 @@ function proto_1951(inst, ...)
       end
     end
   end
-  do return value2 end
+  return value2
   local v85 = {}
   v85[1] = nil
   v85.n = 1
   return unpack(v85)
-end
 
 function proto_2026(...)
   local ok3, v60
@@ -84865,12 +83625,10 @@ function fn_GetShopItems_2038(...)
     v28[1] = v23
     v28.n = 1
     return unpack(v28)
-  end
   local v28 = {}
   v28[1] = v23
   v28.n = 1
   return unpack(v28)
-end
 
 function proto_2086(inst, ...)
   local isA4, v52, isA5, v63
@@ -84923,7 +83681,6 @@ function proto_2114(a1, ...)
   v3[1] = v19
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_2164(a1, a2, ...)
   local v3, v15, v42, v54, v84, v93, v151
@@ -84962,7 +83719,6 @@ function proto_2164(a1, a2, ...)
             end
           else
             return v15
-          end
         end
         local v143 = {}
         return
@@ -85081,10 +83837,8 @@ function proto_2218(a1, ...)
       return true
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_2237(a1, ...)
@@ -85120,20 +83874,16 @@ function proto_2237(a1, ...)
       if not v44 then
         continue
       else
-        do return end
-      end
-    end
+        return end
   end
   local v47 = {}
   v47[1] = nil
   v47.n = 1
-  do return unpack(v47) end
-  do return key end
-end
+  return unpack(v47)
+  return key
 
 function fn_GetRouteData_2246(...)
   return up1
-end
 
 function proto_2283(a1, ...)
   local v5, v34, v35, swordMastery2, v65, v89, v113, v126, v179, playerGui2, v205, stats3
@@ -85216,7 +83966,6 @@ function proto_2283(a1, ...)
           return false
         else
           return true
-        end
       else
         local defense2 = v254[1]("Defense")
         local swordMastery3 = v254[1]("SwordMastery")
@@ -85230,14 +83979,11 @@ function proto_2283(a1, ...)
           return false
         else
           return true
-        end
       end
     else
       return false
-    end
   else
     return true
-  end
 end
 
 function proto_2285(inst, ...)
@@ -85277,7 +84023,7 @@ function proto_2317(a1, a2, a3, a4, ...)
         v172 = now2 < v178
       end
       if not v172 then
-        do return end
+        return
       else
         local v79 = up3()
         if not up4[a4] then
@@ -85289,10 +84035,9 @@ function proto_2317(a1, a2, a3, a4, ...)
       end
     end
     return true
-  end
   local v91 = up2(a1)
   return true
-  do return false end
+  return false
   local now3 = tick()
   up5[a2] = now3 + 3
 end
@@ -85333,7 +84078,6 @@ function proto_2322(...)
   v23[1] = v24
   v23.n = 1
   return unpack(v23)
-end
 
 function proto_2420(a1, a2, a3, ...)
   local v9, v24, enabled, parent, key, v41, v66, v78, v84, v116, v121
@@ -85396,12 +84140,11 @@ function proto_2420(a1, a2, a3, ...)
       end
     end
   end
-  do return key end
+  return key
   local v23 = {}
   v23[1] = nil
   v23.n = 1
   return unpack(v23)
-end
 
 function proto_2429(...)
   local v8
@@ -85471,7 +84214,6 @@ function fn_GetProgress_2499(...)
   v3[1] = v7
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_2555(a1, a2, a3, ...)
   local v9, isA, v26, v38, isA5, v66, primary, isA6, isA7, isA8, v84, v96
@@ -85571,13 +84313,12 @@ function proto_2555(a1, a2, a3, ...)
       end
     end
   end
-  do return value, isA12 end
+  return value, isA12
   local v75 = {}
   v75[1] = nil
   v75[2] = nil
   v75.n = 2
   return unpack(v75)
-end
 
 function proto_2575(...)
   local v5, v6, v8, v15, v21, v24, v32, v36, v49, v53, key, v57
@@ -85670,7 +84411,6 @@ function proto_2575(...)
     return unpack(v90)
   else
     return 1, 1, 1
-  end
 end
 
 function proto_2607(...)
@@ -85766,7 +84506,6 @@ function proto_2611(a1, a2, a3, ...)
       v43[2] = v90
       v43.n = 2
       return unpack(v43)
-    end
     local v43 = {}
     v43[1] = value2
     v43[2] = v90
@@ -85774,7 +84513,6 @@ function proto_2611(a1, a2, a3, ...)
     return unpack(v43)
   else
     return nil, 0
-  end
 end
 
 function proto_2647(...)
@@ -85840,18 +84578,14 @@ function proto_2712(inst, ...)
         v25[1] = position
         v25.n = 1
         return unpack(v25)
-      end
     else
       return inst.Parent.Position
-    end
   else
     return inst.Position
-  end
 end
 
 function proto_2718(a1, a2, ...)
   return (a1.pos - up1).Magnitude < (a2.pos - up1).Magnitude
-end
 
 function proto_2720(...)
   local v5, v12, v24
@@ -85870,7 +84604,6 @@ function proto_2720(...)
   v12[1] = v5
   v12.n = 1
   return unpack(v12)
-end
 
 function proto_2790(...)
   local v26
@@ -85918,10 +84651,9 @@ function proto_2791(a1, ...)
       end
     end
   end
-  do return true end
-  do return false end
   return true
-end
+  return false
+  return true
 
 function proto_2800(a1, ...)
   local v16
@@ -85940,14 +84672,12 @@ function proto_2800(a1, ...)
       v34[1] = true
       v34.n = 1
       return unpack(v34)
-    end
     local v34 = {}
     v34[1] = true
     v34.n = 1
     return unpack(v34)
   else
     return false
-  end
 end
 
 function proto_2862(a1, a2, a3, ...)
@@ -86013,15 +84743,14 @@ function proto_2862(a1, a2, a3, ...)
     end
   end
   local v231 = up6()
-  do return end
+  return
   false2 = false
   local v139 = up6()
-  do return end
+  return
   local v147 = up6()
-  do return end
+  return
   local v187 = up6()
-  do return end
-end
+  return end
 
 function fn_GetStats_2874(...)
   local v11 = {}
@@ -86040,7 +84769,6 @@ function fn_GetStats_2874(...)
   v11[1] = v7
   v11.n = 1
   return unpack(v11)
-end
 
 function proto_2881(...)
   local camera, v122, camera2
@@ -86121,7 +84849,6 @@ function proto_2923(a1, inst, ...)
           continue
         else
           return false
-        end
       end
     end
     local v260 = up3(a1)
@@ -86132,13 +84859,11 @@ function proto_2923(a1, inst, ...)
     return false
   else
     return false
-  end
-  do return true end
+  return true
   up5[v92] = true
   local v141 = up4(name2)
   v92 = v141
   return false
-end
 
 function fn_AutoImpelDown_2978(list, a2, a3, a4, ...)
   local v27, v37, v83, value, count, v257, v263, v266, inventoryActionsCell, v356, v366, v384
@@ -88357,7 +87082,6 @@ function fn_AutoImpelDown_2978(list, a2, a3, a4, ...)
   v5811[2] = newCell
   local register = unload4.register("Games/GPO/Farms/SecondSea/AutoImpelDown.lua", fn_AutoImpelDown_lua_4771)
   return v2426[1]
-end
 
 function proto_3116(a1, ...)
   local findFirstChild, v16, v39, v46, v58, v72, v76, value
@@ -88406,9 +87130,7 @@ function proto_3116(a1, ...)
     return unpack(v26)
   else
     return findFirstChild
-  end
-  do return value end
-end
+  return value
 
 function proto_3176(...)
   local v7, findFirstChildWhichIsA, v18, v20, v37, v64, value, v74, v85, effects2, v110, v115
@@ -88535,18 +87257,14 @@ function proto_3197(a1, a2, vec, ...)
         return false
       else
         return false
-      end
     else
       return false
-    end
   else
     return false
-  end
   local v105 = {}
   local v206 = up5(a1, findFirstChildWhichIsA)
   appendn(v105, v206)
-  do return unpack(v105) end
-end
+  return unpack(v105)
 
 function proto_3257(a1, a2, ...)
   local v22
@@ -88564,13 +87282,11 @@ function proto_3257(a1, a2, ...)
         continue
       else
         return v15
-      end
     end
   end
   local v45 = {}
-  do return end
-  do return end
-end
+  return
+  return end
 
 function proto_3264(...)
   if true2 then
@@ -88636,10 +87352,8 @@ function proto_3324(a1, a2, a3, ...)
               return unpack(v14)
             else
               return false
-            end
           else
             return false
-          end
         else
           local v113 = up5(a2)
           v103 = v113
@@ -88656,20 +87370,15 @@ function proto_3324(a1, a2, a3, ...)
           if ensureBackpackTool4 then
           else
             return false
-          end
         end
       else
         return false
-      end
     else
       return true
-    end
   else
     return true
-  end
   up1[a2] = true
-  do return true end
-end
+  return true
 
 function proto_3337(a1, list, ...)
   local v9, v24, v36, v53, v151, ok, v213, v218, v226, v232, v276, v283
@@ -88762,7 +87471,6 @@ function proto_3337(a1, list, ...)
                   continue
                 else
                   return true
-                end
               else
               end
             else
@@ -88778,19 +87486,16 @@ function proto_3337(a1, list, ...)
     return false
   else
     return false
-  end
-  do return true end
+  return true
   local v52 = {}
   v52[1] = false
   v52.n = 1
-  do return unpack(v52) end
-  do return true end
-  do return true end
-end
+  return unpack(v52)
+  return true
+  return true
 
 function fn_GetGameMode_3358(...)
   return up1
-end
 
 function proto_3393(a1, a2, ...)
   local v13, enabled, value, v24, v59, v75, v77, v80, v84, v88, parent, value2
@@ -88853,14 +87558,12 @@ function proto_3393(a1, a2, ...)
       v57[1] = value2
       v57.n = 1
       return unpack(v57)
-    end
     local v57 = {}
     v57[1] = value2
     v57.n = 1
     return unpack(v57)
   else
     return value2
-  end
 end
 
 function proto_3435(a1, ...)
@@ -88999,7 +87702,6 @@ function fn_GetFloorY_3532(a1, ...)
   v5[1] = y
   v5.n = 1
   return unpack(v5)
-end
 
 function proto_3545(...)
   local stats
@@ -89055,7 +87757,6 @@ function proto_3620(inst, ...)
   v30[1] = v9
   v30.n = 1
   return unpack(v30)
-end
 
 function proto_3628(a1, ...)
   local str = tostring(a1)
@@ -89140,7 +87841,6 @@ function proto_3678(...)
       v121[3] = v185
       v121.n = 3
       return unpack(v121)
-    end
     local v121 = {}
     v121[1] = value
     v121[2] = v124
@@ -89149,7 +87849,6 @@ function proto_3678(...)
     return unpack(v121)
   else
     return nil, nil, nil
-  end
 end
 
 function proto_3689(...)
@@ -89223,12 +87922,9 @@ function proto_3689(...)
       return unpack(v140)
     else
       return nil
-    end
   else
     return nil
-  end
-  do return value end
-end
+  return value
 
 function fn_OnExternalResume_3709(a1, ...)
   up1 = a1
@@ -89239,7 +87935,6 @@ function proto_3718(...)
   local v3 = up1(up2, up3, up4.y)
   appendn(v11, v3)
   return unpack(v11)
-end
 
 function proto_3785(a1, a2, a3, ...)
   local v7, v47, v58, v65
@@ -89268,7 +87963,6 @@ function proto_3785(a1, a2, a3, ...)
     return unpack(v9)
   else
     return v7
-  end
 end
 
 function proto_3802(a1, ...)
@@ -89302,12 +87996,11 @@ function proto_3802(a1, ...)
       end
     end
   end
-  do return value end
+  return value
   local v35 = {}
   v35[1] = nil
   v35.n = 1
   return unpack(v35)
-end
 
 function fn_Main_3920(...)
   local v2 = up1(up2)
@@ -89396,7 +88089,6 @@ function proto_3956(a1, list, a3, ...)
                                   return unpack(v235)
                                 else
                                   return false
-                                end
                               end
                             else
                               local v1293 = up20(a1, list[2], list[3])
@@ -89409,14 +88101,12 @@ function proto_3956(a1, list, a3, ...)
                               v888[1] = v1317
                               v888.n = 1
                               return unpack(v888)
-                            end
                           else
                             local v1256 = up19(a1, list[2])
                             local v826 = {}
                             local v1267 = up5(a1)
                             appendn(v826, v1267)
                             return unpack(v826)
-                          end
                         else
                           local v1135 = up1(a1, list[2], a3)
                           if v1135 then
@@ -89427,14 +88117,12 @@ function proto_3956(a1, list, a3, ...)
                             return unpack(v1063)
                           else
                             return false
-                          end
                         end
                       else
                         local v1252 = {}
                         local v1101 = up18(a1, list[2], list[3], a3, list[4])
                         appendn(v1252, v1101)
                         return unpack(v1252)
-                      end
                     else
                       local v833 = up1(a1, list[2], a3)
                       if v833 then
@@ -89487,10 +88175,8 @@ function proto_3956(a1, list, a3, ...)
                           local v999 = up5(a1)
                           appendn(v413, v999)
                           return unpack(v413)
-                        end
                       else
                         return false
-                      end
                     end
                   else
                     local v726 = up1(a1, list[2], a3)
@@ -89501,10 +88187,8 @@ function proto_3956(a1, list, a3, ...)
                         return true
                       else
                         return true
-                      end
                     else
                       return false
-                    end
                   end
                 else
                   local v652 = up1(a1, list[2], a3)
@@ -89528,10 +88212,8 @@ function proto_3956(a1, list, a3, ...)
                       return unpack(v1033)
                     else
                       return false
-                    end
                   else
                     return false
-                  end
                 end
               else
                 local v558 = up1(a1, list[2], a3)
@@ -89557,14 +88239,12 @@ function proto_3956(a1, list, a3, ...)
                     local v630 = up4(a1, list[2], list[5])
                     appendn(v690, v630)
                     return unpack(v690)
-                  end
                   local v690 = {}
                   local v630 = up4(a1, list[2], list[5])
                   appendn(v690, v630)
                   return unpack(v690)
                 else
                   return false
-                end
               end
             else
               local v458 = up1(a1, list[2], a3)
@@ -89585,14 +88265,12 @@ function proto_3956(a1, list, a3, ...)
                   local v535 = up4(a1, list[2], list[4])
                   appendn(v1415, v535)
                   return unpack(v1415)
-                end
                 local v1415 = {}
                 local v535 = up4(a1, list[2], list[4])
                 appendn(v1415, v535)
                 return unpack(v1415)
               else
                 return false
-              end
             end
           else
             local v354 = up2(a1, list[2], a3)
@@ -89604,7 +88282,6 @@ function proto_3956(a1, list, a3, ...)
               return unpack(v885)
             else
               return false
-            end
           end
         else
           local v187 = up1(a1, list[2], a3)
@@ -89640,7 +88317,6 @@ function proto_3956(a1, list, a3, ...)
             return unpack(v351)
           else
             return false
-          end
         end
       else
         local v56 = up1(a1, list[2], a3)
@@ -89652,7 +88328,6 @@ function proto_3956(a1, list, a3, ...)
           return unpack(v495)
         else
           return false
-        end
       end
     else
       local v163 = {}
@@ -89660,13 +88335,11 @@ function proto_3956(a1, list, a3, ...)
       v163[1] = not (v36 == nil)
       v163.n = 1
       return unpack(v163)
-    end
   else
     local v158 = {}
     local v19 = up1(a1, list[2], a3)
     appendn(v158, v19)
     return unpack(v158)
-  end
 end
 
 function fn_FindDarkBlade_3973(...)
@@ -89718,7 +88391,7 @@ function fn_FindDarkBlade_3973(...)
   v20[1] = false
   v20[2] = nil
   v20.n = 2
-  do return unpack(v20) end
+  return unpack(v20)
   v78 = v14
   primary = value.PrimaryPart
   if not (primary) then continue end
@@ -89727,16 +88400,15 @@ function fn_FindDarkBlade_3973(...)
   position = v2.Position
   v6[2] = position2
   v6.n = 2
-  do return unpack(v6) end
+  return unpack(v6)
   local isA5 = value:IsA("BasePart")
   v14 = isA5
   if not v14 then
   else
-    do return end
-  end
+    return end
   return true, key
   position2 = position
-  if not (position2) then return value.id end
+  if not (position2) then return value.id
   local isA6 = value:IsA("Model")
   v93 = isA6
   v78 = v93
@@ -89747,8 +88419,7 @@ function fn_FindDarkBlade_3973(...)
   position = v2
   local basePart = value:FindFirstChildWhichIsA("BasePart")
   primary = basePart
-  do return end
-end
+  return end
 
 function proto_4093(a1, ...)
   local v4 = {}
@@ -89756,7 +88427,6 @@ function proto_4093(a1, ...)
   v4[1] = not (v5 == nil)
   v4.n = 1
   return unpack(v4)
-end
 
 function proto_4127(...)
   local key, v18, v34, v42, v43, spiritEssence, v67, v70, v76, value, value2, v81
@@ -89867,7 +88537,7 @@ function proto_4127(...)
   end
   v70[1] = katana
   v70.n = 1
-  do return unpack(v70) end
+  return unpack(v70)
   up2.Katana = true
 end
 
@@ -89929,10 +88599,9 @@ function proto_4168(a1, ...)
       end
     end
   end
-  do return nil end
-  do return value2 end
+  return nil
+  return value2
   return v15
-end
 
 function proto_4177(a1, ...)
   local key, lower, v14, v23, v26, v29, v32, v38, value, v51, v65
@@ -89984,9 +88653,8 @@ function proto_4177(a1, ...)
   local v98 = {}
   v98[1] = nil
   v98.n = 1
-  do return unpack(v98) end
+  return unpack(v98)
   return key
-end
 
 function proto_4270(a1, a2, a3, ...)
   local v5, v16, v20, v36, v52, v55
@@ -90023,13 +88691,12 @@ function proto_4270(a1, a2, a3, ...)
       end
     end
   end
-  do return true end
-  do return false end
+  return true
+  return false
   local v54 = {}
   v54[1] = false
   v54.n = 1
-  do return unpack(v54) end
-end
+  return unpack(v54)
 
 function proto_4299(a1, list, a3, a4, ...)
   local v24, v31, v34, v52, v55, v59, isA, v110, value, now2, v138, v163
@@ -90154,14 +88821,14 @@ function proto_4299(a1, list, a3, a4, ...)
   appendn(v233, v372)
   local v76 = v294(unpack(v233))
   appendn(v178, v76)
-  do return unpack(v178) end
+  return unpack(v178)
   v383 = v383(v260)
   appendn(v163, v383)
-  do return unpack(v163) end
+  return unpack(v163)
   local v88 = {}
   local v273 = v294(false)
   appendn(v88, v273)
-  do return unpack(v88) end
+  return unpack(v88)
   v163 = {}
   v383 = v294
   local v387 = up3()
@@ -90172,7 +88839,7 @@ function proto_4299(a1, list, a3, a4, ...)
   appendn(v360, v170)
   local v130 = v294(unpack(v360))
   appendn(v174, v130)
-  do return unpack(v174) end
+  return unpack(v174)
   local v390 = up4()
   v260 = v390
 end
@@ -90188,7 +88855,6 @@ function proto_4411(a1, vec, ...)
   local v5 = up1(a1, v11, nil)
   appendn(v34, v5)
   return unpack(v34)
-end
 
 function proto_4425(a1, a2, ...)
   local v25, v32, v72, v104, v131, v178, v186, v197, v215
@@ -90242,13 +88908,10 @@ function proto_4425(a1, a2, ...)
         return unpack(v72)
       else
         return false
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_4429(...)
@@ -90273,7 +88936,6 @@ function proto_4540(...)
     return npCs2
   else
     return npCs2
-  end
 end
 
 function proto_4579(...)
@@ -90294,7 +88956,6 @@ function proto_4598(...)
   v4[1] = v1
   v4.n = 1
   return unpack(v4)
-end
 
 function proto_4646(a1, vec, a3, ...)
   local v6, v7, v12, x, v17, y
@@ -90313,7 +88974,6 @@ function proto_4646(a1, vec, a3, ...)
   v6 = v6(v7, v12, v4)
   appendn(v17, v6)
   return unpack(v17)
-end
 
 function proto_4655(a1, a2, list, a4, a5, ...)
   local health, v43, v73, v81, animId, v127, v139, animSpeed, v159, v188, v189, v203
@@ -90853,7 +89513,6 @@ function proto_4655(a1, a2, list, a4, a5, ...)
         local v275 = up7(a1)
         appendn(v924, v275)
         return unpack(v924)
-      end
     else
       local v24 = hrp()
       v43 = v24
@@ -90865,12 +89524,10 @@ function proto_4655(a1, a2, list, a4, a5, ...)
         local v72 = up4()
       else
         return false
-      end
     end
   else
     return false
-  end
-  do return end
+  return
   v1232 = true
   local v219 = up4()
   v1009 = true
@@ -90916,13 +89573,10 @@ function proto_4674(list, a2, ...)
         return unpack(v96)
       else
         return list
-      end
     else
       return list
-    end
   else
     return list
-  end
 end
 
 function proto_4695(a1, ...)
@@ -90956,12 +89610,10 @@ function proto_4695(a1, ...)
     v38[1] = v35
     v38.n = 1
     return unpack(v38)
-  end
   local v38 = {}
   v38[1] = v35
   v38.n = 1
   return unpack(v38)
-end
 
 function proto_4743(a1, vec, a3, a4, ...)
   local v51, v129, arrival_radius, v141, v151, v159, v167, now6, v245, v305, v326, arrival_radius2
@@ -91076,7 +89728,7 @@ function proto_4743(a1, vec, a3, a4, ...)
                         local v917 = new2(vec.X - v167.Position.X, 0, vec.Z - v167.Position.Z)
                         v1310 = v917
                         if not (1 < v1310.Magnitude) then
-                          do return end
+                          return
                         else
                           local v946 = new2(-v1310.Unit.Z, 0, v1310.Unit.X)
                           v141 = v946
@@ -91114,7 +89766,7 @@ function proto_4743(a1, vec, a3, a4, ...)
                               local now28 = tick()
                               v1235 = (v167.Position - vec).Magnitude
                               now24 = now28
-                              do return end
+                              return
                             else
                             end
                           else
@@ -91147,7 +89799,7 @@ function proto_4743(a1, vec, a3, a4, ...)
                           local now22 = tick()
                           v1235 = (v167.Position - vec).Magnitude
                           now24 = now22
-                          do return end
+                          return
                         else
                         end
                       else
@@ -91157,8 +89809,7 @@ function proto_4743(a1, vec, a3, a4, ...)
                     local now15 = tick()
                     v1235 = v683
                     now24 = now15
-                    do return end
-                  end
+                    return end
                 else
                 end
               else
@@ -91197,47 +89848,44 @@ function proto_4743(a1, vec, a3, a4, ...)
           up4 = vec
         end
         return true
-      end
     else
       return false
-    end
   else
     return false
-  end
   true2 = true
-  do return false end
+  return false
   true2 = true
-  do return false end
+  return false
   up4 = vec
   local v590 = up8()
   return false
   false2 = false
   local v228 = up8()
   v350 = up4
-  do return true end
-  do return false end
-  do return false end
+  return true
+  return false
+  return false
   local v289 = task.wait(0.1)
   local v1099 = up5(v1234, a3)
   local v313 = hrp()
   v167 = v313
   local v1094 = up8()
   v1234 = up4
-  do return false end
+  return false
   v1051 = up6
   v159 = up6
-  do return false end
+  return false
   v151 = now17 + v1051
   v648 = now6 + v159
-  do return false end
+  return false
   local now8 = tick()
   v1020 = now8 < v151
-  do return false end
-  do return false end
+  return false
+  return false
   local v847 = {}
   v847[1] = false
   v847.n = 1
-  do return unpack(v847) end
+  return unpack(v847)
   local now31 = tick()
   now6 = now31
   v159 = a4
@@ -91255,7 +89903,6 @@ function proto_4743(a1, vec, a3, a4, ...)
   local v1130 = up2(a1)
   v926 = v1130
   return false
-end
 
 function fn_AutoImpelDown_lua_4771(...)
   local setEnabled = up1.SetEnabled(false)
@@ -91271,10 +89918,8 @@ function proto_4819(a1, ...)
       return true
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_4835(a1, ...)
@@ -91289,7 +89934,6 @@ function proto_4863(vec, a2, ...)
   local v5 = new2(vec.X, vec.Y + a2, vec.Z)
   appendn(v3, v5)
   return unpack(v3)
-end
 
 function proto_4896(...)
   local v25, v30, v31, v44, v53, v77, effects2, v110, findFirstChildWhichIsA2, value
@@ -91448,7 +90092,7 @@ function proto_4905(...)
   if v177 then
     up3.SPReset = true
   end
-  do return end
+  return
   v189 = false
 end
 
@@ -91524,7 +90168,6 @@ function proto_4941(inst, ...)
     return v204
   else
     return v284.priority
-  end
 end
 
 function proto_4947(a1, a2, ...)
@@ -91595,7 +90238,6 @@ function proto_4947(a1, a2, ...)
               end
             else
               return true
-            end
           else
           end
         end
@@ -91627,7 +90269,6 @@ function proto_4947(a1, a2, ...)
               continue
             else
               return true
-            end
           else
             break
           end
@@ -91642,9 +90283,7 @@ function proto_4947(a1, a2, ...)
     return unpack(v152)
   else
     return false
-  end
   return true
-end
 
 function fn_SetShopBuys_4975(a1, ...)
   local v6, v8, v14, v16
@@ -91758,12 +90397,10 @@ function proto_5026(character, a2, ...)
     return true
   else
     return false
-  end
   local v105 = {}
   v105[1] = false
   v105.n = 1
   return unpack(v105)
-end
 
 function proto_5078(a1, ...)
   up1 = a1
@@ -91808,12 +90445,10 @@ function proto_145(...)
     return nil
   else
     return v34
-  end
 end
 
 function proto_300(...)
   return false2
-end
 
 function proto_382(a1, a2, a3, ...)
   local start, v7, v14, v22, v29
@@ -91858,7 +90493,6 @@ function proto_400(character, a2, a3, ...)
     return unpack(v24)
   else
     return nil
-  end
 end
 
 function proto_483(...)
@@ -91904,7 +90538,6 @@ function proto_661(player, ...)
   v14[1] = v11
   v14.n = 1
   return unpack(v14)
-end
 
 function fn_OnExternalResume_708(a1, ...)
   up1 = a1
@@ -91924,7 +90557,6 @@ function proto_1080(...)
   v3[1] = v1
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_1208(a1, ...)
   a1 = { a1 }
@@ -91936,14 +90568,12 @@ function proto_1208(a1, ...)
   v23[1] = proto_1080
   v23.n = 1
   return unpack(v23)
-end
 
 function fn_GetRotationTarget_1217(...)
   local v49 = {}
   local v74 = up1()
   appendn(v49, v74)
   return unpack(v49)
-end
 
 function proto_1227(...)
   local v28 = {}
@@ -92310,7 +90940,6 @@ function fn_AutoJuzo_2089(import, a2, a3, a4, ...)
   v124[1] = v184
   v740[1].GetRotationTarget = fn_GetRotationTarget_1217
   return v740[1]
-end
 
 function proto_2173(a1, ...)
   local v31, v55, v75, v94, v142, v197, v222, now2, v290, now4, hrp2, v355
@@ -92510,7 +91139,7 @@ function proto_2173(a1, ...)
       end
     end
   end
-  do return end
+  return
   local v1004 = up7()
   local v46 = {}
 end
@@ -92527,7 +91156,6 @@ function proto_2203(...)
   local isOwner = flightCore.IsOwner(up2)
   appendn(v1, isOwner)
   return unpack(v1)
-end
 
 function proto_2342(a1, ...)
   local v7, v47, v83, v84, npCs2, v106, v109, v115, v118
@@ -92568,11 +91196,9 @@ function proto_2342(a1, ...)
               v106 = v106 + v84
               continue
             else
-              do return end
-            end
+              return end
           else
-            do return end
-          end
+            return end
         else
           break
         end
@@ -92581,15 +91207,13 @@ function proto_2342(a1, ...)
     return false
   else
     return false
-  end
-  do return end
+  return
   return value, v48, value.controls[v48]
   local dismiss = npcChat.Dismiss()
   local v27 = {}
   local v128 = up4()
   appendn(v27, v128)
-  do return unpack(v27) end
-end
+  return unpack(v27)
 
 function proto_2408(...)
   if not nil2 then
@@ -92608,7 +91232,6 @@ end
 
 function proto_2547(a1, a2, ...)
   return (a1.Position - a2).Magnitude <= up1
-end
 
 function proto_2622(...)
   local v22, v37, animationId, v117
@@ -92672,7 +91295,6 @@ function fn_GetProgress_3167(...)
   v5[1] = v1
   v5.n = 1
   return unpack(v5)
-end
 
 function proto_3208(...)
   local v6, localPlayer, spawnPoints, v44, currentSea2
@@ -92692,7 +91314,6 @@ function proto_3208(...)
     return unpack(v44)
   else
     return false
-  end
 end
 
 function fn_AutoJuzo_3646(...)
@@ -92823,7 +91444,6 @@ function fn_GetStats_4971(...)
   v17[1] = v12
   v17.n = 1
   return unpack(v17)
-end
 function fn_SetGreatStackEnabled_26(a1, ...)
   a1 = a1 == true
   if not a1 then
@@ -92887,7 +91507,6 @@ function proto_522(...)
     return unpack(v47)
   else
     return false
-  end
 end
 
 function fn_SetGreatStackSettle_784(a1, ...)
@@ -92912,10 +91531,8 @@ function proto_1155(...)
     else
       up2 = char
       return true
-    end
   else
     return true
-  end
 end
 
 function fn_SetEnabled_1223(a1, ...)
@@ -92963,7 +91580,6 @@ function proto_1416(...)
   v3[1] = v6
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_1751(a1, ...)
   a1 = { a1 }
@@ -92975,7 +91591,6 @@ function proto_1751(a1, ...)
   v9[1] = proto_1416
   v9.n = 1
   return unpack(v9)
-end
 
 function proto_1753(a1, a2, a3, ...)
   local threadCell
@@ -92997,7 +91612,6 @@ function proto_1786(...)
   v2[1] = v5
   v2.n = 1
   return unpack(v2)
-end
 
 function proto_1995(...)
   if false2 then
@@ -93027,7 +91641,6 @@ function fn_GetStats_2059(...)
   v13[1] = v9
   v13.n = 1
   return unpack(v13)
-end
 
 function proto_2131(...)
   local cancel = desertSpawn.Cancel(up2)
@@ -93184,8 +91797,7 @@ function proto_2469(list, ...)
   if v342 then
     local v451 = up15()
   end
-  do return end
-end
+  return end
 
 function fn_OnExternalResume_2478(a1, ...)
   up1 = a1
@@ -93204,7 +91816,6 @@ function proto_2497(...)
   v11[1] = shipEvents3
   v11.n = 1
   return unpack(v11)
-end
 
 function fn_SetGreatStackMethod_3098(a1, ...)
   local v3
@@ -93238,7 +91849,6 @@ function proto_3242(...)
     return unpack(v17)
   else
     return false
-  end
 end
 
 function proto_3312(a1, ...)
@@ -93558,7 +92168,6 @@ function fn_AutoKraken_3844(import, a2, a3, a4, ...)
   v375[2] = newCell
   local register = unload.register("GPO_AutoKraken", fn_GPO_AutoKraken_3664)
   return v317[1]
-end
 
 function fn_GetProgress_4278(...)
   local v2, v3, v4, v6
@@ -93573,7 +92182,6 @@ function fn_GetProgress_4278(...)
   v3[1] = v6
   v3.n = 1
   return unpack(v3)
-end
 
 function fn_OnExternalDisable_4515(a1, ...)
   up1 = a1
@@ -93611,7 +92219,6 @@ function proto_4682(...)
     return unpack(v32)
   else
     return nil
-  end
 end
 
 function fn_SetCombatMode_4846(a1, ...)
@@ -93683,7 +92290,6 @@ function proto_5(...)
             end
           else
             return value
-          end
         else
           break
         end
@@ -93691,14 +92297,11 @@ function proto_5(...)
       return false
     else
       return false
-    end
   else
     return false
-  end
-  do return false end
+  return false
   return true
   return true
-end
 
 function fn_AutoKrakenV2_136(import, a2, a3, a4, ...)
   local v22, v42, v44, autoCyborgCell, vecCell, farmUtilCell, makeFlightControllerCell, v132, v136, maid2, v176, v183
@@ -93881,7 +92484,6 @@ function fn_AutoKrakenV2_136(import, a2, a3, a4, ...)
   v289[5] = nilCell3
   local register = unload2.register("GPO_AutoKrakenV2", fn_GPO_AutoKrakenV2_2766)
   return v176[1]
-end
 
 function fn_GetProgress_165(...)
   local v9 = {}
@@ -93893,7 +92495,6 @@ function fn_GetProgress_165(...)
   v9[1] = v6
   v9.n = 1
   return unpack(v9)
-end
 
 function proto_167(...)
   local v2
@@ -93917,7 +92518,6 @@ function proto_241(...)
   v3[1] = v1
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_340(a1, ...)
   local v66, v77, v125, v289, v404, v450, v517, parent, waitForCharacterCell, v605, v657, v724
@@ -94034,7 +92634,6 @@ function proto_340(a1, ...)
                                   continue
                                 else
                                   return value
-                                end
                               end
                               break
                             end
@@ -94145,12 +92744,11 @@ function proto_340(a1, ...)
     return
   end
   local v649 = {}
-  do return end
+  return
   return value
   v77 = true
   return value
   return value
-end
 
 function proto_423(a1, a2, a3, ...)
   local hrp, v39, v48, v52, v61, v98, v99, v106, v157, v190, now3, v233
@@ -94241,7 +92839,7 @@ function proto_423(a1, a2, a3, ...)
       end
     end
   end
-  do return true end
+  return true
   local v272 = {}
   v272["OWNER"] = up4
   local v228 = flightSpeed.GetFor(up4)
@@ -94254,12 +92852,11 @@ function proto_423(a1, a2, a3, ...)
   v272["WALL_DETOUR"] = false
   v272["KEEP_TOOLS"] = true
   local start2 = tweenFlight.Start(a1, v272)
-  do return true end
+  return true
   local v293 = {}
   v293[1] = false
   v293.n = 1
   return unpack(v293)
-end
 
 function fn_SetEnabled_570(a1, ...)
   local threadCell, v270
@@ -94321,7 +92918,6 @@ function proto_1014(...)
   v1[1] = v19
   v1.n = 1
   return unpack(v1)
-end
 
 function proto_1633(a1, ...)
   local v10, v27, v35, v64, v126, v142, v159
@@ -94375,12 +92971,10 @@ function proto_1633(a1, ...)
   else
     up2 = "Cannot rejoin: private server code unavailable"
     return false
-  end
   local v61 = {}
   v61[1] = false
   v61.n = 1
   return unpack(v61)
-end
 
 function proto_2049(a1, ...)
   local main, v28, boat, v38, playerGui2, v43, v78, v80, boat3, v159, main3
@@ -94448,20 +93042,15 @@ function proto_2049(a1, ...)
           return unpack(v68)
         else
           return false
-        end
       else
         return true
-      end
     else
       return false
-    end
   else
     return true
-  end
   return false
-  do return true end
+  return true
   return false
-end
 
 function proto_2082(...)
   local v5, v7, v11
@@ -94479,7 +93068,6 @@ function proto_2082(...)
   v5[1] = v11
   v5.n = 1
   return unpack(v5)
-end
 
 function proto_2314(...)
   local ok2
@@ -94594,14 +93182,12 @@ function proto_2666(...)
       v89[1] = value2
       v89.n = 1
       return unpack(v89)
-    end
     local v89 = {}
     v89[1] = value2
     v89.n = 1
     return unpack(v89)
   else
     return nil
-  end
 end
 
 function fn_GetStats_2742(...)
@@ -94614,7 +93200,6 @@ function fn_GetStats_2742(...)
   v6[1] = v5
   v6.n = 1
   return unpack(v6)
-end
 
 function fn_GPO_AutoKrakenV2_2766(...)
   local setEnabled = up1.SetEnabled(false)
@@ -94651,7 +93236,6 @@ function proto_3189(...)
   v42[1] = ships3
   v42.n = 1
   return unpack(v42)
-end
 
 function proto_3665(...)
   local isOwner = flightCore.IsOwner(up2)
@@ -94717,7 +93301,6 @@ function proto_446(...)
   jsonDecode = jsonDecode(v5, v1)
   appendn(v9, jsonDecode)
   return unpack(v9)
-end
 
 function fn_OnExternalResume_454(a1, ...)
   up1 = a1
@@ -94761,15 +93344,12 @@ function proto_638(a1, a2, a3, ...)
       return false
     else
       return true
-    end
   else
     return false
-  end
   local v153 = up5()
-  do return true end
+  return true
   local v171 = up5()
   return false
-end
 
 function proto_665(...)
   local v8, v15, v27, v55, v57
@@ -94798,12 +93378,11 @@ function proto_665(...)
       end
     end
   end
-  do return false end
+  return false
   local v47 = {}
   v47[1] = true
   v47.n = 1
   return unpack(v47)
-end
 
 function proto_672(a1, ...)
   if not (up1 == "M1") then
@@ -94881,7 +93460,7 @@ function proto_839(a1, a2, ...)
             v13 = v90
           end
           if not v13 then
-            do return end
+            return
           else
           end
         end
@@ -94893,9 +93472,7 @@ function proto_839(a1, a2, ...)
     return unpack(v56)
   else
     return nil
-  end
-  do return value end
-end
+  return value
 
 function fn_GetStats_915(...)
   local v8 = {}
@@ -94907,7 +93484,6 @@ function fn_GetStats_915(...)
   v8[1] = v9
   v8.n = 1
   return unpack(v8)
-end
 
 function proto_1138(character, a2, ...)
   local v30, v54, hrp2, hrp3, v148, v179, v225, v242, humanoid2, v302, v323, v329
@@ -95006,9 +93582,9 @@ function proto_1138(character, a2, ...)
   else
     return
   end
-  do return end
-  do return end
-  do return end
+  return
+  return
+  return
   local v86 = up4()
 end
 
@@ -95051,9 +93627,7 @@ function proto_1228(inst, ...)
     return value
   else
     return nil
-  end
-  do return nil end
-end
+  return nil
 
 function fn_OnExternalDisable_1326(a1, ...)
   up1 = a1
@@ -95064,7 +93638,6 @@ function proto_1430(...)
   local isOwner = flightCore.IsOwner(up2)
   appendn(v1, isOwner)
   return unpack(v1)
-end
 
 function proto_1796(a1, ...)
   local v50, localPlayer
@@ -95111,7 +93684,6 @@ function proto_1796(a1, ...)
             end
           else
             return true, key
-          end
         else
           local v54 = up10()
           if not v54 then
@@ -95128,22 +93700,21 @@ function proto_1796(a1, ...)
         end
       else
         return value
-      end
     end
   end
-  do return end
-  do return end
-  do return end
-  do return end
-  do return end
+  return
+  return
+  return
+  return
+  return
   local setEnabled = up6.SetEnabled(false)
   local ok = pcall(teleportService.Teleport, teleportService, up8, localPlayer)
-  do return end
-  do return end
-  do return end
+  return
+  return
+  return
   return value
-  do return end
-  do return end
+  return
+  return
   local v195 = up14()
 end
 
@@ -95162,7 +93733,6 @@ function fn_GetRotationTarget_1891(...)
   local v3 = up1()
   appendn(v2, v3)
   return unpack(v2)
-end
 
 function proto_2107(...)
   local v18 = up1()
@@ -95175,7 +93745,6 @@ function proto_2107(...)
     local setEnabled = up5.SetEnabled(false)
     local ok = pcall(teleportService.Teleport, teleportService, up7, players.LocalPlayer)
     return true
-  end
 end
 
 function proto_2254(a1, a2, ...)
@@ -95256,7 +93825,6 @@ function proto_2313(a1, ...)
   v34[1] = v17
   v34.n = 1
   return unpack(v34)
-end
 
 function fn_GPO_AutoPica_2401(...)
   local setEnabled = up1.SetEnabled(false)
@@ -95324,9 +93892,8 @@ function proto_2822(...)
   local v74 = {}
   v74[1] = true
   v74.n = 1
-  do return unpack(v74) end
+  return unpack(v74)
   return false
-end
 
 function proto_2836(a1, a2, ...)
   local v4 = {}
@@ -95364,7 +93931,6 @@ function proto_3211(a1, ...)
           continue
         else
           return value.id
-        end
       end
     end
     local v51 = {}
@@ -95373,9 +93939,7 @@ function proto_3211(a1, ...)
     return unpack(v51)
   else
     return false
-  end
-  do return true end
-end
+  return true
 
 function proto_3502(...)
   local v10, localPlayer, v135
@@ -95405,19 +93969,16 @@ function proto_3502(...)
               v158[1] = false
               v158.n = 1
               return unpack(v158)
-            end
           else
             local v109 = {}
             v109[1] = false
             v109.n = 1
             return unpack(v109)
-          end
         else
           local v258 = {}
           v258[1] = false
           v258.n = 1
           return unpack(v258)
-        end
       else
         local now = tick()
         v10 = now + 20
@@ -95457,28 +94018,22 @@ function proto_3502(...)
               v158[1] = false
               v158.n = 1
               return unpack(v158)
-            end
           else
             local v109 = {}
             v109[1] = false
             v109.n = 1
             return unpack(v109)
-          end
         else
           local v258 = {}
           v258[1] = false
           v258.n = 1
           return unpack(v258)
-        end
       end
     else
       return false
-    end
   else
     return true
-  end
   return false
-end
 
 function proto_3518(a1, a2, ...)
   local v12, v23, v25
@@ -95551,7 +94106,6 @@ function proto_3684(player, ...)
   v4[1] = v23
   v4.n = 1
   return unpack(v4)
-end
 
 function fn_SetEnabled_3830(a1, ...)
   a1 = a1 == true
@@ -95633,24 +94187,20 @@ function proto_4155(...)
             local v230 = up10()
             if not v230 then
             else
-              do return end
-            end
+              return end
           else
           end
         end
       else
-        do return end
-      end
-    end
+        return end
   end
   local v18 = {}
-  do return end
-  do return end
-  do return end
-  do return end
-  do return end
-  do return end
-end
+  return
+  return
+  return
+  return
+  return
+  return end
 
 function fn_AutoPica_4499(import, a2, a3, a4, ...)
   local v10, workspaceRefCell, v59, autoMaguCell, v95, autoPikaCell, v106, v139, v198, v225, v242, v265
@@ -95986,7 +94536,6 @@ function fn_AutoPica_4499(import, a2, a3, a4, ...)
   v387[1] = v737
   v605[1].GetRotationTarget = fn_GetRotationTarget_1891
   return v605[1]
-end
 
 function proto_4541(...)
   local v10, y, now, v91, v129, primary, y2, v214, rightVector, v220, v228, position
@@ -96166,10 +94715,9 @@ function proto_4541(...)
   nil2 = nil
   up11 = v413
   local v837 = up5()
-  do return end
-  do return end
-  do return end
-end
+  return
+  return
+  return end
 
 function proto_4560(inst, ...)
   local find3, lower4
@@ -96196,13 +94744,10 @@ function proto_4560(inst, ...)
         return false
       else
         return true
-      end
     else
       return true
-    end
   else
     return false
-  end
 end
 
 function proto_4617(a1, ...)
@@ -96221,7 +94766,6 @@ function proto_4617(a1, ...)
   v30[1] = v13
   v30.n = 1
   return unpack(v30)
-end
 
 function proto_4710(...)
   local npCs2, v9, v19, v33, humanoid, v47, value, v59, v61, v87
@@ -96279,10 +94823,8 @@ function proto_4710(...)
     return unpack(v46)
   else
     return nil
-  end
   return value
   return value
-end
 
 function fn_GetProgress_4764(...)
   local v1 = {}
@@ -96291,7 +94833,6 @@ function fn_GetProgress_4764(...)
   v1[1] = v2
   v1.n = 1
   return unpack(v1)
-end
 
 function proto_4965(vec, ...)
   local v32 = {}
@@ -96306,7 +94847,6 @@ function proto_4965(vec, ...)
   local text = string.format(unpack(v31))
   appendn(v32, text)
   return unpack(v32)
-end
 
 function proto_5076(...)
   local hrp, v27, value, v49, v57, v60, npCs2, v137, v157, isA2, v180, v181
@@ -96375,10 +94915,8 @@ function proto_5076(...)
       return value
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function proto_5154(...)
@@ -96404,9 +94942,8 @@ function proto_5154(...)
       end
     end
   end
-  do return true end
+  return true
   return false
-end
 function proto_247(...)
   local hrpCell
   local hrp = farmUtil.GetHRP(up2)
@@ -96455,9 +94992,7 @@ function proto_276(a1, ...)
     return true
   else
     return true
-  end
   return false
-end
 
 function fn_SetBorj_620(a1, ...)
   local v21 = up1("Borj", a1)
@@ -96741,7 +95276,7 @@ function proto_856(...)
   else
     return
   end
-  do return end
+  return
   local v1194 = v543()
 end
 
@@ -96778,7 +95313,6 @@ end
 
 function proto_1016(a1, ...)
   return 20
-end
 
 function proto_1123(a1, a2, ...)
   local arrival_radius, v24, v26, start, v29, v37, speed, v83
@@ -96884,7 +95418,7 @@ function proto_1187(...)
       local v26 = task.wait(0.5)
     end
   end
-  do return end
+  return
   local v146 = up10(value)
   v154 = true
 end
@@ -97221,7 +95755,6 @@ function fn_GetStats_2781(...)
   v9[1] = v3
   v9.n = 1
   return unpack(v9)
-end
 
 function proto_2818(a1, ...)
   local ok = pcall(farmUtil.ClickBountyPoster, a1)
@@ -97232,7 +95765,6 @@ function proto_2839(...)
   local isOwner = flightCore.IsOwner(("AutoThrillerBark"))
   appendn(v15, isOwner)
   return unpack(v15)
-end
 
 function proto_2842(a1, a2, a3, a4, a5, a6, ...)
   local v36, v41, v71, hrp2, v147, now3
@@ -97269,15 +95801,13 @@ function proto_2842(a1, a2, a3, a4, a5, a6, ...)
           continue
         else
           return true, key
-        end
       else
       end
     end
   end
-  do return false end
-  do return true end
-  do return false end
-end
+  return false
+  return true
+  return false
 
 function proto_2854(...)
   up1 = nil
@@ -97372,10 +95902,8 @@ function proto_2970(a1, a2, ...)
       return true
     else
       return true
-    end
   else
     return false
-  end
 end
 
 function proto_3002(a1, a2, a3, a4, ...)
@@ -97437,7 +95965,6 @@ function proto_3130(list, a2, a3, ...)
     return unpack(v18)
   else
     return proto_890
-  end
 end
 
 function proto_3423(...)
@@ -97492,7 +96019,6 @@ function fn_GetRotationTarget_3652(a1, ...)
   v7[1] = v6
   v7.n = 1
   return unpack(v7)
-end
 
 function proto_3668(...)
   local cap, parent, vec
@@ -97636,8 +96162,7 @@ function proto_3841(...)
   local ok = pcall(up9)
   local v87 = task.wait(0.5)
   local v35 = {}
-  do return end
-end
+  return end
 
 function proto_4084(...)
   local ok = pcall(connect.Disconnect, connect)
@@ -97679,7 +96204,6 @@ function proto_4219(a1, ...)
         continue
       else
         return v15
-      end
     end
   end
   local findFirstChild5 = workspaceRef:FindFirstChild(a1)
@@ -97693,10 +96217,8 @@ function proto_4219(a1, ...)
     return nil
   else
     return findFirstChild7
-  end
   return v15
   return findFirstChild6
-end
 
 function fn_on_HealthChanged_4348(health, ...)
   local v98, v105, v113
@@ -98070,7 +96592,6 @@ function fn_AutoThrillerBark_4350(import, a2, a3, a4, ...)
   v230[2] = v373
   v463[1].GetRotationTarget = fn_GetRotationTarget_3652
   return v463[1]
-end
 
 function proto_4409(a1, a2, ...)
   a2 = a2 == true
@@ -98129,7 +96650,6 @@ function proto_4606(player, a2, ...)
   v63[1] = v24
   v63.n = 1
   return unpack(v63)
-end
 
 function proto_4733(...)
   local v34 = up1.Stopped:Wait()
@@ -98167,11 +96687,10 @@ function proto_4981(...)
   local ok = pcall(connect.Disconnect, connect)
   up1[up2] = "stopped"
   up5[up6] = false
-  do return end
+  return
   local ok2 = pcall(connect.Disconnect, connect)
   return true
-  do return end
-end
+  return end
 
 function proto_4987(...)
   up1[up2] = false
@@ -98349,7 +96868,7 @@ function proto_493(a1, ...)
   else
     return
   end
-  do return end
+  return
   local ok = pcall(v81.InvokeServer, v81, "equip", value)
   local v84 = up2()
   v81 = v84
@@ -98366,7 +96885,6 @@ function proto_1367(...)
   v4[1] = v1
   v4.n = 1
   return unpack(v4)
-end
 
 function fn_SetEnabled_1784(a1, ...)
   a1 = a1 == true
@@ -98397,7 +96915,6 @@ function fn_GetStats_1922(...)
   v11[1] = v6
   v11.n = 1
   return unpack(v11)
-end
 
 function proto_2265(a1, ...)
   a1 = { a1 }
@@ -98409,7 +96926,6 @@ function proto_2265(a1, ...)
   v11[1] = proto_1367
   v11.n = 1
   return unpack(v11)
-end
 
 function fn_OnExternalDisable_2327(a1, ...)
   up1 = a1
@@ -98417,7 +96933,6 @@ end
 
 function proto_2331(a1, a2, ...)
   return a1.dist < a2.dist
-end
 
 function fn_GetProgress_2919(...)
   local v2 = {}
@@ -98426,14 +96941,12 @@ function fn_GetProgress_2919(...)
   v2[1] = v3
   v2.n = 1
   return unpack(v2)
-end
 
 function proto_3233(...)
   local v3 = {}
   local tools = gpoEvents.GetRemote("Tools")
   appendn(v3, tools)
   return unpack(v3)
-end
 
 function proto_3271(...)
   if false2 then
@@ -98556,7 +97069,6 @@ function proto_4703(...)
   end
   local v168 = table.sort(v60, proto_2331)
   return v60
-end
 
 function proto_4909(...)
   if false2 then
@@ -98699,7 +97211,6 @@ function fn_AutoZombieArmor_5177(import, a2, a3, a4, ...)
   v179[1] = v153
   local register = unload.register("GPO_AutoZombieArmor", fn_GPO_AutoZombieArmor_3409)
   return v153[1]
-end
 function proto_281(...)
   local v10, stats2, spawnPoint, v27, spawnPoints2, v43, v49
   local spawnPoints = playerData.GetSpawnPoints()
@@ -98725,7 +97236,6 @@ function proto_281(...)
   v49[1] = v10
   v49.n = 1
   return unpack(v49)
-end
 
 function proto_518(...)
   local v74, v120, v141, v151, v179
@@ -98773,10 +97283,9 @@ function proto_518(...)
   else
     return
   end
-  do return end
+  return
   local v101 = {}
-  do return end
-end
+  return end
 
 function fn_DesertSpawn_1214(import, a2, a3, a4, ...)
   local playerData = import("Games/GPO/Logic/Account/PlayerData")
@@ -98821,7 +97330,6 @@ function fn_DesertSpawn_1214(import, a2, a3, a4, ...)
   v22[8] = v49
   v49[1].Ensure = fn_Ensure_3891
   return v49[1]
-end
 
 function fn_GPO_DesertSpawn_2431(...)
   if up1 then
@@ -98992,32 +97500,26 @@ function fn_Ensure_3891(a1, list, ...)
                 end
               else
                 return value, v48, value.controls[v48]
-              end
             end
           end
           return true
         else
           return false
-        end
       else
         return false
-      end
     else
       return false
-    end
   else
     return true
-  end
-  do return false end
-  do return false end
-  do return false end
+  return false
+  return false
+  return false
   return value, v48, value.controls[v48]
   v265 = true
   local v523 = {}
   v523[1] = false
   v523.n = 1
-  do return unpack(v523) end
-end
+  return unpack(v523)
 
 function proto_4334(a1, ...)
   local v3, gsub2, v25, v26, v27, v32
@@ -99042,7 +97544,6 @@ function proto_4334(a1, ...)
   v25[1] = v32
   v25.n = 1
   return unpack(v25)
-end
 function fn_on_attributeChangedSignal_24(...)
   local value, value2, v52, attribute2, v184, v185
   v184 = not up1
@@ -99184,13 +97685,11 @@ function proto_104(a1, ...)
       v27[1] = v115[1]
       v27.n = 1
       return unpack(v27)
-    end
   end
   local v27 = {}
   v27[1] = v115[1]
   v27.n = 1
   return unpack(v27)
-end
 
 function proto_147(...)
   local settings, v16, v28
@@ -99204,7 +97703,6 @@ function proto_147(...)
   v28[1] = v16
   v28.n = 1
   return unpack(v28)
-end
 
 function fn_SetSetupEnabled_205(a1, ...)
   local char, v30, v60, backpack2, v122
@@ -99314,13 +97812,12 @@ function proto_235(a1, a2, a3, a4, ...)
   local v149 = {}
   v149[1] = false
   v149.n = 1
-  do return unpack(v149) end
-  do return false end
-  do return true end
+  return unpack(v149)
+  return false
   return true
-  do return true end
-  do return false end
-end
+  return true
+  return true
+  return false
 
 function proto_268(...)
   local v2, ships2, v21, v56, v84, v87, v95, value
@@ -99357,7 +97854,7 @@ function proto_268(...)
           local v90 = value.Name:sub(1, #value.Name - 4)
           v2 = v90
           if v2 == "" then
-            do return end
+            return
           else
           end
         end
@@ -99369,9 +97866,7 @@ function proto_268(...)
     return unpack(v25)
   else
     return nil
-  end
-  do return v2 end
-end
+  return v2
 
 function proto_320(a1, ...)
   local v3, name, v126, v188, v194, v206, now3, v246, v265, now4, v366, now7
@@ -99663,14 +98158,12 @@ function proto_358(a1, a2, ...)
     else
     end
   end
-  do return false end
-  do return false end
-  do return true end
-end
+  return false
+  return false
+  return true
 
 function proto_373(...)
   return up1
-end
 
 function proto_498(a1, ...)
   local v11, v41, now, v69, connect, v71, findFirstChild2, effects2, v126
@@ -99709,7 +98202,6 @@ function proto_498(a1, ...)
         v74[1] = v71[1]
         v74.n = 1
         return unpack(v74)
-      end
       local disconnect = connect:Disconnect()
       local v74 = {}
       v74[1] = v71[1]
@@ -99717,10 +98209,8 @@ function proto_498(a1, ...)
       return unpack(v74)
     else
       return findFirstChild2
-    end
   else
     return nil
-  end
 end
 
 function proto_506(...)
@@ -99800,7 +98290,6 @@ function proto_718(list, ...)
             continue
           else
             return true
-          end
         end
         local disconnect = connect:Disconnect()
         local v52 = {}
@@ -99808,7 +98297,6 @@ function proto_718(list, ...)
         v52[2] = v123[1]
         v52.n = 2
         return unpack(v52)
-      end
       local disconnect = connect:Disconnect()
       local v52 = {}
       v52[1] = v54[1]
@@ -99821,12 +98309,9 @@ function proto_718(list, ...)
       local now2 = os.clock()
       appendn(v126, now2)
       return unpack(v126)
-    end
   else
     return false, 0
-  end
   return true
-end
 
 function fn_SetLureEnabled_719(a1, ...)
   a1 = a1 == true
@@ -99912,7 +98397,6 @@ function proto_946(...)
   v11[1] = v18
   v11.n = 1
   return unpack(v11)
-end
 
 function proto_983(...)
   local v3 = next(up1)
@@ -99924,7 +98408,6 @@ function proto_983(...)
     return unpack(v35)
   else
     return up1
-  end
 end
 
 function proto_1012(...)
@@ -99958,7 +98441,6 @@ function proto_1082(...)
   v10[1] = v5
   v10.n = 1
   return unpack(v10)
-end
 
 function proto_1084(...)
   local vec = Vector3.new(0, 50, 0)
@@ -99993,7 +98475,6 @@ function fn_GetStats_1115(...)
   v3[1] = v9
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_1120(...)
   local v2 = {}
@@ -100032,7 +98513,6 @@ function proto_1188(...)
   v25[1] = inventory3
   v25.n = 1
   return unpack(v25)
-end
 
 function proto_1311(...)
   local v2, v4
@@ -100044,7 +98524,6 @@ function proto_1311(...)
   v2[1] = v4
   v2.n = 1
   return unpack(v2)
-end
 
 function proto_1385(a1, ...)
   local v40, v50, v53, char, v71, v139
@@ -100114,7 +98593,6 @@ function proto_1407(...)
   v10[1] = v6
   v10.n = 1
   return unpack(v10)
-end
 
 function proto_1422(...)
   local v101, v110, v126, v134, value, v162, v163, v173, value2, attributeCell, v185
@@ -100341,25 +98819,20 @@ function proto_1475(a1, a2, ...)
           return false
         else
           return false
-        end
       else
         return false
-      end
     else
       return true
-    end
   else
     return false
-  end
   return false
   local v309 = {}
   v309[1] = false
   v309.n = 1
-  do return unpack(v309) end
-  do return true end
-  do return false end
+  return unpack(v309)
+  return true
   return false
-end
+  return false
 
 function proto_1594(...)
   local v77, v109, v153
@@ -100430,7 +98903,6 @@ function proto_1698(inst, ...)
             continue
           else
             return true, key
-          end
         end
         break
       end
@@ -100455,7 +98927,6 @@ function proto_1698(inst, ...)
   end
   v84 = value
   return true, key
-end
 
 function proto_1718(a1, ...)
   local v21, v115, v265, v269, v294
@@ -100495,8 +98966,7 @@ function proto_1718(a1, ...)
   local v215 = up4()
   local v290 = task.wait(0.3)
   false2 = true
-  do return end
-end
+  return end
 
 function fn_SetEnabled_1729(a1, ...)
   if not a1 then
@@ -100757,7 +99227,6 @@ function proto_2054(a1, ...)
   v18[1] = ships3
   v18.n = 1
   return unpack(v18)
-end
 
 function fn_MegStack_2087(...)
   false2 = false
@@ -100849,7 +99318,6 @@ end
 
 function proto_2122(...)
   return up1
-end
 
 function proto_2135(...)
   local char, v17, v25
@@ -100863,7 +99331,6 @@ function proto_2135(...)
   v25[1] = v17
   v25.n = 1
   return unpack(v25)
-end
 
 function proto_2175(...)
   local v148, v203
@@ -100895,8 +99362,7 @@ function proto_2175(...)
       onHeartbeat = nil
     end
   end
-  do return end
-end
+  return end
 
 function proto_2213(...)
   local key, v34, v38, value, v45, num, v74, v95, v137, v150
@@ -100998,15 +99464,11 @@ function proto_2228(part, a2, ...)
         return v70.SeatPart == part
       else
         return true
-      end
     else
       return false
-    end
   else
     return false
-  end
-  do return true end
-end
+  return true
 
 function proto_2238(a1, a2, ...)
   local threadCell = { nil }
@@ -101033,7 +99495,6 @@ function proto_2281(...)
   v32[1] = v4
   v32.n = 1
   return unpack(v32)
-end
 
 function fn_Setup_2383(...)
   local v18, v33, v40
@@ -101091,7 +99552,6 @@ function proto_2385(a1, ...)
     return v116
   else
     return false
-  end
 end
 
 function fn_SetRole_2463(a1, ...)
@@ -101234,7 +99694,6 @@ function proto_2683(a1, ...)
   v34[1] = v42
   v34.n = 1
   return unpack(v34)
-end
 
 function proto_2695(...)
   local v1, v4
@@ -101246,14 +99705,12 @@ function proto_2695(...)
   v1[1] = v4
   v1.n = 1
   return unpack(v1)
-end
 
 function proto_2709(...)
   local v4 = {}
   local v3 = up1()
   appendn(v4, v3)
   return unpack(v4)
-end
 
 function proto_2947(...)
   local inputHoldBegin = findFirstChildWhichIsA:InputHoldBegin()
@@ -101334,7 +99791,6 @@ function proto_3095(inst, ...)
     else
       nil2 = inst
       return inst
-    end
   end
 end
 
@@ -101343,7 +99799,6 @@ function proto_3171(...)
   local v3 = up1()
   appendn(v1, v3)
   return unpack(v1)
-end
 
 function proto_3178(...)
   local backpack, v12, char, v16, value, v56, v59, findFirstChild, v103, v109, v164, tool2
@@ -101398,19 +99853,14 @@ function proto_3178(...)
             return true
           else
             return false
-          end
         else
           return false
-        end
       else
         return false
-      end
     else
       return true
-    end
   else
     return false
-  end
 end
 
 function proto_3240(a1, ...)
@@ -101464,9 +99914,7 @@ function proto_3240(a1, ...)
     return unpack(v24)
   else
     return nil
-  end
-  do return value end
-end
+  return value
 
 function proto_3276(a1, a2, a3, a4, ...)
   local start, v8, v15, v18, v23, v24, v39
@@ -101590,9 +100038,7 @@ function proto_3344(...)
       end
     end
     return findFirstChild2
-  end
-  do return value end
-end
+  return value
 
 function fn_SetKillerEnabled_3418(a1, ...)
   a1 = a1 == true
@@ -101694,7 +100140,6 @@ function proto_3549(a1, ...)
   v58[1] = v47
   v58.n = 1
   return unpack(v58)
-end
 
 function fn_on_CharacterAdded_3567(...)
   true2 = true
@@ -101720,7 +100165,6 @@ end
 
 function proto_3696(...)
   return up1
-end
 
 function proto_3699(a1, a2, a3, a4, ...)
   local v24, now2, v37, v43, v47, v52, v62, v87
@@ -101762,10 +100206,9 @@ function proto_3699(a1, a2, a3, a4, ...)
       break
     end
   end
-  do return false end
-  do return true end
   return false
-end
+  return true
+  return false
 
 function proto_3745(...)
   local value, v83, v124, parent, v131, isA, v200, v212, v260, v264, v274, v277
@@ -101843,13 +100286,10 @@ function proto_3745(...)
       return unpack(v53)
     else
       return nil
-    end
   else
     return nil2
-  end
-  do return nil2 end
-  do return nil2 end
-end
+  return nil2
+  return nil2
 
 function fn_SetSetupMode_3763(a1, ...)
   local v12, v42
@@ -101918,12 +100358,9 @@ function proto_3854(a1, ...)
       return false
     else
       return false
-    end
   else
     return false
-  end
-  do return true end
-end
+  return true
 
 function fn_MegStack_4067(import, a2, a3, a4, ...)
   local v13, v22, v44, vecCell, v55, onHeartbeatCell, v76, v88, v89, v106, v108, v142
@@ -102580,7 +101017,6 @@ function fn_MegStack_4067(import, a2, a3, a4, ...)
   v970[3] = newCell
   local register = unload2.register("MegStack", fn_MegStack_2087)
   return v867[1]
-end
 
 function fn_ResolveMerchant_4091(...)
   local ok = xpcall(up1, debug.traceback)
@@ -102596,7 +101032,6 @@ function proto_4133(...)
   v1[1] = v6
   v1.n = 1
   return unpack(v1)
-end
 
 function proto_4187(...)
   local v6, attribute, attribute3
@@ -102613,7 +101048,6 @@ function proto_4187(...)
   v6[1] = attribute3
   v6.n = 1
   return unpack(v6)
-end
 
 function proto_4193(...)
   local v21
@@ -102667,10 +101101,8 @@ function proto_4252(a1, ...)
       return true
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_4271(...)
@@ -103186,15 +101618,12 @@ function proto_4592(a1, ...)
       return value
     else
       return vehicleSeat2
-    end
   else
     return nil
-  end
   local v39 = {}
   v39[1] = nil
   v39.n = 1
   return unpack(v39)
-end
 
 function fn_Killer_4605(...)
   local v5, v18, v71
@@ -103232,7 +101661,6 @@ function proto_4662(...)
   local isOwner = flightCore.IsOwner(up2)
   appendn(v7, isOwner)
   return unpack(v7)
-end
 
 function proto_4775(a1, ...)
   local hrp2, v121, bodyPosition3, v292
@@ -103266,10 +101694,8 @@ function proto_4775(a1, ...)
       return true
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_4783(...)
@@ -103301,7 +101727,6 @@ function proto_4783(...)
     return v150, v167
   else
     return nil, nil
-  end
 end
 
 function proto_4833(...)
@@ -103335,14 +101760,12 @@ function proto_4833(...)
           v115[1] = char2.Position + vec2
           v115.n = 1
           return unpack(v115)
-        end
       else
         local v2 = {}
         local vec = Vector3.new(0, 1, 0)
         v2[1] = v44.CFrame.Position + vec
         v2.n = 1
         return unpack(v2)
-      end
     end
   else
     local v5 = up2()
@@ -103354,7 +101777,6 @@ function proto_4833(...)
     v77[1] = v147
     v77.n = 1
     return unpack(v77)
-  end
 end
 
 function proto_4870(a1, ...)
@@ -103575,7 +101997,6 @@ end
 
 function proto_5039(...)
   return up1
-end
 
 function proto_5163(...)
   local v2 = up1()
@@ -103588,7 +102009,6 @@ function proto_532(...)
   local cannoneer = up1("Cannoneer")
   appendn(v2, cannoneer)
   return unpack(v2)
-end
 
 function fn_GetProgress_556(...)
   local v22 = {}
@@ -103597,7 +102017,6 @@ function fn_GetProgress_556(...)
   v22[1] = v14
   v22.n = 1
   return unpack(v22)
-end
 
 function proto_750(...)
   local v18
@@ -103652,7 +102071,6 @@ function proto_1838(...)
   v2[1] = v6
   v2.n = 1
   return unpack(v2)
-end
 
 function proto_1989(a1, ...)
   local v81, v82, v255
@@ -103698,7 +102116,6 @@ function proto_2098(...)
   local captain = up1("Captain")
   appendn(v2, captain)
   return unpack(v2)
-end
 
 function proto_2402(...)
   local v55, v58, v71
@@ -103740,7 +102157,6 @@ function proto_2511(...)
   local match = up1.Name:match(up2)
   appendn(v9, match)
   return unpack(v9)
-end
 
 function fn_GPO_ShipBounty_2602(...)
   local setEnabled = up1.SetEnabled(false)
@@ -103904,7 +102320,6 @@ function fn_ShipBounty_2997(import, a2, a3, a4, ...)
   v155[1] = v190
   local register = unload.register("GPO_ShipBounty", fn_GPO_ShipBounty_2602)
   return v190[1]
-end
 
 function fn_SetKillCannoneers_3147(a1, ...)
   up1 = a1 == true
@@ -103924,7 +102339,6 @@ function proto_3161(...)
   v1[1] = ships3
   v1.n = 1
   return unpack(v1)
-end
 
 function proto_3198(...)
   local input, humanoid, findFirstChild3, isA2, primary, unreliableRemoteEvent, backpack2, updateBarrelPosition, isA3, v193, v206, v214
@@ -104034,11 +102448,9 @@ function proto_3287(...)
   v18[1] = shipEvents
   v18.n = 1
   return unpack(v18)
-end
 
 function proto_3504(...)
   return players.LocalPlayer.Character
-end
 
 function fn_SetEnabled_3619(a1, ...)
   a1 = a1 == true
@@ -104111,7 +102523,6 @@ function proto_4008(a1, ...)
   v3[1] = proto_1838
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_4068(...)
   if false2 then
@@ -104138,10 +102549,8 @@ function proto_4207(...)
       local v59 = up3()
       appendn(v34, v59)
       return unpack(v34)
-    end
   else
     return v1
-  end
 end
 
 function fn_GetStats_4228(...)
@@ -104154,7 +102563,6 @@ function fn_GetStats_4228(...)
   v7[1] = v9
   v7.n = 1
   return unpack(v7)
-end
 
 function proto_4351(...)
   local v7 = {}
@@ -104162,7 +102570,6 @@ function proto_4351(...)
   v7[1] = pivot.Position
   v7.n = 1
   return unpack(v7)
-end
 
 function proto_4529(a1, ...)
   local v31, v35, ok, v49, v56, npCs2, v68, v69, ok3, v75, v86, v99
@@ -104228,14 +102635,12 @@ function proto_4529(a1, ...)
       v85[1] = v68
       v85.n = 1
       return unpack(v85)
-    end
     local v85 = {}
     v85[1] = v68
     v85.n = 1
     return unpack(v85)
   else
     return nil
-  end
 end
 
 function proto_4763(...)
@@ -104259,7 +102664,6 @@ function fn_GetRemote_2061(a1, ...)
   v17[1] = v16
   v17.n = 1
   return unpack(v17)
-end
 
 function fn_Get_2308(...)
   local events2
@@ -104270,7 +102674,6 @@ function fn_Get_2308(...)
   end
   up1 = events2
   return up1
-end
 
 function fn_WaitForRemote_2496(a1, ...)
   local findFirstChild, waitFor2
@@ -104284,7 +102687,6 @@ function fn_WaitForRemote_2496(a1, ...)
     findFirstChild = findFirstChild3
   end
   return findFirstChild
-end
 
 function fn_WaitFor_4837(...)
   while (not up1) do
@@ -104295,7 +102697,6 @@ function fn_WaitFor_4837(...)
     end
   end
   return up1
-end
 
 function fn_GPOEvents_5111(a1, a2, a3, a4, ...)
   local replicatedStorage = game:GetService("ReplicatedStorage")
@@ -104318,7 +102719,6 @@ function fn_GPOEvents_5111(a1, a2, a3, a4, ...)
   v37[1] = v12
   v12[1].WaitForRemote = fn_WaitForRemote_2496
   return v12[1]
-end
 function proto_70(a1, ...)
   local v23, v53, v58, findFirstChild2, v75, value, v82, playerGui2
   local playerGui = players.LocalPlayer:FindFirstChild("PlayerGui")
@@ -104362,12 +102762,10 @@ function proto_70(a1, ...)
     return findFirstChild2
   else
     return nil
-  end
   local v13 = {}
   v13[1] = nil
   v13.n = 1
   return unpack(v13)
-end
 
 function fn_ParseFraction_571(a1, ...)
   if a1 then
@@ -104381,7 +102779,6 @@ function fn_ParseFraction_571(a1, ...)
     return unpack(v39)
   else
     return nil, nil
-  end
 end
 
 function proto_1121(inst, ...)
@@ -104431,10 +102828,8 @@ function proto_1121(inst, ...)
         end
       end
       return value
-    end
   else
     return findFirstChild2
-  end
 end
 
 function proto_1289(a1, ...)
@@ -104493,14 +102888,12 @@ function proto_1289(a1, ...)
       v81[1] = value
       v81.n = 1
       return unpack(v81)
-    end
     local v81 = {}
     v81[1] = value
     v81.n = 1
     return unpack(v81)
   else
     return nil
-  end
 end
 
 function fn_WaitForBuyablePrompt_1466(a1, a2, a3, a4, ...)
@@ -104530,21 +102923,18 @@ function fn_WaitForBuyablePrompt_1466(a1, a2, a3, a4, ...)
           continue
         else
           return true
-        end
       else
         break
       end
     else
       return true, key
-    end
   end
-  do return v64 end
+  return v64
   return nil
   return nil
-  do return nil end
+  return nil
   return value.id
   return nil
-end
 
 function proto_1740(...)
   local isA, visible, v21, v22, v30, enabled, v33, v35, v41, value, frame2, v70
@@ -104630,9 +103020,7 @@ function proto_1740(...)
     return unpack(v37)
   else
     return nil
-  end
-  do return v77, v35 end
-end
+  return v77, v35
 
 function fn_BuyNearby_2023(a1, a2, a3, a4, ...)
   local v18, v32, v47, v74, v84, v86, v91, v110, v124, v125, v138, v144
@@ -104728,14 +103116,12 @@ function fn_BuyNearby_2023(a1, a2, a3, a4, ...)
               v199[1] = v110
               v199.n = 1
               return unpack(v199)
-            end
             local v199 = {}
             v199[1] = v110
             v199.n = 1
             return unpack(v199)
           else
             return false
-          end
         else
           local v321 = up6(40)
           v523 = v321
@@ -104780,7 +103166,6 @@ function fn_BuyNearby_2023(a1, a2, a3, a4, ...)
             local dismiss3 = npcChat.Dismiss()
           else
             return false
-          end
         end
       else
         if not v439 then
@@ -104849,7 +103234,6 @@ function fn_BuyNearby_2023(a1, a2, a3, a4, ...)
             v368[1] = v507
             v368.n = 1
             return unpack(v368)
-          end
           local v368 = {}
           v368[1] = v507
           v368.n = 1
@@ -104862,15 +103246,12 @@ function fn_BuyNearby_2023(a1, a2, a3, a4, ...)
           local clickButton = npcChat.ClickButton(v439)
           appendn(v41, clickButton)
           return unpack(v41)
-        end
       end
     else
       return false
-    end
   else
     return false
-  end
-  do return false end
+  return false
   local dismiss2 = npcChat.Dismiss()
 end
 
@@ -104929,7 +103310,6 @@ function fn_NPCShopUtil_3108(import, a2, a3, a4, ...)
   v95[8] = playersCell
   v109[1].BuyNearby = fn_BuyNearby_2023
   return v109[1]
-end
 
 function proto_3123(a1, ...)
   local v16, v30, v38
@@ -104951,26 +103331,23 @@ function proto_3123(a1, ...)
         end
       else
         return value, v48, value.controls[v48]
-      end
     else
       break
     end
   end
-  do return false, false end
+  return false, false
   return v15
-  do return false, false end
+  return false, false
   v16.Text = "1"
   local v85 = {}
   v85[1] = true
   local clickButton = npcChat.ClickButton(v30)
   appendn(v85, clickButton)
-  do return unpack(v85) end
-  if not (not (not (v16.Text == "1"))) then do return end end
-end
+  return unpack(v85)
+  if not (not (not (v16.Text == "1"))) then return end
 
 function proto_3444(...)
   return true
-end
 
 function fn_GetHRP_3507(...)
   local v4, char, v9
@@ -104984,7 +103361,6 @@ function fn_GetHRP_3507(...)
   v9[1] = v4
   v9.n = 1
   return unpack(v9)
-end
 
 function proto_4761(a1, a2, a3, ...)
   local parent, v17, v25, position, v40, v41, isDescendantOf, enabled, v54, buyableItems2, value, findPrompt2
@@ -105085,19 +103461,16 @@ function proto_4761(a1, a2, a3, ...)
       v63[1] = findPrompt3
       v63.n = 1
       return unpack(v63)
-    end
     local v63 = {}
     v63[1] = findPrompt3
     v63.n = 1
     return unpack(v63)
   else
     return nil
-  end
 end
 
 function proto_5049(...)
   return true
-end
 
 function fn_ReadAmount_5064(a1, a2, ...)
   local v4, text, findFirstChild, v31, parseFraction, v46, findFirstChild2
@@ -105121,7 +103494,6 @@ function fn_ReadAmount_5064(a1, a2, ...)
     return unpack(v4)
   else
     return nil, nil
-  end
 end
 function proto_139(...)
   local v21, v37, v46, v50, v60, localPlayer, v98, v141, v144, v148, v157, v170
@@ -105242,13 +103614,11 @@ function proto_757(...)
     v92[2] = partyMembers2
     v92.n = 2
     return unpack(v92)
-  end
   local v92 = {}
   v92[1] = v84
   v92[2] = partyMembers2
   v92.n = 2
   return unpack(v92)
-end
 
 function proto_1006(a1, ...)
   local lower, v17, v22, v28, findFirstChild2, v59, v71, value, v80
@@ -105298,12 +103668,9 @@ function proto_1006(a1, ...)
       return unpack(v31)
     else
       return findFirstChild2
-    end
   else
     return nil
-  end
   return value
-end
 
 function proto_1575(...)
   local v9, v25, v33, v34, v35, v38, readFile2, key
@@ -105407,10 +103774,8 @@ function fn_InviteNow_1831(a1, ...)
       return ok, up8
     else
       return false, "Only the party leader can invite."
-    end
   else
     return false, "Target is not in this server."
-  end
 end
 
 function fn_Init_2181(...)
@@ -105649,7 +104014,6 @@ function fn_AutoInvite_2964(import, a2, a3, a4, ...)
   v98[5] = v202
   v44[1].Stop = fn_Stop_3787
   return v44[1]
-end
 
 function fn_Add_3036(a1, ...)
   local v3 = up1(a1)
@@ -105758,7 +104122,6 @@ function proto_4274(...)
   v22[1] = partySystem4
   v22.n = 1
   return unpack(v22)
-end
 
 function proto_4744(a1, ...)
   local v4, v8, v24
@@ -105773,7 +104136,6 @@ function proto_4744(a1, ...)
   local gsub2 = gsub:gsub("%s+$", "")
   appendn(v8, gsub2)
   return unpack(v8)
-end
 
 function fn_GetSortedNames_4782(...)
   local v9, v21, v36, v66, v68, v97, v98, v101
@@ -105808,7 +104170,6 @@ function fn_GetSortedNames_4782(...)
   v68[1] = v36
   v68.n = 1
   return unpack(v68)
-end
 
 function fn_SetLeaderOnly_4878(a1, ...)
   up1 = a1 == true
@@ -105816,7 +104177,6 @@ end
 
 function fn_GetStatus_5113(...)
   return up1
-end
 function proto_111(inst, a2, ...)
   local v7, v10, value, v15, find, v37, v38, value2, v50, v53, v55, v57
   local v100, v106, v109, value3, v134, v138, v182, v186, v187, isA2, value4, attribute2
@@ -105998,7 +104358,6 @@ function proto_111(inst, a2, ...)
     return true
   else
     return false
-  end
 end
 
 function fn_SetJoinDestinationOn_292(a1, ...)
@@ -106010,7 +104369,6 @@ end
 
 function fn_IsInUniversalHub_456(...)
   return game.PlaceId == up1.UNIVERSAL_HUB_PLACE_ID
-end
 
 function fn_SetQueueMode_504(a1, ...)
   local index = table.find(up1.QUEUE_MODES, a1)
@@ -106031,7 +104389,6 @@ function proto_944(...)
   v12[1] = v3
   v12.n = 1
   return unpack(v12)
-end
 
 function fn_Stop_1353(...)
   local v12
@@ -106179,21 +104536,16 @@ function proto_1376(...)
             local v266 = up10(findFirstChild)
           end
           return true
-        end
       else
         return true
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function fn_GetStatus_1543(...)
   return up1
-end
 
 function proto_1774(...)
   local captureFocus = up1:CaptureFocus()
@@ -106209,7 +104561,6 @@ function proto_1897(a1, ...)
   local clickButton = compat.ClickButton(a1, v4)
   appendn(v2, clickButton)
   return unpack(v2)
-end
 
 function fn_GPO_AutoJoin_1976(...)
   true2 = true
@@ -106355,8 +104706,7 @@ function proto_1990(a1, ...)
   else
     return
   end
-  do return end
-end
+  return end
 
 function proto_2024(a1, ...)
   local v3, findFirstChild, v57, findFirstChild2, findFirstChild5, isInMainGame2, v152, v170, v178, v198, v220, v227
@@ -106538,7 +104888,6 @@ function fn_JoinNow_2298(...)
             return unpack(v116)
           else
             return false, "Queue joining is available in Universal Hub."
-          end
         end
       else
         local isInMainGame2 = up4.IsInMainGame()
@@ -106557,7 +104906,6 @@ function fn_JoinNow_2298(...)
           return unpack(v15)
         else
           return false, "Destination joining is available from the start menu."
-        end
       end
     else
       local isInMainGame = up4.IsInMainGame()
@@ -106576,11 +104924,9 @@ function fn_JoinNow_2298(...)
         return unpack(v88)
       else
         return false, "PS joining is available from the start menu."
-      end
     end
   else
     return false, "Script unloaded."
-  end
 end
 
 function proto_2353(inst, ...)
@@ -106630,12 +104976,10 @@ function proto_2353(inst, ...)
     v91[1] = v68
     v91.n = 1
     return unpack(v91)
-  end
   local v91 = {}
   v91[1] = v68
   v91.n = 1
   return unpack(v91)
-end
 
 function fn_Init_2378(...)
   local v46
@@ -106702,7 +105046,6 @@ function proto_2484(...)
   v21[2] = v73
   v21.n = 2
   return unpack(v21)
-end
 
 function proto_2582(a1, ...)
   local now = os.clock()
@@ -106768,13 +105111,11 @@ function proto_2686(a1, ...)
     return false
   else
     return false
-  end
   local v66 = {}
   v66[1] = true
   v66.n = 1
-  do return unpack(v66) end
+  return unpack(v66)
   return false
-end
 
 function fn_SetRetryInterval_2755(a1, ...)
   local v4, v15
@@ -106808,7 +105149,6 @@ function fn_PrepareKrakenV2Rejoin_2772(...)
     return unpack(v1)
   else
     return false
-  end
 end
 
 function fn_SetPsCode_3035(a1, ...)
@@ -106940,7 +105280,6 @@ function proto_3379(a1, a2, ...)
   v17[1] = v22
   v17.n = 1
   return unpack(v17)
-end
 
 function fn_SetAutoFill_3475(a1, ...)
   up1 = a1 == true
@@ -106948,7 +105287,6 @@ end
 
 function fn_IsInMainGame_3490(...)
   return game.PlaceId == up1.MAIN_PLACE_ID
-end
 
 function proto_3603(a1, ...)
   local v4, v7, v13
@@ -106964,7 +105302,6 @@ function proto_3603(a1, ...)
   v7[1] = gsub
   v7.n = 1
   return unpack(v7)
-end
 
 function fn_AutoJoin_3902(import, a2, a3, a4, ...)
   local v5, v11, compatCell, storageCell, v126, playerDataCell, falseCell2, v166, v169, v170, v174, playersCell
@@ -107284,7 +105621,6 @@ function fn_AutoJoin_3902(import, a2, a3, a4, ...)
   v353[3] = gsub2Cell
   local register = unload2.register("GPO_AutoJoin", fn_GPO_AutoJoin_1976)
   return v170[1]
-end
 
 function fn_SetQueueOn_4236(a1, ...)
   false2 = a1 == true
@@ -107309,13 +105645,10 @@ function proto_4481(a1, ...)
         up2[a1] = now2
         up5 = "Confirmed " .. up4
         return true
-      end
     else
       return true
-    end
   else
     return false
-  end
 end
 
 function proto_4689(list, ...)
@@ -107330,7 +105663,6 @@ function proto_4689(list, ...)
     return unpack(v8)
   else
     return true
-  end
 end
 
 function fn_SetJoinDestination_5031(a1, ...)
@@ -107539,7 +105871,6 @@ function fn_GetSortedNames_4331(...)
   v73[1] = v112
   v73.n = 1
   return unpack(v73)
-end
 
 function fn_MultiAccountManager_4720(import, a2, a3, a4, ...)
   local storageCell, httpServiceCell, playersCell
@@ -107600,7 +105931,6 @@ function fn_MultiAccountManager_4720(import, a2, a3, a4, ...)
   v69[3] = v117
   v87[1].Init = fn_Init_1254
   return v87[1]
-end
 
 function proto_4910(a1, ...)
   local str = tostring(a1)
@@ -107623,7 +105953,6 @@ function fn_GetCodes_33(a1, ...)
   v2[1] = v22
   v2.n = 1
   return unpack(v2)
-end
 
 function fn_GetMasteryPercentages_183(a1, ...)
   local v12, v19
@@ -107641,7 +105970,6 @@ function fn_GetMasteryPercentages_183(a1, ...)
   v19[1] = v12
   v19.n = 1
   return unpack(v19)
-end
 
 function fn_GetItemTradeLevel_207(a1, ...)
   local v6, v8, v14
@@ -107658,7 +105986,6 @@ function fn_GetItemTradeLevel_207(a1, ...)
   v8[1] = v6
   v8.n = 1
   return unpack(v8)
-end
 
 function fn_GetSkills_228(a1, ...)
   local v2 = {}
@@ -107668,7 +105995,6 @@ function fn_GetSkills_228(a1, ...)
   local v16 = up1(unpack(v20))
   appendn(v2, v16)
   return unpack(v2)
-end
 
 function proto_263(a1, a2, ...)
   local root, v7, v11
@@ -107683,7 +106009,6 @@ function proto_263(a1, a2, ...)
   v11[1] = v7
   v11.n = 1
   return unpack(v11)
-end
 
 function fn_IsStunned_488(...)
   local stunFolder2, v16, v21
@@ -107698,7 +106023,6 @@ function fn_IsStunned_488(...)
   v16[1] = v21
   v16.n = 1
   return unpack(v16)
-end
 
 function fn_GetEmotes_540(a1, ...)
   local v4, v8, v11, v19, v24, v26, v28, v34, v52
@@ -107736,7 +106060,6 @@ function fn_GetEmotes_540(a1, ...)
   v19[1] = v26
   v19.n = 1
   return unpack(v19)
-end
 
 function fn_GetQuest_584(a1, ...)
   local v9 = {}
@@ -107746,7 +106069,6 @@ function fn_GetQuest_584(a1, ...)
   local v4 = up1(unpack(v5))
   appendn(v9, v4)
   return unpack(v9)
-end
 
 function fn_PlayerData_669(a1, a2, a3, a4, ...)
   a1 = { a1 }
@@ -107756,7 +106078,6 @@ function fn_PlayerData_669(a1, a2, a3, a4, ...)
   local v24 = proto_2113()
   appendn(v25, v24)
   return unpack(v25)
-end
 
 function fn_GetUserId_681(a1, ...)
   local v6, v7, userId, userId2
@@ -107774,7 +106095,6 @@ function fn_GetUserId_681(a1, ...)
   v6[1] = userId2
   v6.n = 1
   return unpack(v6)
-end
 
 function proto_735(a1, ...)
   local v6
@@ -107786,10 +106106,8 @@ function proto_735(a1, ...)
       return nil
     else
       return a1
-    end
   else
     return v6.Name
-  end
 end
 
 function fn_GetAllSnapshots_804(...)
@@ -107819,12 +106137,10 @@ function fn_GetAllSnapshots_804(...)
     v35[1] = v48
     v35.n = 1
     return unpack(v35)
-  end
   local v35 = {}
   v35[1] = v48
   v35.n = 1
   return unpack(v35)
-end
 
 function fn_GetPeli_807(a1, ...)
   local v3, v17
@@ -107840,7 +106156,6 @@ function fn_GetPeli_807(a1, ...)
   v17[1] = v3
   v17.n = 1
   return unpack(v17)
-end
 
 function fn_GetTradingStats_863(a1, ...)
   local v2 = {}
@@ -107850,7 +106165,6 @@ function fn_GetTradingStats_863(a1, ...)
   local v9 = up1(unpack(v4))
   appendn(v2, v9)
   return unpack(v2)
-end
 
 function fn_GetItemRarity_900(a1, ...)
   local v4, v10, v13
@@ -107867,7 +106181,6 @@ function fn_GetItemRarity_900(a1, ...)
   v13[1] = v10
   v13.n = 1
   return unpack(v13)
-end
 
 function fn_GetCharacterState_933(a1, ...)
   local walkSpeed, v8, maxHealth, primary, v25, char, name, walkSpeed2, v52, v58, v61, v68
@@ -107964,7 +106277,6 @@ function fn_GetCharacterState_933(a1, ...)
     return unpack(v52)
   else
     return nil
-  end
 end
 
 function fn_GetPartyLeaderName_970(...)
@@ -107988,7 +106300,6 @@ function fn_GetPartyLeaderName_970(...)
   v18[1] = name
   v18.n = 1
   return unpack(v18)
-end
 
 function fn_GetCrewsInServer_1011(...)
   local crewsInServer2, v15, v16, v26, v31, v49
@@ -108022,7 +106333,6 @@ function fn_GetCrewsInServer_1011(...)
     v14[1] = v36
     v14.n = 1
     return unpack(v14)
-  end
 end
 
 function fn_GetRoot_1053(a1, ...)
@@ -108042,10 +106352,8 @@ function fn_GetRoot_1053(a1, ...)
       return v72
     else
       return v44
-    end
   else
     return nil
-  end
 end
 
 function fn_GetLevel_1092(a1, ...)
@@ -108062,7 +106370,6 @@ function fn_GetLevel_1092(a1, ...)
   v12[1] = v15
   v12.n = 1
   return unpack(v12)
-end
 
 function fn_GetGamepasses_1203(a1, ...)
   local v12 = {}
@@ -108072,7 +106379,6 @@ function fn_GetGamepasses_1203(a1, ...)
   local v5 = up1(unpack(v4))
   appendn(v12, v5)
   return unpack(v12)
-end
 
 function fn_GetBoosts_1219(a1, ...)
   local v12 = {}
@@ -108082,12 +106388,10 @@ function fn_GetBoosts_1219(a1, ...)
   local v9 = up1(unpack(v2))
   appendn(v12, v9)
   return unpack(v12)
-end
 
 function fn_GetRace_1286(a1, ...)
   local customization = up1.GetCustomization(a1)
   return customization.Race
-end
 
 function proto_1487(...)
   local v4, ok, v58, v62, ok3
@@ -108144,7 +106448,6 @@ function fn_GetEquippedFruit_1519(a1, ...)
   v22[1] = v20
   v22.n = 1
   return unpack(v22)
-end
 
 function fn_IsQuestOnCooldown_1567(...)
   local questCD2, v27, v41
@@ -108158,7 +106461,6 @@ function fn_IsQuestOnCooldown_1567(...)
   v27[1] = v41
   v27.n = 1
   return unpack(v27)
-end
 
 function fn_GetHotbar_1580(a1, ...)
   local hotbarOrder, v12, hotbarOrder2, v19, hotbarOrder4, hotbarOrder5
@@ -108184,7 +106486,6 @@ function fn_GetHotbar_1580(a1, ...)
   v12[1] = hotbarOrder
   v12.n = 1
   return unpack(v12)
-end
 
 function proto_1766(inst, ...)
   local v19, value, v45, v65, v78, v84
@@ -108213,14 +106514,12 @@ function proto_1766(inst, ...)
       v11[1] = v65
       v11.n = 1
       return unpack(v11)
-    end
     local v11 = {}
     v11[1] = v65
     v11.n = 1
     return unpack(v11)
   else
     return v65
-  end
 end
 
 function fn_GetTitles_1793(a1, ...)
@@ -108244,7 +106543,6 @@ function fn_GetTitles_1793(a1, ...)
   v12[1] = v8
   v12.n = 1
   return unpack(v12)
-end
 
 function fn_GetPrivateServerCode_1817(...)
   local v2, reservedCode2, v11, v13, value
@@ -108267,7 +106565,6 @@ function fn_GetPrivateServerCode_1817(...)
   v13[1] = v2
   v13.n = 1
   return unpack(v13)
-end
 
 function fn_GetEquipped_1980(a1, ...)
   local v9, equiped2, v18, equiped3, equiped4, equiped5
@@ -108293,7 +106590,6 @@ function fn_GetEquipped_1980(a1, ...)
   v18[1] = equiped4
   v18.n = 1
   return unpack(v18)
-end
 
 function fn_GetInventory_2015(a1, ...)
   local v6, inventory2, inventory3, inventory4, v33, inventory5
@@ -108319,7 +106615,6 @@ function fn_GetInventory_2015(a1, ...)
   v6[1] = inventory4
   v6.n = 1
   return unpack(v6)
-end
 
 function proto_2113(...)
   local v34, httpServiceCell, v147, v148, v160, v284, v395, v409, replicatedStorageCell, playersCell, v559, v598
@@ -108622,7 +106917,6 @@ function proto_2113(...)
   v543[1] = replicatedStorageCell
   v395[1].GetParties = fn_GetParties_3427
   return v395[1]
-end
 
 function fn_GetPartyMembers_2144(a1, ...)
   local v11, v21, v25, v29, v31, v37
@@ -108649,13 +106943,11 @@ function fn_GetPartyMembers_2144(a1, ...)
       v24[1] = v31
       v24.n = 1
       return unpack(v24)
-    end
   end
   local v24 = {}
   v24[1] = v31
   v24.n = 1
   return unpack(v24)
-end
 
 function fn_GetProducts_2361(a1, ...)
   local key, v8, value, v22, v23, value2, v51, v53
@@ -108690,12 +106982,10 @@ function fn_GetProducts_2361(a1, ...)
     v37[1] = v53
     v37.n = 1
     return unpack(v37)
-  end
   local v37 = {}
   v37[1] = v53
   v37.n = 1
   return unpack(v37)
-end
 
 function fn_GetAccountAge_2492(a1, ...)
   local accountAge, v7, v9, accountAge2
@@ -108713,7 +107003,6 @@ function fn_GetAccountAge_2492(a1, ...)
   v7[1] = accountAge2
   v7.n = 1
   return unpack(v7)
-end
 
 function fn_GetItemNamesByType_2559(a1, ...)
   local v2, key, v33, value, v56, v73, v85, v95
@@ -108748,13 +107037,11 @@ function fn_GetItemNamesByType_2559(a1, ...)
     v76[1] = v2
     v76.n = 1
     return unpack(v76)
-  end
   local v111 = table.sort(v2)
   local v76 = {}
   v76[1] = v2
   v76.n = 1
   return unpack(v76)
-end
 
 function fn_GetSettings_2584(a1, ...)
   local v2 = {}
@@ -108764,7 +107051,6 @@ function fn_GetSettings_2584(a1, ...)
   local v4 = up1(unpack(v10))
   appendn(v2, v4)
   return unpack(v2)
-end
 
 function fn_GetBackpackTools_2606(a1, ...)
   local backpack, v41, v57, v80, v84, v92, backpack3, value, v119
@@ -108804,7 +107090,6 @@ function fn_GetBackpackTools_2606(a1, ...)
       v56[1] = v119
       v56.n = 1
       return unpack(v56)
-    end
     local v56 = {}
     v56[1] = v119
     v56.n = 1
@@ -108815,7 +107100,6 @@ function fn_GetBackpackTools_2606(a1, ...)
     v103[1] = v50
     v103.n = 1
     return unpack(v103)
-  end
 end
 
 function fn_GetMastery_2617(a1, a2, ...)
@@ -108832,7 +107116,6 @@ function fn_GetMastery_2617(a1, a2, ...)
   v4[1] = v15
   v4.n = 1
   return unpack(v4)
-end
 
 function fn_GetSpawnPoints_2734(a1, ...)
   local v5 = {}
@@ -108842,7 +107125,6 @@ function fn_GetSpawnPoints_2734(a1, ...)
   local v9 = up1(unpack(v2))
   appendn(v5, v9)
   return unpack(v5)
-end
 
 function fn_GetOther_2870(a1, ...)
   local root2, value, v32, v33, v48, v76, v81
@@ -108881,7 +107163,6 @@ function fn_GetOther_2870(a1, ...)
       v53[1] = v76
       v53.n = 1
       return unpack(v53)
-    end
     local v53 = {}
     v53[1] = v76
     v53.n = 1
@@ -108892,7 +107173,6 @@ function fn_GetOther_2870(a1, ...)
     v77[1] = v13
     v77.n = 1
     return unpack(v77)
-  end
 end
 
 function fn_GetTitleProgress_2918(a1, ...)
@@ -108903,7 +107183,6 @@ function fn_GetTitleProgress_2918(a1, ...)
   local v2 = up1(unpack(v5))
   appendn(v10, v2)
   return unpack(v10)
-end
 
 function fn_GetDungeonPoints_3054(a1, ...)
   local v3 = {}
@@ -108913,7 +107192,6 @@ function fn_GetDungeonPoints_3054(a1, ...)
   local v4 = up1(unpack(v12))
   appendn(v3, v4)
   return unpack(v3)
-end
 
 function fn_GetItemStats_3126(a1, ...)
   local findFirstChild, v26, v95, v115, v124, v132, findFirstChild3, v186, v198
@@ -108959,7 +107237,6 @@ function fn_GetItemStats_3126(a1, ...)
         v52[1] = v124
         v52.n = 1
         return unpack(v52)
-      end
       local v52 = {}
       v52[1] = v124
       v52.n = 1
@@ -108970,14 +107247,12 @@ function fn_GetItemStats_3126(a1, ...)
       v141[1] = v76
       v141.n = 1
       return unpack(v141)
-    end
   else
     local v197 = {}
     local v45 = {}
     v197[1] = v45
     v197.n = 1
     return unpack(v197)
-  end
 end
 
 function fn_GetSulongQuest_3201(a1, ...)
@@ -108988,7 +107263,6 @@ function fn_GetSulongQuest_3201(a1, ...)
   local v19 = up1(unpack(v30))
   appendn(v9, v19)
   return unpack(v9)
-end
 
 function fn_HasItem_3202(a1, a2, ...)
   local num2, v21, v23
@@ -109003,7 +107277,6 @@ function fn_HasItem_3202(a1, a2, ...)
   v23[1] = v21
   v23.n = 1
   return unpack(v23)
-end
 
 function fn_GetHalloweenCandy_3322(a1, ...)
   local v12, v17, v32, halloween26Candy2, halloween26Candy3, v47
@@ -109028,7 +107301,6 @@ function fn_GetHalloweenCandy_3322(a1, ...)
   v32[1] = v47
   v32.n = 1
   return unpack(v32)
-end
 
 function fn_IsEquipped_3407(a1, a2, ...)
   local v4, v15, v21, v26
@@ -109061,9 +107333,8 @@ function fn_IsEquipped_3407(a1, a2, ...)
   local v10 = {}
   v10[1] = false
   v10.n = 1
-  do return unpack(v10) end
-  do return true end
-end
+  return unpack(v10)
+  return true
 
 function fn_GetParties_3427(...)
   local v6, value, playerColor, v26, value2, v31, v47, value3, v76, v113, v123, v129
@@ -109125,7 +107396,6 @@ function fn_GetParties_3427(...)
       v89[1] = v162
       v89.n = 1
       return unpack(v89)
-    end
     local v89 = {}
     v89[1] = v162
     v89.n = 1
@@ -109136,7 +107406,6 @@ function fn_GetParties_3427(...)
     v95[1] = v16
     v95.n = 1
     return unpack(v95)
-  end
 end
 
 function proto_3476(a1, a2, ...)
@@ -109161,7 +107430,6 @@ function proto_3476(a1, a2, ...)
   v3[1] = value2
   v3.n = 1
   return unpack(v3)
-end
 
 function fn_GetGlobalCooldowns_3859(a1, ...)
   local v9 = {}
@@ -109171,7 +107439,6 @@ function fn_GetGlobalCooldowns_3859(a1, ...)
   local v4 = up1(unpack(v2))
   appendn(v9, v4)
   return unpack(v9)
-end
 
 function fn_GetAFKRewards_3982(a1, ...)
   local v11 = {}
@@ -109181,7 +107448,6 @@ function fn_GetAFKRewards_3982(a1, ...)
   local v9 = up1(unpack(v3))
   appendn(v11, v9)
   return unpack(v11)
-end
 
 function fn_GetMobileButtonPositions_4042(a1, ...)
   local v3 = {}
@@ -109191,7 +107457,6 @@ function fn_GetMobileButtonPositions_4042(a1, ...)
   local v10 = up1(unpack(v12))
   appendn(v3, v10)
   return unpack(v3)
-end
 
 function proto_4149(a1, ...)
   local v26, v52, v57
@@ -109212,10 +107477,8 @@ function proto_4149(a1, ...)
       return nil
     else
       return v26
-    end
   else
     return nil
-  end
 end
 
 function fn_GetCharacterBoosts_4176(a1, ...)
@@ -109258,7 +107521,6 @@ function fn_GetCharacterBoosts_4176(a1, ...)
       v6[1] = v30
       v6.n = 1
       return unpack(v6)
-    end
     local v6 = {}
     v6[1] = v30
     v6.n = 1
@@ -109269,7 +107531,6 @@ function fn_GetCharacterBoosts_4176(a1, ...)
     v60[1] = v47
     v60.n = 1
     return unpack(v60)
-  end
 end
 
 function fn_GetCustomization_4301(a1, ...)
@@ -109280,7 +107541,6 @@ function fn_GetCustomization_4301(a1, ...)
   local v12 = up1(unpack(v11))
   appendn(v2, v12)
   return unpack(v2)
-end
 
 function fn_GetEquippedShip_4400(a1, ...)
   local v9, equipedShip, equipedShip2, equipedShip3, v19
@@ -109303,7 +107563,6 @@ function fn_GetEquippedShip_4400(a1, ...)
   v9[1] = equipedShip3
   v9.n = 1
   return unpack(v9)
-end
 
 function fn_GetItemType_4441(a1, ...)
   local v13, v23, v25
@@ -109320,7 +107579,6 @@ function fn_GetItemType_4441(a1, ...)
   v23[1] = v25
   v23.n = 1
   return unpack(v23)
-end
 
 function fn_GetInventoryMeta_4527(a1, ...)
   local v5 = {}
@@ -109330,7 +107588,6 @@ function fn_GetInventoryMeta_4527(a1, ...)
   local v11 = up1(unpack(v10))
   appendn(v5, v11)
   return unpack(v5)
-end
 
 function fn_GetFruitsAwakened_4634(a1, ...)
   local v5 = {}
@@ -109340,7 +107597,6 @@ function fn_GetFruitsAwakened_4634(a1, ...)
   local v3 = up1(unpack(v11))
   appendn(v5, v3)
   return unpack(v5)
-end
 
 function fn_GetResourceBars_4729(a1, ...)
   local findFirstChild, v14, v23, v37, v40, root2, v56, value
@@ -109376,7 +107632,6 @@ function fn_GetResourceBars_4729(a1, ...)
       v19[1] = v56
       v19.n = 1
       return unpack(v19)
-    end
     local v19 = {}
     v19[1] = v56
     v19.n = 1
@@ -109387,7 +107642,6 @@ function fn_GetResourceBars_4729(a1, ...)
     v13[1] = v50
     v13.n = 1
     return unpack(v13)
-  end
 end
 
 function proto_4803(inst, ...)
@@ -109407,10 +107661,8 @@ function proto_4803(inst, ...)
       local findFirstChild = players:FindFirstChild(inst)
       appendn(v44, findFirstChild)
       return unpack(v44)
-    end
   else
     return inst
-  end
 end
 
 function fn_GetGrips_4810(a1, ...)
@@ -109443,7 +107695,6 @@ function fn_GetGrips_4810(a1, ...)
   v51[1] = v50
   v51.n = 1
   return unpack(v51)
-end
 
 function fn_GetSnapshot_4817(a1, ...)
   local v4, stats2, v89, v136
@@ -109522,7 +107773,6 @@ function fn_GetSnapshot_4817(a1, ...)
   v4[1] = v136
   v4.n = 1
   return unpack(v4)
-end
 
 function fn_GetStats_4892(a1, ...)
   local v11
@@ -109535,7 +107785,6 @@ function fn_GetStats_4892(a1, ...)
     return unpack(v10)
   else
     return nil
-  end
 end
 
 function fn_GetCurrentSea_5102(a1, ...)
@@ -109543,7 +107792,6 @@ function fn_GetCurrentSea_5102(a1, ...)
   local v4 = up1(a1, "CurrentSea")
   appendn(v3, v4)
   return unpack(v3)
-end
 function proto_278(a1, a2, a3, a4, ...)
   local v10, v26, v30, v34, v40
   local v16 = {}
@@ -109644,7 +107892,6 @@ function fn_GetHookedCount_854(...)
     v69 = v69 + 1
   end
   return v69
-end
 
 function proto_1061(a1, ...)
   local findFirstChildWhichIsA2
@@ -109800,7 +108047,6 @@ function fn_AnimatorWatch_1271(import, a2, a3, a4, ...)
   v251[5] = v268
   local register = unload.register("AnimatorWatch", fn_AnimatorWatch_1809)
   return v224[1]
-end
 
 function proto_1439(...)
   if not up1 then
@@ -110132,7 +108378,6 @@ function proto_3648(a1, ...)
     v37 = true
   end
   return findFirstAncestorWhichIsA3, v37
-end
 
 function fn_Acquire_4264(...)
   up1 = up1 + 1
@@ -110148,7 +108393,6 @@ function fn_Acquire_4264(...)
   v96[1] = proto_1439
   v96.n = 1
   return unpack(v96)
-end
 
 function proto_4439(...)
   if true2 then
@@ -110249,10 +108493,8 @@ function proto_1071(...)
       return part2
     else
       return nil
-    end
   else
     return part22
-  end
 end
 
 function fn_AntiDetection_1129(...)
@@ -110279,7 +108521,6 @@ end
 
 function fn_IsEnabled_1552(...)
   return up1
-end
 
 function proto_2174(...)
   if up1 then
@@ -110330,7 +108571,6 @@ function fn_AntiDetection_2427(import, a2, a3, a4, ...)
   v52[1] = v105
   v103.IsEnabled = fn_IsEnabled_1552
   return v103
-end
 
 function fn_SetEnabled_2939(a1, ...)
   up1 = a1
@@ -110374,7 +108614,6 @@ function proto_5029(...)
   v18[1] = "p" .. str
   v18.n = 1
   return unpack(v18)
-end
 function proto_417(...)
   local v10, v47, v52, localPlayer, gunFunctions, v93, char, v166, backpack, char2, v194, gunManager2
   local v214, new2, v242, char3, v256, v262
@@ -110538,13 +108777,11 @@ function proto_2221(a1, a2, ...)
       v30[1] = v50[1]
       v30.n = 1
       return unpack(v30)
-    end
   end
   local v30 = {}
   v30[1] = v50[1]
   v30.n = 1
   return unpack(v30)
-end
 
 function fn_AutoAimbot_2642(import, a2, a3, a4, ...)
   local workspaceRefCell, gpoEventsCell, v83, farmUtil2, playersCell
@@ -110614,7 +108851,6 @@ function fn_AutoAimbot_2642(import, a2, a3, a4, ...)
   v59[1] = v112
   v83.SetPrediction = fn_SetPrediction_1893
   return v83
-end
 
 function proto_3509(...)
   local ok, v66
@@ -110710,7 +108946,6 @@ function proto_4977(character, ...)
     return unpack(v4)
   else
     return false
-  end
 end
 
 function proto_5017(a1, ...)
@@ -110776,13 +109011,10 @@ function proto_497(...)
         return up3
       else
         return nil
-      end
     else
       return up3
-    end
   else
     return nil
-  end
 end
 
 function fn_SetThreshold_1170(a1, ...)
@@ -110817,7 +109049,6 @@ function proto_1670(...)
   v10[1] = busoBar
   v10.n = 1
   return unpack(v10)
-end
 
 function fn_SetForced_1741(a1, ...)
   up1 = a1 == true
@@ -110863,7 +109094,6 @@ end
 
 function proto_2380(...)
   return players.LocalPlayer.Character
-end
 
 function fn_IsActive_2677(...)
   local v5, v19, v41
@@ -110878,7 +109108,6 @@ function fn_IsActive_2677(...)
   v5[1] = v41
   v5.n = 1
   return unpack(v5)
-end
 
 function proto_2999(...)
   up1 = nil
@@ -110896,7 +109125,6 @@ function fn_GetStats_3094(...)
   v7[1] = v9
   v7.n = 1
   return unpack(v7)
-end
 
 function proto_3750(...)
   local v7, v31
@@ -110923,13 +109151,11 @@ function proto_3750(...)
       return unpack(v22)
     else
       return true
-    end
   end
 end
 
 function fn_IsEnabled_3883(...)
   return up1
-end
 
 function fn_AutoBuso_3949(list, a2, a3, a4, ...)
   list = { list }
@@ -111018,11 +109244,9 @@ function fn_AutoBuso_3949(list, a2, a3, a4, ...)
   v132[3] = v66
   v66[1].GetStats = fn_GetStats_3094
   return v66[1]
-end
 
 function fn_IsForced_4381(...)
   return up1
-end
 
 function fn_SetEnabled_4767(a1, ...)
   up1 = a1 == true
@@ -111279,7 +109503,6 @@ function proto_486(a1, a2, ...)
           v409[1] = v196[1]
           v409.n = 1
           return unpack(v409)
-        end
       end
       local v409 = {}
       v409[1] = v196[1]
@@ -111324,11 +109547,9 @@ function proto_486(a1, a2, ...)
         return nil
       else
         return parent4
-      end
     end
   else
     return nil
-  end
 end
 
 function proto_578(inst, ...)
@@ -111364,7 +109585,6 @@ function proto_578(inst, ...)
   v18[1] = inst.ClassName .. (":" .. (v28 .. (":" .. joined)))
   v18.n = 1
   return unpack(v18)
-end
 
 function proto_590(...)
   local factoryPool, v64, factoryPool3
@@ -111381,7 +109601,6 @@ function proto_590(...)
   end
   factoryPool32 = factoryPool3
   return factoryPool32
-end
 
 function proto_603(part, a2, ...)
   local v94, v120
@@ -111401,10 +109620,8 @@ function proto_603(part, a2, ...)
       return lookAt
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function fn_SetNormalCast_819(a1, ...)
@@ -111461,13 +109678,10 @@ function proto_939(...)
         return unpack(v211)
       else
         return false
-      end
     else
       return true
-    end
   else
     return false
-  end
 end
 
 function proto_957(...)
@@ -111485,7 +109699,6 @@ function proto_957(...)
   end
   statues22 = statues2
   return statues22
-end
 
 function proto_1044(a1, ...)
   local v12
@@ -111651,7 +109864,6 @@ function fn_ShouldContinue_1902(...)
             v48[1] = v57
             v48.n = 1
             return unpack(v48)
-          end
         end
       else
         v6 = up5
@@ -111674,12 +109886,10 @@ function fn_ShouldContinue_1902(...)
             v48[1] = v57
             v48.n = 1
             return unpack(v48)
-          end
         end
       end
     else
       return false
-    end
   end
 end
 
@@ -111696,7 +109906,6 @@ function proto_1948(...)
   end
   up1 = v54
   return up1
-end
 
 function fn_SetTargetNPCs_2128(a1, ...)
   false2 = a1 == true
@@ -111955,7 +110164,6 @@ function fn_AutoCyborg_2147(list, a2, a3, a4, ...)
   v135[13] = falseCell4
   local register = unload2.register("AutoCyborg", fn_AutoCyborg_2627)
   return v377
-end
 
 function proto_2293(...)
   local v12, ok, ok2, value, skillCallbacks2, v58, char, ok4, v97, v123, v126, v127
@@ -112042,7 +110250,6 @@ function proto_2293(...)
               return v202
             else
               return nil
-            end
           else
             local ok5 = pcall(v97.GetSkillCallback, v97, v123)
             v222 = ok5[2]
@@ -112060,22 +110267,17 @@ function proto_2293(...)
             else
               up3 = v222
               return v222
-            end
           end
         else
           return nil
-        end
       else
         return nil
-      end
     else
       return up3
-    end
   else
     return nil
-  end
   up3 = value
-  do return value end
+  return value
   value = v314[2]
   local kind9 = type(value)
   v250 = kind9 == "table"
@@ -112088,7 +110290,7 @@ function proto_2293(...)
   v323, v58, v12 = iter(v323)
   local kind10 = type(value.MissleShower)
   v250 = kind10 == "function"
-  do return nil end
+  return nil
   v314 = v323
   v314 = v314(v58, v12)
   v12 = v314
@@ -112138,7 +110340,6 @@ function proto_2913(...)
   end
   env22 = env2
   return env22
-end
 
 function proto_3052(character, a2, ...)
   local v18, v33, v41, humanoid2, hrp2, humanoid3, v77
@@ -112173,13 +110374,10 @@ function proto_3052(character, a2, ...)
         return true
       else
         return false
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function fn_SetLowCooldownOverride_3225(a1, ...)
@@ -112313,7 +110511,6 @@ function proto_3894(a1, a2, ...)
     local v29 = up6(unpack(v5))
     appendn(v32, v29)
     return unpack(v32)
-  end
 end
 
 function fn_SetTargetOverride_3931(a1, ...)
@@ -112377,10 +110574,8 @@ function proto_4143(a1, ...)
       return ok
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_4160(a1, a2, ...)
@@ -112486,7 +110681,6 @@ function proto_4160(a1, a2, ...)
                 v149[1] = v97
                 v149.n = 1
                 return unpack(v149)
-              end
             else
               local v154 = math.random(296305, 612554)
               local v170 = math.random(216773, 579990)
@@ -112502,7 +110696,6 @@ function proto_4160(a1, a2, ...)
                 v149[1] = v97
                 v149.n = 1
                 return unpack(v149)
-              end
             end
           else
             v92 = 0.8
@@ -112533,7 +110726,6 @@ function proto_4160(a1, a2, ...)
                 v149[1] = v97
                 v149.n = 1
                 return unpack(v149)
-              end
             else
               local v154 = math.random(296305, 612554)
               local v170 = math.random(216773, 579990)
@@ -112549,7 +110741,6 @@ function proto_4160(a1, a2, ...)
                 v149[1] = v97
                 v149.n = 1
                 return unpack(v149)
-              end
             end
           end
         else
@@ -112583,7 +110774,6 @@ function proto_4160(a1, a2, ...)
                 v149[1] = v97
                 v149.n = 1
                 return unpack(v149)
-              end
             else
               local v154 = math.random(296305, 612554)
               local v170 = math.random(216773, 579990)
@@ -112599,7 +110789,6 @@ function proto_4160(a1, a2, ...)
                 v149[1] = v97
                 v149.n = 1
                 return unpack(v149)
-              end
             end
           else
             v92 = 0.8
@@ -112630,7 +110819,6 @@ function proto_4160(a1, a2, ...)
                 v149[1] = v97
                 v149.n = 1
                 return unpack(v149)
-              end
             else
               local v154 = math.random(296305, 612554)
               local v170 = math.random(216773, 579990)
@@ -112646,7 +110834,6 @@ function proto_4160(a1, a2, ...)
                 v149[1] = v97
                 v149.n = 1
                 return unpack(v149)
-              end
             end
           end
         end
@@ -112655,11 +110842,9 @@ function proto_4160(a1, a2, ...)
           local ok2 = pcall(v81, a1)
         end
         return false
-      end
     end
   else
     return false
-  end
 end
 
 function fn_GetTarget_4167(...)
@@ -112673,7 +110858,6 @@ function fn_GetTarget_4167(...)
   v1[1] = v3
   v1.n = 1
   return unpack(v1)
-end
 
 function proto_4191(...)
   local parent, char, v10, v17
@@ -112691,7 +110875,6 @@ function proto_4191(...)
   v10[1] = v17
   v10.n = 1
   return unpack(v10)
-end
 
 function proto_4192(...)
   local invokeServerCell, v10, fastLaserRetry, v57, fastLaserRetry2, v154, v171, v200, skill, v249, v272, v281
@@ -112877,7 +111060,6 @@ function proto_5037(inst, ...)
     v78[1] = v104
     v78.n = 1
     return unpack(v78)
-  end
 end
 
 function proto_5042(...)
@@ -112908,7 +111090,6 @@ function fn_GetState_5167(...)
   v28[1] = v1
   v28.n = 1
   return unpack(v28)
-end
 function fn_SetAntiSpamCap_35(a1, ...)
   local v4, v5, v18
   v4 = math.max
@@ -112940,7 +111121,6 @@ function proto_54(vec, ...)
   v13[1] = v4
   v13.n = 1
   return unpack(v13)
-end
 
 function fn_on_OnClientEvent_57(arg1, arg2, arg3, ...)
   local v7 = {}
@@ -113072,7 +111252,6 @@ function proto_90(...)
   local block = gpoEvents.GetRemote("Block")
   appendn(v1, block)
   return unpack(v1)
-end
 
 function fn_GetNearestThreatDistance_161(...)
   local v3, v5, v8, v14, v17, value, v26, v31, v52
@@ -113108,12 +111287,10 @@ function fn_GetNearestThreatDistance_161(...)
     v16[1] = v5
     v16.n = 1
     return unpack(v16)
-  end
   local v16 = {}
   v16[1] = v5
   v16.n = 1
   return unpack(v16)
-end
 
 function proto_186(a1, ...)
   local ok, v52, v111, v113, v124, v146, modules2
@@ -113178,7 +111355,6 @@ function proto_229(...)
   v10[1] = parent
   v10.n = 1
   return unpack(v10)
-end
 
 function fn_SetDebugNotifier_246(a1, ...)
   nil2 = a1
@@ -113192,7 +111368,6 @@ end
 
 function proto_299(...)
   return up1.TimePosition
-end
 
 function proto_424(a1, part, a3, ...)
   local v6, cFrame
@@ -113204,7 +111379,6 @@ function proto_424(a1, part, a3, ...)
   local pointToObjectSpace = cFrame:PointToObjectSpace(a3.Position)
   appendn(v6, pointToObjectSpace)
   return unpack(v6)
-end
 
 function proto_448(list, list2, ...)
   local v8, v24, v29, v30, v43, v55, v59, v67, v69, v92, v105, now2
@@ -113403,16 +111577,13 @@ function proto_562(a1, ...)
         v65["controller"] = ok2
         up2[a1] = v65
         return v208, ok2
-      end
     else
       return v92.module, v92.controller
-    end
   end
 end
 
 function proto_633(...)
   return up1.Speed
-end
 
 function fn_SetMovementMode_653(a1, ...)
   local v4, v9
@@ -113513,7 +111684,6 @@ end
 
 function proto_732(...)
   return hrp.CFrame + (hrp.AssemblyLinearVelocity * 0.1)
-end
 
 function proto_753(...)
   local destroy = up1:Destroy()
@@ -113559,12 +111729,10 @@ function fn_GetLearnedAttacks_785(...)
     v14[1] = v24
     v14.n = 1
     return unpack(v14)
-  end
   local v14 = {}
   v14[1] = v24
   v14.n = 1
   return unpack(v14)
-end
 
 function proto_815(...)
   local hrp, hrp2, v23, v25, now2, npCs2, v59, v66, value
@@ -113616,7 +111784,6 @@ function proto_844(...)
   v7[1] = v4
   v7.n = 1
   return unpack(v7)
-end
 
 function fn_SetVisualizerTransparency_902(a1, ...)
   local v5, v18
@@ -113848,7 +112015,6 @@ function fn_GetDiagnostics_1473(...)
   v126[1] = v67
   v126.n = 1
   return unpack(v126)
-end
 
 function fn_StartTravelRun_1480(list, ...)
   local v71, modules2, v89, v97, v116, v129, okCell, v205, v220, v221
@@ -113911,7 +112077,6 @@ function fn_StartTravelRun_1480(list, ...)
   v212[1] = proto_1536
   v212.n = 1
   return unpack(v212)
-end
 
 function proto_1490(inst, a2, ...)
   local isA = inst:IsA("BasePart")
@@ -114062,13 +112227,10 @@ function proto_1504(a1, a2, a3, ...)
                 return true
               else
                 return false
-              end
             else
               return false
-            end
           else
             return false
-          end
         end
       else
         local v236 = up3()
@@ -114154,16 +112316,12 @@ function proto_1504(a1, a2, a3, ...)
                 return true
               else
                 return false
-              end
             else
               return false
-            end
           else
             return false
-          end
         else
           return false
-        end
       end
     else
       local v100 = up3()
@@ -114209,13 +112367,10 @@ function proto_1504(a1, a2, a3, ...)
             v411[1] = up2
             local thread2 = task.spawn(proto_2279)
             return true
-          end
         else
           return true
-        end
       else
         return false
-      end
     end
   else
     local dash = up1("Dash")
@@ -114246,7 +112401,6 @@ function proto_1504(a1, a2, a3, ...)
       v102[1] = up2
       local thread = task.spawn(proto_4304)
       return true
-    end
   end
 end
 
@@ -114371,8 +112525,7 @@ function proto_1579(...)
     end
   end
   local v233 = {}
-  do return end
-end
+  return end
 
 function proto_1631(list, list2, a3, list3, ...)
   local position, v15, nowCell, v138, v143, v176, v177
@@ -114458,7 +112611,6 @@ function proto_1661(...)
     return v7, humanoid2, v19
   else
     return nil, nil, nil
-  end
 end
 
 function proto_1824(inst, a2, a3, a4, ...)
@@ -114511,10 +112663,8 @@ function proto_1824(inst, a2, a3, a4, ...)
       return unpack(v94)
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_2017(a1, ...)
@@ -114540,7 +112690,6 @@ function proto_2017(a1, ...)
   else
     local v13 = up3("Block skipped: cooldown")
     return false
-  end
 end
 
 function fn_SetVisualizerEnabled_2040(a1, ...)
@@ -114618,7 +112767,6 @@ function proto_2084(...)
     return unpack(v8)
   else
     return false
-  end
 end
 
 function proto_2106(...)
@@ -114755,15 +112903,12 @@ function proto_2334(a1, a2, a3, a4, ...)
       return (a4 - (a1 + (a2 * v72))).Magnitude <= a3, v72
     else
       return false, 0
-    end
   else
     return (a4 - a1).Magnitude <= a3, 0
-  end
 end
 
 function proto_2340(a1, a2, ...)
   return (a1.Position - a2.Position).Magnitude
-end
 
 function proto_2531(...)
   local v6, v42, key, v68, v71, v75
@@ -115001,11 +113146,9 @@ function fn_DebugAction_2679(a1, list, ...)
               return true, "Jumping, then Geppo"
             else
               return false, "Character unavailable"
-            end
           end
         else
           return false, "Humanoid unavailable"
-        end
       end
     else
       local v24 = v62()
@@ -115014,7 +113157,6 @@ function fn_DebugAction_2679(a1, list, ...)
         return true, "Jump"
       else
         return false, "Character unavailable"
-      end
     end
   else
     local v137 = {}
@@ -115023,7 +113165,6 @@ function fn_DebugAction_2679(a1, list, ...)
     v137[2] = "Block"
     v137.n = 2
     return unpack(v137)
-  end
 end
 
 function proto_2934(...)
@@ -115056,7 +113197,6 @@ function proto_3165(a1, a2, ...)
   v24[1] = v14
   v24.n = 1
   return unpack(v24)
-end
 
 function fn_ClearLearned_3215(...)
   local v6, v9, value, v11, v17, v21, key
@@ -115108,13 +113248,10 @@ function proto_3291(...)
         v48[1] = pivot.Position
         v48.n = 1
         return unpack(v48)
-      end
     else
       return up1.Position
-    end
   else
     return up1.WorldPosition
-  end
 end
 
 function proto_3317(...)
@@ -115136,7 +113273,6 @@ function fn_IsInSafeSpot_3420(...)
   v12[1] = v8
   v12.n = 1
   return unpack(v12)
-end
 
 function proto_3512(...)
   local v6, v12, v13, value, key, v26, v40, v49, v65, npc, v68, v87
@@ -115247,7 +113383,6 @@ function proto_3593(a1, ...)
   v5 = v5(v6, ((v15 - up1) - sdelay) - jitter)
   appendn(v9, v5)
   return unpack(v9)
-end
 
 function proto_3651(list, ...)
   local v90, v97, v109, v113, v114, v159, v162
@@ -115286,7 +113421,6 @@ function proto_3651(list, ...)
               v100[1] = v97
               v100.n = 1
               return unpack(v100)
-            end
           end
         else
           local v78 = {}
@@ -115319,7 +113453,6 @@ function proto_3651(list, ...)
                 end
               else
                 return value, v48, value.controls[v48]
-              end
             end
           end
           local kind8 = typeof(list[1])
@@ -115343,27 +113476,21 @@ function proto_3651(list, ...)
               v100[1] = v97
               v100.n = 1
               return unpack(v100)
-            end
           end
         end
       else
         return list[1].Position
-      end
     else
       return list[1].Position
-    end
   else
     return list[1]
-  end
-  do return v159.Position end
-  do return end
-  do return v159 end
+  return v159.Position
+  return
+  return v159
   return value, v48, value.controls[v48]
-end
 
 function proto_3660(...)
   return players.LocalPlayer.Character
-end
 
 function proto_3695(...)
   local char, v14, v98, v110, v155
@@ -115555,7 +113682,6 @@ end
 
 function proto_3776(a1, ...)
   return "projectile:" .. a1
-end
 
 function fn_AutoDefence_3805(list, a2, a3, a4, ...)
   local movementSpoofsCell, nilCell8, runServiceCell, v71, nilCell9, nilCell5, v134, v158, v161, latencyCell, v177, v188
@@ -116128,7 +114254,6 @@ function fn_AutoDefence_3805(list, a2, a3, a4, ...)
   v170[15] = nilCell2
   local register = unload2.register("AutoDefence", fn_AutoDefence_728)
   return v210[1]
-end
 
 function proto_3842(a1, ...)
 end
@@ -116174,16 +114299,13 @@ function fn_ExportLearned_3886(...)
     v37[1] = v26
     v37.n = 1
     return unpack(v37)
-  end
   local v37 = {}
   v37[1] = v26
   v37.n = 1
   return unpack(v37)
-end
 
 function proto_4013(a1, ...)
   return a1.IsPlaying
-end
 
 function proto_4092(a1, ...)
   local str = tostring(a1)
@@ -116263,7 +114385,6 @@ function proto_4322(a1, a2, ...)
       v79[1] = false
       v79.n = 1
       return unpack(v79)
-    end
   else
     local ok = pcall(v53, v54)
     v8 = ok[2]
@@ -116290,13 +114411,11 @@ function proto_4322(a1, a2, ...)
             v7[1] = v71
             v7.n = 1
             return unpack(v7)
-          end
         else
           local v79 = {}
           v79[1] = false
           v79.n = 1
           return unpack(v79)
-        end
       else
         v84 = v83[a2]
         v12 = v84
@@ -116315,17 +114434,14 @@ function proto_4322(a1, a2, ...)
             v7[1] = v71
             v7.n = 1
             return unpack(v7)
-          end
         else
           local v79 = {}
           v79[1] = false
           v79.n = 1
           return unpack(v79)
-        end
       end
     else
       return true
-    end
   end
 end
 
@@ -116429,22 +114545,16 @@ function proto_4457(inst, a2, a3, ...)
             v43[1] = false
             v43.n = 1
             return unpack(v43)
-          end
         else
           return true
-        end
       else
         return false
-      end
     else
       return true
-    end
   else
     return false
-  end
   return true
   return true
-end
 
 function proto_4524(...)
   local v31, v61, projectilesCell, v119, v146
@@ -116572,7 +114682,6 @@ end
 
 function proto_4683(...)
   return up1.TimePosition
-end
 
 function proto_4690(...)
   local now2
@@ -116587,7 +114696,6 @@ function proto_4690(...)
     return true
   else
     return false
-  end
 end
 
 function fn_SetEnabled_4704(a1, ...)
@@ -116676,7 +114784,6 @@ end
 
 function proto_4926(...)
   return up1.Speed
-end
 
 function proto_4973(inst, ...)
   local v24, v32, v44, hrp2, hrp3, ok, v88, ok2
@@ -116709,7 +114816,6 @@ function proto_4973(inst, ...)
     return unpack(v32)
   else
     return nil
-  end
 end
 
 function proto_5034(a1, ...)
@@ -116724,7 +114830,6 @@ function proto_5034(a1, ...)
   v29[1] = v31
   v29.n = 1
   return unpack(v29)
-end
 
 function proto_5061(a1, ...)
   up1 = a1
@@ -116771,7 +114876,6 @@ function proto_5155(a1, ...)
   v23[1] = new3
   v23.n = 1
   return unpack(v23)
-end
 function proto_82(a1, a2, ...)
   local isA, value, hrp, v12, v21, humanoid, v27, v30, v41, humanoid2, v57, npCs2
   local v88, hrp3, v95
@@ -116830,14 +114934,12 @@ function proto_82(a1, a2, ...)
       v36[1] = hrp3
       v36.n = 1
       return unpack(v36)
-    end
     local v36 = {}
     v36[1] = hrp3
     v36.n = 1
     return unpack(v36)
   else
     return nil
-  end
 end
 
 function proto_618(inst, ...)
@@ -116864,7 +114966,6 @@ function proto_618(inst, ...)
     v70[1] = v80
     v70.n = 1
     return unpack(v70)
-  end
 end
 
 function fn_SetAbilityEnabled_937(a1, a2, ...)
@@ -116906,12 +115007,10 @@ function fn_SetAbilityEnabled_937(a1, a2, ...)
     return true
   else
     return false
-  end
   local v40 = {}
   v40[1] = false
   v40.n = 1
   return unpack(v40)
-end
 
 function proto_1151(a1, ...)
   local v25, v27, v43, v47, v70, v82, v83
@@ -116951,7 +115050,6 @@ function proto_1151(a1, ...)
           v89[1] = false
           v89.n = 1
           return unpack(v89)
-        end
       end
     else
       local ok = pcall(_G.StamCheck, a1.name)
@@ -116985,7 +115083,6 @@ function proto_1151(a1, ...)
                 v89[1] = false
                 v89.n = 1
                 return unpack(v89)
-              end
             else
               v27 = not v70
               if not v27 then
@@ -116998,7 +115095,6 @@ function proto_1151(a1, ...)
                 v89[1] = false
                 v89.n = 1
                 return unpack(v89)
-              end
             end
           end
         else
@@ -117025,7 +115121,6 @@ function proto_1151(a1, ...)
                   v89[1] = false
                   v89.n = 1
                   return unpack(v89)
-                end
               else
                 v27 = not v70
                 if not v27 then
@@ -117038,7 +115133,6 @@ function proto_1151(a1, ...)
                   v89[1] = false
                   v89.n = 1
                   return unpack(v89)
-                end
               end
             end
           else
@@ -117065,7 +115159,6 @@ function proto_1151(a1, ...)
                   v89[1] = false
                   v89.n = 1
                   return unpack(v89)
-                end
               else
                 v27 = not v70
                 if not v27 then
@@ -117078,18 +115171,15 @@ function proto_1151(a1, ...)
                   v89[1] = false
                   v89.n = 1
                   return unpack(v89)
-                end
               end
             end
           end
         end
       else
         return false
-      end
     end
   else
     return false
-  end
 end
 
 function proto_1875(inst, a2, ...)
@@ -117118,10 +115208,8 @@ function proto_1875(inst, a2, ...)
       return unpack(v97)
     else
       return nil
-    end
   else
     return findFirstChild3
-  end
 end
 
 function proto_1939(a1, ...)
@@ -117166,7 +115254,6 @@ function proto_1939(a1, ...)
       return
     else
       return v89
-    end
   end
 end
 
@@ -117269,9 +115356,9 @@ function proto_2848(...)
   local num2 = tonumber(v73.cd)
   num = num2
   v57 = v118
-  if not (v57) then return v15 end
+  if not (v57) then return v15
   local v127 = {}
-  do return end
+  return
   local v113 = up12(v148[1].name)
   v145 = v113
   true2 = true
@@ -117466,7 +115553,6 @@ function fn_AutoGoru_3759(list, a2, a3, a4, ...)
   v113[4] = nilCell
   local register = unload.register("AutoGoru", fn_AutoGoru_2522)
   return v282
-end
 
 function proto_3988(part, a2, ...)
   local position, vec2
@@ -117478,7 +115564,6 @@ function proto_3988(part, a2, ...)
     part.CFrame = lookAt
   end
   return part.CFrame
-end
 
 function proto_4039(list, a2, a3, list2, a5, ...)
   local v46, v53, v74, v92, ok3, v119, v134, v137, v139, v145, v153, v167
@@ -117569,13 +115654,10 @@ function proto_4039(list, a2, a3, list2, a5, ...)
         return unpack(v207)
       else
         return false
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_4359(a1, a2, part, a4, a5, ...)
@@ -117622,14 +115704,11 @@ function proto_4359(a1, a2, part, a4, a5, ...)
         return ok3
       else
         return false
-      end
     else
       local ok = pcall(skill2.InvokeServer, skill2, a1.name, cFrame)
       return ok
-    end
   else
     return false
-  end
 end
 
 function proto_4398(...)
@@ -117715,7 +115794,6 @@ function proto_4629(...)
     return char, v29, v14
   else
     return nil
-  end
 end
 
 function fn_GetTarget_4642(...)
@@ -117723,7 +115801,6 @@ function fn_GetTarget_4642(...)
   local v3 = up1(up2.Position, up3.range)
   appendn(v2, v3)
   return unpack(v2)
-end
 
 function fn_GetMouseWorldPosition_4949(...)
   local v46
@@ -117733,7 +115810,6 @@ function fn_GetMouseWorldPosition_4949(...)
     up4 = v46.Position
   end
   return up4
-end
 
 function fn_ShouldContinue_5141(...)
   local v2, v8, v9, v12
@@ -117753,7 +115829,6 @@ function fn_ShouldContinue_5141(...)
   v12[1] = v2
   v12.n = 1
   return unpack(v12)
-end
 function proto_277(...)
   local char, v72, v155
   char = players.LocalPlayer.Character
@@ -117782,7 +115857,6 @@ function proto_277(...)
     end
   end
   return up4
-end
 
 function proto_564(inst, ...)
   local v5, v13
@@ -117795,7 +115869,6 @@ function proto_564(inst, ...)
   v5[1] = not v13
   v5.n = 1
   return unpack(v5)
-end
 
 function proto_607(...)
   local melee, combatAnimations2
@@ -117814,11 +115887,9 @@ function proto_607(...)
     melee3 = melee
   end
   return melee3
-end
 
 function fn_GetAutoM1_1135(...)
   return up1
-end
 
 function proto_1171(a1, ...)
   local v4, position, v32, v45, v61, v63, v97, v104, v130
@@ -117853,7 +115924,6 @@ function proto_1171(a1, ...)
     return v61
   else
     return v61
-  end
 end
 
 function fn_SetM1Players_1414(a1, ...)
@@ -117869,7 +115939,6 @@ function proto_1618(...)
   end
   env22 = env
   return env22
-end
 
 function proto_1942(...)
   local npCs2
@@ -117880,14 +115949,12 @@ function proto_1942(...)
   end
   up1 = npCs2
   return up1
-end
 
 function fn_GetDebugStats_2065(...)
   local v3 = {}
   local copy = table.clone(up1)
   appendn(v3, copy)
   return unpack(v3)
-end
 
 function proto_2371(a1, ...)
   local v17, v23, v24, humanoid, v54, v56, value, char, v108, v110, v119, v137
@@ -117998,13 +116065,11 @@ function proto_2371(a1, ...)
       v299[1] = v137
       v299.n = 1
       return unpack(v299)
-    end
   end
   local v299 = {}
   v299[1] = v137
   v299.n = 1
   return unpack(v299)
-end
 
 function proto_2432(...)
   local v4, v8, cFrame, v100, v206, v223, v235, v237, v263, v289, now2, v310
@@ -118182,7 +116247,6 @@ function proto_2564(inst, ...)
     v20[1] = v49
     v20.n = 1
     return unpack(v20)
-  end
 end
 
 function fn_on_ChildAdded_2585(child, ...)
@@ -118220,7 +116284,6 @@ function proto_2778(...)
     swords3 = swords
   end
   return swords3
-end
 
 function proto_3058(...)
   local v1, char, findFirstChild, v24, v39
@@ -118243,10 +116306,8 @@ function proto_3058(...)
       return "Melee", nil
     else
       return "Sword", v24.Name
-    end
   else
     return "Melee", nil
-  end
 end
 
 function fn_SetNPCTargetLimit_3288(a1, ...)
@@ -118537,7 +116598,6 @@ function fn_AutoM1_3303(list, a2, a3, a4, ...)
   appendn(v136, v587)
   local onHeartbeat = v417.onHeartbeat(unpack(v136))
   return v81[1]
-end
 
 function proto_3774(...)
   local barrelHP, env2, v70, v75, factoryPool2, v102, barrelHP3
@@ -118579,10 +116639,8 @@ function proto_3774(...)
       return unpack(v70)
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function proto_3777(...)
@@ -118591,7 +116649,6 @@ function proto_3777(...)
     combatRegister2 = combatRegister
   end
   return combatRegister2
-end
 
 function proto_3904(list, list2, ...)
   local v14, v15, v21, v25, v79, v89
@@ -118626,10 +116683,8 @@ function proto_3904(list, list2, ...)
       return unpack(v14)
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_4117(a1, a2, a3, ...)
@@ -118861,7 +116916,6 @@ function proto_4380(...)
     up1 = statues
   end
   return up1
-end
 
 function fn_SetAutoM1_4389(a1, a2, ...)
   local v43
@@ -118949,7 +117003,6 @@ function proto_4636(a1, a2, a3, a4, ...)
       v156[1] = nil
       v156.n = 1
       return unpack(v156)
-    end
   else
     local v11 = up1()
     v57 = v11
@@ -119003,7 +117056,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 else
                   v60 = "GroundPunch" .. a1
                   findFirstChild7 = findFirstChild7(v141, v60)
@@ -119020,7 +117072,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 end
               else
                 v90 = "AirPunch" .. a1
@@ -119040,7 +117091,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 else
                   v60 = "GroundPunch" .. a1
                   findFirstChild7 = findFirstChild7(v141, v60)
@@ -119057,7 +117107,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 end
               end
             end
@@ -119090,7 +117139,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 else
                   v60 = "GroundPunch" .. a1
                   findFirstChild7 = findFirstChild7(v141, v60)
@@ -119107,7 +117155,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 end
               else
                 v90 = "AirPunch" .. a1
@@ -119127,7 +117174,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 else
                   v60 = "GroundPunch" .. a1
                   findFirstChild7 = findFirstChild7(v141, v60)
@@ -119144,7 +117190,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 end
               end
             end
@@ -119180,7 +117225,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 else
                   v60 = "GroundPunch" .. a1
                   findFirstChild7 = findFirstChild7(v141, v60)
@@ -119197,7 +117241,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 end
               else
                 v90 = "AirPunch" .. a1
@@ -119217,7 +117260,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 else
                   v60 = "GroundPunch" .. a1
                   findFirstChild7 = findFirstChild7(v141, v60)
@@ -119234,7 +117276,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 end
               end
             end
@@ -119267,7 +117308,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 else
                   v60 = "GroundPunch" .. a1
                   findFirstChild7 = findFirstChild7(v141, v60)
@@ -119284,7 +117324,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 end
               else
                 v90 = "AirPunch" .. a1
@@ -119304,7 +117343,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 else
                   v60 = "GroundPunch" .. a1
                   findFirstChild7 = findFirstChild7(v141, v60)
@@ -119321,7 +117359,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                     v26[1] = findFirstChild2
                     v26.n = 1
                     return unpack(v26)
-                  end
                 end
               end
             end
@@ -119332,7 +117369,6 @@ function proto_4636(a1, a2, a3, a4, ...)
         v156[1] = nil
         v156.n = 1
         return unpack(v156)
-      end
     else
       findFirstChild3 = v39.FindFirstChild
       v63 = v39
@@ -119389,7 +117425,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   else
                     v60 = "GroundPunch" .. a1
                     findFirstChild7 = findFirstChild7(v141, v60)
@@ -119406,7 +117441,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   end
                 else
                   v90 = "AirPunch" .. a1
@@ -119426,7 +117460,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   else
                     v60 = "GroundPunch" .. a1
                     findFirstChild7 = findFirstChild7(v141, v60)
@@ -119443,7 +117476,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   end
                 end
               end
@@ -119476,7 +117508,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   else
                     v60 = "GroundPunch" .. a1
                     findFirstChild7 = findFirstChild7(v141, v60)
@@ -119493,7 +117524,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   end
                 else
                   v90 = "AirPunch" .. a1
@@ -119513,7 +117543,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   else
                     v60 = "GroundPunch" .. a1
                     findFirstChild7 = findFirstChild7(v141, v60)
@@ -119530,7 +117559,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   end
                 end
               end
@@ -119566,7 +117594,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   else
                     v60 = "GroundPunch" .. a1
                     findFirstChild7 = findFirstChild7(v141, v60)
@@ -119583,7 +117610,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   end
                 else
                   v90 = "AirPunch" .. a1
@@ -119603,7 +117629,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   else
                     v60 = "GroundPunch" .. a1
                     findFirstChild7 = findFirstChild7(v141, v60)
@@ -119620,7 +117645,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   end
                 end
               end
@@ -119653,7 +117677,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   else
                     v60 = "GroundPunch" .. a1
                     findFirstChild7 = findFirstChild7(v141, v60)
@@ -119670,7 +117693,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   end
                 else
                   v90 = "AirPunch" .. a1
@@ -119690,7 +117712,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   else
                     v60 = "GroundPunch" .. a1
                     findFirstChild7 = findFirstChild7(v141, v60)
@@ -119707,7 +117728,6 @@ function proto_4636(a1, a2, a3, a4, ...)
                       v26[1] = findFirstChild2
                       v26.n = 1
                       return unpack(v26)
-                    end
                   end
                 end
               end
@@ -119718,10 +117738,8 @@ function proto_4636(a1, a2, a3, a4, ...)
           v156[1] = nil
           v156.n = 1
           return unpack(v156)
-        end
       else
         return v23
-      end
     end
   end
 end
@@ -119745,7 +117763,6 @@ function proto_4784(...)
   v9[1] = v27
   v9.n = 1
   return unpack(v9)
-end
 
 function fn_SetMode_5044(a1, ...)
   up1 = a1
@@ -119756,7 +117773,6 @@ function proto_5084(...)
   local pointToObjectSpace = up1.CFrame:PointToObjectSpace(up2)
   appendn(v2, pointToObjectSpace)
   return unpack(v2)
-end
 
 function proto_5134(a1, a2, a3, a4, a5, ...)
   local v12
@@ -119776,7 +117792,6 @@ function proto_5134(a1, a2, a3, a4, a5, ...)
     v12.aircombo = "Air"
   end
   return v12
-end
 function proto_62(...)
   local v2, v19
   v2 = false2
@@ -119811,7 +117826,6 @@ function proto_290(...)
     return unpack(v26)
   else
     return false
-  end
 end
 
 function proto_534(...)
@@ -119823,7 +117837,6 @@ function proto_534(...)
   end
   up1 = env
   return up1
-end
 
 function fn_SetTargetNPCs_587(a1, ...)
   false2 = a1 == true
@@ -119865,13 +117878,10 @@ function proto_860(...)
         return unpack(v53)
       else
         return false
-      end
     else
       return true
-    end
   else
     return false
-  end
 end
 
 function proto_948(...)
@@ -119995,7 +118005,6 @@ function proto_948(...)
         v49[1] = v122[1]
         v49.n = 1
         return unpack(v49)
-      end
     end
     local v49 = {}
     v49[1] = v122[1]
@@ -120003,7 +118012,6 @@ function proto_948(...)
     return unpack(v49)
   else
     return nil
-  end
 end
 
 function fn_ShouldContinue_977(...)
@@ -120026,7 +118034,6 @@ function fn_ShouldContinue_977(...)
   v10[1] = v14
   v10.n = 1
   return unpack(v10)
-end
 
 function fn_SetNormalCast_1316(a1, ...)
   false2 = a1 == true
@@ -120049,7 +118056,6 @@ function proto_1329(...)
   end
   up2 = statues3
   return up2
-end
 
 function proto_1348(...)
   local v36, ok2
@@ -120112,13 +118118,10 @@ function proto_2154(character, a2, ...)
         return true
       else
         return false
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_2208(a1, ...)
@@ -120176,7 +118179,6 @@ function proto_2325(inst, ...)
     v14[1] = v18
     v14.n = 1
     return unpack(v14)
-  end
   primary = value
 end
 
@@ -120260,7 +118262,6 @@ function proto_2693(...)
   end
   up2 = factoryPool2
   return up2
-end
 
 function fn_AutoMagu_2901(list, a2, a3, a4, ...)
   local playersCell, v62, v90, v115, v134, v196, falseCell, nilCell, now2Cell, gpoEventsCell, legitSkillCastCell, v263
@@ -120428,7 +118429,6 @@ function fn_AutoMagu_2901(list, a2, a3, a4, ...)
   v135[7] = falseCell4
   local register = unload2.register("AutoMagu", fn_AutoMagu_4750)
   return v263
-end
 
 function proto_3104(...)
   local v6, v7, barrelHP2, primary, v23, barrelHP3, v42
@@ -120462,10 +118462,8 @@ function proto_3104(...)
       return unpack(v42)
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function proto_3224(...)
@@ -120484,7 +118482,6 @@ function proto_3224(...)
   v7[1] = v2
   v7.n = 1
   return unpack(v7)
-end
 
 function proto_3334(...)
   local v10, v42, value, value2, v89, v142, skillCallbacks2, v160, ok2, v183, v188, v204
@@ -120605,7 +118602,6 @@ function proto_3334(...)
               return unpack(v147)
             else
               return nil
-            end
           else
             local ok3 = pcall(v421.GetSkillCallback, v421, v341)
             v183 = ok3[2]
@@ -120623,26 +118619,20 @@ function proto_3334(...)
             else
               nil3 = v183
               return v183
-            end
           end
         else
           return nil
-        end
       else
         return nil
-      end
     else
       return nil3
-    end
   else
     return nil
-  end
-  do return value2 end
+  return value2
   nil3 = value2
   nil3 = v466
   return v466
   return v466
-end
 
 function proto_3362(...)
   local v22, v46
@@ -120681,7 +118671,6 @@ function proto_3813(part, ...)
     return unpack(v33)
   else
     return nil
-  end
 end
 
 function fn_SetTargetPlayers_4613(a1, ...)
@@ -120706,7 +118695,6 @@ function proto_4624(...)
   end
   up1 = v1
   return up1
-end
 
 function fn_AutoMagu_4750(...)
   false2 = false
@@ -120753,7 +118741,6 @@ function fn_ShouldContinue_645(...)
   v8[1] = parent2
   v8.n = 1
   return unpack(v8)
-end
 
 function proto_647(...)
   local findFirstChild, backpack, v30, v33, findFirstChild2, v39, backpack3, v69, char, v87, findFirstChild7, backpack4
@@ -120826,14 +118813,11 @@ function proto_647(...)
           return unpack(v136)
         else
           return nil
-        end
       else
         return nil
-      end
     end
   else
     return nil
-  end
 end
 
 function proto_667(...)
@@ -121113,7 +119097,6 @@ function fn_AutoPika_922(list, a2, a3, a4, ...)
   v267[5] = falseCell2
   local register = unload2.register("AutoPika", fn_AutoPika_4595)
   return v219
-end
 
 function proto_1194(...)
   local v24, v30, v36, v56, v58, v63, v67, v80, v108, v110
@@ -121219,14 +119202,12 @@ function proto_2195(a1, ...)
       v128[1] = hrp3
       v128.n = 1
       return unpack(v128)
-    end
     local v128 = {}
     v128[1] = hrp3
     v128.n = 1
     return unpack(v128)
   else
     return nil
-  end
 end
 
 function proto_2629(a1, inst, ...)
@@ -121244,10 +119225,8 @@ function proto_2629(a1, inst, ...)
       return unpack(v71)
     else
       return nil
-    end
   else
     return a1
-  end
 end
 
 function proto_2829(a1, a2, a3, ...)
@@ -121272,7 +119251,6 @@ function proto_2829(a1, a2, a3, ...)
   v10[1] = v21
   v10.n = 1
   return unpack(v10)
-end
 
 function fn_SetNormalCast_2883(a1, ...)
   up1 = a1 == true
@@ -121310,8 +119288,7 @@ function fn_SetAbilityEnabled_2885(a1, a2, ...)
     return unpack(v86)
   else
     return false
-  end
-  do return true end
+  return true
   up4[a1] = 0
   up3[a1] = a2 == true
 end
@@ -121418,7 +119395,6 @@ function proto_3111(list, a2, part, a4, list2, ...)
     return unpack(v80)
   else
     return false
-  end
 end
 
 function proto_3160(a1, ...)
@@ -121466,10 +119442,8 @@ function proto_3160(a1, ...)
       return unpack(v32)
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function proto_3272(...)
@@ -121540,7 +119514,6 @@ function proto_3371(a1, inst, part, a4, a5, ...)
                       return unpack(v519)
                     else
                       return false
-                    end
                   end
                 else
                   local invokeServer11 = skill2:InvokeServer(a1.name)
@@ -121560,7 +119533,6 @@ function proto_3371(a1, inst, part, a4, a5, ...)
                     return unpack(v519)
                   else
                     return false
-                  end
                 end
               else
                 local v658 = up2(part, position)
@@ -121600,7 +119572,6 @@ function proto_3371(a1, inst, part, a4, a5, ...)
                   return unpack(v519)
                 else
                   return false
-                end
               end
             else
               local v489 = up2(part, position)
@@ -121649,7 +119620,6 @@ function proto_3371(a1, inst, part, a4, a5, ...)
                 return unpack(v519)
               else
                 return false
-              end
             end
           else
             local v156 = {}
@@ -121660,10 +119630,8 @@ function proto_3371(a1, inst, part, a4, a5, ...)
             v519[1] = true
             v519.n = 1
             return unpack(v519)
-          end
         else
           return false
-        end
       else
         local v292 = up2(part, position)
         local invokeServer3 = skill2:InvokeServer(a1.name)
@@ -121702,7 +119670,6 @@ function proto_3371(a1, inst, part, a4, a5, ...)
           return unpack(v519)
         else
           return false
-        end
       end
     else
       local v66 = up2(part, position)
@@ -121754,11 +119721,9 @@ function proto_3371(a1, inst, part, a4, a5, ...)
         return unpack(v519)
       else
         return false
-      end
     end
   else
     return false
-  end
 end
 
 function proto_3849(a1, ...)
@@ -121802,7 +119767,6 @@ function proto_3849(a1, ...)
       return
     else
       return v21
-    end
   end
 end
 
@@ -121850,7 +119814,6 @@ function proto_4113(a1, ...)
           v93[1] = false
           v93.n = 1
           return unpack(v93)
-        end
       end
     else
       local ok = pcall(_G.StamCheck, a1.name)
@@ -121886,7 +119849,6 @@ function proto_4113(a1, ...)
                 v93[1] = false
                 v93.n = 1
                 return unpack(v93)
-              end
             else
               v14 = not v64
               if not v14 then
@@ -121900,7 +119862,6 @@ function proto_4113(a1, ...)
                 v93[1] = false
                 v93.n = 1
                 return unpack(v93)
-              end
             end
           end
         else
@@ -121928,7 +119889,6 @@ function proto_4113(a1, ...)
                   v93[1] = false
                   v93.n = 1
                   return unpack(v93)
-                end
               else
                 v14 = not v64
                 if not v14 then
@@ -121942,7 +119902,6 @@ function proto_4113(a1, ...)
                   v93[1] = false
                   v93.n = 1
                   return unpack(v93)
-                end
               end
             end
           else
@@ -121970,7 +119929,6 @@ function proto_4113(a1, ...)
                   v93[1] = false
                   v93.n = 1
                   return unpack(v93)
-                end
               else
                 v14 = not v64
                 if not v14 then
@@ -121984,18 +119942,15 @@ function proto_4113(a1, ...)
                   v93[1] = false
                   v93.n = 1
                   return unpack(v93)
-                end
               end
             end
           end
         end
       else
         return false
-      end
     end
   else
     return false
-  end
 end
 
 function proto_4316(...)
@@ -122027,7 +119982,6 @@ function proto_4316(...)
   v2[1] = hrp4
   v2.n = 1
   return unpack(v2)
-end
 
 function fn_AutoPika_4595(...)
   false2 = false
@@ -122068,7 +120022,6 @@ function proto_5045(a1, ...)
     local v79 = math.min(v139, 2)
     appendn(v111, v79)
     return unpack(v111)
-  end
 end
 function proto_27(...)
   local parent, parent2
@@ -122362,7 +120315,6 @@ function fn_AnimationLoggerPanel_32(list, a2, a3, a4, ...)
   v453[18] = userInputCell
   v445[1].Toggle = fn_Toggle_938
   return v445[1]
-end
 
 function fn_on_MouseButton1Click_63(...)
   up2 = up1
@@ -122744,7 +120696,6 @@ function proto_1451(a1, ...)
               if not v15 then
               else
                 return v15
-              end
             end
           end
         end
@@ -122754,18 +120705,15 @@ function proto_1451(a1, ...)
         return unpack(v145)
       else
         return a1.Position
-      end
     end
   else
     local v114 = {}
     local v11 = up1(a1)
     appendn(v114, v11)
     return unpack(v114)
-  end
   return v15
   return v15
   return v15
-end
 
 function proto_1558(a1, a2, ...)
   local now2, v77, timeline, v172
@@ -123539,14 +121487,11 @@ function proto_3331(inst, ...)
           return unpack(v6)
         else
           return v22.Position
-        end
       end
     else
       return inst.Position
-    end
   else
     return nil
-  end
 end
 
 function fn__refresh_3605(...)
@@ -123587,7 +121532,6 @@ function fn_GetBlacklistKeys_3703(...)
   end
   local v63 = table.sort(v58)
   return v58
-end
 
 function fn_RemoveBlacklistKey_3809(a1, ...)
   if up1[a1] then
@@ -123602,7 +121546,6 @@ end
 
 function proto_3911(...)
   return up1.AssemblyLinearVelocity
-end
 
 function proto_4040(...)
   local name, v90, ok2, v142, v149, v158, v168, v169
@@ -123685,10 +121628,8 @@ function proto_4109(a1, ...)
       return (hrp3.Position - a1).Magnitude <= up1
     else
       return true
-    end
   else
     return true
-  end
 end
 
 function fn_GetBlacklistCount_4226(...)
@@ -123712,12 +121653,10 @@ function fn_GetBlacklistCount_4226(...)
     v18[1] = v33
     v18.n = 1
     return unpack(v18)
-  end
   local v18 = {}
   v18[1] = v33
   v18.n = 1
   return unpack(v18)
-end
 
 function proto_4518(a1, a2, a3, a4, a5, ...)
   local v19, v51, v92, v150, v225, v248
@@ -123967,7 +121906,6 @@ end
 
 function fn_GetPlaybackData_717(a1, ...)
   return up1[a1]
-end
 
 function fn_AnimationRecorder_722(import, a2, a3, a4, ...)
   local playbackDataCell, v41, newCell, v95, animatorWatchCell, v112, v129, v140, v145, maidCell, v170
@@ -124037,7 +121975,6 @@ function fn_AnimationRecorder_722(import, a2, a3, a4, ...)
   v94[3] = v95
   local register = unload.register("AnimationRecorder", fn_AnimationRecorder_1834)
   return v112[1]
-end
 
 function fn_on_Stopped_1667(...)
   local v1, animation
@@ -124128,7 +122065,6 @@ end
 
 function fn_IsRecording_3577(...)
   return up1
-end
 
 function fn_GetTrackedEntities_4495(...)
   local v12, v23, v25, v33, v36, v38, v42, v43, v52, value, v69, v79
@@ -124178,12 +122114,10 @@ function fn_GetTrackedEntities_4495(...)
     v45[1] = v42
     v45.n = 1
     return unpack(v45)
-  end
   local v45 = {}
   v45[1] = v42
   v45.n = 1
   return unpack(v45)
-end
 
 function proto_4939(list, a2, ...)
   local connCell, v67
@@ -124460,33 +122394,28 @@ function proto_1734(a1, ...)
             local v712 = up7("Failed to play: " .. str)
             appendn(v108, v712)
             return unpack(v108)
-          end
         else
           local destroy3 = v433[1]:Destroy()
           local v72 = {}
           local v605 = up7("No Animator found on rig")
           appendn(v72, v605)
           return unpack(v72)
-        end
       else
         local destroy2 = v433[1]:Destroy()
         local v465 = {}
         local v348 = up7("No PrimaryPart found on rig")
         appendn(v465, v348)
         return unpack(v465)
-      end
     else
       local v460 = {}
       local v323 = up7("Entity no longer exists (despawned)")
       appendn(v460, v323)
       return unpack(v460)
-    end
   else
     local v200 = {}
     local v303 = up7("No preview rig available")
     appendn(v200, v303)
     return unpack(v200)
-  end
 end
 
 function proto_1778(...)
@@ -124494,7 +122423,6 @@ function proto_1778(...)
   local clone = value2:Clone()
   appendn(v22, clone)
   return unpack(v22)
-end
 
 function fn_AnimationViewer_1833(...)
   local destroy = new:Destroy()
@@ -124586,7 +122514,6 @@ function proto_2328(a1, a2, a3, ...)
   v151["ImageColor3"] = "FontColor"
   local addToRegistry2 = up4:AddToRegistry(imageLabel2, v151)
   return textButton2, imageLabel2
-end
 
 function fn_on_MouseButton1Click_2415(...)
   local v3, v9
@@ -125105,7 +123032,6 @@ function fn_AnimationViewerPanel_2710(list, a2, a3, a4, ...)
   v42[12] = v66
   v93.Toggle = fn_Toggle_2639
   return v93
-end
 
 function fn_on_MouseButton1Click_2753(...)
   if nil2 then
@@ -125339,18 +123265,14 @@ function proto_3477(a1, a2, ...)
           end
         else
           return true
-        end
       end
       return true
-    end
     v3 = v3 + ((a1 - v116) / v114)
     return v3
   else
     return 0
-  end
   return true
   return true
-end
 
 function fn_on_propertyChangedSignal_3649(...)
   local ok = pcall(up1)
@@ -125392,7 +123314,6 @@ function proto_11(a1, ...)
   local v5 = ("%s/%s.lua"):format(up1, a1)
   appendn(v11, v5)
   return unpack(v11)
-end
 
 function proto_239(list, ...)
   local v13, v18, v27
@@ -125410,7 +123331,6 @@ function proto_239(list, ...)
   v18[1] = v27
   v18.n = 1
   return unpack(v18)
-end
 
 function proto_458(vec, ...)
   local v6, v10, v14
@@ -125430,7 +123350,6 @@ function proto_458(vec, ...)
   v6[1] = v14
   v6.n = 1
   return unpack(v6)
-end
 
 function proto_1153(vec, ...)
   local v14, v15, v21
@@ -125447,7 +123366,6 @@ function proto_1153(vec, ...)
   v15[1] = v14
   v15.n = 1
   return unpack(v15)
-end
 
 function fn_SaveModule_1724(a1, ...)
   local v40, v52, v57, v98, v109, v130, v164, v187, setLearnedHitbox, key, v281, v285
@@ -125535,22 +123453,16 @@ function fn_SaveModule_1724(a1, ...)
               return true
             else
               return false, "Failed to write module to disk."
-            end
           else
             return false, "Internal modules can only be authored in dev."
-          end
         else
           return false, "Nothing to save yet."
-        end
       else
         return false, "Enter the animation id / effect / projectile name first."
-      end
     else
       return false, "Use letters, numbers, spaces, underscores or hyphens in the name."
-    end
   else
     return false, "Enter a name first."
-  end
 end
 
 function proto_1874(a1, ...)
@@ -125617,13 +123529,11 @@ function proto_1874(a1, ...)
     v98[1] = "{" .. (joined .. "}")
     v98.n = 1
     return unpack(v98)
-  end
   local v98 = {}
   local joined = table.concat(v129, ", ")
   v98[1] = "{" .. (joined .. "}")
   v98.n = 1
   return unpack(v98)
-end
 
 function proto_1953(...)
   true2 = false
@@ -125851,14 +123761,12 @@ function fn_BuilderSaveManager_3346(import, a2, a3, a4, ...)
   v75[10] = v186
   v6[1].RunAutoload = fn_RunAutoload_3173
   return v6[1]
-end
 
 function proto_3610(a1, ...)
   local v3 = {}
   local v5 = ("%s/%s.json"):format(up1, a1)
   appendn(v3, v5)
   return unpack(v3)
-end
 
 function proto_3888(...)
   if not true2 then
@@ -125967,16 +123875,12 @@ function fn_DeleteModule_4327(a1, ...)
           return true
         else
           return false, "Failed to delete module from disk."
-        end
       else
         return false, "Invalid module name."
-      end
     else
       return false, "Internal modules cannot be deleted in release."
-    end
   else
     return false, "Select a module first."
-  end
 end
 
 function proto_4332(a1, ...)
@@ -126031,7 +123935,6 @@ function proto_4332(a1, ...)
   local v4 = format(unpack(v7))
   appendn(v2, v4)
   return unpack(v2)
-end
 
 function fn_LoadModule_4463(a1, ...)
   local v18, v38, v44, ok, v82, v108, v127, match2, v135, v162, readFile, v182
@@ -126112,16 +124015,12 @@ function fn_LoadModule_4463(a1, ...)
               return unpack(v162)
             else
               return nil
-            end
           else
             return nil
-          end
         else
           return nil
-        end
       else
         return nil
-      end
     else
       v82 = not up1
       if not (v82) then
@@ -126156,17 +124055,13 @@ function fn_LoadModule_4463(a1, ...)
             return v240
           else
             return nil
-          end
         else
           return nil
-        end
       else
         return nil
-      end
     end
   else
     return nil
-  end
 end
 
 function fn_List_4467(...)
@@ -126281,7 +124176,6 @@ function fn_List_4467(...)
   end
   local v425 = table.sort(v50)
   return v50
-end
 
 function proto_4496(a1, ...)
   local v3, new, v15, v16, v19, v26, v27, v30, v34
@@ -126314,14 +124208,12 @@ function proto_4496(a1, ...)
   v26[1] = v30
   v26.n = 1
   return unpack(v26)
-end
 
 function proto_4657(a1, ...)
   local v3 = {}
   local v5 = ("%s/%s.lua"):format(up1, a1)
   appendn(v3, v5)
   return unpack(v3)
-end
 function fn_HitboxBuilder_3(import, a2, a3, a4, ...)
   local workspaceRefCell, v24, keyCell, v145, gsubCell, autoDefenceCell, block, v206, v209, v219, v234, v255
   local v283, v293, playersCell, v336, vecCell2, v390, animatorWatchCell, v400, v430, vecCell3, v461, v507
@@ -126594,7 +124486,6 @@ function fn_HitboxBuilder_3(import, a2, a3, a4, ...)
   v248[15] = v461
   v569[1].LoadModule = fn_LoadModule_3970
   return v569[1]
-end
 
 function proto_10(...)
   local v24, char, v84, v96
@@ -126734,7 +124625,6 @@ function proto_694(...)
     return up1
   else
     return up1
-  end
 end
 
 function fn_SetEscapeDistance_699(a1, ...)
@@ -126798,7 +124688,6 @@ function proto_802(...)
     return up1
   else
     return up1
-  end
 end
 
 function fn_SetProjectileRadius_872(a1, ...)
@@ -126830,7 +124719,6 @@ function fn_GetEffectModule_1149(...)
     return unpack(v1)
   else
     return nil
-  end
 end
 
 function fn_SetVisibility_1209(a1, ...)
@@ -126967,7 +124855,6 @@ function proto_1906(...)
     return up1
   else
     return up1
-  end
 end
 
 function fn_SetEffectDelayMs_1960(a1, ...)
@@ -127004,7 +124891,6 @@ function proto_2619(...)
     return up1
   else
     return up1
-  end
 end
 
 function proto_2760(...)
@@ -127105,7 +124991,6 @@ function fn_GetProjectileModule_3082(...)
     return unpack(v12)
   else
     return nil
-  end
 end
 
 function fn_SetProjectileName_3250(a1, ...)
@@ -127163,7 +125048,6 @@ function fn_HasLiveTarget_3531(...)
   v1[1] = v7
   v1.n = 1
   return unpack(v1)
-end
 
 function fn_SetHalfSize_3838(a1, a2, a3, ...)
   local vec = Vector3.new(a1, a2, a3)
@@ -127289,7 +125173,6 @@ end
 
 function fn_GetResponseSteps_4626(...)
   return up1
-end
 
 function fn_GetAnimationModule_4732(...)
   if key then
@@ -127310,7 +125193,6 @@ function fn_GetAnimationModule_4732(...)
     return unpack(v23)
   else
     return nil
-  end
 end
 
 function proto_4797(conn, a2, a3, a4, ...)
@@ -127329,13 +125211,11 @@ function proto_4797(conn, a2, a3, a4, ...)
     else
       local disconnect = conn:Disconnect()
       return nil
-    end
   else
     local v48 = {}
     local onHeartbeat = up1.onHeartbeat(a2, a4)
     appendn(v48, onHeartbeat)
     return unpack(v48)
-  end
 end
 
 function proto_4900(...)
@@ -127445,7 +125325,6 @@ function fn_PlaybackData_272(a1, a2, a3, a4, ...)
   v22[1].astrack = fn_astrack_1098
   v22[1].last = fn_last_2409
   return v22[1]
-end
 
 function fn_new_523(a1, ...)
   local v7 = {}
@@ -127459,7 +125338,6 @@ function fn_new_523(a1, ...)
   local v4 = setmetatable(v21, up1)
   appendn(v7, v4)
   return unpack(v7)
-end
 
 function fn_astrack_1098(a1, a2, ...)
   local v17
@@ -127510,12 +125388,10 @@ function fn_last_2409(a1, a2, ...)
     v41[1] = value
     v41.n = 1
     return unpack(v41)
-  end
   local v41 = {}
   v41[1] = value
   v41.n = 1
   return unpack(v41)
-end
 function fn_OnDetected_449(a1, ...)
   local v4 = table.insert(up1, a1)
 end
@@ -127568,7 +125444,6 @@ function fn_DangerAnimWatch_1991(import, a2, a3, a4, ...)
   v50[2] = v12
   local onAnimationPlayed = animatorWatch2.OnAnimationPlayed(proto_2306)
   return v14
-end
 
 function proto_2306(track, a2, a3, a4, ...)
   local v20, animation, animation2
@@ -127614,7 +125489,6 @@ function fn_EntityHistory_51(a1, a2, a3, a4, ...)
   v13[1] = v67
   v68.pclosest = fn_pclosest_602
   return v68
-end
 
 function fn_pclosest_602(a1, a2, ...)
   local v3, v15, position, data, count, head, v78, v80, v94, head2, v111, v125
@@ -127654,7 +125528,6 @@ function fn_pclosest_602(a1, a2, ...)
     return position
   else
     return nil
-  end
 end
 
 function fn_yrate_2219(a1, ...)
@@ -127687,16 +125560,12 @@ function fn_yrate_2219(a1, ...)
           return unpack(v85)
         else
           return nil
-        end
       else
         return nil
-      end
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function fn_pstepped_3743(a1, a2, a3, ...)
@@ -127768,7 +125637,6 @@ function fn_pstepped_3743(a1, a2, a3, ...)
             v45[1] = v120
             v45.n = 1
             return unpack(v45)
-          end
           local v45 = {}
           v45[1] = v120
           v45.n = 1
@@ -127779,16 +125647,12 @@ function fn_pstepped_3743(a1, a2, a3, ...)
           v17[1] = v239
           v17.n = 1
           return unpack(v17)
-        end
       else
         return nil
-      end
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function fn_add_4928(a1, a2, a3, a4, ...)
@@ -127859,8 +125723,7 @@ function fn_add_4928(a1, a2, a3, a4, ...)
     end
     v104.head = 1
   end
-  do return end
-end
+  return end
 function fn_rtt_1305(...)
   local v7, findFirstChild, network2, v48, findFirstChild3, value2, v93
   local network = stats:FindFirstChild("Network")
@@ -127889,10 +125752,8 @@ function fn_rtt_1305(...)
       return value2 / 1000
     else
       return 0.05
-    end
   else
     return 0.05
-  end
 end
 
 function proto_1526(a1, ...)
@@ -127915,7 +125776,6 @@ function fn_rdelay_3018(...)
   local v28 = math.max(rtt / 2, 0)
   appendn(v3, v28)
   return unpack(v3)
-end
 
 function fn_Latency_4018(a1, a2, a3, a4, ...)
   local v23 = {}
@@ -127948,7 +125808,6 @@ function fn_Latency_4018(a1, a2, a3, a4, ...)
   v50[1] = v26
   v47[1].jitter = fn_jitter_4254
   return v47[1]
-end
 
 function fn_jitter_4254(...)
   local count, count2, v18, v35, count3, v51, v65, v75, v76, v78, v86, v95
@@ -127993,7 +125852,6 @@ function fn_jitter_4254(...)
     return unpack(v148)
   else
     return 0
-  end
 end
 
 function fn_sdelay_4366(...)
@@ -128002,7 +125860,6 @@ function fn_sdelay_4366(...)
   local v4 = math.max(rtt / 2, 0)
   appendn(v12, v4)
   return unpack(v12)
-end
 function proto_1193(a1, ...)
   local parent, target2, target3
   target2 = up1.GetTarget
@@ -128024,16 +125881,13 @@ function proto_1193(a1, ...)
         local v64 = mouseWorldCFrame(a1)
         appendn(v8, v64)
         return unpack(v8)
-      end
     else
       return up1.FallbackCFrame
-    end
   else
     local v26 = {}
     local cf = CFrame.new(target3.Position)
     appendn(v26, cf)
     return unpack(v26)
-  end
 end
 
 function fn_Cast_1999(list, a2, list2, ...)
@@ -128209,7 +126063,6 @@ function fn_Cast_1999(list, a2, list2, ...)
     return unpack(v508)
   else
     return false
-  end
 end
 
 function fn_ChargeSkill_2847(a1, a2, a3, ...)
@@ -128240,7 +126093,6 @@ function fn_ChargeSkill_2847(a1, a2, a3, ...)
   local v75 = chargeSkill(a1, a2, a3)
   appendn(v67, v75)
   return unpack(v67)
-end
 
 function proto_3986(...)
   up2.Anchored = up1
@@ -128279,7 +126131,6 @@ function fn_LegitSkillCast_4546(import, a2, a3, a4, ...)
   v24[3] = v38
   v29.Cast = fn_Cast_1999
   return v29
-end
 
 function fn_FireInput_4688(a1, a2, ...)
   local v4, v8, v20
@@ -128305,7 +126156,6 @@ function fn_FireInput_4688(a1, a2, ...)
     local v5 = fireInput(unpack(v7))
     appendn(v16, v5)
     return unpack(v16)
-  end
 end
 
 function proto_4730(...)
@@ -128631,7 +126481,6 @@ function fn_LowCooldownSkills_707(list, a2, a3, a4, ...)
   v141[1] = v130
   local register = unload2.register("LowCooldownSkills", fn_LowCooldownSkills_1040)
   return v130[1]
-end
 
 function fn_LowCooldownSkills_1040(...)
   local setEnabled = up1.SetEnabled(false)
@@ -128732,8 +126581,7 @@ function proto_1528(inst, a2, ...)
   else
     return
   end
-  do return end
-end
+  return end
 
 function proto_3113(a1, ...)
   local key, v17, v23, v40, v50, v138, v147, v151, v184, v187, value, v226
@@ -128812,7 +126660,6 @@ function proto_4146(a1, a2, a3, ...)
   local v11 = v9(unpack(v4))
   appendn(v16, v11)
   return unpack(v16)
-end
 
 function fn_SetEnabled_4593(a1, ...)
   local onInterval, v120, v175, v185
@@ -128846,10 +126693,8 @@ function fn_SetEnabled_4593(a1, ...)
       return true
     else
       return false
-    end
   else
     return true
-  end
 end
 
 function proto_4654(...)
@@ -128971,7 +126816,6 @@ function fn_Cast_619(a1, a2, list, ...)
                       return unpack(v245)
                     else
                       return false
-                    end
                   end
                 else
                   local invokeServer18 = skill3:InvokeServer("Radiant Jewels")
@@ -128997,7 +126841,6 @@ function fn_Cast_619(a1, a2, list, ...)
                     return unpack(v245)
                   else
                     return false
-                  end
                 end
               else
                 local invokeServer15 = skill3:InvokeServer("Radiant Ray", v1380)
@@ -129033,7 +126876,6 @@ function fn_Cast_619(a1, a2, list, ...)
                   return unpack(v245)
                 else
                   return false
-                end
               end
             else
               if not (a2 == "LightRay") then
@@ -129073,7 +126915,6 @@ function fn_Cast_619(a1, a2, list, ...)
                         return unpack(v245)
                       else
                         return false
-                      end
                     end
                   else
                     local v823 = {}
@@ -129084,7 +126925,6 @@ function fn_Cast_619(a1, a2, list, ...)
                     v245[1] = true
                     v245.n = 1
                     return unpack(v245)
-                  end
                 else
                   local invokeServer12 = skill3:InvokeServer("Jewels of Light")
                   invokeServer16 = invokeServer12
@@ -129107,7 +126947,6 @@ function fn_Cast_619(a1, a2, list, ...)
                     return unpack(v245)
                   else
                     return false
-                  end
                 end
               else
                 local v1078 = {}
@@ -129144,7 +126983,6 @@ function fn_Cast_619(a1, a2, list, ...)
                   return unpack(v245)
                 else
                   return false
-                end
               end
             end
           else
@@ -129198,7 +127036,6 @@ function fn_Cast_619(a1, a2, list, ...)
                         return unpack(v245)
                       else
                         return false
-                      end
                     end
                   else
                     local v1339 = {}
@@ -129234,7 +127071,6 @@ function fn_Cast_619(a1, a2, list, ...)
                       return unpack(v245)
                     else
                       return false
-                    end
                   end
                 else
                   local invokeServer8 = skill3:InvokeServer("Missle Shower", v1380)
@@ -129263,7 +127099,6 @@ function fn_Cast_619(a1, a2, list, ...)
                     return unpack(v245)
                   else
                     return false
-                  end
                 end
               else
                 local v1030 = {}
@@ -129289,7 +127124,6 @@ function fn_Cast_619(a1, a2, list, ...)
                   return unpack(v245)
                 else
                   return false
-                end
               end
             else
               local v923 = {}
@@ -129299,7 +127133,6 @@ function fn_Cast_619(a1, a2, list, ...)
               v245[1] = true
               v245.n = 1
               return unpack(v245)
-            end
           end
         else
           local invokeServer = skill3:InvokeServer("Magma Fist")
@@ -129318,17 +127151,13 @@ function fn_Cast_619(a1, a2, list, ...)
             return unpack(v245)
           else
             return false
-          end
         end
       else
         return false
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_1395(...)
@@ -129357,7 +127186,6 @@ function proto_1918(a1, part, ...)
   v39[1] = v14
   v39.n = 1
   return unpack(v39)
-end
 
 function fn_ManualRemoteSkills_2184(import, a2, a3, a4, ...)
   local userInputCell, v110, replicatedStorageCell, v145, v153, gpoEventsCell, playersCell, v185
@@ -129416,7 +127244,6 @@ function fn_ManualRemoteSkills_2184(import, a2, a3, a4, ...)
   v46[6] = v185
   v145[1].Cast = fn_Cast_619
   return v145[1]
-end
 
 function proto_2267(...)
   local v3 = {}
@@ -129468,7 +127295,6 @@ function proto_2820(a1, a2, a3, ...)
   v117[1] = now5 - now2
   v117.n = 1
   return unpack(v117)
-end
 
 function proto_3247(a1, a2, character, ...)
   local v4, v11, findFirstChild, skillCallbacks2, humanoid, v41, v45, findFirstChild3, v69, v72, findFirstChild5, v96
@@ -129532,10 +127358,8 @@ function proto_3247(a1, a2, character, ...)
       return v146
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function proto_3295(...)
@@ -129552,7 +127376,6 @@ function fn_Supports_3559(a1, a2, ...)
   v11[1] = v4
   v11.n = 1
   return unpack(v11)
-end
 
 function proto_4573(...)
   local v13 = {}
@@ -129779,7 +127602,6 @@ function fn_MobControl_360(import, a2, a3, a4, ...)
   v272[1].Stop = fn_Stop_3814
   local register = unloadCell[1].register("GPO_MobControl", v272[1].Stop)
   return v272[1]
-end
 
 function proto_421(a1, a2, ...)
   local ok, v19, v20, v59, v73, ok4, v94, ok6, ok7, v109
@@ -129822,7 +127644,6 @@ function proto_421(a1, a2, ...)
       v59[1] = ok6
       v59.n = 1
       return unpack(v59)
-    end
   else
     local ok2 = pcall(isnetworkowner, a1)
     v73 = ok2[2]
@@ -129882,14 +127703,12 @@ function proto_421(a1, a2, ...)
                 v59[1] = ok6
                 v59.n = 1
                 return unpack(v59)
-              end
             end
           end
         end
       end
     else
       return v73 == true
-    end
   end
 end
 
@@ -130035,7 +127854,6 @@ function fn_IsAvailable_927(a1, ...)
   v26[1] = v4
   v26.n = 1
   return unpack(v26)
-end
 
 function fn_SetVoidHealth_955(a1, ...)
   local v34, v75
@@ -130136,9 +127954,8 @@ function proto_1511(list, a2, ...)
   local v9 = {}
   v9[1] = false
   v9.n = 1
-  do return unpack(v9) end
-  do return true end
-end
+  return unpack(v9)
+  return true
 
 function proto_1608(...)
   local v32, v39, v55, v76, v83, v149
@@ -130245,14 +128062,12 @@ function proto_2035(inst, ...)
       v29[1] = v17[1]
       v29.n = 1
       return unpack(v29)
-    end
     local v29 = {}
     v29[1] = v17[1]
     v29.n = 1
     return unpack(v29)
   else
     return nil3
-  end
 end
 
 function proto_2085(a1, ...)
@@ -130502,7 +128317,6 @@ end
 
 function fn_GetMode_2840(...)
   return up1
-end
 
 function fn_SetBreakerMethod_3115(a1, ...)
   local v9
@@ -130635,7 +128449,6 @@ function proto_3093(...)
     return up3
   else
     return nil
-  end
 end
 
 function fn_NoClimbCooldown_3433(list, a2, a3, a4, ...)
@@ -130676,7 +128489,6 @@ function fn_NoClimbCooldown_3433(list, a2, a3, a4, ...)
   v77[1] = v28
   local register = unload.register("NoClimbCooldown", fn_NoClimbCooldown_5038)
   return v28[1]
-end
 
 function fn_SetEnabled_3739(a1, ...)
   if not (a1 == true) then
@@ -130712,7 +128524,6 @@ function proto_392(...)
   local v8 = up2(unpack(v9))
   appendn(v20, v8)
   return unpack(v20)
-end
 
 function proto_741(...)
   local v17, v37, v39, backpack2, dash, v87, v130, v187, dash3, v315, mobile_Activate, v385
@@ -130847,7 +128658,6 @@ function proto_1672(...)
   local loadAnimation = animator:LoadAnimation(up2)
   appendn(v1, loadAnimation)
   return unpack(v1)
-end
 
 function proto_1720(a1, ...)
   local v35 = {}
@@ -130859,7 +128669,6 @@ function proto_1720(a1, ...)
   local v55 = up1(unpack(v29))
   appendn(v35, v55)
   return unpack(v35)
-end
 
 function proto_1901(...)
   local handler
@@ -131248,13 +129057,11 @@ function proto_2661(list, list2, ...)
                   local v235 = up7(char, v308, false, false)
                   appendn(v112, v235)
                   return unpack(v112)
-                end
               else
                 local v249 = {}
                 local v206 = up7(char, v308, false, not false5)
                 appendn(v249, v206)
                 return unpack(v249)
-              end
             else
               local isEnabled = pikaDashMimic.IsEnabled()
               if not isEnabled then
@@ -131267,7 +129074,6 @@ function proto_2661(list, list2, ...)
                 local play = pikaDashMimic.Play(false2, false4, false5)
                 appendn(v274, play)
                 return unpack(v274)
-              end
             end
           else
             local v265 = {}
@@ -131278,7 +129084,6 @@ function proto_2661(list, list2, ...)
             local v90 = list[1](unpack(v176))
             appendn(v265, v90)
             return unpack(v265)
-          end
         end
       end
     end
@@ -131427,7 +129232,6 @@ function fn_NoDashCooldown_3625(list, a2, a3, a4, ...)
   v230[6] = v209
   local register = unload.register("NoDashCooldown", fn_NoDashCooldown_5021)
   return v205
-end
 
 function proto_4021(...)
   local destroy = bodyVelocity:Destroy()
@@ -131451,7 +129255,6 @@ function proto_4099(...)
   v14[1] = v10
   v14.n = 1
   return unpack(v14)
-end
 
 function fn_GetStatus_4108(...)
   local v23, v24, backpack2, v58, v65, v68
@@ -131482,13 +129285,10 @@ function fn_GetStatus_4108(...)
         return "Rebinding"
       else
         return "Bound"
-      end
     else
       return "Waiting for character"
-    end
   else
     return "Off"
-  end
 end
 
 function proto_4222(a1, ...)
@@ -131501,7 +129301,6 @@ function proto_4222(a1, ...)
   local v7 = up1(unpack(v5))
   appendn(v9, v7)
   return unpack(v9)
-end
 
 function fn_on_ChildAdded_4231(child, ...)
   local isA = child:IsA("Backpack")
@@ -131582,14 +129381,12 @@ function proto_5082(list, a2, ...)
     local v32 = table.unpack(v53, 2, v53.n)
     appendn(v8, v32)
     return unpack(v8)
-  end
 end
 
 function proto_5159(a1, ...)
   local str = tostring(a1)
   local v3 = warn("[StarLit/NoDashCooldown] " .. str)
   return a1
-end
 function proto_238(...)
   local v28 = up1()
   local carry = up2("Carry")
@@ -131608,7 +129405,6 @@ function proto_886(a1, ...)
   local v11 = up3(a1)
   appendn(v10, v11)
   return unpack(v10)
-end
 
 function proto_1049(a1, ...)
   local v11, backpack2, v31, v83, v100, backpack3, v108, backpack4
@@ -131817,7 +129613,6 @@ function fn_NoGrabCooldown_4780(list, a2, a3, a4, ...)
   v79[1] = v133
   local register = unload.register("NoGrabCooldown", fn_NoGrabCooldown_4110)
   return v133[1]
-end
 function proto_554(a1, ...)
   local str = tostring(a1)
   local v3 = warn("[StarLit/NoStun] " .. str)
@@ -131904,7 +129699,6 @@ function fn_NoStun_3140(import, a2, a3, a4, ...)
   v66[2] = v94
   v40.Stop = fn_Stop_1668
   return v40
-end
 
 function proto_4158(a1, ...)
   if up1 then
@@ -132029,7 +129823,6 @@ function fn_TweenToPlayer_1030(import, a2, a3, a4, ...)
   v65[3] = tweenFlightCell
   v12.Stop = fn_Stop_2048
   return v12
-end
 
 function proto_1057(a1, ...)
   local v5, v14, value, v42, v43, char, v55, value2, v78, v87, v92, v101
@@ -132084,12 +129877,10 @@ function proto_1057(a1, ...)
     v19[1] = value2
     v19.n = 1
     return unpack(v19)
-  end
   local v19 = {}
   v19[1] = value2
   v19.n = 1
   return unpack(v19)
-end
 
 function proto_1853(...)
   local v4, char, v9
@@ -132103,7 +129894,6 @@ function proto_1853(...)
   v4[1] = v9
   v4.n = 1
   return unpack(v4)
-end
 
 function fn_Stop_2048(...)
   if up1 then
@@ -132190,7 +129980,6 @@ function proto_2832(player, ...)
     return unpack(v34)
   else
     return false
-  end
 end
 
 function fn_SetSpeed_3199(a1, ...)
@@ -132244,7 +130033,6 @@ function fn_FaceGetter_4402(...)
   v15[1] = position
   v15.n = 1
   return unpack(v15)
-end
 
 function proto_5007(a1, ...)
   local v31, v51, cf, v82, position, char, v185
@@ -132401,7 +130189,6 @@ end
 
 function fn_IsPikaStyleSelected_557(...)
   return up1 == "Pika Flight"
-end
 
 function fn_MovePlatform_600(a1, ...)
   if up1 then
@@ -132434,10 +130221,8 @@ function proto_689(a1, a2, a3, a4, a5, ...)
       return unpack(v34)
     else
       return a1, a5, false
-    end
   else
     return a3, a4, false
-  end
 end
 
 function proto_743(...)
@@ -132503,7 +130288,6 @@ function proto_875(...)
   v61[1] = v9
   v61.n = 1
   return unpack(v61)
-end
 
 function fn_OnTPCheck_1009(a1, a2, ...)
   up1[a1] = a2
@@ -132511,7 +130295,6 @@ end
 
 function fn_GetPlatform_1059(...)
   return up1
-end
 
 function fn_OnResume_1163(a1, a2, ...)
   up1[a1] = a2
@@ -132522,7 +130305,6 @@ function fn_GetCheckStats_1372(...)
   local copy = table.clone(up1)
   appendn(v3, copy)
   return unpack(v3)
-end
 
 function proto_1419(...)
   local part2
@@ -132543,7 +130325,6 @@ function proto_1419(...)
   local parent = workspaceObjects.Parent(part2)
   up1 = part2
   return part2
-end
 
 function proto_1623(...)
   local v24, removed2
@@ -132581,7 +130362,6 @@ function fn_GetPikaTravelSpeed_1685(...)
   v8[1] = v7
   v8.n = 1
   return unpack(v8)
-end
 
 function proto_1911(list, ...)
   local v52, v81, v93, findFirstChildCell, v106, v109, v117, events, v167, v168, v208, humanoid3
@@ -132750,7 +130530,6 @@ function fn_IsOwner_2095(a1, ...)
   v2[1] = v7
   v2.n = 1
   return unpack(v2)
-end
 
 function fn_Stop_2115(a1, ...)
   local v42, v78, hrp, hrp2, v328
@@ -132838,7 +130617,6 @@ function proto_2513(inst, ...)
   v34[1] = findFirstChild6
   v34.n = 1
   return unpack(v34)
-end
 
 function fn_SetPikaForSession_2663(a1, ...)
   local v4, char, v49, v72, v87, char2
@@ -132900,7 +130678,6 @@ function proto_2749(...)
     return localPlayer3
   else
     return localPlayer3
-  end
 end
 
 function proto_2830(...)
@@ -132914,7 +130691,6 @@ function proto_2830(...)
   v5[1] = char
   v5.n = 1
   return unpack(v5)
-end
 
 function fn_ResolveTravelSpeed_2887(a1, ...)
   local v5, v23, v33
@@ -132932,7 +130708,6 @@ function fn_ResolveTravelSpeed_2887(a1, ...)
   v5[1] = v23
   v5.n = 1
   return unpack(v5)
-end
 
 function fn_OnPreempted_2897(a1, a2, ...)
   up1[a1] = a2
@@ -132954,12 +130729,10 @@ function proto_2943(list, a2, a3, ...)
     return true
   else
     return false
-  end
 end
 
 function fn_GetOwner_3268(...)
   return nil2
-end
 
 function fn_RefreshRoot_3278(...)
   local hrp, v44, v84, hrp2
@@ -132997,7 +130770,6 @@ function fn_RefreshRoot_3278(...)
           v44[1] = hrp
           v44.n = 1
           return unpack(v44)
-        end
       else
         local hrp3 = up2:FindFirstChild("HumanoidRootPart")
         hrp2 = hrp3
@@ -133011,11 +130783,9 @@ function fn_RefreshRoot_3278(...)
           v44[1] = hrp
           v44.n = 1
           return unpack(v44)
-        end
       end
     else
       return nil
-    end
   end
 end
 
@@ -133028,7 +130798,6 @@ end
 
 function fn_IsActive_3446(...)
   return false2
-end
 
 function proto_3450(...)
   local events, parent, v61
@@ -133048,7 +130817,6 @@ function proto_3450(...)
     return nil2
   else
     return nil2
-  end
 end
 
 function proto_3480(...)
@@ -133075,7 +130843,6 @@ end
 
 function fn_GetNoPikaStamina_3489(...)
   return up1
-end
 
 function proto_3503(...)
   local v19, events, ok2, localPlayer, v81, v108, inputCallbacks2, v146, ok3, v190, humanoid, ok6
@@ -133258,7 +131025,6 @@ end
 
 function fn_GetChar_3661(...)
   return up1
-end
 
 function proto_3723(a1, ...)
   local v14, stamina, v61, v62, v100, humanoid2, now2, v188, v211, v216, stamina3
@@ -133464,11 +131230,9 @@ function fn_BeginSession_4128(a1, a2, ...)
     else
       local v133 = up6()
       return nil
-    end
   else
     local v57 = up6()
     return nil
-  end
 end
 
 function proto_4216(a1, a2, ...)
@@ -133871,7 +131635,6 @@ function fn_FlightCore_4600(list, a2, a3, a4, ...)
   v426[9] = v564
   local register = unloadCell[1].register("FlightCore", fn_FlightCore_1988)
   return v564[1]
-end
 
 function proto_4717(a1, ...)
   local v22, now, v185, lower2, v365, v366
@@ -134042,13 +131805,10 @@ function fn_IsPikaTravelActive_4966(...)
         return unpack(v69)
       else
         return true
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_5050(a1, ...)
@@ -134115,12 +131875,10 @@ function fn_GetFor_116(a1, ...)
     return up2
   else
     return up1[a1]
-  end
 end
 
 function fn_Get_336(...)
   return up1
-end
 
 function fn_SetFor_715(a1, a2, ...)
   local num, v8
@@ -134156,7 +131914,6 @@ function fn_Resolve_2209(a1, a2, ...)
     return unpack(v3)
   else
     return up1[a1]
-  end
 end
 
 function fn_FlightSpeed_2326(a1, a2, a3, a4, ...)
@@ -134189,7 +131946,6 @@ function fn_FlightSpeed_2326(a1, a2, a3, a4, ...)
   v48[3] = v14
   v22.SetFor = fn_SetFor_715
   return v22
-end
 
 function fn_Set_3479(a1, ...)
   local v4, num2
@@ -134273,7 +132029,6 @@ function fn_IsActive_2012(...)
   local isActive = flightCore.IsActive()
   appendn(v2, isActive)
   return unpack(v2)
-end
 
 function fn_ManualFlight_3076(import, a2, a3, a4, ...)
   local v16, flightCoreCell
@@ -134296,13 +132051,11 @@ function fn_ManualFlight_3076(import, a2, a3, a4, ...)
   v11[1] = flightCoreCell
   v15.IsActive = fn_IsActive_2012
   return v15
-end
 function proto_249(...)
   local v1 = {}
   local setSpawn = gpoEvents.GetRemote("SetSpawn")
   appendn(v1, setSpawn)
   return unpack(v1)
-end
 
 function proto_261(a1, ...)
   local v7, v13, v16
@@ -134319,7 +132072,6 @@ function proto_261(a1, ...)
   v16[1] = v13
   v16.n = 1
   return unpack(v16)
-end
 
 function fn_TravelSpawn_476(import, a2, a3, a4, ...)
   local v342, v423, v578, v638, playersCell, v845, tweenFlightCell, playerDataCell, v895, gpoEventsCell
@@ -134476,7 +132228,6 @@ function fn_TravelSpawn_476(import, a2, a3, a4, ...)
   v387[1] = tweenFlightCell
   v578[1].StopFlight = fn_StopFlight_4009
   return v578[1]
-end
 
 function fn_FlyTo_616(a1, ...)
   local v33, v53, v60, v86
@@ -134505,7 +132256,6 @@ function fn_FlyTo_616(a1, ...)
     return true
   else
     return false
-  end
 end
 
 function fn_SetSpeed_1248(a1, ...)
@@ -134586,7 +132336,6 @@ function proto_1686(...)
         local v141 = up9(up2, 12)
         appendn(v39, v141)
         return unpack(v39)
-      end
       local stop = tweenFlight.Stop()
       local v39 = {}
       local v141 = up9(up2, 12)
@@ -134594,10 +132343,8 @@ function proto_1686(...)
       return unpack(v39)
     else
       return true
-    end
   else
     return false
-  end
 end
 
 function proto_1746(a1, ...)
@@ -134607,7 +132354,6 @@ function proto_1746(a1, ...)
   local lower = gsub:lower()
   appendn(v15, lower)
   return unpack(v15)
-end
 
 function proto_2242(...)
   local v11, ok2, ok3, v46, v47
@@ -134647,7 +132393,6 @@ function proto_2721(...)
   v9[1] = spawnPoint
   v9.n = 1
   return unpack(v9)
-end
 
 function fn_GetLocations_3460(...)
   local v16, value, value2, v26, v29, v58, v93, v105, v110, v136, v153, v155
@@ -134725,7 +132470,6 @@ function fn_GetLocations_3460(...)
     v10[1] = v98
     v10.n = 1
     return unpack(v10)
-  end
 end
 
 function fn_GoTo_3492(a1, a2, ...)
@@ -134768,19 +132512,15 @@ function proto_4405(a1, a2, ...)
           break
         end
       else
-        do return end
-      end
-    end
+        return end
     local v134 = {}
     local v153 = up2(a1)
     appendn(v134, v153)
     return unpack(v134)
   else
     return false
-  end
-  do return end
+  return
   return true
-end
 function proto_107(a1, ...)
   local vec, v21, now, zero, v67, y, vec2, y2, v112, v128, v145, v148
   local v157, v175, now3, v215, v247, v289, v301, v338, v400, position, y3, dist
@@ -135160,7 +132900,6 @@ function fn_IsActive_152(...)
   local isActive = flightCore.IsActive()
   appendn(v5, isActive)
   return unpack(v5)
-end
 
 function fn_SetTarget_219(a1, ...)
   if nil2 then
@@ -135189,7 +132928,6 @@ function proto_368(...)
   v9[1] = v7
   v9.n = 1
   return unpack(v9)
-end
 
 function proto_508(a1, ...)
   local num2
@@ -135397,7 +133135,6 @@ function fn_TweenFlight_1232(import, a2, a3, a4, ...)
   v481[1] = flightCoreCell
   v498[1].IsActive = fn_IsActive_152
   return v498[1]
-end
 
 function proto_1235(a1, ...)
   up1 = a1 == true
@@ -135515,10 +133252,8 @@ function proto_1338(a1, vec, vec2, a4, a5, a6, ...)
       return unpack(v267)
     else
       return vec2.Y
-    end
   else
     return vec2.Y
-  end
 end
 
 function proto_1447(a1, ...)
@@ -135537,7 +133272,6 @@ function proto_1455(a1, ...)
     local pikaTravelSpeed = flightCore.GetPikaTravelSpeed()
     appendn(v16, pikaTravelSpeed)
     return unpack(v16)
-  end
 end
 
 function fn_SetSkipForwardScan_1593(a1, ...)
@@ -135588,7 +133322,6 @@ function proto_2225(vec, vec2, ...)
   local v18 = math.sqrt(((vec.X - vec2.X) * (vec.X - vec2.X)) + ((vec.Z - vec2.Z) * (vec.Z - vec2.Z)))
   appendn(v11, v18)
   return unpack(v11)
-end
 
 function fn_SetSpeed_2474(a1, ...)
   if nil2 then
@@ -135623,12 +133356,10 @@ function proto_2563(a1, ...)
     v9[1] = up1
     v9.n = 1
     return unpack(v9)
-  end
   local v9 = {}
   v9[1] = up1
   v9.n = 1
   return unpack(v9)
-end
 
 function proto_2794(a1, ...)
   up1 = a1 == true
@@ -135645,7 +133376,6 @@ function proto_2955(a1, a2, a3, a4, ...)
     return nil
   else
     return v25.Position.X, v25.Position.Z
-  end
 end
 
 function fn_Start_2968(vec2, list, ...)
@@ -135995,13 +133725,11 @@ function proto_3566(a1, a2, vec, a4, ...)
     return v55
   else
     return nil
-  end
-  do return nil end
+  return nil
   local v57 = {}
   v57[1] = nil
   v57.n = 1
-  do return unpack(v57) end
-end
+  return unpack(v57)
 
 function proto_3717(a1, a2, a3, a4, ...)
   local v11, v39, v50, v52, y, instance, v98, raycast2, v185
@@ -136049,9 +133777,8 @@ function proto_3717(a1, a2, a3, a4, ...)
   local v184 = {}
   v184[1] = -math.huge
   v184.n = 1
-  do return unpack(v184) end
-  do return y end
-end
+  return unpack(v184)
+  return y
 
 function fn_Stop_3746(...)
   nil2 = nil
@@ -136103,7 +133830,6 @@ function proto_4383(a1, a2, a3, a4, ...)
     local v38 = math.max(0, (v21.Position - a2).Magnitude - up2)
     appendn(v20, v38)
     return unpack(v20)
-  end
 end
 
 function proto_4590(a1, ...)
@@ -136144,10 +133870,8 @@ function proto_4822(a1, a2, ...)
       return y + v107
     else
       return y
-    end
   else
     return a2
-  end
 end
 
 function fn_SetFaceGetter_4907(a1, ...)
@@ -136255,7 +133979,6 @@ function fn_TweenToNPC_42(import, a2, a3, a4, ...)
   v20[5] = tweenFlightCell
   v226.Stop = fn_Stop_989
   return v226
-end
 
 function proto_74(a1, ...)
   local v5 = {}
@@ -136263,7 +133986,6 @@ function proto_74(a1, ...)
   v5[1] = not forceField
   v5.n = 1
   return unpack(v5)
-end
 
 function fn_Start_444(...)
   local v45
@@ -136485,7 +134207,6 @@ function proto_3015(character, ...)
     return unpack(v44)
   else
     return false
-  end
 end
 
 function fn_SetBackOffset_3190(a1, ...)
@@ -136510,7 +134231,6 @@ function proto_3445(...)
   v12[1] = v8
   v12.n = 1
   return unpack(v12)
-end
 
 function fn_FaceGetter_4651(...)
   local position, hrp, hrp3, v13
@@ -136528,7 +134248,6 @@ function fn_FaceGetter_4651(...)
   v13[1] = position
   v13.n = 1
   return unpack(v13)
-end
 
 function proto_5046(a1, ...)
   local npCs2, v13, v17, v26, v29, humanoid, value, value2, v54, hrp2, humanoid3, v63
@@ -136580,14 +134299,12 @@ function proto_5046(a1, ...)
       v56[1] = value2
       v56.n = 1
       return unpack(v56)
-    end
     local v56 = {}
     v56[1] = value2
     v56.n = 1
     return unpack(v56)
   else
     return nil
-  end
 end
 
 function fn_SetSpeed_5150(a1, ...)
@@ -136644,15 +134361,13 @@ function proto_110(a1, a2, a3, ...)
     return false
   else
     return false
-  end
   local owner2 = flightCore.GetOwner()
-  if not (owner2 == a2) then return false end
+  if not (owner2 == a2) then return false
   local stop2 = tweenFlight.Stop()
   return false
   local stop = tweenFlight.Stop()
-  do return true end
+  return true
   return false
-end
 
 function fn_GPO_FruitSharing_568(...)
   if nil2 then
@@ -136677,13 +134392,10 @@ function proto_821(a1, a2, ...)
         return a1.Position.Z < a2.Position.Z
       else
         return a1.Position.Y < a2.Position.Y
-      end
     else
       return a1.Position.X < a2.Position.X
-    end
   else
     return fullName3 < fullName4
-  end
 end
 
 function proto_1007(a1, ...)
@@ -136762,13 +134474,11 @@ function proto_1007(a1, ...)
     return nil
   else
     return nil
-  end
-  do return nil end
+  return nil
   local v179 = {}
   v179[1] = position
   v179.n = 1
-  do return unpack(v179) end
-end
+  return unpack(v179)
 
 function proto_1293(a1, a2, ...)
   local v15, v18
@@ -136782,7 +134492,6 @@ function proto_1293(a1, a2, ...)
   v18[1] = v15
   v18.n = 1
   return unpack(v18)
-end
 
 function proto_1325(a1, ...)
   local previousTool, previousTool2, v28, previousTool3, char, backpack2, v36, v40
@@ -136815,7 +134524,6 @@ end
 
 function fn_GetStatus_1409(...)
   return up1
-end
 
 function proto_1578(inst, ...)
   local isA2, v34, v53
@@ -137034,7 +134742,6 @@ function fn_FruitSharing_2388(import, a2, a3, a4, ...)
   v203[7] = v542
   local register = unloadCell[1].register("GPO_FruitSharing", fn_GPO_FruitSharing_568)
   return v350[1]
-end
 
 function proto_2410(...)
   local v2, v4, v8, isCharAlive, v20, v21, v30, isCharAlive3, v41
@@ -137079,7 +134786,6 @@ function proto_2410(...)
   v30[1] = v20
   v30.n = 1
   return unpack(v30)
-end
 
 function proto_2455(a1, ...)
   local v81
@@ -137095,10 +134801,8 @@ function proto_2455(a1, ...)
       return 0
     else
       return 1
-    end
   else
     return 2
-  end
 end
 
 function fn_FruitSharing_Walk_3296(...)
@@ -137162,7 +134866,6 @@ end
 
 function proto_4136(player, player2, ...)
   return player.UserId < player2.UserId
-end
 
 function fn_SetSupport_4266(a1, a2, ...)
   local v59
@@ -137218,7 +134921,6 @@ function proto_4294(player, a2, ...)
   v16[1] = isA3
   v16.n = 1
   return unpack(v16)
-end
 
 function fn_TryShare_4312(list, list2, a3, a4, ...)
   local v13, v22, v26, v55, v98, char, v111, v133, v141, v165, v197, v240
@@ -137431,16 +135133,12 @@ function fn_TryShare_4312(list, list2, a3, a4, ...)
           local now4 = os.clock()
           up6[v287[1].key] = now4 + 30
           return false
-        end
       else
         return false
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_4413(...)
@@ -137523,7 +135221,6 @@ function proto_4413(...)
         v46[1] = nil2
         v46.n = 1
         return unpack(v46)
-      end
       nil2 = v260
       local v46 = {}
       v46[1] = nil2
@@ -137531,7 +135228,6 @@ function proto_4413(...)
       return unpack(v46)
     else
       return nil
-    end
   else
     v275 = {}
     v138 = nil2
@@ -137550,7 +135246,6 @@ function proto_4413(...)
     v275[1] = v257
     v275.n = 1
     return unpack(v275)
-  end
 end
 
 function proto_4447(...)
@@ -137611,9 +135306,7 @@ function proto_4471(...)
           break
         end
       else
-        do return end
-      end
-    end
+        return end
     hrp3 = farmUtil.GetHRP
     v856 = localPlayer == up5.donor
     if v856 then
@@ -137873,9 +135566,7 @@ function proto_4471(...)
                           break
                         end
                       else
-                        do return end
-                      end
-                    end
+                        return end
                     up2 = "Fruit transfer confirmed"
                     return
                   else
@@ -137899,12 +135590,11 @@ function proto_4471(...)
     return
   end
   up2 = "Transfer not confirmed"
-  do return end
-  do return end
-  do return end
-  do return end
-  do return end
-end
+  return
+  return
+  return
+  return
+  return end
 
 function proto_4483(...)
   local v12, value, v40, v54, v73, v88, key, v94, v96, v97, value2, value3
@@ -138043,7 +135733,7 @@ function proto_4483(...)
     end
   end
   local v66 = {}
-  do return end
+  return
   local v230 = {}
   local v24 = {}
   v24["donor"] = value
@@ -138056,8 +135746,7 @@ function proto_4483(...)
   v24["recipientBefore"] = v337
   v230[1] = v24
   v230.n = 1
-  do return unpack(v230) end
-end
+  return unpack(v230)
 
 function proto_4700(inst, ...)
   local isA, v13, v19, enabled, handle2, findFirstChildWhichIsA2, handle3
@@ -138091,10 +135780,8 @@ function proto_4700(inst, ...)
       return unpack(v19)
     else
       return true
-    end
   else
     return false
-  end
 end
 
 function fn_Cancel_4701(a1, ...)
@@ -138158,7 +135845,6 @@ function proto_4888(player, ...)
   v24[1] = v31
   v24.n = 1
   return unpack(v24)
-end
 
 function proto_4899(inst, ...)
   local v16, v37, v51, value, v65
@@ -138262,7 +135948,6 @@ function proto_789(...)
     return v179, visible
   else
     return nil, nil
-  end
 end
 
 function proto_1190(...)
@@ -138281,7 +135966,6 @@ function proto_1190(...)
     main = main2
   end
   return v3, main
-end
 
 function fn_EnsureBackpackTool_1943(a1, ...)
   local v18, main, v92, v94, v126, v140, v149, isA2, backpack2, main3, visible, v213
@@ -138381,13 +136065,10 @@ function fn_EnsureBackpackTool_1943(a1, ...)
       return v126
     else
       return nil
-    end
   else
     return v126
-  end
   local v316 = up6(v18, v140)
-  do return nil end
-end
+  return nil
 
 function fn_InventoryActions_2626(import, a2, a3, a4, ...)
   local players = game:GetService("Players")
@@ -138434,7 +136115,6 @@ function fn_InventoryActions_2626(import, a2, a3, a4, ...)
   v55[6] = v12
   v16.EnsureBackpackTool = fn_EnsureBackpackTool_1943
   return v16
-end
 
 function fn_SetEquipped_2888(a1, a2, ...)
   local v5, v8, v23, v24, v25, v35, v43, main2, v63, main3, v81, v86
@@ -138518,7 +136198,6 @@ function fn_SetEquipped_2888(a1, a2, ...)
           v146[1] = v24
           v146.n = 1
           return unpack(v146)
-        end
         local v156 = up6(v89, v107)
         local v146 = {}
         v146[1] = v24
@@ -138526,13 +136205,10 @@ function fn_SetEquipped_2888(a1, a2, ...)
         return unpack(v146)
       else
         return false
-      end
     else
       return true
-    end
   else
     return false
-  end
   v24 = true
 end
 
@@ -138620,16 +136296,13 @@ function proto_3112(inst, a2, ...)
     return unpack(v149)
   else
     return nil
-  end
-  do return value end
-end
+  return value
 
 function proto_3993(a1, ...)
   local v3 = {}
   local clickButton = compat2.ClickButton(a1)
   appendn(v3, clickButton)
   return unpack(v3)
-end
 
 function proto_4169(inst, a2, ...)
   local v19, v36, value, v44, v51, v52, v54, v55, v61, value2, findFirstChild2, v83
@@ -138692,32 +136365,28 @@ function proto_4169(inst, a2, ...)
       end
     end
   end
-  do return value2 end
+  return value2
   local v16 = {}
   v16[1] = nil
   v16.n = 1
   return unpack(v16)
-end
 function fn_Run_536(...)
   local v2 = {}
   local reducedDMG = equipBest.ForStatAllSlotsFresh("ReducedDMG")
   appendn(v2, reducedDMG)
   return unpack(v2)
-end
 
 function fn_Run_698(...)
   local v3 = {}
   local stam = equipBest.ForStatAllSlotsFresh("Stam")
   appendn(v3, stam)
   return unpack(v3)
-end
 
 function fn_Run_1022(...)
   local v7 = {}
   local maxStam = equipBest.ForStatAllSlotsFresh("MaxStam")
   appendn(v7, maxStam)
   return unpack(v7)
-end
 
 function proto_1371(a1, ...)
   local str = tostring(a1)
@@ -138787,14 +136456,12 @@ function proto_1851(a1, part, a3, ...)
     local connect = clone.Activated:Connect(fn_on_Activated_4769)
   end
   return frame2
-end
 
 function fn_Run_1941(...)
   local v3 = {}
   local hp = equipBest.ForStatAllSlotsFresh("HP")
   appendn(v3, hp)
   return unpack(v3)
-end
 
 function fn_InventoryEquipBest_2005(list, a2, a3, a4, ...)
   local playersCell, v139, v177, connCell, v187, nilCell
@@ -138887,14 +136554,12 @@ function fn_InventoryEquipBest_2005(list, a2, a3, a4, ...)
   v262[2] = v187
   v187[1].SetEnabled = fn_SetEnabled_4056
   return v187[1]
-end
 
 function fn_Run_2222(...)
   local v6 = {}
   local regen = equipBest.ForStatAllSlotsFresh("Regen")
   appendn(v6, regen)
   return unpack(v6)
-end
 
 function fn_Detach_2365(...)
   if conn then
@@ -138983,7 +136648,6 @@ function fn_Run_4070(...)
   local forWeaponFresh = equipBest.ForWeaponFresh()
   appendn(v5, forWeaponFresh)
   return unpack(v5)
-end
 
 function fn_on_propertyChangedSignal_4533(...)
   if nil2 then
@@ -139288,7 +136952,6 @@ function fn_RecentItems_123(list, a2, a3, a4, ...)
   v305[21] = v306
   v191.Detach = fn_Detach_4184
   return v191
-end
 
 function proto_334(a1, ...)
   local str = tostring(a1)
@@ -139482,7 +137145,6 @@ function proto_1500(list, ...)
     return clone
   else
     return nil
-  end
 end
 
 function proto_1882(...)
@@ -139852,13 +137514,11 @@ function proto_3962(a1, a2, part, ...)
       v903[1] = v690
       v903.n = 1
       return unpack(v903)
-    end
   end
   local v903 = {}
   v903[1] = v690
   v903.n = 1
   return unpack(v903)
-end
 
 function fn_Detach_4184(...)
   local v172, inventory2, selections2, playerGui2, main2, playerGui3, playerGui4
@@ -139975,12 +137635,10 @@ function proto_4229(a1, a2, a3, ...)
     v77[1] = clone2
     v77.n = 1
     return unpack(v77)
-  end
   local v77 = {}
   v77[1] = clone2
   v77.n = 1
   return unpack(v77)
-end
 
 function proto_4450(...)
   local waitForChild = replicatedStorage:WaitForChild("Tools", 30)
@@ -140069,10 +137727,8 @@ function proto_224(...)
       return nil
     else
       return climbingObject2
-    end
   else
     return nil
-  end
 end
 
 function fn_GetStatus_538(...)
@@ -140095,13 +137751,10 @@ function fn_GetStatus_538(...)
         return "Rebinding"
       else
         return "Bound"
-      end
     else
       return "Waiting for character"
-    end
   else
     return "Off"
-  end
 end
 
 function fn_SetSpeedMultiplier_657(a1, ...)
@@ -140209,7 +137862,6 @@ function fn_ClimbSpoofs_1174(list, a2, a3, a4, ...)
   v142[4] = v138
   local register = unload.register("ClimbSpoofs", fn_ClimbSpoofs_2869)
   return v95
-end
 
 function fn_step_1458(a1, a2, ...)
   local v4, v9, v12, v18, v23
@@ -140228,7 +137880,6 @@ function fn_step_1458(a1, a2, ...)
   local v22 = v18(unpack(v12))
   appendn(v4, v22)
   return unpack(v4)
-end
 
 function proto_2740(...)
   local v10, v91
@@ -140566,7 +138217,6 @@ function proto_1840(a1, ...)
       return unpack(v17)
     else
       return v3
-    end
   end
 end
 
@@ -140581,7 +138231,6 @@ function fn_TryStep_2074(...)
   v14[1] = v21 == true
   v14.n = 1
   return unpack(v14)
-end
 
 function fn_SetGeppoVerticalPower_2414(a1, ...)
   local v4, v12
@@ -140600,7 +138249,6 @@ function proto_2426(...)
   local loadAnimation = up1:LoadAnimation(up2)
   appendn(v2, loadAnimation)
   return unpack(v2)
-end
 
 function proto_2644(...)
   local v13 = {}
@@ -140776,7 +138424,6 @@ function fn_MovementSpoofs_2773(list, a2, a3, a4, ...)
   v158[5] = v153
   local register = unload.register("MovementSpoofs", fn_MovementSpoofs_5053)
   return v80
-end
 
 function proto_3045(...)
   if nil2 then
@@ -140799,7 +138446,6 @@ function fn_Mobile_Activate_3119(...)
     local v22 = up2(unpack(v2))
     appendn(v12, v22)
     return unpack(v12)
-  end
 end
 
 function proto_3235(a1, ...)
@@ -141275,7 +138921,6 @@ function proto_3327(a1, ...)
                   return true
                 else
                   return true
-                end
               end
             else
               local ok = pcall(_G.StamCheck, "Sky Walk2", true)
@@ -141303,7 +138948,6 @@ function fn_PC_Activate_3741(...)
     local v8 = up2(unpack(v7))
     appendn(v3, v8)
     return unpack(v3)
-  end
 end
 
 function fn_on_propertyChangedSignal_3755(...)
@@ -141340,13 +138984,10 @@ function fn_GetStatus_4267(...)
         return "Rebinding"
       else
         return "Bound"
-      end
     else
       return "Waiting for character"
-    end
   else
     return "Off"
-  end
 end
 
 function proto_4320(...)
@@ -141383,7 +139024,6 @@ function fn_DebugStep_4877(...)
   v2[1] = v4 == true
   v2.n = 1
   return unpack(v2)
-end
 
 function proto_5051(...)
   local v13 = {}
@@ -141510,7 +139150,6 @@ function fn_PikaDashMimic_295(list, a2, a3, a4, ...)
   v75[8] = v47
   v50.Play = fn_Play_3222
   return v50
-end
 
 function proto_991(...)
   local v79
@@ -142135,11 +139774,9 @@ function proto_3817(humanoid, part, ...)
   v69[1] = v10
   v69.n = 1
   return unpack(v69)
-end
 
 function fn_IsEnabled_4948(...)
   return not (("Regular") == "Regular")
-end
 function proto_64(...)
   local v8 = {}
   local v1 = {}
@@ -142152,7 +139789,6 @@ function proto_64(...)
   local colour = Color3.new(unpack(v1))
   appendn(v8, colour)
   return unpack(v8)
-end
 
 function fn_SetFastMode_621(a1, ...)
   up1 = a1 == true
@@ -142244,21 +139880,18 @@ function fn_AutoRaceReroll_1116(import, a2, a3, a4, ...)
   appendn(v12, v159)
   local onInterval = v209.onInterval(unpack(v12))
   return v168
-end
 
 function proto_1222(...)
   local v14 = {}
   local reroll = gpoEvents.GetRemote("reroll")
   appendn(v14, reroll)
   return unpack(v14)
-end
 
 function proto_1226(...)
   local v14 = {}
   local set = gpoEvents.GetRemote("set")
   appendn(v14, set)
   return unpack(v14)
-end
 
 function fn_SetDesiredRace_1544(a1, ...)
   local str = tostring(a1)
@@ -142306,7 +139939,6 @@ function proto_1997(...)
     return unpack(v17)
   else
     return false
-  end
 end
 
 function fn_RandomizeAppearance_2377(...)
@@ -142557,10 +140189,8 @@ function proto_4204(...)
       return upper3
     else
       return upper3
-    end
   else
     return nil
-  end
 end
 
 function fn_GetCurrentRace_4281(...)
@@ -142568,7 +140198,6 @@ function fn_GetCurrentRace_4281(...)
   local v3 = up1()
   appendn(v21, v3)
   return unpack(v21)
-end
 
 function proto_4792(...)
   local v4 = math.random(1, 100)
@@ -142587,7 +140216,6 @@ function proto_4792(...)
     return unpack(v68)
   else
     return 2
-  end
 end
 function fn_FindBest_227(a1, ...)
   local v33, key, v46, v74, v81, v82, v91, v92, key2, v97, v98, v108
@@ -142636,7 +140264,6 @@ function fn_FindBest_227(a1, ...)
   v97[2] = v82
   v97.n = 2
   return unpack(v97)
-end
 
 function fn_EquipBest_331(import, a2, a3, a4, ...)
   local playersCell
@@ -142727,7 +140354,6 @@ function fn_EquipBest_331(import, a2, a3, a4, ...)
   v64[2] = v50
   v50[1].RequestWeapon = fn_RequestWeapon_2850
   return v50[1]
-end
 
 function fn_ForWeaponFresh_573(...)
   local findBestWeapon2
@@ -142743,7 +140369,6 @@ function fn_ForWeaponFresh_573(...)
     local forWeapon = up1.ForWeapon()
     appendn(v20, forWeapon)
     return unpack(v20)
-  end
 end
 
 function proto_670(...)
@@ -142758,7 +140383,6 @@ function fn_ForStatAllSlotsFresh_845(a1, ...)
   local forStatAllSlots = up1.ForStatAllSlots(a1)
   appendn(v4, forStatAllSlots)
   return unpack(v4)
-end
 
 function proto_1787(a1, ...)
   local str = tostring(a1)
@@ -142841,7 +140465,6 @@ function fn_ForStatAllSlots_1862(a1, ...)
     local v144 = table.insert(v51, v52)
   end
   return v51
-end
 
 function proto_2051(...)
   local v12, v18, v19, v29, v30
@@ -142868,8 +140491,7 @@ function proto_2051(...)
     end
   end
   local v10 = {}
-  do return end
-end
+  return end
 
 function fn_RequestWeapon_2850(...)
   if not up1 then
@@ -142906,12 +140528,10 @@ function fn_UnequipAll_3461(...)
     v13[1] = true
     v13.n = 1
     return unpack(v13)
-  end
   local v13 = {}
   v13[1] = true
   v13.n = 1
   return unpack(v13)
-end
 
 function fn_ForStat_3525(a1, ...)
   local v21, findBest2
@@ -142928,10 +140548,8 @@ function fn_ForStat_3525(a1, ...)
       return findBest2, v21
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function fn_FindBestWeapon_3657(...)
@@ -142999,12 +140617,10 @@ function fn_FindBestWeapon_3657(...)
     v52[1] = v69
     v52.n = 1
     return unpack(v52)
-  end
   local v52 = {}
   v52[1] = v69
   v52.n = 1
   return unpack(v52)
-end
 
 function proto_3835(a1, a2, ...)
   local v15, v32, v64, value, v76, v92
@@ -143048,12 +140664,10 @@ function proto_3835(a1, a2, ...)
     return false
   else
     return true
-  end
   local v43 = {}
   local setEquipped2 = inventoryActions.SetEquipped(a1, true)
   appendn(v43, setEquipped2)
   return unpack(v43)
-end
 
 function fn_ForWeapon_4477(...)
   local v2, v9, v24, findBestWeapon2, v77, v119, char, isA2, isA3, char2, backpack3, isA4
@@ -143133,7 +140747,6 @@ function fn_ForWeapon_4477(...)
         v318[1] = nil
         v318.n = 1
         return unpack(v318)
-      end
     else
       local v90 = {}
       v90[1] = findBestWeapon2
@@ -143168,7 +140781,6 @@ function fn_ForWeapon_4477(...)
                   v254[1] = findBestWeapon2
                   v254.n = 1
                   return unpack(v254)
-                end
               else
                 isA4 = v77
                 if not isA4 then
@@ -143187,7 +140799,6 @@ function fn_ForWeapon_4477(...)
                     v254[1] = findBestWeapon2
                     v254.n = 1
                     return unpack(v254)
-                  end
                 else
                   local isA = v77:IsA("Tool")
                   isA4 = isA
@@ -143206,7 +140817,6 @@ function fn_ForWeapon_4477(...)
                     v254[1] = findBestWeapon2
                     v254.n = 1
                     return unpack(v254)
-                  end
                 end
               end
             else
@@ -143229,7 +140839,6 @@ function fn_ForWeapon_4477(...)
                   v254[1] = findBestWeapon2
                   v254.n = 1
                   return unpack(v254)
-                end
               else
                 isA4 = v77
                 if not isA4 then
@@ -143248,7 +140857,6 @@ function fn_ForWeapon_4477(...)
                     v254[1] = findBestWeapon2
                     v254.n = 1
                     return unpack(v254)
-                  end
                 else
                   local isA = v77:IsA("Tool")
                   isA4 = isA
@@ -143267,7 +140875,6 @@ function fn_ForWeapon_4477(...)
                     v254[1] = findBestWeapon2
                     v254.n = 1
                     return unpack(v254)
-                  end
                 end
               end
             end
@@ -143296,7 +140903,6 @@ function fn_ForWeapon_4477(...)
                   v254[1] = findBestWeapon2
                   v254.n = 1
                   return unpack(v254)
-                end
               else
                 isA4 = v77
                 if not isA4 then
@@ -143315,7 +140921,6 @@ function fn_ForWeapon_4477(...)
                     v254[1] = findBestWeapon2
                     v254.n = 1
                     return unpack(v254)
-                  end
                 else
                   local isA = v77:IsA("Tool")
                   isA4 = isA
@@ -143334,7 +140939,6 @@ function fn_ForWeapon_4477(...)
                     v254[1] = findBestWeapon2
                     v254.n = 1
                     return unpack(v254)
-                  end
                 end
               end
             else
@@ -143357,7 +140961,6 @@ function fn_ForWeapon_4477(...)
                   v254[1] = findBestWeapon2
                   v254.n = 1
                   return unpack(v254)
-                end
               else
                 isA4 = v77
                 if not isA4 then
@@ -143376,7 +140979,6 @@ function fn_ForWeapon_4477(...)
                     v254[1] = findBestWeapon2
                     v254.n = 1
                     return unpack(v254)
-                  end
                 else
                   local isA = v77:IsA("Tool")
                   isA4 = isA
@@ -143395,7 +140997,6 @@ function fn_ForWeapon_4477(...)
                     v254[1] = findBestWeapon2
                     v254.n = 1
                     return unpack(v254)
-                  end
                 end
               end
             end
@@ -143405,10 +141006,8 @@ function fn_ForWeapon_4477(...)
           v318[1] = nil
           v318.n = 1
           return unpack(v318)
-        end
       else
         return nil
-      end
     end
   end
 end
@@ -143440,7 +141039,6 @@ function fn_FightingStyles_747(import, a2, a3, a4, ...)
   v72[1] = gpoEventsCell
   v45.Learn = fn_Learn_3128
   return v45
-end
 
 function fn_Learn_3128(a1, ...)
   local learnStyle2
@@ -143489,7 +141087,6 @@ function proto_381(...)
     return unpack(v4)
   else
     return true
-  end
 end
 
 function proto_829(...)
@@ -143737,7 +141334,6 @@ function fn_FruitManagement_1636(list, a2, a3, a4, ...)
   v383[7] = newCell
   local register = unload2.register("GPO_FruitManagement", fn_GPO_FruitManagement_2722)
   return v129
-end
 
 function proto_1785(...)
   local value, v20, v21, v24, v26, backpack2, isA2
@@ -143923,7 +141519,7 @@ function proto_2043(a1, ...)
   else
     return
   end
-  do return end
+  return
   local v73 = {}
 end
 
@@ -143939,7 +141535,6 @@ function proto_2579(inst, ...)
     return up1[inst.Name] == true
   else
     return true
-  end
 end
 
 function fn_GPO_FruitManagement_2722(...)
@@ -144033,17 +141628,14 @@ function proto_3536(...)
         v64[1] = v40
         v64.n = 1
         return unpack(v64)
-      end
       local v64 = {}
       v64[1] = v40
       v64.n = 1
       return unpack(v64)
     else
       return 0
-    end
   else
     return 0
-  end
 end
 
 function proto_3808(a1, ...)
@@ -144125,8 +141717,7 @@ function proto_3977(...)
   end
   up6 = false
   local v58 = {}
-  do return end
-end
+  return end
 
 function proto_4077(...)
   local waitForChild2, waitForChild3
@@ -144193,9 +141784,8 @@ function proto_4265(a1, a2, ...)
   v5["fruitName"] = a2
   up2[#up2 + 1] = v5
   local v115 = up3()
-  do return end
+  return
   return value, v48, value.controls[v48]
-end
 
 function fn_SetDropList_4623(a1, ...)
   local v29, v30, v34, v35, v42, v47
@@ -144321,7 +141911,6 @@ function proto_1090(...)
   v9[1] = v31
   v9.n = 1
   return unpack(v9)
-end
 
 function proto_1259(a1, ...)
   local v3 = warn("[StarLit/StatInvest]", a1)
@@ -144501,16 +142090,12 @@ function fn_Spend_1497(a1, ...)
           return v226
         else
           return 0
-        end
       else
         return 0
-      end
     else
       return 0
-    end
   else
     return 0
-  end
 end
 
 function fn_on_propertyChangedSignal_1641(...)
@@ -144573,7 +142158,6 @@ function fn_StatInvest_1855(import, a2, a3, a4, ...)
   v46[6] = v72
   v72[1].SetAuto = fn_SetAuto_1456
   return v72[1]
-end
 
 function proto_2434(a1, a2, a3, ...)
   local now3, v23, v28
@@ -144598,7 +142182,7 @@ function proto_2434(a1, a2, a3, ...)
       end
     end
   end
-  do return end
+  return
   local v9 = {}
 end
 
@@ -144611,7 +142195,6 @@ function proto_2769(a1, ...)
   local clickButton = compat.ClickButton(a1)
   appendn(v4, clickButton)
   return unpack(v4)
-end
 
 function proto_3139(a1, ...)
   local v25 = warn("[StarLit/StatInvest]", a1)
@@ -144648,7 +142231,6 @@ function proto_3519(...)
   v14[1] = stats
   v14.n = 1
   return unpack(v14)
-end
 
 function proto_3727(...)
   local v69 = {}
@@ -144699,7 +142281,6 @@ function proto_4532(inst, ...)
   v13[1] = v19
   v13.n = 1
   return unpack(v13)
-end
 function fn_SetTimeout_1128(a1, ...)
   local v4, v30
   v4 = math.clamp
@@ -144960,14 +142541,12 @@ function fn_BossRotation_1390(import, a2, a3, a4, ...)
   v179[3] = onIntervalCell
   local register = unload2.register("GPO_BossRotation", fn_GPO_BossRotation_4466)
   return v73[1]
-end
 
 function fn_target_2503(...)
   local v1 = {}
   local rotationTarget = autoThrillerBark.GetRotationTarget(up2)
   appendn(v1, rotationTarget)
   return unpack(v1)
-end
 
 function proto_2628(...)
   if up1 then
@@ -145045,7 +142624,7 @@ function proto_3033(...)
   if v20.trigger then
     local trigger = v20.trigger()
   end
-  do return end
+  return
   up10 = "No selected bosses in this sea"
 end
 
@@ -145258,7 +142837,6 @@ function fn_deaths_4950(...)
   local confirmedDeaths = autoBosses.GetConfirmedDeaths(up2)
   appendn(v6, confirmedDeaths)
   return unpack(v6)
-end
 
 function fn_GetStats_5014(...)
   local v9 = {}
@@ -145270,7 +142848,6 @@ function fn_GetStats_5014(...)
   v9[1] = v11
   v9.n = 1
   return unpack(v9)
-end
 
 function fn_on_Died_5024(...)
   local v10, v12
@@ -145344,7 +142921,6 @@ function fn_AutoAds_3851(import, a2, a3, a4, ...)
   v134[1] = v41
   v115.SetDropsEnabled = fn_SetDropsEnabled_2020
   return v115
-end
 
 function proto_4217(...)
   local v5, now2, v59, v126
@@ -145420,7 +142996,6 @@ function proto_981(a1, a2, ...)
     v37[1] = v5
     v37.n = 1
     return unpack(v37)
-  end
 end
 
 function proto_1723(...)
@@ -145482,10 +143057,8 @@ function proto_2148(...)
       v18[2] = "require() failed: " .. str
       v18.n = 2
       return unpack(v18)
-    end
   else
     return nil, "module instance not found within 10s"
-  end
 end
 
 function proto_2504(...)
@@ -145521,7 +143094,6 @@ function proto_2845(...)
     return unpack(v25)
   else
     return nil, nil
-  end
 end
 
 function proto_3044(...)
@@ -145708,7 +143280,6 @@ function fn_Emotes_3384(a1, a2, a3, a4, ...)
   v78[6] = v75
   v153[1].SetGiveAll = fn_SetGiveAll_3950
   return v153[1]
-end
 
 function proto_3391(...)
   local v19, v60
@@ -145759,9 +143330,8 @@ function proto_3642(a1, ...)
   local v13 = {}
   v13[1] = waitForChild2
   v13.n = 1
-  do return unpack(v13) end
-  do return nil end
-end
+  return unpack(v13)
+  return nil
 
 function fn_SetGiveAll_3950(a1, ...)
   local v99
@@ -145778,7 +143348,6 @@ function fn_SetGiveAll_3950(a1, ...)
   v103[7] = up6
   local thread = task.spawn(proto_2504)
   return true
-end
 
 function proto_4746(...)
   if not true2 then
@@ -145810,7 +143379,6 @@ function fn_Play_5173(a1, ...)
     return unpack(v11)
   else
     return false
-  end
 end
 function fn_SetEnabled_1680(a1, ...)
   up1 = a1 == true
@@ -145828,7 +143396,6 @@ end
 
 function fn_GetEnabled_3571(...)
   return up1
-end
 
 function fn_MenuWheelSetting_4632(a1, a2, a3, a4, ...)
   local v5 = {}
@@ -145846,7 +143413,6 @@ function fn_MenuWheelSetting_4632(a1, a2, a3, a4, ...)
   v6[1] = v16
   v5.GetEnabled = fn_GetEnabled_3571
   return v5
-end
 function fn_SetHideNameTags_208(a1, ...)
   local v50, v54, v56, v84, v89, v90, v101, v102, value, v126, v142, v144
   local v159, v162, value2, v177, v179, v251, v252, v266, value3
@@ -146120,7 +143686,6 @@ function fn_Optimizer_515(a1, a2, a3, a4, ...)
   v160[6] = v175
   v175[1].Stop = fn_Stop_5118
   return v175[1]
-end
 
 function fn_SetUnfocusedFPS_589(a1, ...)
   local v19, v23
@@ -146479,7 +144044,7 @@ function proto_3800(...)
       end
     end
   end
-  do return end
+  return
   local v16 = {}
 end
 
@@ -146727,7 +144292,6 @@ function proto_475(...)
   v28[1] = value
   v28.n = 1
   return unpack(v28)
-end
 
 function proto_492(...)
   if false2 then
@@ -146758,7 +144322,6 @@ function proto_492(...)
           v61[2] = "Anti AFK input sent."
           v61.n = 2
           return unpack(v61)
-        end
       end
     else
       local v60 = {}
@@ -146791,15 +144354,12 @@ function proto_492(...)
             v61[2] = "Anti AFK input sent."
             v61.n = 2
             return unpack(v61)
-          end
         end
       else
         return true, "Anti AFK input sent."
-      end
     end
   else
     return false, "Anti AFK is unloaded."
-  end
 end
 
 function fn_TestAntiAfkNow_567(...)
@@ -146813,7 +144373,6 @@ function fn_TestAntiAfkNow_567(...)
     up5 = v57 + v61
   end
   return v20, v64
-end
 
 function fn_SetHitboxExpander_601(a1, ...)
   up1 = a1 == true
@@ -147264,13 +144823,10 @@ function proto_1182(a1, ...)
         v81[1] = ok4
         v81.n = 1
         return unpack(v81)
-      end
     else
       return true
-    end
   else
     return false
-  end
 end
 
 function fn_SetMaxZoomDistance_1191(a1, ...)
@@ -147357,7 +144913,6 @@ function proto_1488(a1, ...)
   threadCell[1] = thread
   up3[threadCell[1]] = true
   return threadCell[1]
-end
 
 function proto_1531(...)
   up2.Parent = up1
@@ -147722,7 +145277,6 @@ function proto_2207(a1, a2, ...)
           v3[2] = ok5
           v3.n = 2
           return unpack(v3)
-        end
       end
     else
       local ok3 = pcall(v31, ok5)
@@ -147780,7 +145334,6 @@ function proto_2207(a1, a2, ...)
                   v3[2] = ok5
                   v3.n = 2
                   return unpack(v3)
-                end
               end
             else
               local kind4 = type(v191)
@@ -147815,7 +145368,6 @@ function proto_2207(a1, a2, ...)
                     v3[2] = ok5
                     v3.n = 2
                     return unpack(v3)
-                  end
                 end
               else
                 v21 = v191[a2]
@@ -147848,7 +145400,6 @@ function proto_2207(a1, a2, ...)
                     v3[2] = ok5
                     v3.n = 2
                     return unpack(v3)
-                  end
                 end
               end
             end
@@ -147900,7 +145451,6 @@ function proto_2207(a1, a2, ...)
                   v3[2] = ok5
                   v3.n = 2
                   return unpack(v3)
-                end
               end
             else
               local kind4 = type(v191)
@@ -147935,7 +145485,6 @@ function proto_2207(a1, a2, ...)
                     v3[2] = ok5
                     v3.n = 2
                     return unpack(v3)
-                  end
                 end
               else
                 v21 = v191[a2]
@@ -147968,7 +145517,6 @@ function proto_2207(a1, a2, ...)
                     v3[2] = ok5
                     v3.n = 2
                     return unpack(v3)
-                  end
                 end
               end
             end
@@ -147976,11 +145524,9 @@ function proto_2207(a1, a2, ...)
         end
       else
         return true, ok5
-      end
     end
   else
     return false
-  end
 end
 
 function proto_2215(...)
@@ -148177,7 +145723,6 @@ function proto_2393(a1, list3, ...)
                                   continue
                                 else
                                   return false, "Wall is too close for Geppo."
-                                end
                               end
                             end
                             if v456 then
@@ -148205,7 +145750,6 @@ function proto_2393(a1, list3, ...)
                                       v906[2] = v850
                                       v906.n = 2
                                       return unpack(v906)
-                                    end
                                   else
                                     v765 = "Jumping, then Geppo."
                                     v563 = v765
@@ -148220,7 +145764,6 @@ function proto_2393(a1, list3, ...)
                                       v906[2] = v850
                                       v906.n = 2
                                       return unpack(v906)
-                                    end
                                   end
                                 end
                               else
@@ -148245,7 +145788,6 @@ function proto_2393(a1, list3, ...)
                                       v906[2] = v850
                                       v906.n = 2
                                       return unpack(v906)
-                                    end
                                   else
                                     v765 = "Jumping, then Geppo."
                                     v563 = v765
@@ -148260,7 +145802,6 @@ function proto_2393(a1, list3, ...)
                                       v906[2] = v850
                                       v906.n = 2
                                       return unpack(v906)
-                                    end
                                   end
                                 end
                               end
@@ -148299,7 +145840,6 @@ function proto_2393(a1, list3, ...)
                                         v906[2] = v850
                                         v906.n = 2
                                         return unpack(v906)
-                                      end
                                     else
                                       v765 = "Jumping, then Geppo."
                                       v563 = v765
@@ -148314,7 +145854,6 @@ function proto_2393(a1, list3, ...)
                                         v906[2] = v850
                                         v906.n = 2
                                         return unpack(v906)
-                                      end
                                     end
                                   end
                                 else
@@ -148339,7 +145878,6 @@ function proto_2393(a1, list3, ...)
                                         v906[2] = v850
                                         v906.n = 2
                                         return unpack(v906)
-                                      end
                                     else
                                       v765 = "Jumping, then Geppo."
                                       v563 = v765
@@ -148354,7 +145892,6 @@ function proto_2393(a1, list3, ...)
                                         v906[2] = v850
                                         v906.n = 2
                                         return unpack(v906)
-                                      end
                                     end
                                   end
                                 end
@@ -148396,7 +145933,6 @@ function proto_2393(a1, list3, ...)
                                         v906[2] = v850
                                         v906.n = 2
                                         return unpack(v906)
-                                      end
                                     else
                                       v765 = "Jumping, then Geppo."
                                       v563 = v765
@@ -148411,7 +145947,6 @@ function proto_2393(a1, list3, ...)
                                         v906[2] = v850
                                         v906.n = 2
                                         return unpack(v906)
-                                      end
                                     end
                                   end
                                 else
@@ -148436,7 +145971,6 @@ function proto_2393(a1, list3, ...)
                                         v906[2] = v850
                                         v906.n = 2
                                         return unpack(v906)
-                                      end
                                     else
                                       v765 = "Jumping, then Geppo."
                                       v563 = v765
@@ -148451,7 +145985,6 @@ function proto_2393(a1, list3, ...)
                                         v906[2] = v850
                                         v906.n = 2
                                         return unpack(v906)
-                                      end
                                     end
                                   end
                                 end
@@ -148459,10 +145992,8 @@ function proto_2393(a1, list3, ...)
                             end
                           else
                             return false, "Not enough room to Geppo."
-                          end
                         else
                           return false, "Geppo input is unavailable."
-                        end
                       end
                     else
                       v964 = list3[1]
@@ -148552,9 +146083,7 @@ function proto_2393(a1, list3, ...)
                               v1155 = v1155 + v1345
                               continue
                             else
-                              do return end
-                            end
-                          end
+                              return end
                           break
                         end
                         if v322[1] then
@@ -148688,30 +146217,22 @@ function proto_2393(a1, list3, ...)
                             return true, key
                           else
                             return false, "No clear walking path nearby."
-                          end
                         end
                       else
                         return true, "Back at the original spot."
-                      end
                     end
                   else
                     return false, "Character is airborne."
-                  end
                 else
                   return false, "Already moving."
-                end
               else
                 return false, "Already moving."
-              end
             else
               return false, "Character is unavailable."
-            end
           else
             return false, "Typing is active."
-          end
         else
           return false, "Flight controls movement."
-        end
       else
         local v1003 = {}
         local list = v1033.List()
@@ -148735,18 +146256,14 @@ function proto_2393(a1, list3, ...)
           end
         end
         return false, "An active farm controls movement."
-      end
     else
       return false, "Enable an action first."
-    end
   else
     return false, "Anti AFK is unloaded."
-  end
   v322[1] = v260
   return false, "Wall is too close for Geppo."
-  do return end
+  return
   return false, "Wall is too close for Geppo."
-end
 
 function proto_2406(list, ...)
   local new, isA3
@@ -148801,7 +146318,6 @@ function fn_TestMoveAntiAfkNow_2423(a1, ...)
   local v4 = up1(a1)
   appendn(v6, v4)
   return unpack(v6)
-end
 
 function fn_SetMoveAntiAfkInterval_2515(a1, ...)
   local v4, v37
@@ -149110,7 +146626,6 @@ function proto_3060(...)
   v26[1] = falls2
   v26.n = 1
   return unpack(v26)
-end
 
 function proto_3124(...)
   local v2, v3
@@ -149123,7 +146638,6 @@ function proto_3124(...)
   v3[1] = v2
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_3125(list, ...)
   local v27, v32, v59
@@ -149403,7 +146917,6 @@ function proto_3944(a1, ...)
   local v4 = up1("Run", a1)
   appendn(v7, v4)
   return unpack(v7)
-end
 
 function fn_on_CharacterAdded_3974(character, ...)
   local animateCell
@@ -150085,7 +147598,6 @@ function fn_QualityOfLife_4033(list, a2, a3, a4, ...)
   v396[15] = newCell2
   local register = unload.register("GPO_QualityOfLife", fn_GPO_QualityOfLife_1961)
   return v447[1]
-end
 
 function proto_4119(...)
   local virtualInputManager = Instance.new("VirtualInputManager")
@@ -150138,15 +147650,12 @@ function proto_4253(...)
       return
     else
       return "Enabled", up1.Enabled
-    end
   else
     return "Visible", up1.Visible
-  end
 end
 
 function proto_4279(...)
   return up1.Text
-end
 
 function fn_on_ChildAdded_4388(child, ...)
   if up1 then
@@ -150752,12 +148261,10 @@ function proto_15(a1, inst, ...)
     return unpack(v109)
   else
     return true
-  end
 end
 
 function proto_330(...)
   return guiService.ErrorMessageChanged
-end
 
 function proto_362(a1, ...)
   local v23
@@ -151083,7 +148590,6 @@ function fn_WebhookMonitor_1481(list, a2, a3, a4, ...)
   v74[7] = v230
   local register = unload2.register("GPO_WebhookMonitor", fn_GPO_WebhookMonitor_1649)
   return v140
-end
 
 function fn_GPO_WebhookMonitor_1649(...)
   true2 = true
@@ -151242,7 +148748,6 @@ function proto_409(a1, a2, a3, a4, ...)
   v16[2] = a2
   v16[3] = a4
   return proto_2194, proto_2241
-end
 
 function proto_443(list, ...)
   local v26, v33, newCell
@@ -151272,7 +148777,6 @@ function proto_443(list, ...)
   v12["deactivate"] = v33
   local drive = gameESP.Drive(new2, list[1], newCell[1], v12)
   return newCell[1]
-end
 
 function fn_on_DescendantAdded_521(...)
   local v2 = up1(up2)
@@ -151300,7 +148804,6 @@ function proto_941(a1, ...)
   v13[1] = v20
   v13.n = 1
   return unpack(v13)
-end
 
 function proto_969(inst, ...)
   local findFirstChildWhichIsA, v40, v54, v69, v70, v80, findFirstChildWhichIsA3, v120
@@ -151363,7 +148866,6 @@ function proto_969(inst, ...)
                   v70[1] = v120
                   v70.n = 1
                   return unpack(v70)
-                end
               else
                 v40 = not (up3[v54] == nil)
                 v120 = v40
@@ -151376,7 +148878,6 @@ function proto_969(inst, ...)
                   v70[1] = v120
                   v70.n = 1
                   return unpack(v70)
-                end
               end
             else
               local str3 = tostring(findFirstChildWhichIsA3.MeshId)
@@ -151395,7 +148896,6 @@ function proto_969(inst, ...)
                   v70[1] = v120
                   v70.n = 1
                   return unpack(v70)
-                end
               else
                 v40 = not (up3[v54] == nil)
                 v120 = v40
@@ -151408,22 +148908,17 @@ function proto_969(inst, ...)
                   v70[1] = v120
                   v70.n = 1
                   return unpack(v70)
-                end
               end
             end
           else
             return true
-          end
         end
       else
         return true
-      end
     else
       return true
-    end
   else
     return false
-  end
 end
 
 function fn_on_ChildAdded_997(child, ...)
@@ -151496,14 +148991,12 @@ function proto_1139(a1, ...)
       return unpack(v81)
     else
       return v26.Name, v26.Color
-    end
   else
     local v98 = {}
     v98[1] = "Mythic"
     local colour = Color3.fromRGB(255, 182, 193)
     appendn(v98, colour)
     return unpack(v98)
-  end
 end
 
 function proto_1156(...)
@@ -151604,7 +149097,6 @@ function proto_1408(...)
       return unpack(v10)
     else
       return v2
-    end
   end
 end
 
@@ -151617,7 +149109,6 @@ function proto_1424(a1, ...)
   v5[1] = proto_3218
   v5.n = 1
   return unpack(v5)
-end
 
 function proto_1499(...)
   local detach = new:detach()
@@ -151806,7 +149297,6 @@ function proto_1940(a1, inst, ...)
         end
       end
       return value2
-    end
   else
     local v37 = {}
     local children = inst:GetChildren()
@@ -151836,7 +149326,6 @@ function proto_1940(a1, inst, ...)
       end
     end
     return value
-  end
 end
 
 function fn_on_attributeChangedSignal2_2081(...)
@@ -151936,7 +149425,6 @@ function proto_2609(a1, a2, ...)
     return stamina.Value / stamina.Max
   else
     return nil
-  end
 end
 
 function proto_2665(inst, ...)
@@ -151956,10 +149444,8 @@ function proto_2665(inst, ...)
       return unpack(v56)
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function fn_SetSplitUpdates_2751(a1, ...)
@@ -151999,7 +149485,6 @@ function proto_2808(inst, ...)
   v57[1] = handle3
   v57.n = 1
   return unpack(v57)
-end
 
 function fn_SetDistanceFade_2834(a1, ...)
   local setGlobalToggle = configuration.setGlobalToggle("ESPDistanceFade", a1)
@@ -152033,8 +149518,7 @@ function proto_2914(...)
   if up5 <= up2 then
     local disconnect = onHeartbeat:Disconnect()
   end
-  do return end
-end
+  return end
 
 function proto_3064(a1, a2, list, list2, ...)
   local v6, onHeartbeatCell, v34, v37, v38, v39, v44, v51, v60, v64, v65, v113
@@ -152173,7 +149657,6 @@ function proto_3149(list, ...)
   v73["deactivate"] = v154
   local drive = gameESP.Drive(new2, list[1], newCell[1], v73)
   return newCell[1]
-end
 
 function proto_3218(...)
   local v10 = {}
@@ -152343,7 +149826,6 @@ function proto_3556(inst, ...)
   v13[1] = isA
   v13.n = 1
   return unpack(v13)
-end
 
 function fn_Live_3675(a1, ...)
   local v2 = {}
@@ -152483,7 +149965,6 @@ function proto_3922(list, ...)
   local giveTask3 = new2:GiveTask(proto_1527)
   local drive = gameESP.Drive(new2, list[1], newCell[1])
   return newCell[1]
-end
 
 function fn_ESP_3948(import, a2, a3, a4, ...)
   local v61, v128, v131, v159, v231, key, v265, v320, v366, v386, playersCell, v471
@@ -152901,7 +150382,6 @@ function fn_ESP_3948(import, a2, a3, a4, ...)
   v401[3] = maidCell
   v131[1].Stop = fn_Stop_4891
   return v131[1]
-end
 
 function fn_SetAlwaysLoad_4065(a1, ...)
   local setGlobalToggle = configuration.setGlobalToggle("ESPAlwaysLoad", a1)
@@ -152967,7 +150447,6 @@ function fn_Filter_4551(a1, ...)
   v4[1] = not playerFromCharacter
   v4.n = 1
   return unpack(v4)
-end
 
 function proto_4602(inst, ...)
   local new2, v72
@@ -153048,7 +150527,6 @@ function proto_4906(a1, a2, ...)
     return unpack(v44)
   else
     return nil
-  end
 end
 
 function proto_4954(inst, ...)
@@ -153118,13 +150596,11 @@ function proto_1781(...)
       v3[1] = v91
       v3.n = 1
       return unpack(v3)
-    end
   end
   local v3 = {}
   v3[1] = v91
   v3.n = 1
   return unpack(v3)
-end
 
 function proto_2200(...)
   local v11, v14, waitForChild2, v31, v44, v69
@@ -153264,7 +150740,6 @@ function fn_MiscVisuals_4116(a1, a2, a3, a4, ...)
   v19[5] = v52
   v21.SetSeeAllLocations = fn_SetSeeAllLocations_2510
   return v21
-end
 
 function proto_4999(...)
   local v37, v42, ok2, v118, modules2
@@ -153291,13 +150766,10 @@ function proto_4999(...)
         return v42
       else
         return nil
-      end
     else
       return nil
-    end
   else
     return up1
-  end
 end
 function fn_Start_980(...)
   local v60, v130, playerGui2, value, v342, v418
@@ -153496,7 +150968,6 @@ function fn_PlayerCompassHUD_3527(list, a2, a3, a4, ...)
   v108[7] = frameCell
   v10[1].Stop = fn_Stop_3244
   return v10[1]
-end
 
 function proto_3580(a1, ...)
   if not (a1 < -math.pi) then
@@ -153504,10 +150975,8 @@ function proto_3580(a1, ...)
       return a1
     else
       return a1 - (2 * math.pi)
-    end
   else
     return a1 + (2 * math.pi)
-  end
 end
 
 function proto_4280(a1, ...)
@@ -153582,7 +151051,6 @@ function proto_4376(list, ...)
   clone.Text = ""
   clone.Parent = frame2
   return frame2
-end
 
 function proto_4474(player, a2, vec, a4, ...)
   local v24, v58, v75, v105, v151, char, v188, v268
@@ -153674,7 +151142,6 @@ function proto_79(...)
   v14[1] = v8
   v14.n = 1
   return unpack(v14)
-end
 
 function fn_UIToggles_861(a1, a2, a3, a4, ...)
   local players = game:GetService("Players")
@@ -153688,7 +151155,6 @@ function fn_UIToggles_861(a1, a2, a3, a4, ...)
   v13[1] = v20
   v14.SetHideRecommendedQuest = fn_SetHideRecommendedQuest_3380
   return v14
-end
 
 function fn_SetHideRecommendedQuest_3380(a1, ...)
   local questTracker, v49, questTracker3
@@ -154060,7 +151526,6 @@ function fn_WorldVisuals_4031(a1, a2, a3, a4, ...)
   v212[1] = v96
   v96[1].Stop = fn_Stop_4988
   return v96[1]
-end
 
 function fn_SetColorCorrection_4742(a1, ...)
   up1 = a1 == true
@@ -154683,7 +152148,6 @@ function fn_AccountTab_5122(import, a2, a3, a4, ...)
   v51[6] = saveManagerCell
   v21.Build = fn_Build_3181
   return v21
-end
 
 function fn_Callback_5138(value, ...)
   local v42 = {}
@@ -154710,7 +152174,6 @@ function fn_BossRotationTab_150(import, a2, a3, a4, ...)
   v43[3] = farmControlCell
   v10.Build = fn_Build_4607
   return v10
-end
 
 function fn_Callback_1493(value, ...)
   local setTargetEnabled = bossRotation.SetTargetEnabled(up2, value)
@@ -154794,7 +152257,6 @@ function fn_Build_4607(a1, a2, a3, ...)
   v269[1] = bossRotation
   local giveTask = a3:GiveTask(proto_3820)
   return addToggle3
-end
 function fn_Callback_146(value, ...)
   local setProjectileDelayMs = hitboxBuilder.SetProjectileDelayMs(value)
 end
@@ -154837,7 +152299,6 @@ function fn_Func_892(...)
     local notify = up2:Notify("Up to 10 response steps per attack.")
     appendn(v21, notify)
     return unpack(v21)
-  end
 end
 
 function fn_Callback_974(value, ...)
@@ -155035,7 +152496,6 @@ function proto_1549(a1, ...)
         local v207 = setValue16(unpack(v499))
       end
       return "Projectile"
-    end
   else
     if up4.effectName then
       local gsub = a1.key:gsub("^effect:", "")
@@ -155071,7 +152531,6 @@ function proto_1549(a1, ...)
       local v224 = setValue2(unpack(v420))
     end
     return "Effect"
-  end
 end
 
 function fn_Func_1576(...)
@@ -155127,13 +152586,11 @@ function fn_Func_1966(...)
       local notify2 = up2:Notify(v6)
       appendn(v28, notify2)
       return unpack(v28)
-    end
   else
     local v34 = {}
     local notify = up2:Notify("Enter an animation id first.")
     appendn(v34, notify)
     return unpack(v34)
-  end
 end
 
 function fn_Func_2046(...)
@@ -155253,7 +152710,6 @@ function fn_Func_2437(...)
     local notify = up3:Notify("Select a module first.")
     appendn(v125, notify)
     return unpack(v125)
-  end
 end
 
 function fn_Callback_2446(value, ...)
@@ -155285,7 +152741,6 @@ function fn_Func_2580(...)
     local notify = up3:Notify(v12)
     appendn(v28, notify)
     return unpack(v28)
-  end
 end
 
 function fn_Callback_2649(value, ...)
@@ -155351,7 +152806,6 @@ function fn_Func_3184(...)
     local notify = up2:Notify("Select a step first.")
     appendn(v30, notify)
     return unpack(v30)
-  end
 end
 
 function fn_Func_3447(...)
@@ -155376,13 +152830,11 @@ function fn_Func_3447(...)
       local notify2 = up2:Notify(v62)
       appendn(v66, notify2)
       return unpack(v66)
-    end
   else
     local v44 = {}
     local notify = up2:Notify("Enter an effect name first.")
     appendn(v44, notify)
     return unpack(v44)
-  end
 end
 
 function fn_Callback_3685(value, ...)
@@ -156075,16 +153527,12 @@ function proto_4399(a1, ...)
           return a1
         else
           return "Block"
-        end
       else
         return "Run Right"
-      end
     else
       return "Run Left"
-    end
   else
     return "Run Back"
-  end
 end
 
 function fn_Callback_4443(value, ...)
@@ -156117,13 +153565,11 @@ function fn_Func_4639(...)
       local notify2 = up2:Notify(v1)
       appendn(v36, notify2)
       return unpack(v36)
-    end
   else
     local v47 = {}
     local notify = up2:Notify("Enter a projectile name first.")
     appendn(v47, notify)
     return unpack(v47)
-  end
 end
 
 function fn_BuilderTab_4779(import, a2, a3, a4, ...)
@@ -156152,7 +153598,6 @@ function fn_BuilderTab_4779(import, a2, a3, a4, ...)
   v55[6] = autoDefenceCell
   v72.Build = fn_Build_4046
   return v72
-end
 
 function fn_Func_4820(...)
   local toggle = animationViewerPanel.Toggle(up2)
@@ -156247,25 +153692,23 @@ function fn_Func_1709(...)
       local notify2 = up7:Notify("Enter a short name and choose an action.")
       appendn(v123, notify2)
       return unpack(v123)
-    end
   else
     local v1 = {}
     local notify = up7:Notify("Select a custom tab first.")
     appendn(v1, notify)
     return unpack(v1)
-  end
   v22[v89] = v128
   v22["mode"] = addDropdown4.Value
   value.controls[#value.controls + 1] = v22
   local v152 = up13(value)
   local v156 = up14()
   local v158 = up15()
-  do return end
+  return
   v128 = "Controls"
   local v15 = {}
   local notify3 = up7:Notify("Control limit reached.")
   appendn(v15, notify3)
-  do return unpack(v15) end
+  return unpack(v15)
   v22 = {}
   v22["name"] = v110
   v22["kind"] = addDropdown3.Value
@@ -156350,25 +153793,21 @@ function fn_Func_1754(...)
           local notify4 = up3:Notify("Enter a valid icon name.")
           appendn(v199, notify4)
           return unpack(v199)
-        end
       else
         local v131 = {}
         local notify3 = up3:Notify("Custom tab limit reached.")
         appendn(v131, notify3)
         return unpack(v131)
-      end
     else
       local v138 = {}
       local notify2 = up3:Notify("That tab name already exists.")
       appendn(v138, notify2)
       return unpack(v138)
-    end
   else
     local v60 = {}
     local notify = up3:Notify("Use a tab name from 1 to 18 characters.")
     appendn(v60, notify)
     return unpack(v60)
-  end
 end
 
 function fn_Func_1992(...)
@@ -156507,7 +153946,6 @@ function fn_CustomTabsBuilder_2372(import, a2, a3, a4, ...)
   v25[14] = uiLoopCell
   v135.Build = fn_Build_2921
   return v135
-end
 
 function fn_Func_2540(...)
   local key, v21, v29, v34, v60, v81, v91, value, v113, count, v129, v145
@@ -156613,7 +154051,6 @@ function proto_2548(a1, a2, ...)
         v61[1] = v80
         v61.n = 1
         return unpack(v61)
-      end
     else
       local v123 = {}
       local learnedAttacks = autoDefence.GetLearnedAttacks()
@@ -156640,7 +154077,6 @@ function proto_2548(a1, a2, ...)
         end
       end
       return true
-    end
   else
     v106 = {}
     local isRunning = farmBuilder.IsRunning()
@@ -156652,13 +154088,11 @@ function proto_2548(a1, a2, ...)
     v106[1] = v54
     v106.n = 1
     return unpack(v106)
-  end
-  do return value.active end
+  return value.active
   local v94 = {}
   v94[1] = false
   v94.n = 1
   return unpack(v94)
-end
 
 function fn_Build_2921(a1, a2, a3, a4, ...)
   local v38, addDropdownCell, v64, v141, v161, addDropdownCell2, v203, v218, addDropdownCell3, v235, addInputCell, v297
@@ -156997,15 +154431,11 @@ function proto_3026(a1, ...)
         return
       else
         return "Auto PB Module: " .. match2
-      end
     else
       return "Farm Route: " .. match3
-    end
   else
     return "Auto PB"
-  end
-  do return value.label end
-end
+  return value.label
 
 function proto_3062(...)
   local v6, v35, v39, v68, v88, value
@@ -157064,7 +154494,6 @@ function proto_3169(a1, a2, a3, ...)
           return true
         else
           return false
-        end
       end
     else
       local loadModule2 = builderSaveManager.LoadModule(match2)
@@ -157078,7 +154507,6 @@ function proto_3169(a1, a2, a3, ...)
         return true
       else
         return false
-      end
     end
   else
     if a3 then
@@ -157094,7 +154522,6 @@ function proto_3169(a1, a2, a3, ...)
         return unpack(v323)
       else
         return false
-      end
     else
       local config = farmBuilder.GetConfig()
       if not (config.name == match4) then
@@ -157104,7 +154531,6 @@ function proto_3169(a1, a2, a3, ...)
         local set = farmControl.Set("FarmBuilder", false)
         appendn(v371, set)
         return unpack(v371)
-      end
     end
   end
 end
@@ -157134,7 +154560,6 @@ function proto_3214(a1, ...)
             continue
           else
             return value.id
-          end
         end
       end
       local v9 = {}
@@ -157148,17 +154573,13 @@ function proto_3214(a1, ...)
         if not match4 then
         else
           return "PBModule:" .. match4
-        end
       else
         return "Route:" .. match3
-      end
     end
   else
     return "AutoPB"
-  end
   return value.id
   return value.id
-end
 
 function proto_3482(...)
   local v5, v7, v8, v16, v27, v37, value, v54, v76, v77, value2, key
@@ -157342,7 +154763,6 @@ function proto_3555(...)
     v118[#v118 + 1] = "Auto PB Module: " .. value
   end
   return v118
-end
 
 function proto_3824(a1, ...)
   local v24, v63, gsub3, v86, v88
@@ -157368,7 +154788,6 @@ function proto_3824(a1, ...)
     return gsub3
   else
     return nil
-  end
 end
 
 function fn_Callback_3966(value, ...)
@@ -157503,7 +154922,6 @@ function proto_4417(...)
         v83[1] = v316
         v83.n = 1
         return unpack(v83)
-      end
       local v83 = {}
       v83[1] = v316
       v83.n = 1
@@ -157514,14 +154932,12 @@ function proto_4417(...)
       v158[1] = v155
       v158.n = 1
       return unpack(v158)
-    end
   else
     local v60 = {}
     local v324 = {}
     v60[1] = v324
     v60.n = 1
     return unpack(v60)
-  end
 end
 
 function fn_Func_4569(...)
@@ -157594,26 +155010,23 @@ function fn_Func_4569(...)
         local notify3 = up6:Notify("That tab name already exists.")
         appendn(v72, notify3)
         return unpack(v72)
-      end
     else
       local v421 = {}
       local notify2 = up6:Notify("Enter a valid icon name.")
       appendn(v421, notify2)
       return unpack(v421)
-    end
   else
     local v47 = {}
     local notify = up6:Notify("Select a tab and enter a short name.")
     appendn(v47, notify)
     return unpack(v47)
-  end
   up5[value2] = nil
   local removed = table.remove(up9, count2)
   count2 = count
   v122 = v271
   local v348 = up10(value)
   local v419 = up12()
-  do return end
+  return
   v280 = up5[value2]
   local hide = v280:Hide()
   v49 = 1
@@ -157682,17 +155095,14 @@ function proto_4676(...)
           continue
         else
           return value, v48, value.controls[v48]
-        end
       end
     end
     local v55 = {}
     return
   else
     return nil
-  end
   return value, v48, value.controls[v48]
   return value, v48, value.controls[v48]
-end
 
 function proto_4765(...)
   local v6, v8, v96, v114, value, v133
@@ -157756,7 +155166,6 @@ function fn_Func_4959(...)
     local notify = up6:Notify("Select a control, name, and action.")
     appendn(v30, notify)
     return unpack(v30)
-  end
 end
 function fn_Build_257(a1, a2, a3, ...)
   local addGroupbox2, addDependencyBox2, addLabelCell, addGroupbox3, addGroupbox9, v419, addToggle6, addGroupbox10, addGroupbox11, addDependencyBox6, v862, addGroupbox13
@@ -158125,7 +155534,6 @@ function proto_663(...)
   local text = string.format("pcall(function() game:GetService(\"TeleportService\"):TeleportToPlaceInstance(%d, \"%s\") end)", game.PlaceId, game.JobId)
   appendn(v11, text)
   return unpack(v11)
-end
 
 function fn_Callback_798(value, ...)
   local v3 = up1("bring", value)
@@ -158258,7 +155666,6 @@ function proto_3063(...)
   v36 = v36(v37, str, v39, str2, v41, count, maxPlayers, v59)
   appendn(v32, v36)
   return unpack(v32)
-end
 
 function proto_3065(list, a2, ...)
   local key, v65, v68, v81, v85, value, v141
@@ -158359,7 +155766,6 @@ function fn_ExtrasTab_3204(import, a2, a3, a4, ...)
   v112[14] = v66
   v31.Build = fn_Build_257
   return v31
-end
 
 function fn_Callback_3251(value, ...)
   local setRange = mobControl.SetRange("ai", value)
@@ -158411,7 +155817,6 @@ function fn_Func_3860(...)
     local notify = up1:Notify("No private server code is available.")
     appendn(v31, notify)
     return unpack(v31)
-  end
 end
 
 function fn_Callback_4002(value, ...)
@@ -158603,7 +156008,6 @@ function fn_Func_555(...)
     local notify = up3:Notify("Stop the farm or remove a step first.")
     appendn(v81, notify)
     return unpack(v81)
-  end
 end
 
 function proto_751(a1, a2, ...)
@@ -158624,7 +156028,6 @@ function proto_751(a1, a2, ...)
   v6 = v6(v7, v8, kind, v23)
   appendn(v19, v6)
   return unpack(v19)
-end
 
 function fn_Callback_781(value, ...)
   up1.timeout = value
@@ -158663,7 +156066,6 @@ function proto_812(...)
   v25[1] = v15
   v25.n = 1
   return unpack(v25)
-end
 
 function fn_Callback_951(value, ...)
   local num = tonumber(value)
@@ -158770,7 +156172,6 @@ function proto_1495(...)
   end
   local v74 = table.sort(v57)
   return v57
-end
 
 function fn_Callback_1597(value, ...)
   up1.retryDelay = value
@@ -158824,7 +156225,6 @@ function proto_2324(...)
     return unpack(v5)
   else
     return nil
-  end
 end
 
 function fn_Callback_2335(value, ...)
@@ -158881,7 +156281,6 @@ function fn_Func_2370(...)
     local notify = up2:Notify("Character root unavailable.")
     appendn(v17, notify)
     return unpack(v17)
-  end
 end
 
 function fn_Callback_2461(value, ...)
@@ -158920,13 +156319,11 @@ function fn_Func_2567(...)
       local notify2 = up3:Notify("Character root unavailable.")
       appendn(v103, notify2)
       return unpack(v103)
-    end
   else
     local v95 = {}
     local notify = up3:Notify("Stop the farm or remove a step first.")
     appendn(v95, notify)
     return unpack(v95)
-  end
 end
 
 function fn_Func_2604(...)
@@ -159583,7 +156980,6 @@ function fn_FarmBuilderTab_4444(import, a2, a3, a4, ...)
   v24[5] = farmUtilCell
   v33.Build = fn_Build_2788
   return v33
-end
 
 function fn_Func_4875(...)
   local setValue5, v51, v57
@@ -159610,7 +157006,6 @@ function fn_Func_4875(...)
     local notify = up3:Notify("Select a saved farm first.")
     appendn(v108, notify)
     return unpack(v108)
-  end
 end
 
 function fn_Func_4934(...)
@@ -159760,7 +157155,6 @@ function fn_SetEnabled_243(a1, ...)
   local v162 = up5(unpack(v71))
   appendn(v63, v162)
   return unpack(v63)
-end
 
 function proto_245(a1, ...)
   local str = tostring(a1)
@@ -160173,7 +157567,6 @@ function fn_FarmsTab_1275(list, a2, a3, a4, ...)
   v585[34] = v377
   v696.Build = fn_Build_3856
   return v696
-end
 
 function proto_1278(a1, ...)
   local str = tostring(a1)
@@ -160234,7 +157627,6 @@ function proto_1310(a1, ...)
   v13[1] = v6
   v13.n = 1
   return unpack(v13)
-end
 
 function proto_1346(a1, ...)
   local str = tostring(a1)
@@ -160711,12 +158103,10 @@ function proto_2552(a1, ...)
     v32[1] = v10
     v32.n = 1
     return unpack(v32)
-  end
   local v32 = {}
   v32[1] = v10
   v32.n = 1
   return unpack(v32)
-end
 
 function fn_Callback_2553(value, ...)
   local ok = xpcall(autoBosses.SetMihawk, proto_2909, value)
@@ -160955,7 +158345,6 @@ function fn_Callback_3443(value2, ...)
       local v14 = up3(unpack(v70))
       appendn(v75, v14)
       return unpack(v75)
-    end
   end
   local v75 = {}
   local v70 = {}
@@ -160965,7 +158354,6 @@ function fn_Callback_3443(value2, ...)
   local v14 = up3(unpack(v70))
   appendn(v75, v14)
   return unpack(v75)
-end
 
 function fn_Callback_3457(value, ...)
   local setAutoQuest = autoFactory.SetAutoQuest(value)
@@ -163416,12 +160804,10 @@ function proto_5005(a1, ...)
     v292[1] = v130
     v292.n = 1
     return unpack(v292)
-  end
   local v292 = {}
   v292[1] = v130
   v292.n = 1
   return unpack(v292)
-end
 
 function proto_5135(a1, ...)
   local str = tostring(a1)
@@ -163976,7 +161362,6 @@ end
 
 function fn_TextColor3_3991(...)
   return colour
-end
 
 function fn_Func_4087(...)
   local v31
@@ -164135,7 +161520,6 @@ function fn_MiscTab_4306(import, a2, a3, a4, ...)
   v58[9] = travelSpawnCell
   v145.Build = fn_Build_2055
   return v145
-end
 
 function proto_4344(a1, ...)
   local v3 = up1("AutoAds", a1)
@@ -165092,7 +162476,6 @@ function proto_1233(...)
       return unpack(v126)
     else
       return Vector3.zero
-    end
   else
     local v25 = up2()
     v84 = v25
@@ -165114,7 +162497,6 @@ function proto_1233(...)
     v94[1] = zero
     v94.n = 1
     return unpack(v94)
-  end
 end
 
 function fn_on_WindowFocusReleased_1283(...)
@@ -165154,7 +162536,6 @@ function proto_1314(...)
   v16[1] = char
   v16.n = 1
   return unpack(v16)
-end
 
 function fn_Callback_1355(value, ...)
   up1 = value
@@ -165237,10 +162618,8 @@ function proto_1397(a1, ...)
       return v33 * a1
     else
       return Vector3.zero
-    end
   else
     return Vector3.zero
-  end
 end
 
 function fn_Callback_1520(value, ...)
@@ -165313,7 +162692,6 @@ end
 
 function fn_ANTI_DETECTION_1779(...)
   return up1
-end
 
 function proto_1805(a1, a2, input, ...)
   local v66
@@ -165334,7 +162712,6 @@ function proto_1805(a1, a2, input, ...)
     up1.W = v66
   end
   return Enum.ContextActionResult.Pass
-end
 
 function fn_Callback_1856(value, ...)
   local v4 = tweenToNPC.SetSticky(value == "Sticky")
@@ -165351,7 +162728,6 @@ function proto_1898(part, ...)
   bodyVelocity2.P = 10000
   bodyVelocity2.Parent = part
   return bodyVelocity2
-end
 
 function fn_Callback_2009(value, ...)
   local setDashStyle = noDashCooldown.SetDashStyle(value)
@@ -166145,7 +163521,6 @@ function fn_MovementTab_4856(list, a2, a3, a4, ...)
   v54[22] = tweenFlightCell
   v81.Build = fn_Build_282
   return v81
-end
 
 function proto_4885(a1, ...)
   local v3 = up1("TweenToNPC Lock Y", a1)
@@ -166254,7 +163629,6 @@ function fn_PVPTab_1650(import, a2, a3, a4, ...)
   v60[4] = tweenToPlayerCell
   v20.Build = fn_Build_3568
   return v20
-end
 
 function fn_Callback_1842(value, ...)
   local v45 = tweenToPlayer.SetSticky(value == "Sticky")
@@ -166537,7 +163911,6 @@ end
 
 function fn_Get_185(a1, ...)
   return a1.Titles
-end
 
 function proto_253(a1, ...)
   local v23 = warn("[StarLit/StatInvest]", a1)
@@ -166545,30 +163918,24 @@ end
 
 function fn_Get_345(a1, ...)
   return a1.DungeonPoints
-end
 
 function fn_Get_374(a1, ...)
   return a1.Grips
-end
 
 function fn_Get_388(...)
   local v1 = {}
   local crewsInServer = playerData.GetCrewsInServer()
   appendn(v1, crewsInServer)
   return unpack(v1)
-end
 
 function fn_Get_577(a1, ...)
   return a1.Settings
-end
 
 function fn_Get_579(a1, ...)
   return a1.Trading
-end
 
 function fn_Get_643(a1, ...)
   return a1.SulongQuest
-end
 
 function fn_Get_664(...)
   local v4, key, v30, v31, v34, v35, v39, v49, v61, v63, v71
@@ -166613,20 +163980,16 @@ function fn_Get_664(...)
     v24[1] = v35
     v24.n = 1
     return unpack(v24)
-  end
   local v24 = {}
   v24[1] = v35
   v24.n = 1
   return unpack(v24)
-end
 
 function fn_Get_772(a1, ...)
   return a1.SpawnPoints
-end
 
 function fn_Get_1029(a1, ...)
   return a1.ResourceBars
-end
 
 function proto_1318(a1, ...)
   local v20 = warn("FightingStyles", a1)
@@ -166638,27 +164001,21 @@ end
 
 function fn_Get_1596(a1, ...)
   return a1.Products
-end
 
 function fn_Get_1613(a1, ...)
   return a1.Customization
-end
 
 function fn_Get_1677(a1, ...)
   return a1.Boosts
-end
 
 function fn_Get_1705(a1, ...)
   return a1.TitleProgress
-end
 
 function fn_Get_1758(a1, ...)
   return a1.FruitsAwakened
-end
 
 function fn_Get_1876(a1, ...)
   return a1.Skills
-end
 
 function proto_2289(...)
   local ok = pcall(statInvest.SetAuto, false)
@@ -166714,14 +164071,12 @@ function proto_2291(vec, ...)
         local joined = table.concat(vec, ", ")
         appendn(v110, joined)
         return unpack(v110)
-      end
     end
   else
     local v55 = {}
     local text = string.format("%.1f, %.1f, %.1f", vec.X, vec.Y, vec.Z)
     appendn(v55, text)
     return unpack(v55)
-  end
 end
 
 function fn_Build_2379(a1, a2, a3, ...)
@@ -166937,7 +164292,6 @@ end
 
 function fn_Get_2407(a1, ...)
   return a1.MobileButtonPositions
-end
 
 function proto_2443(a1, ...)
   local v26, v27, v29, v37, v107
@@ -166964,19 +164318,15 @@ end
 
 function fn_Get_2566(a1, ...)
   return a1.Stats
-end
 
 function fn_Get_2573(a1, ...)
   return a1.Emotes
-end
 
 function fn_Get_2589(a1, ...)
   return a1.Inventory
-end
 
 function fn_Get_2595(a1, ...)
   return a1.MasteryPercents
-end
 
 function fn_Get_2713(a1, ...)
   local v6, value, v15, v45, v46, gamepasses, v59, key, v67, v80
@@ -167012,22 +164362,18 @@ function fn_Get_2713(a1, ...)
     v22[1] = v75
     v22.n = 1
     return unpack(v22)
-  end
   local v22 = {}
   local v75 = {}
   v75["Owned"] = v45
   v22[1] = v75
   v22.n = 1
   return unpack(v22)
-end
 
 function fn_Get_2811(a1, ...)
   return a1.Other
-end
 
 function fn_Get_3021(a1, ...)
   return a1.AFKRewards
-end
 
 function fn_Get_3152(a1, ...)
   local v2 = {}
@@ -167036,15 +164382,12 @@ function fn_Get_3152(a1, ...)
   v2[1] = v4
   v2.n = 1
   return unpack(v2)
-end
 
 function fn_Get_3318(a1, ...)
   return a1.GlobalCooldowns
-end
 
 function fn_Get_3329(a1, ...)
   return a1.Quest
-end
 
 function fn_StatsTab_3378(import, a2, a3, a4, ...)
   local players = game:GetService("Players")
@@ -167273,7 +164616,6 @@ function fn_StatsTab_3378(import, a2, a3, a4, ...)
   v160[8] = playerDataCell
   v300.Build = fn_Build_2379
   return v300
-end
 
 function fn_Callback_3441(value, ...)
   localPlayer = value
@@ -167291,7 +164633,6 @@ function fn_Get_3658(a1, ...)
   v7[1] = v2
   v7.n = 1
   return unpack(v7)
-end
 
 function proto_3686(...)
   up1 = up1 + 1
@@ -167299,7 +164640,6 @@ function proto_3686(...)
     return up2[up1], up3[up2[up1]]
   else
     return nil
-  end
 end
 
 function fn_Get_3700(player, ...)
@@ -167311,11 +164651,9 @@ function fn_Get_3700(player, ...)
   v7[1] = v9
   v7.n = 1
   return unpack(v7)
-end
 
 function fn_Get_3793(a1, ...)
   return a1.InventoryMeta
-end
 
 function proto_4241(...)
   local destroy = up1:Destroy()
@@ -167515,7 +164853,6 @@ function proto_4680(a1, a2, ...)
   v13[1] = lower < lower2
   v13.n = 1
   return unpack(v13)
-end
 
 function fn_on_PlayerRemoving_4777(player, ...)
   if player == localPlayer then
@@ -167530,7 +164867,6 @@ end
 
 function fn_Get_4847(player, ...)
   return player.Character
-end
 
 function fn_Callback_4938(value, ...)
   local v83
@@ -167549,7 +164885,6 @@ function fn_Get_4962(a1, ...)
   v5[1] = v3
   v5.n = 1
   return unpack(v5)
-end
 
 function proto_5079(list, ...)
   local v43, v81, v86, v90, v113, v128
@@ -167580,7 +164915,6 @@ function proto_5079(list, ...)
   v114[1] = proto_3686
   v114.n = 1
   return unpack(v114)
-end
 function fn_Callback_50(value, ...)
   local match, v32, v39, v49, v52, v86
   local v89 = {}
@@ -167959,7 +165293,6 @@ function fn_VisualsTab_1847(import, a2, a3, a4, ...)
   v99[13] = optimizerCell
   v148.Build = fn_Build_3587
   return v148
-end
 
 function fn_Callback_1965(value, ...)
   local setTickRate = esp.SetTickRate(value)
@@ -168916,7 +166249,6 @@ function fn_Filter_4551(a1, ...)
   v4[1] = not playerFromCharacter
   v4.n = 1
   return unpack(v4)
-end
 function fn_Load_theme_1825(...)
   local value
   value = addDropdown3.Value
@@ -169128,7 +166460,6 @@ end
 
 function proto_2980(...)
   return true
-end
 
 function fn_Overwrite_theme_3671(...)
   local value
@@ -169169,7 +166500,6 @@ function fn_Refresh_List_2656(...)
 end
 function proto_586(...)
   return true
-end
 
 function proto_2399(...)
   local v39
@@ -169315,7 +166645,6 @@ end
 
 function proto_3081(a1, a2, ...)
   return a2.totalMs < a1.totalMs
-end
 function fn_StarLit_LiveUI_4559(...)
   local v2
   v2 = nil2
@@ -169443,12 +166772,9 @@ function proto_288(...)
       return false
     else
       return false
-    end
   else
     return true
-  end
-  do return true end
-end
+  return true
 
 function proto_365(...)
   local v1, ok, localPlayer, v40, v55, v67, ok3, v105
@@ -169485,7 +166811,6 @@ function proto_365(...)
     v40[#v40 + 1] = v67
   end
   return v40
-end
 
 function proto_403(...)
   local v2 = up1()
@@ -169598,12 +166923,10 @@ function proto_808(...)
       return unpack(v42)
     else
       return false
-    end
   else
     return false
-  end
   up2["script_" .. value] = true
-  do return true end
+  return true
   local v170 = up3("SpyScript:" .. value, "low")
 end
 
@@ -170011,7 +167334,6 @@ function fn_AntiRemoteSpy_914(import, a2, a3, a4, ...)
   v363[1].stop = fn_stop_4275
   local register = unloadCell[1].register("AntiRemoteSpy", v363[1].stop)
   return v363[1]
-end
 
 function fn_AntiRemoteSpy_Walk_1265(...)
   local now = os.clock()
@@ -170169,11 +167491,10 @@ function proto_1469(a1, a2, ...)
       end
     end
   end
-  do return false end
-  do return true end
-  do return true end
+  return false
   return true
-end
+  return true
+  return true
 
 function proto_1510(...)
   local v1, v4, v10, v11, v18, v36, v39, v44, v47, v55, v60
@@ -170218,7 +167539,6 @@ function proto_1510(...)
   v39[1] = v18
   v39.n = 1
   return unpack(v39)
-end
 
 function fn_scanOnce_1645(...)
   if not (_G.__rt_mode == "DEV") then
@@ -170234,7 +167554,6 @@ function fn_scanOnce_1645(...)
     local getDiagnostics = up1.getDiagnostics()
     appendn(v22, getDiagnostics)
     return unpack(v22)
-  end
 end
 
 function proto_1675(...)
@@ -170377,7 +167696,7 @@ function proto_2545(a1, a2, ...)
     break
   end
   up2 = v223
-  do return v116 end
+  return v116
   v223 = 0
 end
 
@@ -170405,11 +167724,9 @@ function proto_2692(a1, ...)
         return unpack(v36)
       else
         return true
-      end
     end
   else
     return false
-  end
 end
 
 function fn_getDiagnostics_3077(...)
@@ -170422,7 +167739,6 @@ function fn_getDiagnostics_3077(...)
   v10[1] = v11
   v10.n = 1
   return unpack(v10)
-end
 
 function proto_3086(...)
   local v8, v27, v59, v71, localPlayer, v127
@@ -170546,7 +167862,6 @@ function proto_3511(...)
     return true
   else
     return false
-  end
   return false
   up2[v115] = true
   local v50 = {}
@@ -170556,18 +167871,17 @@ function proto_3511(...)
   v78 = v50[2]
   v75 = v50[3]
   v25, v78, v75 = iter(v25)
-  do return true end
+  return true
   v94 = not (v84[value] == nil)
   value = v65[2]
   v115 = "genv_" .. value
   v65 = v25
   v65 = v65(v78, v75)
   v75 = v65
-  if not v65 then return false end
+  if not v65 then return false
   local v104 = up3("SpyGlobal:" .. value, "low")
   v94 = not up2[v115]
   return false
-end
 
 function proto_3524(a1, a2, ...)
   local v11, v12, starlit_ActiveConnection, v35, reportUnauthorizedTool, starlit_ActiveConnection2, v38, v40, v47, starlit_ActiveConnection3, v56, v58
@@ -170605,7 +167919,6 @@ function proto_3524(a1, a2, ...)
     v12[1] = v11
     v12.n = 1
     return unpack(v12)
-  end
 end
 
 function fn_start_3542(...)
@@ -170768,7 +168081,6 @@ function proto_4007(a1, a2, a3, ...)
     local v282 = up6()
   end
   return v244
-end
 
 function proto_4260(...)
   local v56, v60
@@ -170840,7 +168152,6 @@ function proto_4273(...)
               continue
             else
               return true, key
-            end
           end
         end
       end
@@ -170850,13 +168161,10 @@ function proto_4273(...)
       return unpack(v4)
     else
       return false
-    end
   else
     return false
-  end
   return true, key
   return true, key
-end
 
 function fn_stop_4275(...)
   local v13, v83, value, v99, key, v127
@@ -170893,7 +168201,6 @@ function proto_4287(...)
   local new = Instance.new(up1[2])
   local destroy = new:Destroy()
   return new[up1[3]]
-end
 
 function proto_4811(...)
   local v4, v49, v80, v86, v108, ok2, v130, v136, v142
@@ -170936,13 +168243,10 @@ function proto_4811(...)
           end
         end
         return true
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_4855(...)
@@ -170950,7 +168254,6 @@ function proto_4855(...)
   local connect = up1.DescendantAdded:Connect(up2)
   appendn(v1, connect)
   return unpack(v1)
-end
 
 function proto_4912(...)
   local v2 = up1()
@@ -171121,7 +168424,6 @@ function fn_ClickButton_891(list, a2, ...)
             continue
           else
             return true
-          end
         end
       end
       local v70 = {}
@@ -171130,13 +168432,10 @@ function fn_ClickButton_891(list, a2, ...)
       return unpack(v70)
     else
       return false
-    end
   else
     return false
-  end
   return true
   return true
-end
 
 function fn_Cached_1671(a1, a2, a3, ...)
   local timed, v37, v44, has, v66, v73, v96, has2, timed3, v264
@@ -171200,7 +168499,6 @@ function fn_Cached_1671(a1, a2, a3, ...)
     return timed3, v96
   else
     return true, v37.result
-  end
 end
 
 function proto_1736(...)
@@ -171251,10 +168549,8 @@ function fn_NewCClosure_2126(a1, ...)
       return a1
     else
       return v12
-    end
   else
     return a1
-  end
 end
 
 function fn_FireSignal_2430(a1, ...)
@@ -171312,7 +168608,6 @@ function fn_FireSignal_2430(a1, ...)
             v53[1] = v63
             v53.n = 1
             return unpack(v53)
-          end
         else
           local v222 = {}
           v222[1] = firesignal
@@ -171331,7 +168626,6 @@ function fn_FireSignal_2430(a1, ...)
             v53[1] = v63
             v53.n = 1
             return unpack(v53)
-          end
         end
       else
         v223 = false
@@ -171405,21 +168699,17 @@ function fn_FireSignal_2430(a1, ...)
           v131[1] = v223
           v131.n = 1
           return unpack(v131)
-        end
         local v131 = {}
         v131[1] = v223
         v131.n = 1
         return unpack(v131)
-      end
     end
   else
     return false
-  end
 end
 
 function proto_2466(...)
   return up1.Fire
-end
 
 function fn_Compat_2488(...)
   local v7, v92, v104, v154, key, v205
@@ -171464,7 +168754,6 @@ end
 
 function proto_2529(...)
   return up1.Enabled
-end
 
 function fn_Request_2815(list, a2, a3, ...)
   local v8, v43, v89, trueCell2, trueCell3, trueCell, thread2, v154, v164, v181, v298, v314
@@ -171522,10 +168811,8 @@ function fn_Request_2815(list, a2, a3, ...)
       return v181[1], v298[1]
     else
       return false, "HTTP requests are not supported"
-    end
   else
     return false, "Execution unloaded"
-  end
 end
 
 function fn_Timed_3135(a1, a2, ...)
@@ -171592,11 +168879,9 @@ function fn_Timed_3135(a1, a2, ...)
             return false, nil, false
           else
             return true, v244.result, false
-          end
         end
       else
         return false, nil, false
-      end
     else
       local v78 = {}
       v78[1] = a2
@@ -171604,10 +168889,8 @@ function fn_Timed_3135(a1, a2, ...)
       appendn(v78, v87)
       local ok2 = pcall(unpack(v78))
       return ok2, ok2[2], true
-    end
   else
     return false, nil, false
-  end
 end
 
 function proto_3227(a1, ...)
@@ -171639,9 +168922,8 @@ function proto_3227(a1, ...)
     end
   end
   local v38 = {}
-  do return end
-  do return v15, v68 end
-end
+  return
+  return v15, v68
 
 function proto_3857(a1, ...)
   local v35
@@ -171662,10 +168944,8 @@ function proto_3857(a1, ...)
       return v35
     else
       return nil
-    end
   else
     return v35
-  end
 end
 
 function proto_3876(...)
@@ -171673,7 +168953,6 @@ function proto_3876(...)
   local isA = up1:IsA("GuiButton")
   appendn(v1, isA)
   return unpack(v1)
-end
 
 function fn_AddNamecall_4246(a1, a2, ...)
   local ok2, v70, v78, v101, v107, v111, v118, v122, v126, v146, v149, v165
@@ -171743,11 +169022,9 @@ function fn_AddNamecall_4246(a1, a2, ...)
         return unpack(v27)
       else
         return false
-      end
     end
   else
     return false
-  end
 end
 
 function proto_4277(...)
@@ -171762,7 +169039,6 @@ end
 
 function proto_4354(...)
   return up1.Function
-end
 
 function proto_4356(list, ...)
   local v47
@@ -171784,7 +169060,6 @@ end
 
 function proto_4459(...)
   return up1[up2]
-end
 
 function fn_Compat_4479(import, a2, a3, a4, ...)
   local trueCell, newcclosureCell, v111, v117, v151, v167, v188, v201, v206, getnamecallmethodCell, unload2, v232
@@ -171923,7 +169198,6 @@ function fn_Compat_4479(import, a2, a3, a4, ...)
   v89[9] = v201
   local register = unload2.register("Compat", fn_Compat_2488)
   return v302[1]
-end
 
 function proto_5063(a1, ...)
   local v8, v11
@@ -171951,10 +169225,8 @@ function proto_5063(a1, ...)
           local v61 = up2(unpack(v35))
           appendn(v59, v61)
           return unpack(v59)
-        end
       else
         return v11
-      end
     end
   else
     local v10 = {}
@@ -171965,7 +169237,6 @@ function proto_5063(a1, ...)
     local v29 = up2(unpack(v58))
     appendn(v10, v29)
     return unpack(v10)
-  end
 end
 function fn_MakeBoxSet_131(a1, a2, a3, ...)
   local colour2, v126, drawing
@@ -172038,7 +169309,6 @@ function fn_MakeBoxSet_131(a1, a2, a3, ...)
   v16[1] = v89
   v16.n = 1
   return unpack(v16)
-end
 
 function fn_WorldToScreen_209(a1, a2, ...)
   local v48, worldToViewportPoint2
@@ -172057,7 +169327,6 @@ function fn_WorldToScreen_209(a1, a2, ...)
     v12[2] = true
     v12.n = 2
     return unpack(v12)
-  end
 end
 
 function fn_PartBox_250(a1, part, ...)
@@ -172109,7 +169378,6 @@ function fn_PartBox_250(a1, part, ...)
     return v97, v36, v85 - v97, v83 - v36
   else
     return nil
-  end
 end
 
 function fn_ESP_441(a1, a2, a3, a4, ...)
@@ -172189,7 +169457,6 @@ function fn_ESP_441(a1, a2, a3, a4, ...)
   v173[1] = v47
   v75[1].HideSet = fn_HideSet_583
   return v75[1]
-end
 
 function fn___newindex_553(...)
 end
@@ -172267,10 +169534,8 @@ function fn_CharacterBox_3321(a1, inst, ...)
       return unpack(v20)
     else
       return nil
-    end
   else
     return nil
-  end
 end
 
 function proto_3615(a1, ...)
@@ -172278,7 +169543,6 @@ function proto_3615(a1, ...)
   local new = Drawing.new(a1)
   appendn(v8, new)
   return unpack(v8)
-end
 
 function fn_D_4349(a1, a2, a3, ...)
   local v16, v21, v23, v27, v31, v34, v35, v49, v50
@@ -172313,14 +169577,12 @@ function fn_D_4349(a1, a2, a3, ...)
       local giveTask = a1:GiveTask(v35)
       appendn(v36, giveTask)
       return unpack(v36)
-    end
     local v36 = {}
     local giveTask = a1:GiveTask(v35)
     appendn(v36, giveTask)
     return unpack(v36)
   else
     return up2
-  end
 end
 
 function proto_4586(a1, a2, a3, ...)
@@ -172348,10 +169610,8 @@ function fn_ModelBox_4989(a1, a2, ...)
       return unpack(v69)
     else
       return nil
-    end
   else
     return characterBox2, v4, v10, v94
-  end
 end
 function fn_Remove_19(a1, a2, ...)
   a1._dict[a2] = nil
@@ -172359,7 +169619,6 @@ function fn_Remove_19(a1, a2, ...)
   local remove = a1._maid:Remove(a2)
   appendn(v3, remove)
   return unpack(v3)
-end
 
 function fn___newindex_867(a1, a2, a3, ...)
   local giveTask = a1._maid:GiveTask(a3, a2)
@@ -172369,7 +169628,6 @@ end
 function fn_mark_2576(a1, a2, ...)
   local giveTask = a1._maid:GiveTask(a2)
   return a2
-end
 
 function fn_GiveTask_2630(a1, a2, a3, ...)
   if a3 then
@@ -172379,7 +169637,6 @@ function fn_GiveTask_2630(a1, a2, a3, ...)
   local giveTask = a1._maid:GiveTask(a2, a3)
   appendn(v14, giveTask)
   return unpack(v14)
-end
 
 function fn___index_2890(a1, a2, ...)
   local v19
@@ -172392,7 +169649,6 @@ function fn___index_2890(a1, a2, ...)
     return unpack(v38)
   else
     return v19
-  end
 end
 
 function fn_new_3180(...)
@@ -172409,7 +169665,6 @@ function fn_new_3180(...)
   local v9 = {}
   local v37 = rawset(v24, "_dict", v9)
   return v24
-end
 
 function fn_clean_3873(a1, ...)
   local destroy = a1._maid:Destroy()
@@ -172441,7 +169696,6 @@ function fn_CompatMaid_4577(import, a2, a3, a4, ...)
   v159[1].Remove = fn_Remove_19
   v159[1].Destroy = fn_Destroy_3900
   return v159[1]
-end
 function fn_idToggleValue_217(a1, a2, ...)
   local v32, v43, v57
   v43 = up1[a1]
@@ -172454,7 +169708,6 @@ function fn_idToggleValue_217(a1, a2, ...)
     return v57
   else
     return false
-  end
 end
 
 function fn_idOptionValue_242(a1, a2, ...)
@@ -172469,7 +169722,6 @@ function fn_idOptionValue_242(a1, a2, ...)
     return v13
   else
     return up2[a2]
-  end
 end
 
 function proto_385(a1, ...)
@@ -172489,7 +169741,6 @@ function fn_idColorValue_433(a1, ...)
     local v13 = Color3.fromHSV((now * 0.15) % 1, 1, 1)
     appendn(v29, v13)
     return unpack(v29)
-  end
 end
 
 function proto_794(a1, a2, ...)
@@ -172501,11 +169752,9 @@ function proto_794(a1, a2, ...)
     a1[a2] = v15
   end
   return v15
-end
 
 function fn_espLevel_869(...)
   return level
-end
 
 function fn_expectToggleValue_975(a1, ...)
   local v6, v7
@@ -172517,11 +169766,9 @@ function fn_expectToggleValue_975(a1, ...)
   v7[1] = v6
   v7.n = 1
   return unpack(v7)
-end
 
 function fn_expectOptionValue_1252(a1, ...)
   return up1[a1]
-end
 
 function proto_1317(...)
   if up1[up2] == up3 then
@@ -172699,7 +169946,6 @@ function fn_Configuration_1401(import, a2, a3, a4, ...)
   v226[4] = isLiteCell
   v339[1].espTickInterval = fn_espTickInterval_1514
   return v339[1]
-end
 
 function fn_espTickInterval_1514(...)
   local v13, v15, v45, v57
@@ -172721,7 +169967,6 @@ function fn_espTickInterval_1514(...)
   v46[1] = 1 / v47
   v46.n = 1
   return unpack(v46)
-end
 
 function fn_idOptionValues_1867(a1, a2, ...)
   local v6, v7, v10, v15
@@ -172739,11 +169984,9 @@ function fn_idOptionValues_1867(a1, a2, ...)
   v15[1] = v10
   v15.n = 1
   return unpack(v15)
-end
 
 function fn_espLimits_2357(...)
   return up1[level]
-end
 
 function fn_isBlacklisted_2771(a1, ...)
   local v12, lower2, v64, value, v89, v94, v97, key, espGlobalBlacklist
@@ -172789,15 +170032,12 @@ function fn_isBlacklisted_2771(a1, ...)
       return true
     else
       return false
-    end
   else
     return false
-  end
   local v115 = {}
   v115[1] = false
   v115.n = 1
   return unpack(v115)
-end
 
 function fn_setIdOptionValues_2911(a1, a2, a3, ...)
   local v6 = up1(up2, a1)
@@ -172820,7 +170060,6 @@ function fn_idToggleValueDefault_4066(a1, a2, a3, ...)
     return v4
   else
     return a3
-  end
 end
 
 function fn_watchEnable_4088(list, list2, ...)
@@ -172835,7 +170074,6 @@ function fn_watchEnable_4088(list, list2, ...)
   v6[1] = proto_1317
   v6.n = 1
   return unpack(v6)
-end
 
 function fn_setIdOption_4120(a1, a2, a3, ...)
   local v6 = up1(up2, a1)
@@ -172848,7 +170086,6 @@ end
 
 function fn_isLite_4895(...)
   return isLite
-end
 
 function fn_setGlobalOption_5096(a1, a2, ...)
   up1[a1] = a2
@@ -172869,17 +170106,14 @@ function fn_compute_1683(a1, a2, a3, a4, a5, ...)
       return unpack(v26)
     else
       return a5
-    end
   else
     return 0
-  end
 end
 
 function fn_ESPFade_4594(a1, a2, a3, a4, ...)
   local v12 = {}
   v12.compute = fn_compute_1683
   return v12
-end
 function fn_gio_776(a1, a2, a3, ...)
   local uiStroke, v135, frame2
   v135 = -a3 * 2
@@ -172900,7 +170134,6 @@ function fn_gio_776(a1, a2, a3, ...)
   uiStroke.BorderStrokePosition = Enum.BorderStrokePosition.Inner
   uiStroke.Parent = frame2
   return frame2
-end
 
 function fn_visible_814(a1, a2, ...)
   if not (a1._lastEnabled == a2) then
@@ -173214,7 +170447,7 @@ function fn_update_907(list, a2, ...)
             camera2 = camera
           end
           if not camera then
-            do return end
+            return
           else
             local pointToObjectSpace = camera.CFrame:PointToObjectSpace(position)
             pointToObjectSpace2 = pointToObjectSpace
@@ -173240,21 +170473,19 @@ function fn_update_907(list, a2, ...)
                 v1221 = (v866 * v687) < v543
               end
               if not v1221 then
-                do return end
+                return
               else
                 list[1]._visSkip = now2 + 0.08
                 local v1213 = {}
                 local visible5 = list[1]:visible(false)
                 appendn(v1213, visible5)
                 return unpack(v1213)
-              end
             else
               list[1]._visSkip = now2 + 0.1
               local v277 = {}
               local visible4 = list[1]:visible(false)
               appendn(v277, visible4)
               return unpack(v277)
-            end
           end
         end
       else
@@ -173264,21 +170495,18 @@ function fn_update_907(list, a2, ...)
         local visible3 = list[1]:visible(false)
         appendn(v1794, visible3)
         return unpack(v1794)
-      end
     else
       list[1]._visSkip = now2 + 0.05
       local v1735 = {}
       local visible2 = list[1]:visible(false)
       appendn(v1735, visible2)
       return unpack(v1735)
-    end
   else
     list[1]._visSkip = now2 + 0.3
     local v1406 = {}
     local visible = list[1]:visible(false)
     appendn(v1406, visible)
     return unpack(v1406)
-  end
 end
 
 function fn_mbs_924(inst, a2, a3, ...)
@@ -173845,7 +171073,6 @@ function fn_find_1756(a1, a2, ...)
   v10[1] = v4
   v10.n = 1
   return unpack(v10)
-end
 
 function proto_1822(a1, ...)
   local tracer
@@ -173861,7 +171088,6 @@ function proto_1822(a1, ...)
     return tracer
   else
     return tracer
-  end
 end
 
 function fn_utext_1839(a1, a2, a3, ...)
@@ -174788,7 +172014,6 @@ function fn_espPosition_2354(a1, ...)
     return nil
   else
     return v6.Position
-  end
 end
 
 function proto_2374(a1, ...)
@@ -174926,7 +172151,6 @@ function fn_new_2506(a1, a2, a3, ...)
   local v12 = {}
   v184._fadeExtras = v12
   return v184
-end
 
 function proto_2691(a1, ...)
   local str = tostring(a1)
@@ -174993,7 +172217,6 @@ function fn_btext_2826(a1, a2, list, ...)
       v26[2] = #v28
       v26.n = 2
       return unpack(v26)
-    end
     local v26 = {}
     local joined = table.concat(v28, "\n")
     v26[1] = joined
@@ -175002,7 +172225,6 @@ function fn_btext_2826(a1, a2, list, ...)
     return unpack(v26)
   else
     return a2, 1
-  end
 end
 
 function fn_add_3006(a1, a2, a3, a4, a5, ...)
@@ -175026,11 +172248,9 @@ function fn_add_3006(a1, a2, a3, a4, a5, ...)
   end
   a1._elementByName[a2] = v26
   return frame2
-end
 
 function proto_3319(...)
   return 3
-end
 
 function fn_cgb_3360(a1, a2, a3, a4, a5, ...)
   local v118, v125, frame2, frame3, v693, v766, frame6, v941, uiStroke2, v1241, frame8
@@ -175412,13 +172632,10 @@ function fn_gb_4221(inst, ...)
         return bar
       else
         return nil
-      end
     else
       return nil
-    end
   else
     return v64
-  end
 end
 
 function fn_EntityESP_4423(list, a2, a3, a4, ...)
@@ -175555,7 +172772,6 @@ function fn_EntityESP_4423(list, a2, a3, a4, ...)
   v598[2] = compatMaidCell
   v533[1].new = fn_new_2506
   return v533[1]
-end
 
 function fn_extra_5085(a1, ...)
 end
@@ -175630,7 +172846,6 @@ function fn_PlayerSection_125(groupbox, a2, list, list2, ...)
     local addDivider = groupbox:AddDivider()
   end
   return newCell[1]
-end
 
 function proto_127(...)
   local detach = new:detach()
@@ -175778,8 +172993,7 @@ function proto_695(...)
   if up6 <= up2 then
     local disconnect = up7:Disconnect()
   end
-  do return end
-end
+  return end
 
 function proto_730(...)
   local v4 = {}
@@ -175887,7 +173101,6 @@ function fn_MobSection_1046(groupbox, a2, list, a4, list2, ...)
     local addDivider = groupbox:AddDivider()
   end
   return newCell[1], v198, v132
-end
 
 function proto_1117(groupbox, list, a3, ...)
   local addToggle, v7, v8, v10, v13, v16, addSlider, v30, v31, v41, v71, v92
@@ -176033,7 +173246,7 @@ function proto_2011(...)
       local deactivate = up7.deactivate()
     end
   end
-  do return end
+  return
   local removed = table.remove(up5, v8)
 end
 
@@ -176260,7 +173473,6 @@ function fn_GameESP_2861(import, a2, a3, a4, ...)
   v46[8] = v138
   v93[1].MobSection = fn_MobSection_1046
   return v93[1]
-end
 
 function proto_3157(a1, ...)
   local v12
@@ -176332,7 +173544,6 @@ function proto_3762(a1, ...)
   v48[1] = proto_730
   v48.n = 1
   return unpack(v48)
-end
 
 function proto_4004(a1, a2, a3, a4, a5, ...)
   a1 = { a1 }
@@ -176354,7 +173565,6 @@ function proto_4004(a1, a2, a3, a4, a5, ...)
   v26[2] = a3
   v26[3] = a5
   return proto_1141, proto_693
-end
 
 function proto_4071(...)
   local v13, v16, v110, v158, v181, v184
@@ -176550,7 +173760,6 @@ function fn_ModelSection_4829(a1, a2, list, a4, list2, ...)
     local v132 = up8(a1, list[1], list2[1])
   end
   return newCell[1], v130, v77
-end
 
 function proto_4861(inst, ...)
   local new, v17, label2, name, name2
@@ -176634,7 +173843,6 @@ function proto_5157(a1, a2, ...)
 end
 function proto_6(a1, ...)
   return a1
-end
 
 function fn_Group_304(import, a2, a3, a4, ...)
   local v14, v27, playersCell, v39, configurationCell, lastTimeCell, v127, referencedMapCell, v139, loggerCell, workspaceRefCell, v228
@@ -176700,7 +173908,6 @@ function fn_Group_304(import, a2, a3, a4, ...)
   v107[2] = v271
   v271[1].new = fn_new_354
   return v271[1]
-end
 
 function fn_new_354(a1, ...)
   local v121
@@ -176713,7 +173920,6 @@ function fn_new_354(a1, ...)
   v121.updated = true
   v121.identifier = a1
   return v121
-end
 
 function fn_update_1026(a1, ...)
   local v65, v71, count, v109, v111, v152, v178, data2, v206, v222, v229, v243
@@ -176823,7 +174029,6 @@ function fn_update_1026(a1, ...)
     local hide = a1:hide()
     appendn(v73, hide)
     return unpack(v73)
-  end
 end
 
 function proto_1433(a1, ...)
@@ -176831,7 +174036,6 @@ function proto_1433(a1, ...)
   local espPosition = a1:espPosition()
   appendn(v4, espPosition)
   return unpack(v4)
-end
 
 function fn_hide_1570(a1, ...)
   local v3, v10, v27, v35, value
@@ -176883,7 +174087,6 @@ function proto_2277(...)
     up3 = v66
   end
   return up3
-end
 
 function fn_detach_2646(a1, ...)
   local v4, v11, v17, v18, v27, v35, value, v57, v58
@@ -177079,7 +174282,6 @@ end
 
 function proto_4786(a1, ...)
   return a1
-end
 
 function fn_object_4957(a1, a2, ...)
   local v9, v10, v14, v22, v34, v57, v67
@@ -177157,7 +174359,6 @@ function proto_222(a1, ...)
     return tracer
   else
     return tracer
-  end
 end
 
 function fn_visible_1361(a1, a2, ...)
@@ -177237,7 +174438,6 @@ function fn_InstanceESP_2578(import, a2, a3, a4, ...)
   v143[2] = compatMaidCell
   v150[1].new = fn_new_2907
   return v150[1]
-end
 
 function fn_new_2907(a1, a2, a3, ...)
   local v85
@@ -177251,7 +174451,6 @@ function fn_new_2907(a1, a2, a3, ...)
   v85.maid = new
   local setup = v85:setup()
   return v85
-end
 
 function fn_update_3179(a1, vec, a3, ...)
   local v34, v63, v98, v132, label, v156, v169, v230, build, v251, char, v276
@@ -177528,14 +174727,12 @@ function fn_update_3179(a1, vec, a3, ...)
               local visible5 = a1:visible(false)
               appendn(v617, visible5)
               return unpack(v617)
-            end
           else
             a1._visSkip = now2 + 0.1
             local v786 = {}
             local visible4 = a1:visible(false)
             appendn(v786, visible4)
             return unpack(v786)
-          end
         end
       else
         local v299 = math.min(0.05 + ((v1280 - idOptionValue2) * 0.001), 0.5)
@@ -177544,21 +174741,18 @@ function fn_update_3179(a1, vec, a3, ...)
         local visible3 = a1:visible(false)
         appendn(v1203, visible3)
         return unpack(v1203)
-      end
     else
       a1._visSkip = now2 + 0.05
       local v938 = {}
       local visible2 = a1:visible(false)
       appendn(v938, visible2)
       return unpack(v938)
-    end
   else
     a1._visSkip = now2 + 0.3
     local v1018 = {}
     local visible = a1:visible(false)
     appendn(v1018, visible)
     return unpack(v1018)
-  end
 end
 
 function fn_detach_3424(a1, ...)
@@ -177581,7 +174775,6 @@ function proto_3788(a1, ...)
     return highlight
   else
     return highlight
-  end
 end
 
 function fn_build_4880(a1, a2, list, ...)
@@ -177642,14 +174835,12 @@ function fn_build_4880(a1, a2, list, ...)
       local joined = table.concat(v31, "\n")
       appendn(v125, joined)
       return unpack(v125)
-    end
     local v125 = {}
     local joined = table.concat(v31, "\n")
     appendn(v125, joined)
     return unpack(v125)
   else
     return a2
-  end
 end
 function fn_notify_1091(a1, ...)
 end
@@ -177676,7 +174867,6 @@ function fn_Logger_3471(a1, a2, a3, a4, ...)
   v58[1] = v86
   v9.longNotify = fn_longNotify_2121
   return v9
-end
 function fn_extra_530(list, ...)
   list = { list }
   local v12 = {}
@@ -177766,7 +174956,6 @@ function fn_update_1711(a1, ...)
     local visible = a1:visible(false)
     appendn(v164, visible)
     return unpack(v164)
-  end
 end
 
 function fn_new_4669(a1, a2, a3, ...)
@@ -177776,7 +174965,6 @@ function fn_new_4669(a1, a2, a3, ...)
   local build = v20:build()
   local update = v20:update()
   return v20
-end
 
 function fn_MobESP_4718(import, a2, a3, a4, ...)
   local entityESPCell, v45, v60, configurationCell, v144
@@ -177806,7 +174994,6 @@ function fn_MobESP_4718(import, a2, a3, a4, ...)
   v118[2] = v60
   v60[1].new = fn_new_4669
   return v60[1]
-end
 function fn_new_230(a1, inst, a3, ...)
   local v80
   local isA = inst:IsA("Model")
@@ -177830,7 +175017,6 @@ function fn_new_230(a1, inst, a3, ...)
     local v51 = error(unpack(v89))
     appendn(v166, v51)
     return unpack(v166)
-  end
 end
 
 function fn_update_361(a1, a2, ...)
@@ -177871,7 +175057,6 @@ function fn_update_361(a1, a2, ...)
     local visible = a1:visible(false)
     appendn(v39, visible)
     return unpack(v39)
-  end
 end
 
 function fn_detach_690(a1, ...)
@@ -177915,7 +175100,6 @@ function fn_ModelESP_4272(import, a2, a3, a4, ...)
   v33[1] = instanceESPCell
   v92[1].detach = fn_detach_690
   return v92[1]
-end
 
 function fn_espPosition_5158(a1, ...)
   local position, model, v100, v101, position2, v126
@@ -177945,7 +175129,6 @@ function fn_espPosition_5158(a1, ...)
     return unpack(v126)
   else
     return nil
-  end
 end
 function fn_update_1197(a1, a2, ...)
   local v15, part, update, v30, position
@@ -177967,7 +175150,6 @@ function fn_update_1197(a1, a2, ...)
     local visible = a1:visible(false)
     appendn(v20, visible)
     return unpack(v20)
-  end
 end
 
 function fn_espPosition_3031(a1, ...)
@@ -177977,7 +175159,6 @@ function fn_espPosition_3031(a1, ...)
     return nil
   else
     return part.Position
-  end
 end
 
 function fn_PartESP_4051(import, a2, a3, a4, ...)
@@ -178003,7 +175184,6 @@ function fn_PartESP_4051(import, a2, a3, a4, ...)
   v39[2] = v22
   v22[1].new = fn_new_4611
   return v22[1]
-end
 
 function fn_new_4611(a1, inst, a3, ...)
   local v79
@@ -178022,7 +175202,6 @@ function fn_new_4611(a1, inst, a3, ...)
     local v56 = error(unpack(v26))
     appendn(v25, v56)
     return unpack(v25)
-  end
 end
 function proto_460(a1, ...)
   local v35, v39, fruitContainer, v109, now2
@@ -178156,7 +175335,6 @@ function fn_new_1735(list, a2, a3, a4, a5, a6, ...)
   local build = v105:build()
   local update = v105:update(up5)
   return v105
-end
 
 function fn_PlayerESP_1957(import, a2, a3, a4, ...)
   local v33, entityESPCell, v42, configurationCell
@@ -178196,7 +175374,6 @@ function fn_PlayerESP_1957(import, a2, a3, a4, ...)
   v22[4] = v77
   v33[1].update = fn_update_1060
   return v33[1]
-end
 
 function fn_extra_4123(list, ...)
   list = { list }
@@ -178272,7 +175449,6 @@ end
 
 function fn_data_3284(a1, ...)
   return a1._values
-end
 
 function fn_ReferencedMap_3631(a1, a2, a3, a4, ...)
   local v32
@@ -178287,7 +175463,6 @@ function fn_ReferencedMap_3631(a1, a2, a3, a4, ...)
   v32[1].get = fn_get_4581
   v32[1].data = fn_data_3284
   return v32[1]
-end
 
 function fn_new_4172(...)
   local v6 = {}
@@ -178301,7 +175476,6 @@ function fn_new_4172(...)
   local v3 = setmetatable(v14, up1)
   appendn(v6, v3)
   return unpack(v6)
-end
 
 function fn_get_4581(a1, a2, ...)
   local v23, v25, v28
@@ -178314,7 +175488,6 @@ function fn_get_4581(a1, a2, ...)
   v23[1] = v28
   v23.n = 1
   return unpack(v23)
-end
 
 function fn_insert_5075(a1, a2, a3, ...)
   local v38, v43
@@ -178337,7 +175510,6 @@ function fn_Signal_1420(a1, a2, a3, a4, ...)
   v66[1].new = fn_new_3947
   v66[1].connect = fn_connect_5127
   return v66[1]
-end
 
 function fn_new_3947(a1, ...)
   local v11 = {}
@@ -178346,14 +175518,12 @@ function fn_new_3947(a1, ...)
   local v4 = setmetatable(v3, up1)
   appendn(v11, v4)
   return unpack(v11)
-end
 
 function fn_connect_5127(a1, a2, a3, ...)
   local v5 = {}
   local connect = a1._signal:Connect(a3)
   appendn(v5, connect)
   return unpack(v5)
-end
 function fn_Destroy_720(...)
   true2 = true
   if nil2 then
@@ -178386,7 +175556,6 @@ function fn_TaskSpawner_2571(a1, a2, a3, a4, ...)
   v12.spawn = fn_spawn_1772
   v12.delay = fn_delay_3770
   return v12
-end
 
 function proto_2572(a1, ...)
   local str = tostring(a1)
@@ -178431,7 +175600,6 @@ function fn_delay_3770(a1, a2, a3, ...)
   v12[1] = v28
   v12.n = 1
   return unpack(v12)
-end
 
 function proto_4768(a1, ...)
   local str = tostring(a1)
@@ -178459,16 +175627,12 @@ function proto_213(a1, ...)
           return v42 .. "m left"
         else
           return v99 .. ("h " .. (v42 .. "m left"))
-        end
       else
         return v98 .. ("d " .. (v99 .. "h left"))
-      end
     else
       return "Expired"
-    end
   else
     return "Lifetime"
-  end
 end
 
 function proto_225(list, ...)
@@ -178603,7 +175767,6 @@ function fn_LicenseTab_857(list, a2, a3, a4, ...)
   v20[5] = list
   v81.init = fn_init_2344
   return v81
-end
 
 function proto_883(...)
   if addLabel then
@@ -178846,7 +176009,6 @@ function fn_init_2344(a1, window, list, a4, ...)
     v316[1] = v406
     v316.n = 1
     return unpack(v316)
-  end
 end
 
 function proto_2614(...)
@@ -178949,7 +176111,6 @@ function fn_Maid_1797(a1, a2, a3, a4, ...)
   v26[1] = v56
   v47[1].Destroy = fn_Destroy_4553
   return v47[1]
-end
 
 function fn_Remove_2675(a1, a2, ...)
   local v50
@@ -178972,7 +176133,6 @@ function fn_new_2938(...)
   local v3 = setmetatable(v13, up1)
   appendn(v7, v3)
   return unpack(v7)
-end
 
 function fn_Count_3246(a1, ...)
   local v2, v11, v12, v18, v24
@@ -178996,12 +176156,10 @@ function fn_Count_3246(a1, ...)
     v16[1] = v2
     v16.n = 1
     return unpack(v16)
-  end
   local v16 = {}
   v16[1] = v2
   v16.n = 1
   return unpack(v16)
-end
 
 function fn_GiveTask_3637(a1, a2, a3, ...)
   local v29, v115
@@ -179021,11 +176179,9 @@ function fn_GiveTask_3637(a1, a2, a3, ...)
       end
       a1._keyed[a3] = a2
       return a2
-    end
   else
     local v7 = up1(a2)
     return a2
-  end
 end
 
 function proto_4073(a1, ...)
@@ -179153,7 +176309,6 @@ function proto_105(...)
   v8[1] = v7
   v8.n = 1
   return unpack(v8)
-end
 
 function proto_274(...)
   local ok, v25, modules2, ok2, v46, v51, v75, v90, v94
@@ -179208,7 +176363,6 @@ function proto_274(...)
       return unpack(v92)
     else
       return v75._G
-    end
   end
 end
 
@@ -179261,13 +176415,11 @@ function proto_585(player, ...)
       v20[1] = v59
       v20.n = 1
       return unpack(v20)
-    end
   end
   local v20 = {}
   v20[1] = v59
   v20.n = 1
   return unpack(v20)
-end
 
 function fn_FindPrompt_627(list, ...)
   local v24, value, v57, value2, v73, v85, v86, v135, parent
@@ -179315,13 +176467,10 @@ function fn_FindPrompt_627(list, ...)
         return value2
       else
         return v24
-      end
     else
       return list[1]
-    end
   else
     return nil
-  end
   value2 = value
 end
 
@@ -179330,7 +176479,6 @@ function proto_1112(...)
   local descendants = up1:GetDescendants()
   appendn(v19, descendants)
   return unpack(v19)
-end
 
 function proto_1301(...)
   local inputHoldBegin = findPrompt:InputHoldBegin()
@@ -179416,13 +176564,12 @@ function fn_Advance_1321(a1, ...)
       end
     end
   end
-  do return false end
+  return false
   local v208 = {}
   local clickButton = up1.ClickButton(v204)
   appendn(v208, clickButton)
-  do return unpack(v208) end
-  do return false end
-end
+  return unpack(v208)
+  return false
 
 function fn_NPCChat_2593(list, a2, a3, a4, ...)
   local now2Cell, v52, v76, playersCell, unload2, nilCell2, nilCell, onHeartbeatCell, v141, compatCell, trueCell, v152
@@ -179501,7 +176648,6 @@ function fn_NPCChat_2593(list, a2, a3, a4, ...)
   v81[1] = v76
   v76[1].Advance = fn_Advance_1321
   return v76[1]
-end
 
 function proto_2736(...)
   if fireproximityprompt then
@@ -179532,7 +176678,6 @@ function fn_GetFrame_2860(...)
   v18[1] = frame
   v18.n = 1
   return unpack(v18)
-end
 
 function fn_ClickButton_3508(a1, ...)
   local clickButton2
@@ -179546,7 +176691,6 @@ function fn_ClickButton_3508(a1, ...)
     local v34 = task.wait(1)
   end
   return clickButton2
-end
 
 function fn_FirePrompt_3994(a1, ...)
   local npcchat, v75, v80, findPromptCell, v92, v93, v118, localPlayer, v148, v150, v162
@@ -179611,7 +176755,6 @@ function fn_FirePrompt_3994(a1, ...)
     return unpack(v118)
   else
     return false
-  end
 end
 
 function fn_AcceptConfirmation_4549(inst, ...)
@@ -179635,7 +176778,6 @@ function fn_AcceptConfirmation_4549(inst, ...)
     return unpack(v16)
   else
     return false
-  end
 end
 
 function fn_NPCChatRecovery_4658(...)
@@ -179892,7 +177034,6 @@ function fn_Dismiss_4778(...)
     return unpack(v702)
   else
     return false
-  end
 end
 
 function fn_NPCChatRecovery_4918(...)
@@ -180251,13 +177392,10 @@ function proto_1690(...)
         return unpack(v78)
       else
         return nil
-      end
     else
       return 1
-    end
   else
     return 1
-  end
 end
 
 function proto_1858(a1, ...)
@@ -180523,7 +177661,6 @@ function fn_PerfGovernor_4330(list, a2, a3, a4, ...)
   v190[4] = v211
   v302.SetEnabled = fn_SetEnabled_3558
   return v302
-end
 
 function proto_4396(...)
   up1 = 0
@@ -180602,7 +177739,6 @@ function fn_OnLiteChanged_174(a1, ...)
   v13[1] = proto_1343
   v13.n = 1
   return unpack(v13)
-end
 
 function fn_Platform_234(...)
   local v3 = table.clear(up1)
@@ -180632,7 +177768,6 @@ function fn_IsLite_649(...)
   v13[1] = v20
   v13.n = 1
   return unpack(v13)
-end
 
 function fn_GetRequest_859(...)
   local requestCell
@@ -180647,7 +177782,6 @@ function fn_GetRequest_859(...)
     return unpack(v7)
   else
     return nil
-  end
 end
 
 function proto_934(...)
@@ -180737,7 +177871,6 @@ function proto_1386(...)
   v6[1] = v3[up1]
   v6.n = 1
   return unpack(v6)
-end
 
 function fn_OnLevelChanged_1798(a1, ...)
   local v14 = {}
@@ -180751,7 +177884,6 @@ function fn_OnLevelChanged_1798(a1, ...)
   v8[1] = proto_267
   v8.n = 1
   return unpack(v8)
-end
 
 function proto_2177(a1, ...)
   local status, statusCode, v39, v51, v64, v68, headers, v85, statusCode2, copy2, v142, body
@@ -180761,7 +177893,6 @@ function proto_2177(a1, ...)
   local kind = type(v64)
   if not (kind == "table") then
     local v16 = error("HTTP provider returned an invalid response", 0)
-  end
   local copy = table.clone(v64)
   copy2 = copy
   v85 = tonumber
@@ -180812,15 +177943,12 @@ function proto_2177(a1, ...)
   end
   copy2.Success = v51
   return copy2
-end
 
 function proto_2517(...)
   return _G[up1]
-end
 
 function fn_GetMode_2569(...)
   return ("On")
-end
 
 function proto_2951(a1, ...)
   local v38, v49
@@ -180847,7 +177975,6 @@ function proto_2951(a1, ...)
     v49 = v60
   end
   return v49
-end
 
 function fn_Has_3174(a1, ...)
   local v4 = {}
@@ -180855,7 +177982,6 @@ function fn_Has_3174(a1, ...)
   v4[1] = not (get == nil)
   v4.n = 1
   return unpack(v4)
-end
 
 function fn_Platform_3412(import, a2, a3, a4, ...)
   local v14, unload, userInputCell, isLiteCell, v91, v131, v185, v200, v255, v370, v381, v417
@@ -181035,11 +178161,9 @@ function fn_Platform_3412(import, a2, a3, a4, ...)
   v452[2] = v417
   local register = unload.register("Platform", fn_Platform_234)
   return v381[1]
-end
 
 function fn_IntervalScale_3752(...)
   return up1[up2]
-end
 
 function fn_Get_3825(a1, ...)
   local v8, v24, v28, value, v38, v46, v67, v78, v84, v89, v94, v104
@@ -181114,13 +178238,10 @@ function fn_Get_3825(a1, ...)
       return nil
     else
       return v24
-    end
   else
     return nil
-  end
-  do return v24 end
-  do return v24 end
-end
+  return v24
+  return v24
 
 function proto_3872(...)
   local v6 = {}
@@ -181128,7 +178249,6 @@ function proto_3872(...)
   v6[1] = v3[up2[2]]
   v6.n = 1
   return unpack(v6)
-end
 
 function fn_Executor_3934(...)
   local identifyexecutor, v51, v107, str2
@@ -181153,7 +178273,6 @@ function fn_Executor_3934(...)
     return up1
   else
     return up1
-  end
 end
 
 function fn_IsMobile_3957(...)
@@ -181166,11 +178285,9 @@ function fn_IsMobile_3957(...)
   v12[1] = v22
   v12.n = 1
   return unpack(v12)
-end
 
 function fn_GetLevel_4027(...)
   return up1
-end
 
 function proto_4361(a1, ...)
   local ok, v35
@@ -181185,7 +178302,6 @@ function proto_4361(a1, ...)
     return nil
   else
     return v35
-  end
 end
 
 function fn_SetMode_4498(a1, ...)
@@ -181205,7 +178321,6 @@ function proto_5121(...)
   v4[1] = v3[up1]
   v4.n = 1
   return unpack(v4)
-end
 function fn_StarLitConnect_108(import, a2, a3, a4, ...)
   local fake = {}
   fake.__index = fake
@@ -181213,19 +178328,17 @@ function fn_StarLitConnect_108(import, a2, a3, a4, ...)
   fake.sharedKeyBytes = {0}
   fake.sessionId = "bypass"
   fake.expiresAt = nil  -- nil => proto_213 returns "Lifetime"
-  fake.new = function(self) return fake end
+  fake.new = function(self) return fake
   fake.setTelemetryEnabled = function() end
   fake.activate = function(self, key)
     fake.connected = true
     return true, nil
-  end
   fake._startHeartbeatLoop = function() end
   fake._heartbeatOnce = function() end
-  fake.reportUnauthorizedTool = function() return true end
+  fake.reportUnauthorizedTool = function() return true
   fake.disconnect = function() fake.connected = false end
-  fake._selfTest = function() return true end
+  fake._selfTest = function() return true
   return fake
-end
 function fn_ListFiles_21(a1, ...)
   local v16, v28, v29, v44, v61, v75, value, v96, v116, key, v124, v151
   local v179, v182, v222, v235, count, normalizePath2, v260, v264, v270
@@ -181300,7 +178413,6 @@ function fn_ListFiles_21(a1, ...)
       v82[1] = v222
       v82.n = 1
       return unpack(v82)
-    end
     local v82 = {}
     v82[1] = v222
     v82.n = 1
@@ -181311,7 +178423,6 @@ function fn_ListFiles_21(a1, ...)
     v86[1] = v244
     v86.n = 1
     return unpack(v86)
-  end
 end
 
 function proto_876(...)
@@ -181509,7 +178620,6 @@ function fn_Storage_1308(import, a2, a3, a4, ...)
   v48[3] = v270
   local register = unload2.register("Storage", fn_Storage_3843)
   return v100[1]
-end
 
 function proto_1324(list, list2, ...)
   local v28, v30, v41, v63, count, v80, v88, count2
@@ -181543,12 +178653,10 @@ function proto_1324(list, list2, ...)
     local joined = table.concat(v28)
     appendn(v98, joined)
     return unpack(v98)
-  end
   local v98 = {}
   local joined = table.concat(v28)
   appendn(v98, joined)
   return unpack(v98)
-end
 
 function fn_Flush_1427(...)
   local v2 = up1(false)
@@ -181559,7 +178667,6 @@ function fn_WriteFile_1435(a1, a2, a3, ...)
   local v6 = up1(a1, a2, true, a3)
   appendn(v5, v6)
   return unpack(v5)
-end
 
 function fn_ReadRaw_1501(a1, ...)
   local v3, v26, ok, normalizePath2, ok2, v91
@@ -181599,7 +178706,6 @@ function fn_ReadRaw_1501(a1, ...)
           v3[1] = ok2
           v3.n = 1
           return unpack(v3)
-        end
       else
         ok = v26
         ok2 = ok
@@ -181612,11 +178718,9 @@ function fn_ReadRaw_1501(a1, ...)
           v3[1] = ok2
           v3.n = 1
           return unpack(v3)
-        end
       end
     else
       return v91.content
-    end
   end
 end
 
@@ -181652,11 +178756,9 @@ function fn_IsFile_1564(a1, ...)
         return unpack(v2)
       else
         return false
-      end
     end
   else
     return true
-  end
 end
 
 function proto_1635(a1, ...)
@@ -181731,7 +178833,6 @@ function fn_IsFolder_2294(a1, ...)
     return unpack(v8)
   else
     return false
-  end
 end
 
 function proto_2539(a1, ...)
@@ -181813,14 +178914,12 @@ function proto_2872(a1, a2, a3, ...)
   v26[1] = v21
   v26.n = 1
   return unpack(v26)
-end
 
 function fn_Encrypt_3079(a1, ...)
   local v7 = {}
   local v4 = up1(a1, up2)
   appendn(v7, v4)
   return unpack(v7)
-end
 
 function proto_3456(a1, ...)
   local v6, v13, v20
@@ -181837,7 +178936,6 @@ function proto_3456(a1, ...)
     return unpack(v6)
   else
     return true
-  end
 end
 
 function fn_ReadFile_3794(a1, ...)
@@ -181861,13 +178959,11 @@ function fn_ReadFile_3794(a1, ...)
         v76[1] = nil
         v76.n = 1
         return unpack(v76)
-      end
     else
       local v83 = {}
       v83[1] = nil
       v83.n = 1
       return unpack(v83)
-    end
   else
     if not v49.enc then
       local v69 = up3(normalizePath2)
@@ -181886,16 +178982,13 @@ function fn_ReadFile_3794(a1, ...)
           v76[1] = nil
           v76.n = 1
           return unpack(v76)
-        end
       else
         local v83 = {}
         v83[1] = nil
         v83.n = 1
         return unpack(v83)
-      end
     else
       return v49.content
-    end
   end
 end
 
@@ -181956,11 +179049,9 @@ function proto_4198(a1, a2, a3, a4, ...)
       local v148 = up6(normalizePath, a2, a3)
       local v156 = up7(normalizePath, a2, a3)
       return true
-    end
   else
     local v122 = up4(normalizePath)
     return true
-  end
 end
 
 function proto_4373(a1, ...)
@@ -182051,7 +179142,6 @@ function proto_4520(a1, a2, a3, ...)
   v19 = v19(v20, encrypt)
   appendn(v17, v19)
   return unpack(v17)
-end
 
 function fn_DelFile_4706(a1, ...)
   local v12, v17, normalizePath2, v35
@@ -182077,7 +179167,6 @@ function fn_DelFile_4706(a1, ...)
     local v64 = delfile(normalizePath2)
     appendn(v56, v64)
     return unpack(v56)
-  end
 end
 
 function fn_NormalizePath_4773(a1, ...)
@@ -182091,7 +179180,6 @@ function fn_NormalizePath_4773(a1, ...)
     return v43 .. a1
   else
     return a1
-  end
 end
 
 function fn_WriteRaw_4985(a1, a2, a3, ...)
@@ -182099,7 +179187,6 @@ function fn_WriteRaw_4985(a1, a2, a3, ...)
   local v18 = up1(a1, a2, false, a3)
   appendn(v24, v18)
   return unpack(v24)
-end
 
 function fn_MakeFolder_5077(a1, ...)
   local v8 = {}
@@ -182112,7 +179199,6 @@ function fn_onHeartbeat_347(a1, a2, ...)
   local subscribe = up1.subscribe(a1, a2)
   appendn(v9, subscribe)
   return unpack(v9)
-end
 
 function proto_729(a1, ...)
   local v59
@@ -182139,7 +179225,6 @@ function fn_onStepped_2231(a1, a2, ...)
   local subscribe = up1.subscribe(a1, a2)
   appendn(v4, subscribe)
   return unpack(v4)
-end
 
 function fn_subscribe_3027(a1, a2, a3, a4, ...)
   local v31
@@ -182178,7 +179263,6 @@ function fn_subscribe_3027(a1, a2, a3, a4, ...)
     v126[1] = v18
     v126.n = 1
     return unpack(v126)
-  end
 end
 
 function fn_onInterval_3478(a1, a2, a3, a4, ...)
@@ -182194,7 +179278,6 @@ function fn_onInterval_3478(a1, a2, a3, a4, ...)
   local v83 = up1.subscribe(a1, a3, a2, a4 == true)
   appendn(v94, v83)
   return unpack(v94)
-end
 
 function fn_teardown_3792(...)
   local v58, v91, v98, v109
@@ -182285,13 +179368,11 @@ function fn_snapshot_3937(...)
     v28[2] = up3
     v28.n = 2
     return unpack(v28)
-  end
   local v28 = {}
   v28[1] = v18
   v28[2] = up3
   v28.n = 2
   return unpack(v28)
-end
 
 function fn_Tick_4391(import, a2, a3, a4, ...)
   local v6, v26, v36, v62, v72, intervalScale, runService2
@@ -182343,7 +179424,6 @@ function fn_Tick_4391(import, a2, a3, a4, ...)
   local unload = import("Util/Unload")
   local register = unload.register("Tick", v62.teardown)
   return v62
-end
 
 function fn_GetDiagnostics_4404(...)
   local v1, v3, v12, v14, v35, v42, v44, v45, v51
@@ -182385,12 +179465,10 @@ function fn_GetDiagnostics_4404(...)
     v52[1] = v44
     v52.n = 1
     return unpack(v52)
-  end
   local v52 = {}
   v52[1] = v44
   v52.n = 1
   return unpack(v52)
-end
 
 function fn_teardown_4648(...)
   local teardown = up1.teardown()
@@ -182400,12 +179478,10 @@ end
 
 function fn_IsProfiling_4696(...)
   return up1
-end
 
 function fn_SetProfiling_4749(a1, ...)
   up1 = a1 == true
   return up1
-end
 
 function proto_4753(...)
   if not false2 then
@@ -182506,22 +179582,18 @@ function proto_4789(...)
         end
         continue
       else
-        do return end
-      end
-    end
+        return end
   end
   local v239 = {}
-  do return end
-  do return end
-  do return end
-end
+  return
+  return
+  return end
 
 function fn_onRenderStepped_4834(a1, a2, ...)
   local v10 = {}
   local subscribe = up1.subscribe(a1, a2)
   appendn(v10, subscribe)
   return unpack(v10)
-end
 
 function proto_5165(a1, a2, ...)
   local trueCell, falseCell, v52, v65, v69, v123, nilCell, v162, v168
@@ -182577,7 +179649,6 @@ function proto_5165(a1, a2, ...)
   v110[8] = falseCell
   v52.subscribe = fn_subscribe_3027
   return v52
-end
 function fn_ToolDetect_84(import, a2, a3, a4, ...)
   local v22, coreGuiCell, playersCell, v226, unload2, v253
   coreGuiCell = { nil }
@@ -182639,7 +179710,6 @@ function fn_ToolDetect_84(import, a2, a3, a4, ...)
   v253[1].stop = fn_stop_4059
   local register = unload2.register("ToolDetect", v253[1].stop)
   return v253[1]
-end
 
 function proto_1788(...)
   local scanOnce = up1.scanOnce()
@@ -182748,7 +179818,6 @@ function proto_2454(a1, ...)
       return unpack(v20)
     else
       return true
-    end
   end
 end
 
@@ -182828,7 +179897,6 @@ function fn_ToolLock_2533(a1, a2, a3, a4, ...)
   v14[1] = v5
   v6.IsLockedBy = fn_IsLockedBy_4180
   return v6
-end
 
 function fn_IsLockedBy_4180(a1, ...)
   local v9, v10
@@ -182840,7 +179908,6 @@ function fn_IsLockedBy_4180(a1, ...)
   v9[1] = v10
   v9.n = 1
   return unpack(v9)
-end
 
 function fn_Release_4816(a1, ...)
   if up1 == a1 then
@@ -182882,7 +179949,6 @@ function fn_UILoop_4129(import, a2, a3, a4, ...)
   v10[2] = v17
   local register = unload.register("UILoop", fn_UILoop_4248)
   return v11
-end
 
 function fn_UILoop_4248(...)
   local v9, v44, v75, v107, key
@@ -182956,7 +180022,6 @@ function fn_Every_4421(a1, list, list2, ...)
   else
     list2[1] = nil
     return v102[1]
-  end
 end
 
 function proto_4872(...)
@@ -182991,8 +180056,7 @@ function proto_4872(...)
   end
   nil2 = nil
   local v1 = {}
-  do return end
-end
+  return end
 function proto_30(...)
 end
 
@@ -183043,11 +180107,9 @@ function fn_connect_1113(signal, a2, ...)
   local giveTask = new.GiveTask(unpack(v17))
   appendn(v21, giveTask)
   return unpack(v21)
-end
 
 function fn_isFired_1192(...)
   return true2
-end
 
 function fn_register_1921(a1, a2, ...)
   local v19, v20, v73, format, v96, v108, v113
@@ -183089,7 +180151,6 @@ function fn_register_1921(a1, a2, ...)
       local v38 = v108(unpack(v19))
     end
     return proto_30
-  end
 end
 
 function fn_Unload_3618(import, a2, a3, a4, ...)
@@ -183125,7 +180186,6 @@ function fn_Unload_3618(import, a2, a3, a4, ...)
   v78[1] = trueCell
   v14.isFired = fn_isFired_1192
   return v14
-end
 
 function fn_fire_4053(...)
   local value, v78, key, v103, v135, v188, key2, v259, v262, v269, v297
@@ -183321,11 +180381,9 @@ function fn_Webhook_1185(import, a2, a3, a4, ...)
   v56[7] = v386
   local register = unload2.register("Webhook", fn_Webhook_673)
   return v182[1]
-end
 
 function fn_GetURL_1673(...)
   return up1
-end
 
 function fn_SetPingID_2349(a1, ...)
   local v4, v6, v17
@@ -183374,7 +180432,6 @@ function fn_Notify_2989(a1, a2, a3, ...)
   local post = up1.Post(a1, v25)
   appendn(v10, post)
   return unpack(v10)
-end
 
 function fn_Post_3690(a1, a2, ...)
   local now2, v41
@@ -183393,13 +180450,10 @@ function fn_Post_3690(a1, a2, ...)
         return true
       else
         return false
-      end
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function fn_ObserveFarm_3725(a1, a2, a3, ...)
@@ -183576,10 +180630,8 @@ function fn_Send_4037(a1, ...)
       return true
     else
       return false
-    end
   else
     return false
-  end
 end
 
 function proto_4041(...)
@@ -183689,8 +180741,7 @@ function proto_4041(...)
     end
   end
   nil2 = nil
-  do return end
-end
+  return end
 
 function fn_SetPing_4631(a1, ...)
   up1 = a1
@@ -183718,14 +180769,12 @@ function proto_4806(a1, ...)
   v19[1] = v18
   v19.n = 1
   return unpack(v19)
-end
 
 function fn_HasURL_4933(...)
   local v17 = {}
   local v25 = up1(up2)
   appendn(v17, v25)
   return unpack(v17)
-end
 
 function fn_IsSourceEnabled_4946(a1, ...)
   local v8, v9, v17, v26
@@ -183747,7 +180796,6 @@ function fn_IsSourceEnabled_4946(a1, ...)
   v9[1] = v26
   v9.n = 1
   return unpack(v9)
-end
 function proto_702(...)
   local v9, v22, v106
   v22 = up1
@@ -183778,7 +180826,6 @@ function proto_702(...)
     return up1
   else
     return up1
-  end
 end
 
 function fn_WorkspaceObjects_2245(import, a2, a3, a4, ...)
@@ -183842,7 +180889,6 @@ function fn_WorkspaceObjects_2245(import, a2, a3, a4, ...)
   v45[6] = v73
   local register = unload.register("StarLit_WorkspaceObjects", fn_StarLit_WorkspaceObjects_3636)
   return v49
-end
 
 function fn_TrackName_2384(inst, ...)
   if inst then
@@ -183852,7 +180898,6 @@ function fn_TrackName_2384(inst, ...)
     return inst
   else
     return nil
-  end
 end
 
 function proto_3007(...)
@@ -183923,7 +180968,6 @@ function proto_3012(...)
   local v9 = ("_%08x_%04x"):format(v15, up1 % 65535)
   appendn(v6, v9)
   return unpack(v6)
-end
 
 function fn_StarLit_WorkspaceObjects_3636(...)
   local v22, v91
@@ -183955,7 +180999,6 @@ function fn_Parent_3952(inst, ...)
     return inst
   else
     return nil
-  end
 end
 function fn_Webhook_673(...)
   local v202
@@ -184215,5 +181258,4 @@ function proto_252(...)
   local gpo_executor = v3710("gpo_executor")
   appendn(v2574, gpo_executor)
   return unpack(v2574)
-end
 proto_252()
